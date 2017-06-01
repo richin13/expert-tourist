@@ -2,7 +2,7 @@
 
 # expert-tourist
 
-## Setup
+# Setup [Backend]
 
 Clone the repo
 
@@ -16,6 +16,9 @@ Create the virtual environment and setup the required ENV vars
 ```bash
 virtualenv venv
 echo 'export SECRET_KEY="<secure-value-here>"' >> venv/bin/activate
+echo 'export PYTHONPATH="./"' >> venv/bin/activate
+echo 'alias flask="python manage.py"' >> venv/bin/activate
+echo 'alias runtests="pytest --ignore=react-app"' >> venv/bin/activate
 source venv/bin/activate
 ```
 
@@ -25,12 +28,19 @@ Install the dependencies
 pip install -r requirements.txt
 ```
 
+## Apply the migrations
+
+```bash
+flask upgrade
+flask migrate
+```
+
 ## Running the app
 
 Simply run 
 
 ```bash
-python run.py
+flask runserver
 ```
 
 ## Running tests
@@ -38,8 +48,49 @@ python run.py
 Simply run 
 
 ```bash
-python setup.py test
+runtests
 ```
+
+# Setup [Fontend]
+
+
+## First steps
+
+First, `cd` into **react-app** directory
+
+You must install `yarn`. To do that, run the following command
+
+```
+npm install yarn -g # bye bye, npm :p
+```
+
+## Install the dependencies
+
+```
+yarn install
+```
+
+## Build the project
+
+```
+yarn build
+```
+
+## Start the project
+
+```
+yarn start
+```
+
+Happy hacking!
+
+
+## TODO
+
+ - Add hot loaders
+ - Remove extra and unused dependencies
+ - Clean package.json
+
 
 ## License
 
