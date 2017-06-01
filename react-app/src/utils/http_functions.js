@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const tokenConfig = (token) => ({
     headers: {
-        'Authorization': token, // eslint-disable-line quote-props
+        'Authorization': 'Bearer ' + token, // eslint-disable-line quote-props
     },
 });
 
@@ -22,14 +22,14 @@ export function get_github_access() {
 }
 
 export function create_user(email, password) {
-    return axios.post('api/create_user', {
+    return axios.post('api/sign_up', {
         email,
         password,
     });
 }
 
 export function get_token(email, password) {
-    return axios.post('api/get_token', {
+    return axios.post('api/sign_in', {
         email,
         password,
     });
