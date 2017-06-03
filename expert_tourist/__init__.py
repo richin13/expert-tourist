@@ -10,8 +10,7 @@ jwt = JWTManager()
 
 
 def create_app(config_object=None):
-    app_ = Flask(__name__, instance_relative_config=True, static_folder='../react-app/dist',
-                 template_folder='../react-app/')
+    app_ = Flask(__name__, instance_relative_config=True)
 
     if config_object:
         app_.config.from_object(config_object)
@@ -32,13 +31,3 @@ def create_app(config_object=None):
 
 app = create_app('config.DevConfig')
 
-
-@app.route('/')
-def index():
-    # Say hello, we're live!
-    return render_template('index.html')
-
-
-@app.route('/<path:path>')
-def any_route_to_index(path):
-    return render_template('index.html')
