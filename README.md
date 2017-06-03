@@ -51,46 +51,7 @@ Simply run
 runtests
 ```
 
-# Setup [Fontend]
-
-
-## First steps
-
-First, `cd` into **react-app** directory
-
-You must install `yarn`. To do that, run the following command
-
-```
-npm install yarn -g # bye bye, npm :p
-```
-
-## Install the dependencies
-
-```
-yarn install
-```
-
-## Build the project
-
-```
-yarn build
-```
-
-## Start the project
-
-```
-yarn start
-```
-
 Happy hacking!
-
-
-## TODO
-
- - Add hot loaders
- - Remove extra and unused dependencies
- - Clean package.json
-
 
 ## License
 
