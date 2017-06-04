@@ -35,6 +35,12 @@ flask upgrade
 flask migrate
 ```
 
+# Load the initial data
+
+```bash
+flask load_data
+```
+
 ## Running the app
 
 Simply run 

@@ -1,0 +1,17 @@
+meta:
+ place_count:   608
+ parsed_places: 395
+ errors:        213
+ 
+empty_field_count:
+  type:         0
+  contact:      327
+  phone_number: 106
+  email:        171
+  facebook_url: 395
+  region:       27
+  area:         26
+  location:     9
+  address:      194
+  g_maps_url:   0 (yayyyy)
+  hours:        270
