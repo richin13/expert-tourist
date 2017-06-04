@@ -102,3 +102,12 @@ ENV/
 
 # Pycharm dir
 .idea
+
+# npm stuff
+*/node_modules/
+
+# webpack builds
+*/dist
+
+# dbs
+*.sqlite
