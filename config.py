@@ -2,6 +2,7 @@ import os
 
 
 class BaseConfig:
+    BASEDIR = os.path.abspath(os.path.dirname(__file__))
     SECRET_KEY = os.environ['SECRET_KEY']
     DEBUG = False
     TESTING = False
@@ -12,12 +13,12 @@ class BaseConfig:
 
 class DevConfig(BaseConfig):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///{}/dev.sqlite'.format(os.path.abspath(os.path.dirname(__file__)))
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///{}/dev.sqlite'.format(BaseConfig.BASEDIR)
 
 
 class TestConfig(DevConfig):
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///test.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///{}/test.sqlite'.format(BaseConfig.BASEDIR)
 
 
 class ProductionConfig(BaseConfig):

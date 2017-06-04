@@ -108,3 +108,6 @@ ENV/
 
 # webpack builds
 */dist
+
+# dbs
+*.sqlite
