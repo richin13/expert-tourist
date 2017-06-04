@@ -6,6 +6,7 @@ click==6.7
 Flask==0.12.2
 Flask-Bcrypt==0.7.1
 Flask-JWT-Extended==2.1.1
+flask-marshmallow==0.8.0
 Flask-Migrate==2.0.4
 Flask-Script==2.0.5
 Flask-SQLAlchemy==2.2
@@ -14,6 +15,7 @@ itsdangerous==0.24
 Jinja2==2.9.6
 Mako==1.0.6
 MarkupSafe==1.0
+marshmallow==2.13.5
 packaging==16.8
 py==1.4.33
 pycparser==2.17
@@ -22,6 +24,7 @@ pyparsing==2.2.0
 pytest==3.1.0
 python-dateutil==2.6.0
 python-editor==1.0.3
+PyYAML==3.12
 simplekv==0.10.0
 six==1.10.0
 SQLAlchemy==1.1.10
