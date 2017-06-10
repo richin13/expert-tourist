@@ -18,26 +18,17 @@ def protected():
 
 @api.route('/sign_up', methods=['POST'])
 def sign_up():
-    Conditions = namedtuple('Conditions', 'username email password')
-    conditions = Conditions(
-        request.json.get('username', None),
-        request.json.get('email', None),
-        request.json.get('password', None)
-    )
+    schema = UserSchema().loads(request.data)
 
-    if not all(conditions):
+    if schema.errors:
         raise APIException('Fields <username, email, password> are required')
 
-    user = User(
-        username=conditions.username,
-        email=conditions.email,
-        password=conditions.password,
-    ).save()
-
-    if user:
+    user = schema.data
+    if not user.exists():
+        user.save()
         return jsonify(UserSchema().dump(user).data)
     else:
-        raise APIException('A user with the email {} already exists. Forgot your password?'.format(conditions[1]))
+        raise APIException('A user with the email {} already exists. Forgot your password?'.format(user.email))
 
 
 @api.route('/sign_in', methods=['POST'])
@@ -45,7 +36,7 @@ def sign_in():
     conditions = [request.json.get('username', None), request.json.get('password', None)]
 
     if not all(conditions):
-        raise APIException('Fields username and password are required.')
+        raise APIException('Fields <username, password> are required.')
 
     user = User.validate_login(conditions[0], conditions[1])
 

@@ -21,6 +21,7 @@ class TestAPI(TestCase):
 
     def tearDown(self):
         Place.drop_collection()
+        # User.drop_collection()
 
     def test_get_all_places(self):
         places = self.app.get('/api/places')
@@ -64,7 +65,7 @@ class TestAPI(TestCase):
 
         self.assertEqual(400, saved_place.status_code)
 
-    def test_sign_up(self):
+    def test_sign_up_with_valid_data(self):
         random_user = UserFactory.build()
         sign_up_details = {
             'username': random_user.username,
@@ -82,7 +83,38 @@ class TestAPI(TestCase):
 
         self.assertEqual(res.status_code, 200)
         self.assertIsNotNone(res_data.get('token', None))
-        self.assertIsNotNone(User.objects(email=random_user.email)) # Was it created?
+        self.assertIsNotNone(User.objects(email=random_user.email))  # Was it created?
+
+    def test_sign_up_with_missing_data(self):
+        random_user = UserFactory.build()
+        sign_up_details = {
+            'username': random_user.username,
+            'email': random_user.email,
+        }
+
+        res = self.app.post(
+            "/api/sign_up",
+            data=json.dumps(sign_up_details),
+            content_type='application/json'
+        )
+
+        self.assertEqual(res.status_code, 400)
+
+    def test_sign_up_with_existing_account(self):
+        random_user = UserFactory.create()
+        sign_up_details = {
+            'username': random_user.username,
+            'email': random_user.email,
+            'password': Faker().password()
+        }
+
+        res = self.app.post(
+            "/api/sign_up",
+            data=json.dumps(sign_up_details),
+            content_type='application/json'
+        )
+
+        self.assertEqual(res.status_code, 400)
 
     def test_sign_in(self):
         user = UserFactory.create(password='aLittle__nice=+=PaTiTo')
@@ -119,3 +151,31 @@ class TestAPI(TestCase):
 
         self.assertEqual(res.status_code, 401)
         self.assertIsNone(res_data.get('token', None))
+
+    def test_sign_in_with_missing_data(self):
+        login_details = {
+            'password': 'aLittle__nice=+=PaTiTo',
+        }
+
+        res = self.app.post(
+            "/api/sign_in",
+            data=json.dumps(login_details),
+            content_type='application/json'
+        )
+
+        self.assertEqual(res.status_code, 400)
+
+    def test_protected_endpoint_unauthorized(self):
+        res = self.app.get('/api/whoami', content_type='application/json')
+
+        self.assertEqual(res.status_code, 401)
+
+    def test_protected_endpoint_authorized(self):
+        user = UserFactory.create()
+        HEADERS = {
+            'Authorization': 'Bearer {}'.format(user.token)
+        }
+
+        res = self.app.get('/api/whoami', content_type='application/json', headers=HEADERS)
+
+        self.assertEqual(res.status_code, 200)

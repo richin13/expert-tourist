@@ -45,6 +45,9 @@ class User(db.Document):
         else:
             return None
 
+    def exists(self):
+        return User.objects(email=self.email).first() != None
+
     @property
     def token(self):
         return self._generate_jwt_token()
