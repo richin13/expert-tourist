@@ -4,6 +4,8 @@ from flask_jwt_extended import get_jwt_identity, jwt_optional
 from ..errors import APIException
 from ..models import User
 
+__all__ = ['AdministrativeResource']
+
 
 class AdministrativeResource(Resource):
     @jwt_optional
