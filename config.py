@@ -7,19 +7,29 @@ class BaseConfig:
     DEBUG = False
     TESTING = False
     BCRYPT_LOG_ROUNDS = 12
-    SQLALCHEMY_DATABASE_URI = ''
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    MONGODB_SETTINGS = {
+        'db': '',
+    }
 
 
 class DevConfig(BaseConfig):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///{}/dev.sqlite'.format(BaseConfig.BASEDIR)
+    MONGODB_SETTINGS = {
+        'db': 'dev-db',
+    }
 
 
-class TestConfig(DevConfig):
+class TestConfig(BaseConfig):
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///{}/test.sqlite'.format(BaseConfig.BASEDIR)
+    MONGODB_SETTINGS = {
+        'db': 'test-db',
+    }
 
 
 class ProductionConfig(BaseConfig):
-    SQLALCHEMY_DATABASE_URI = ''  # os.environ['PGSQL_URI']
+    MONGODB_SETTINGS = {
+        'host': os.environ.get('MONGODB_HOST_PROD', ''),
+        'username': os.environ.get('MONGODB_USER_PROD', ''),
+        'password': os.environ.get('MONGODB_PASSWORD_PROD', ''),
+        'db': 'prod-db',
+    }
