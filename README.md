@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/richin13/expert-tourist.svg?branch=dev)](https://travis-ci.org/richin13/expert-tourist) [![license](https://img.shields.io/github/license/richin13/expert-tourist.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/richin13/expert-tourist.svg?branch=dev)](https://travis-ci.org/richin13/expert-tourist) [![license](https://img.shields.io/github/license/richin13/expert-tourist.svg)](https://opensource.org/licenses/MIT) [![codecov](https://codecov.io/gh/richin13/expert-tourist/branch/dev/graph/badge.svg)](https://codecov.io/gh/richin13/expert-tourist)
 
 # expert-tourist
 
@@ -31,7 +31,7 @@ Install the dependencies
 pip install -r requirements.txt
 ```
 
-# Load the initial data
+## Load the initial data
 
 ```bash
 flask load_data
