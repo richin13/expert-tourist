@@ -1,6 +1,8 @@
-from flask import request
-from flask_restful import Resource
+import json
 
+from flask import request
+
+from . import AdministrativeResource
 from ..errors import APIException
 from ..models import Place as PlaceModel
 from ..schemas import PlaceSchema
@@ -17,7 +19,7 @@ def _find_place(id: str):
     return place
 
 
-class Place(Resource):
+class Place(AdministrativeResource):
     schema = PlaceSchema()
 
     def get(self, id: str):
@@ -26,13 +28,22 @@ class Place(Resource):
         return self.schema.dump(place).data
 
     def put(self, id: str):
-        pass
+        super(Place, self).put(id)
+        place = _find_place(id)
+        data = json.loads(request.data)
+
+        place.update(**data)
+        place.reload()
+
+        return self.schema.dump(place).data
 
     def delete(self, id: str):
-        pass
+        super(Place, self).delete(id)
+        place = _find_place(id)
+        place.delete()
 
 
-class PlaceList(Resource):
+class PlaceList(AdministrativeResource):
     schema = PlaceSchema()
 
     def get(self):

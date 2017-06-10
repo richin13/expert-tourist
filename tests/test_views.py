@@ -21,7 +21,11 @@ class TestAPI(TestCase):
 
     def tearDown(self):
         Place.drop_collection()
-        # User.drop_collection()
+        User.drop_collection()
+
+    def _authorize(self):
+        user = UserFactory.create()
+        return {'Authorization': 'Bearer {}'.format(user.token)}
 
     def test_get_all_places(self):
         places = self.app.get('/api/places')
@@ -64,6 +68,54 @@ class TestAPI(TestCase):
         )
 
         self.assertEqual(400, saved_place.status_code)
+
+    def test_update_place_with_authorization(self):
+        place = PlaceFactory.create()
+        place.name = 'New super awesome name' # Update the created place
+        data = json.dumps(place, cls=Place.Encoder)
+
+        updated_place = self.app.put(
+            '/api/places/{}'.format(place.id),
+            data=data,
+            content_type='application/json',
+            headers=self._authorize()
+        )
+
+        data = json.loads(updated_place.data)
+
+        self.assertEqual(updated_place.status_code, 200)
+        self.assertEqual(data['name'], 'New super awesome name')
+
+    def test_update_place_without_authorization(self):
+        place = PlaceFactory.create()
+
+        updated_place = self.app.put(
+            '/api/places/{}'.format(place.id),
+            content_type='application/json'
+        )
+
+        self.assertEqual(updated_place.status_code, 401)
+
+    def test_delete_place_with_authorization(self):
+        place = PlaceFactory.create()
+
+        deleted_place = self.app.delete(
+            '/api/places/{}'.format(place.id),
+            content_type='application/json',
+            headers=self._authorize()
+        )
+
+        self.assertEqual(deleted_place.status_code, 200)
+
+    def test_delete_place_without_authorization(self):
+        place = PlaceFactory.create()
+
+        deleted_place = self.app.delete(
+            '/api/places/{}'.format(place.id),
+            content_type='application/json'
+        )
+
+        self.assertEqual(deleted_place.status_code, 401)
 
     def test_sign_up_with_valid_data(self):
         random_user = UserFactory.build()
@@ -171,11 +223,9 @@ class TestAPI(TestCase):
         self.assertEqual(res.status_code, 401)
 
     def test_protected_endpoint_authorized(self):
-        user = UserFactory.create()
-        HEADERS = {
-            'Authorization': 'Bearer {}'.format(user.token)
-        }
-
-        res = self.app.get('/api/whoami', content_type='application/json', headers=HEADERS)
+        res = self.app.get(
+            '/api/whoami',
+            content_type='application/json',
+            headers=self._authorize())
 
         self.assertEqual(res.status_code, 200)
