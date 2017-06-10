@@ -164,21 +164,6 @@ class Place(db.Document):
         if not all([kwargs.get('latitude', None), kwargs.get('longitude', None)]) and google_maps:
             self.latitude, self.longitude = gmaps_url_to_coords(google_maps)
 
-    @staticmethod
-    def from_json(raw_place: dict):
-        """
-        Converts a JSON-like python dict with a data for a given place.
-
-        :param raw_place: JSON-like python dict with the data of a place for a given JSON record in the dataset.
-        :return: A tuple with a newly-created Place with the attributes given as function argument
-        and a Generator of PlaceCategory with all the categories of the place.
-        """
-
-        return Place(**raw_place)
-
-    def to_json(self):
-        return json.dumps(self, cls=Place.Encoder)
-
     def __str__(self):
         return 'Place<%s, %s>' % (self.name, self.category)
 
@@ -219,8 +204,10 @@ class PlaceLoader:
         print('Loading data in {}'.format(current_app.config.get('MONGODB_SETTINGS', {'db': 'NONE'})['db']))
         if self.data_source:
             for raw_place in self.data_source:
-                place = Place.from_json(raw_place)
+                place = Place(**raw_place)
                 place.save()
-            print('[Done]', 'Saved a total of {} places'.format(len(self.data_source)))
+            saved_places_count = len(self.data_source)
+            print('[Done]', 'Saved a total of {} places'.format(saved_places_count))
+            return saved_places_count
         else:
             raise AttributeError('Error loading data source')

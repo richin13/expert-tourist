@@ -1,7 +1,8 @@
 import json
 from expert_tourist import create_app
-from expert_tourist.models import Place
+from expert_tourist.models import Place, PlaceLoader, User
 from flask_testing import TestCase
+from .factories import UserFactory
 
 json_str = """
   {
@@ -31,7 +32,7 @@ class TestModels(TestCase):
 
     def test_place_from_json(self):
         parsed_json = json.loads(json_str)
-        place = Place.from_json(parsed_json)
+        place = Place(**parsed_json)
 
         self.assertEqual(place.name, 'Parque Acuático Cascada de Fuego')
         self.assertEqual(place.contact, '')
@@ -47,3 +48,26 @@ class TestModels(TestCase):
         self.assertEqual(place.longitude, -84.03733452782035)
         self.assertEqual(place.hours, 'Lun-Dom: 8:00 am-5:00 pm')
         self.assertEqual(place.category, 'Balneario')
+
+    def test_place_loader(self):
+        loader = PlaceLoader()
+        saved = loader.to_db()
+
+        self.assertTrue(saved >= Place.objects.count())
+
+    def test_user_encrypted_password(self):
+        user = UserFactory.build(password='abc123')
+
+        self.assertNotEqual(user.password, 'abc123')
+
+    def test_user_validate_valid_password(self):
+        user = UserFactory.create(password='abc123')
+
+        self.assertTrue(user.validate_password('abc123'))
+
+        pass
+
+    def test_user_validate_invalid_password(self):
+        user = UserFactory.create(password='abc123')
+
+        self.assertFalse(user.validate_password('123abc'))
