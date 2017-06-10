@@ -1,8 +1,11 @@
-[![Build Status](https://travis-ci.org/richin13/expert-tourist.svg?branch=master)](https://travis-ci.org/richin13/expert-tourist) [![license](https://img.shields.io/github/license/richin13/expert-tourist.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/richin13/expert-tourist.svg?branch=dev)](https://travis-ci.org/richin13/expert-tourist) [![license](https://img.shields.io/github/license/richin13/expert-tourist.svg)](https://opensource.org/licenses/MIT)
 
 # expert-tourist
 
-# Setup [Backend]
+A RESTful API to compute and recommend touristic routes based on user-defined preferences using the Bayes theorem.
+For the front-end pair application see [richin13/expert-tourist-react](https://github.com/richin13/expert-tourist-react)
+
+## Setup
 
 Clone the repo
 
@@ -18,7 +21,7 @@ virtualenv venv
 echo 'export SECRET_KEY="<secure-value-here>"' >> venv/bin/activate
 echo 'export PYTHONPATH="./"' >> venv/bin/activate
 echo 'alias flask="python manage.py"' >> venv/bin/activate
-echo 'alias runtests="pytest --ignore=react-app"' >> venv/bin/activate
+echo 'alias runtests="pytest ----disable-pytest-warnings"' >> venv/bin/activate
 source venv/bin/activate
 ```
 
@@ -26,13 +29,6 @@ Install the dependencies
 
 ```bash
 pip install -r requirements.txt
-```
-
-## Apply the migrations
-
-```bash
-flask upgrade
-flask migrate
 ```
 
 # Load the initial data
