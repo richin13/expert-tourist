@@ -59,9 +59,10 @@ class User(db.Document):
         def encode(self, o):
             if type(o) == User:
                 o = {
+                    'id': str(o.id),
                     'email': o.email,
                     'username': o.username,
-                    'password': o.password,
+                    'password': o.password.decode('utf-8'),
                 }
 
             return super(User.Encoder, self).encode(o)
@@ -205,12 +206,13 @@ class PlaceLoader:
 
     def to_db(self):
         print('Loading data in {}'.format(current_app.config.get('MONGODB_SETTINGS', {'db': 'NONE'})['db']))
+        saved_places_count = 0
         if self.data_source:
             for raw_place in self.data_source:
                 place = Place(**raw_place)
                 place.save()
             saved_places_count = len(self.data_source)
-            print('[Done]', 'Saved a total of {} places'.format(saved_places_count))
-            return saved_places_count
-        else:
-            raise AttributeError('Error loading data source')
+            print('[Done]', end=' ')
+
+        print('Saved a total of {} places'.format(saved_places_count))
+        return saved_places_count
