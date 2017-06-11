@@ -1,9 +1,11 @@
 [![Build Status](https://travis-ci.org/richin13/expert-tourist.svg?branch=dev)](https://travis-ci.org/richin13/expert-tourist) [![license](https://img.shields.io/github/license/richin13/expert-tourist.svg)](https://opensource.org/licenses/MIT) [![codecov](https://codecov.io/gh/richin13/expert-tourist/branch/dev/graph/badge.svg)](https://codecov.io/gh/richin13/expert-tourist)
 
-# Expert Tourist
+# Welcome to Expert Tourist API documentation
 
-Expert tourist is a RESTful API to compute and recommend touristic routes based on user-defined preferences using the Bayes theorem.
+This is a super simple documentation that will show you how expert tourist works. Expert tourist is a RESTful API to
+compute and recommend touristic routes based on user-defined preferences using the Bayes theorem.
 For the front-end pair application see [richin13/expert-tourist-react](https://github.com/richin13/expert-tourist-react)
+
 
 ## Our stack
 
@@ -58,8 +60,4 @@ flask runserver  # Runs with development configuration
 ```
 tests
 ```
-
-## License
-
-See LICENSE
 

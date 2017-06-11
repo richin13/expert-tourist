@@ -1,0 +1,6 @@
+site_name: Expert Tourist
+theme: readthedocs
+pages:
+  - Home: index.md
+  - Authentication: auth.md
+  - Places: places.md
