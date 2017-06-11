@@ -52,7 +52,7 @@ class TestAPI(TestCase):
     def test_insert_one_place_without_authorization(self):
         place = PlaceFactory.build()
         data = json.dumps(place, cls=Place.Encoder)
-        print(data, type(data))
+
         saved_place = self.app.post(
             '/api/places',
             data=data,
@@ -64,7 +64,7 @@ class TestAPI(TestCase):
     def test_insert_one_place_with_authorization(self):
         place = PlaceFactory.build()
         data = json.dumps(place, cls=Place.Encoder)
-        print(data, type(data))
+
         saved_place = self.app.post(
             '/api/places',
             data=data,
@@ -124,7 +124,7 @@ class TestAPI(TestCase):
             headers=self._authorize()
         )
 
-        self.assertEqual(deleted_place.status_code, 200)
+        self.assertEqual(deleted_place.status_code, 204)
 
     def test_delete_place_without_authorization(self):
         place = PlaceFactory.create()

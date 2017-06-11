@@ -42,6 +42,8 @@ class Place(AdministrativeResource):
         place = _find_place(id)
         place.delete()
 
+        return None, 204
+
 
 class PlaceList(AdministrativeResource):
     schema = PlaceSchema()
