@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/richin13/expert-tourist.svg?branch=dev)](https://travis-ci.org/richin13/expert-tourist) [![license](https://img.shields.io/github/license/richin13/expert-tourist.svg)](https://opensource.org/licenses/MIT) [![codecov](https://codecov.io/gh/richin13/expert-tourist/branch/dev/graph/badge.svg)](https://codecov.io/gh/richin13/expert-tourist)
+[![Build Status](https://travis-ci.org/richin13/expert-tourist.svg?branch=dev)](https://travis-ci.org/richin13/expert-tourist) [![codecov](https://codecov.io/gh/richin13/expert-tourist/branch/dev/graph/badge.svg)](https://codecov.io/gh/richin13/expert-tourist) [![Code Climate](https://codeclimate.com/github/richin13/expert-tourist/badges/gpa.svg)](https://codeclimate.com/github/richin13/expert-tourist) [![license](https://img.shields.io/github/license/richin13/expert-tourist.svg)](https://opensource.org/licenses/MIT)
 
 # Expert Tourist
 
