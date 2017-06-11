@@ -49,7 +49,7 @@ class TestAPI(TestCase):
 
         self.assertEqual(404, retrieved_place.status_code)
 
-    def test_insert_one_place(self):
+    def test_insert_one_place_without_authorization(self):
         place = PlaceFactory.build()
         data = json.dumps(place, cls=Place.Encoder)
         print(data, type(data))
@@ -57,6 +57,19 @@ class TestAPI(TestCase):
             '/api/places',
             data=data,
             content_type='application/json'
+        )
+
+        self.assertEqual(401, saved_place.status_code)
+
+    def test_insert_one_place_with_authorization(self):
+        place = PlaceFactory.build()
+        data = json.dumps(place, cls=Place.Encoder)
+        print(data, type(data))
+        saved_place = self.app.post(
+            '/api/places',
+            data=data,
+            content_type='application/json',
+            headers=self._authorize()
         )
 
         self.assertEqual(201, saved_place.status_code)
@@ -69,7 +82,8 @@ class TestAPI(TestCase):
         saved_place = self.app.post(
             '/api/places',
             data=data,
-            content_type='application/json'
+            content_type='application/json',
+            headers=self._authorize()
         )
 
         self.assertEqual(400, saved_place.status_code)

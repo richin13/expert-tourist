@@ -1,6 +1,6 @@
 import json
 
-from flask import request
+from flask import request, jsonify
 
 from . import AdministrativeResource
 from ..errors import APIException
@@ -47,9 +47,17 @@ class PlaceList(AdministrativeResource):
     schema = PlaceSchema()
 
     def get(self):
-        return self.schema.dump(PlaceModel.objects, many=True).data
+        paginate = bool(request.args.get('paginate', False))
+        places = PlaceModel.objects
+        if paginate:
+            page = int(request.args.get('page', 1))
+            places = places.paginate(page=page, per_page=15).items
+            return jsonify(page=page, result=self.schema.dump(places, many=True).data)
+
+        return self.schema.dump(places, many=True).data
 
     def post(self):
+        super(PlaceList, self).post()
         data = self.schema.loads(request.data)
         if data.errors:
             raise APIException('Invalid request body for type <Place>', errors=data.errors)

@@ -17,6 +17,9 @@ class AdministrativeResource(Resource):
 
         raise APIException('Missing authorization header', 401)
 
+    def post(self):
+        self._jwt_required()
+
     def put(self, id: str):
         self._jwt_required()
 
