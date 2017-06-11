@@ -1,5 +1,3 @@
-from collections import namedtuple
-
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
@@ -41,7 +39,6 @@ def sign_in():
     user = User.validate_login(conditions[0], conditions[1])
 
     if user:
-        print(user.token)
-        return jsonify(token=user.token)
+        return jsonify(UserSchema().dump(user).data)
     else:
         raise APIException('Invalid login credentials', status_code=401)
