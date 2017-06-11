@@ -1,0 +1,159 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to Expert Tourist API documentation\n\n\nThis is a super simple documentation that will show you how expert tourist works. Expert tourist is a RESTful API to\ncompute and recommend touristic routes based on user-defined preferences using the Bayes theorem.\nFor the front-end pair application see \nrichin13/expert-tourist-react\n\n\nOur stack\n\n\nWe use the power of Python combined with the flexibility of MongoDB. Some of the open source libraries used for this\nproject are:\n\n\n\n\nFlask\n (0.12)\n\n\nMongoDB\n\n\nMongoEngine\n\n\nGoogle Maps Services\n\n\nFlask-Restful\n (0.3.5)\n\n\nFlask-CORS\n\n\nFlask-JWT-Extended\n\n\nFlask-Marshmallow\n\n\nAnd a looong \netc\n.\n\n\n\n\nSetting up a development environment\n\n\nThis instructions can also be found on the \nrepo\n\n\nInstallation\n\n\ngit clone git@github.com:richin13/expert-tourist.git  # Cloning the repo\ncd expert-tourist  # CD'ing into the cloned repo\nvirtualenv venv  # Creating a Virtual Environment.\n# Creating nice shorcuts\necho 'export SECRET_KEY=\"<secure-value-here>\"' >> venv/bin/activate\necho 'export PYTHONPATH=\"./\"' >> venv/bin/activate\necho 'alias flask=\"python manage.py\"' >> venv/bin/activate\necho 'alias tests=\"py.test --cov=./ --disable-pytest-warnings\"' >> venv/bin/activate\nsource venv/bin/activate  # Activate the Virtual Environment\npip install -r requirements.txt  # Install all the dependencies\n\n\n\n\nLoading the initial data\n\n\nMake sure you have a running instance of MongoDB bound to \n127.0.0.1:27017\n\n\nflask load_data  # Unless you defined flask alias, the command would be `python manage.py`\n\n\n\n\nRunning the application\n\n\nflask runserver  # Runs with development configuration\n\n\n\n\nRunning the tests\n\n\ntests",
+            "title": "Home"
+        },
+        {
+            "location": "/#welcome-to-expert-tourist-api-documentation",
+            "text": "This is a super simple documentation that will show you how expert tourist works. Expert tourist is a RESTful API to\ncompute and recommend touristic routes based on user-defined preferences using the Bayes theorem.\nFor the front-end pair application see  richin13/expert-tourist-react",
+            "title": "Welcome to Expert Tourist API documentation"
+        },
+        {
+            "location": "/#our-stack",
+            "text": "We use the power of Python combined with the flexibility of MongoDB. Some of the open source libraries used for this\nproject are:   Flask  (0.12)  MongoDB  MongoEngine  Google Maps Services  Flask-Restful  (0.3.5)  Flask-CORS  Flask-JWT-Extended  Flask-Marshmallow  And a looong  etc .",
+            "title": "Our stack"
+        },
+        {
+            "location": "/#setting-up-a-development-environment",
+            "text": "This instructions can also be found on the  repo",
+            "title": "Setting up a development environment"
+        },
+        {
+            "location": "/#installation",
+            "text": "git clone git@github.com:richin13/expert-tourist.git  # Cloning the repo\ncd expert-tourist  # CD'ing into the cloned repo\nvirtualenv venv  # Creating a Virtual Environment.\n# Creating nice shorcuts\necho 'export SECRET_KEY=\"<secure-value-here>\"' >> venv/bin/activate\necho 'export PYTHONPATH=\"./\"' >> venv/bin/activate\necho 'alias flask=\"python manage.py\"' >> venv/bin/activate\necho 'alias tests=\"py.test --cov=./ --disable-pytest-warnings\"' >> venv/bin/activate\nsource venv/bin/activate  # Activate the Virtual Environment\npip install -r requirements.txt  # Install all the dependencies",
+            "title": "Installation"
+        },
+        {
+            "location": "/#loading-the-initial-data",
+            "text": "Make sure you have a running instance of MongoDB bound to  127.0.0.1:27017  flask load_data  # Unless you defined flask alias, the command would be `python manage.py`",
+            "title": "Loading the initial data"
+        },
+        {
+            "location": "/#running-the-application",
+            "text": "flask runserver  # Runs with development configuration",
+            "title": "Running the application"
+        },
+        {
+            "location": "/#running-the-tests",
+            "text": "tests",
+            "title": "Running the tests"
+        },
+        {
+            "location": "/auth/",
+            "text": "Authentication\n\n\nExpert tourist's API protects some of the resources from public access in order to allow only registered users to create,\nupdate and delete such resources. To do so, it exposes two endpoints: one for user registration and another for user\nauthentication.\n\n\nThe protected endpoints require the \nAuthentication\n header to be set with the value \n<JWT>\n\n\nUser registration \n/api/sign_up\n\n\n\n\n\n\n\n\nType\n\n\nValues\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n[\nPOST\n]\n\n\n\n\n\n\nContent-type\n\n\napplication/json\n\n\n\n\n\n\nBody fields\n\n\nemail\n, \nusername\n & \npassword\n\n\n\n\n\n\nResponse codes\n\n\n200\n & \n400\n\n\n\n\n\n\n\n\nSuccessful registration [Code: 200]\n\n\nContent-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 440\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:14:18 GMT\n\n{\n    \"email\": \"richin14@gmail.com\",\n    \"id\": \"593c7d4abf5d2e59894478a7\",\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0.Pnq9qjS6JzazGNxE\",\n    \"username\": \"richin13\"\n}\n\n\n\n\nAlready registered user [Code: 400]\n\n\nContent-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 121\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:31:21 GMT\n\n{\n    \"message\": \"A user with the email richin14@gmail.com already exists. Forgot your password?\",\n    \"status_code\": 400\n}\n\n\n\n\nMissing body fields [Code: 400]\n\n\nContent-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 90\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:32:33 GMT\n\n{\n    \"message\": \"Fields <username, email, password> are required\",\n    \"status_code\": 400\n}\n\n\n\n\nNotes on responses\n: Even though the response's JSON body includes a \nstatus_code\n field, the HTTP response also\nincludes the correspondent status code\n\n\nUser authentication \n/api/sign_in\n\n\n\n\n\n\n\n\nType\n\n\nValues\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n[\nPOST\n]\n\n\n\n\n\n\nContent-type\n\n\napplication/json\n\n\n\n\n\n\nBody fields\n\n\nusername\n & \npassword\n\n\n\n\n\n\nResponse codes\n\n\n200\n, \n400\n & \n401\n\n\n\n\n\n\n\n\nSuccessful login [Code: 200]\n\n\nContent-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 440\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:43:06 GMT\n\n{\n    \"email\": \"richin13@gmail.com\",\n    \"id\": \"593c2cabbf5d2e0ebf38ea0a\",\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0.Pnq9qjS6JzazGNxE\",\n    \"username\": \"richin13\"\n}\n\n\n\n\nInvalid request body [Code: 400]\n\n\nContent-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 84\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:47:01 GMT\n\n{\n    \"message\": \"Fields <username, password> are required.\",\n    \"status_code\": 400\n}\n\n\n\n\nInvalid login [Code: 401]\n\n\nContent-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 68\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:46:03 GMT\n\n{\n    \"message\": \"Invalid login credentials\",\n    \"status_code\": 401\n}",
+            "title": "Authentication"
+        },
+        {
+            "location": "/auth/#authentication",
+            "text": "Expert tourist's API protects some of the resources from public access in order to allow only registered users to create,\nupdate and delete such resources. To do so, it exposes two endpoints: one for user registration and another for user\nauthentication.  The protected endpoints require the  Authentication  header to be set with the value  <JWT>",
+            "title": "Authentication"
+        },
+        {
+            "location": "/auth/#user-registration-apisign_up",
+            "text": "Type  Values      Methods  [ POST ]    Content-type  application/json    Body fields  email ,  username  &  password    Response codes  200  &  400",
+            "title": "User registration /api/sign_up"
+        },
+        {
+            "location": "/auth/#successful-registration-code-200",
+            "text": "Content-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 440\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:14:18 GMT\n\n{\n    \"email\": \"richin14@gmail.com\",\n    \"id\": \"593c7d4abf5d2e59894478a7\",\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0.Pnq9qjS6JzazGNxE\",\n    \"username\": \"richin13\"\n}",
+            "title": "Successful registration [Code: 200]"
+        },
+        {
+            "location": "/auth/#already-registered-user-code-400",
+            "text": "Content-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 121\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:31:21 GMT\n\n{\n    \"message\": \"A user with the email richin14@gmail.com already exists. Forgot your password?\",\n    \"status_code\": 400\n}",
+            "title": "Already registered user [Code: 400]"
+        },
+        {
+            "location": "/auth/#missing-body-fields-code-400",
+            "text": "Content-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 90\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:32:33 GMT\n\n{\n    \"message\": \"Fields <username, email, password> are required\",\n    \"status_code\": 400\n}  Notes on responses : Even though the response's JSON body includes a  status_code  field, the HTTP response also\nincludes the correspondent status code",
+            "title": "Missing body fields [Code: 400]"
+        },
+        {
+            "location": "/auth/#user-authentication-apisign_in",
+            "text": "Type  Values      Methods  [ POST ]    Content-type  application/json    Body fields  username  &  password    Response codes  200 ,  400  &  401",
+            "title": "User authentication /api/sign_in"
+        },
+        {
+            "location": "/auth/#successful-login-code-200",
+            "text": "Content-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 440\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:43:06 GMT\n\n{\n    \"email\": \"richin13@gmail.com\",\n    \"id\": \"593c2cabbf5d2e0ebf38ea0a\",\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0.Pnq9qjS6JzazGNxE\",\n    \"username\": \"richin13\"\n}",
+            "title": "Successful login [Code: 200]"
+        },
+        {
+            "location": "/auth/#invalid-request-body-code-400",
+            "text": "Content-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 84\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:47:01 GMT\n\n{\n    \"message\": \"Fields <username, password> are required.\",\n    \"status_code\": 400\n}",
+            "title": "Invalid request body [Code: 400]"
+        },
+        {
+            "location": "/auth/#invalid-login-code-401",
+            "text": "Content-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 68\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sat, 10 Jun 2017 23:46:03 GMT\n\n{\n    \"message\": \"Invalid login credentials\",\n    \"status_code\": 401\n}",
+            "title": "Invalid login [Code: 401]"
+        },
+        {
+            "location": "/places/",
+            "text": "Resource: Places\n\n\n\n\nThe endpoints marked with the \n[Auth]\n symbol require the \nAuthentication\n HTTP header to be set.\n\n\n\n\nPlace collection \n/api/places\n\n\n\n\n\n\n\n\nType\n\n\nValues\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n[\nGET\n]\n\n\n\n\n\n\nContent-type\n\n\napplication/json\n\n\n\n\n\n\nBody fields\n\n\nNone\n\n\n\n\n\n\nQuery arguments\n\n\npaginate\n, \npage\n (only required if paginated is set to true)\n\n\n\n\n\n\nResponse codes\n\n\n200\n\n\n\n\n\n\n\n\nFull list [Code: 200]\n\n\nShrunk for clarity\n\n\nContent-Type: application/json\nContent-Length: 284387\nAccess-Control-Allow-Origin: *\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 02:08:11 GMT\n\n[\n    {\n        \"area\": \"Monta\u00f1a\",\n        \"...\": \"...\",\n        \"hours\": \"Lun-Dom: 8:00 am-5:00 pm\"\n    },\n    {\n        \"area\": \"Rural\",\n        \"...\": \"...\",\n        \"hours\": \"\"\n    },\n    {\n        \"area\": \"Monta\u00f1a\",\n        \"...\": \"...\",\n        \"hours\": \"Mar-Dom: 8:30 am-3:30 pm\"\n    },\n    {\n        \"area\": \"Rural\",\n        \"...\": \"...\",\n        \"hours\": \"Vie-Dom: 9:00 am-5:00 pm\"\n    },\n    {\n        \"area\": \"Rural\",\n        \"...\": \"...\",\n        \"hours\": \"Mar-Dom: 8:00 am-5:00 pm\"\n    }\n]\n\n\n\n\nPaginated list [Code: 200]\n\n\nShrunk for clarity\n\n\nContent-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 11746\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 01:02:58 GMT\n\n{\n    \"page\": 1,\n    \"result\": [\n        {\n            \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n            \"...\": \"...\",\n            \"url\": \"/api/places/593b67c1bf5d2e3e7895f316\"\n        },\n        {\n            \"address\": \"2 km Sur de Santa Gertrudis Sur \u00f3 2 km Este de Tacares\",\n            \"...\": \"...\",\n            \"url\": \"/api/places/593b67c1bf5d2e3e7895f317\"\n        }\n    ]\n}\n\n\n\n\nPlace creation \n/api/places\n \n[Auth]\n\n\n\n\n\n\n\n\nType\n\n\nValues\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n[\nPOST\n]\n\n\n\n\n\n\nContent-type\n\n\napplication/json\n\n\n\n\n\n\nBody fields\n\n\nPlace\n\n\n\n\n\n\nResponse codes\n\n\n201\n, \n400\n, \n401\n & \n422\n\n\n\n\n\n\n\n\nNote\n: \nResponse codes 401 and 422 are for when the Authentication header is missing and when the header does not\nhave the expected format \n<JWT>\n, respectively\n\n\nRequest body\n\n\n{\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego\",\n    \"area\": \"Monta\u00f1a\",\n    \"contact\": \"\",\n    \"price_range\": \"Barato\",\n    \"phone_number\": \"2276-6080\",\n    \"region\": \"Valle Central\",\n    \"created_at\": \"2017-06-10T20:08:10.888086+00:00\",\n    \"category\": \"Balneario\",\n    \"location\": \"San Jos\u00e9, Desamparados, Patarra\u0301\",\n    \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n    \"email\": \"cascadadefuegoparqueacuatico@gmail.com\",\n    \"latitude\": 9.8757875656828,\n    \"longitude\": -84.03733452782035,\n    \"hours\": \"Lun-Dom: 8:00 am-5:00 pm\"\n}\n\n\n\n\nSuccessful creation [Code: 201]\n\n\nContent-Type: application/json\nContent-Length: 702\nAccess-Control-Allow-Origin: *\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 02:58:17 GMT\n\n{\n    \"id\": \"593cb1c9bf5d2e0454ae3a99\",\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego\",\n    \"area\": \"Monta\u00f1a\",\n    \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n    \"created_at\": \"2017-06-10T20:58:17.070561+00:00\",\n    \"price_range\": \"Barato\",\n    \"hours\": \"Lun-Dom: 6:00 am-4:30 pm\",\n    \"url\": \"/api/places/593cb1c9bf5d2e0454ae3a99\",\n    \"email\": \"cascadadefuegoparqueacuatico@gmail.com\",\n    \"category\": \"Balneario\",\n    \"contact\": \"\",\n    \"phone_number\": \"2276-6080\",\n    \"latitude\": 9.8757875656828,\n    \"longitude\": -84.03733452782035,\n    \"region\": \"Valle Central\",\n    \"location\": \"San Jos\u00e9, Desamparados, Patarra\u0301\",\n    \"google_maps\": \"http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035\"\n}\n\n\n\n\nNote\n: \nFields \nname\n, \narea\n, \nprice_range\n, \ncategory\n, \nlatitude\n and \nlongitude\n are required\n\n\nInvalid request body [Code: 400]\n\n\nContent-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 156\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 02:55:50 GMT\n\n{\n    \"errors\": {\n        \"email\": [\n            \"Not a valid email address.\"\n        ]\n    },\n    \"message\": \"Invalid request body for type <Place>\",\n    \"status_code\": 400\n}\n\n\n\n\nPlace _RUD \n/api/places/<string:id>\n \n[Auth]\n\n\n\n\n\n\n\n\nType\n\n\nValues\n\n\n\n\n\n\n\n\n\n\nMethods\n\n\n[\nGET\n, \nPUT\n, \nDELETE\n]\n\n\n\n\n\n\nContent-type\n\n\napplication/json\n\n\n\n\n\n\nBody fields\n\n\nPlace\n\n\n\n\n\n\nResponse codes\n\n\n200\n, \n400\n, \n401\n, \n404\n\n\n\n\n\n\n\n\nNote\n: \nResponse codes 401 and 422 are for when the Authentication header is missing and when the header does not\nhave the expected format \n<JWT>\n, respectively. 404 for when the place with the given ID does not exist in the\ndatabase\n\n\nRetrieve\n\n\nFor the url \n/api/places/593cb1c9bf5d2e0454ae3a99\n the result would be:\n\n\nContent-Type: application/json\nContent-Length: 702\nAccess-Control-Allow-Origin: *\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 02:59:54 GMT\n\n{\n    \"id\": \"593cb1c9bf5d2e0454ae3a99\",\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego\",\n    \"area\": \"Monta\u00f1a\",\n    \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n    \"created_at\": \"2017-06-10T20:58:17.070561+00:00\",\n    \"price_range\": \"Barato\",\n    \"hours\": \"Lun-Dom: 6:00 am-4:30 pm\",\n    \"url\": \"/api/places/593cb1c9bf5d2e0454ae3a99\",\n    \"email\": \"cascadadefuegoparqueacuatico@gmail.com\",\n    \"category\": \"Balneario\",\n    \"contact\": \"\",\n    \"phone_number\": \"2276-6080\",\n    \"latitude\": 9.8757875656828,\n    \"longitude\": -84.03733452782035,\n    \"region\": \"Valle Central\",\n    \"location\": \"San Jos\u00e9, Desamparados, Patarra\u0301\",\n    \"google_maps\": \"http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035\"\n}\n\n\n\n\nUpdate\n\n\nNote\n: \nYou can pass only the fields to update in the request body\n\n\nFor the url \n/api/places/593cb1c9bf5d2e0454ae3a99\n and the request body:\n\n\n{\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego al Rojo vivo\"\n}\n\n\n\n\nThe response would look like this:\n\n\n{\n    \"id\": \"593cb1c9bf5d2e0454ae3a99\",\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego al Rojo vivo\",\n    \"area\": \"Monta\u00f1a\",\n    \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n    \"created_at\": \"2017-06-10T20:58:17.070561+00:00\",\n    \"price_range\": \"Barato\",\n    \"hours\": \"Lun-Dom: 6:00 am-4:30 pm\",\n    \"url\": \"/api/places/593cb1c9bf5d2e0454ae3a99\",\n    \"email\": \"cascadadefuegoparqueacuatico@gmail.com\",\n    \"category\": \"Balneario\",\n    \"contact\": \"\",\n    \"phone_number\": \"2276-6080\",\n    \"latitude\": 9.8757875656828,\n    \"longitude\": -84.03733452782035,\n    \"region\": \"Valle Central\",\n    \"location\": \"San Jos\u00e9, Desamparados, Patarra\u0301\",\n    \"google_maps\": \"http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035\"\n}\n\n\n\n\nDelete\n\n\nFor the url \n/api/places/593cb1c9bf5d2e0454ae3a99\n the response would be a 204 code (No content) but implicitly\nstating that the resource was deleted.",
+            "title": "Places"
+        },
+        {
+            "location": "/places/#resource-places",
+            "text": "The endpoints marked with the  [Auth]  symbol require the  Authentication  HTTP header to be set.",
+            "title": "Resource: Places"
+        },
+        {
+            "location": "/places/#place-collection-apiplaces",
+            "text": "Type  Values      Methods  [ GET ]    Content-type  application/json    Body fields  None    Query arguments  paginate ,  page  (only required if paginated is set to true)    Response codes  200",
+            "title": "Place collection /api/places"
+        },
+        {
+            "location": "/places/#full-list-code-200",
+            "text": "Shrunk for clarity  Content-Type: application/json\nContent-Length: 284387\nAccess-Control-Allow-Origin: *\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 02:08:11 GMT\n\n[\n    {\n        \"area\": \"Monta\u00f1a\",\n        \"...\": \"...\",\n        \"hours\": \"Lun-Dom: 8:00 am-5:00 pm\"\n    },\n    {\n        \"area\": \"Rural\",\n        \"...\": \"...\",\n        \"hours\": \"\"\n    },\n    {\n        \"area\": \"Monta\u00f1a\",\n        \"...\": \"...\",\n        \"hours\": \"Mar-Dom: 8:30 am-3:30 pm\"\n    },\n    {\n        \"area\": \"Rural\",\n        \"...\": \"...\",\n        \"hours\": \"Vie-Dom: 9:00 am-5:00 pm\"\n    },\n    {\n        \"area\": \"Rural\",\n        \"...\": \"...\",\n        \"hours\": \"Mar-Dom: 8:00 am-5:00 pm\"\n    }\n]",
+            "title": "Full list [Code: 200]"
+        },
+        {
+            "location": "/places/#paginated-list-code-200",
+            "text": "Shrunk for clarity  Content-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 11746\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 01:02:58 GMT\n\n{\n    \"page\": 1,\n    \"result\": [\n        {\n            \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n            \"...\": \"...\",\n            \"url\": \"/api/places/593b67c1bf5d2e3e7895f316\"\n        },\n        {\n            \"address\": \"2 km Sur de Santa Gertrudis Sur \u00f3 2 km Este de Tacares\",\n            \"...\": \"...\",\n            \"url\": \"/api/places/593b67c1bf5d2e3e7895f317\"\n        }\n    ]\n}",
+            "title": "Paginated list [Code: 200]"
+        },
+        {
+            "location": "/places/#place-creation-apiplaces-auth",
+            "text": "Type  Values      Methods  [ POST ]    Content-type  application/json    Body fields  Place    Response codes  201 ,  400 ,  401  &  422     Note :  Response codes 401 and 422 are for when the Authentication header is missing and when the header does not\nhave the expected format  <JWT> , respectively",
+            "title": "Place creation /api/places [Auth]"
+        },
+        {
+            "location": "/places/#request-body",
+            "text": "{\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego\",\n    \"area\": \"Monta\u00f1a\",\n    \"contact\": \"\",\n    \"price_range\": \"Barato\",\n    \"phone_number\": \"2276-6080\",\n    \"region\": \"Valle Central\",\n    \"created_at\": \"2017-06-10T20:08:10.888086+00:00\",\n    \"category\": \"Balneario\",\n    \"location\": \"San Jos\u00e9, Desamparados, Patarra\u0301\",\n    \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n    \"email\": \"cascadadefuegoparqueacuatico@gmail.com\",\n    \"latitude\": 9.8757875656828,\n    \"longitude\": -84.03733452782035,\n    \"hours\": \"Lun-Dom: 8:00 am-5:00 pm\"\n}",
+            "title": "Request body"
+        },
+        {
+            "location": "/places/#successful-creation-code-201",
+            "text": "Content-Type: application/json\nContent-Length: 702\nAccess-Control-Allow-Origin: *\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 02:58:17 GMT\n\n{\n    \"id\": \"593cb1c9bf5d2e0454ae3a99\",\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego\",\n    \"area\": \"Monta\u00f1a\",\n    \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n    \"created_at\": \"2017-06-10T20:58:17.070561+00:00\",\n    \"price_range\": \"Barato\",\n    \"hours\": \"Lun-Dom: 6:00 am-4:30 pm\",\n    \"url\": \"/api/places/593cb1c9bf5d2e0454ae3a99\",\n    \"email\": \"cascadadefuegoparqueacuatico@gmail.com\",\n    \"category\": \"Balneario\",\n    \"contact\": \"\",\n    \"phone_number\": \"2276-6080\",\n    \"latitude\": 9.8757875656828,\n    \"longitude\": -84.03733452782035,\n    \"region\": \"Valle Central\",\n    \"location\": \"San Jos\u00e9, Desamparados, Patarra\u0301\",\n    \"google_maps\": \"http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035\"\n}  Note :  Fields  name ,  area ,  price_range ,  category ,  latitude  and  longitude  are required",
+            "title": "Successful creation [Code: 201]"
+        },
+        {
+            "location": "/places/#invalid-request-body-code-400",
+            "text": "Content-Type: application/json\nAccess-Control-Allow-Origin: *\nContent-Length: 156\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 02:55:50 GMT\n\n{\n    \"errors\": {\n        \"email\": [\n            \"Not a valid email address.\"\n        ]\n    },\n    \"message\": \"Invalid request body for type <Place>\",\n    \"status_code\": 400\n}",
+            "title": "Invalid request body [Code: 400]"
+        },
+        {
+            "location": "/places/#place-_rud-apiplacesstringid-auth",
+            "text": "Type  Values      Methods  [ GET ,  PUT ,  DELETE ]    Content-type  application/json    Body fields  Place    Response codes  200 ,  400 ,  401 ,  404     Note :  Response codes 401 and 422 are for when the Authentication header is missing and when the header does not\nhave the expected format  <JWT> , respectively. 404 for when the place with the given ID does not exist in the\ndatabase",
+            "title": "Place _RUD /api/places/&lt;string:id&gt; [Auth]"
+        },
+        {
+            "location": "/places/#retrieve",
+            "text": "For the url  /api/places/593cb1c9bf5d2e0454ae3a99  the result would be:  Content-Type: application/json\nContent-Length: 702\nAccess-Control-Allow-Origin: *\nServer: Werkzeug/0.12.2 Python/3.6.1\nDate: Sun, 11 Jun 2017 02:59:54 GMT\n\n{\n    \"id\": \"593cb1c9bf5d2e0454ae3a99\",\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego\",\n    \"area\": \"Monta\u00f1a\",\n    \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n    \"created_at\": \"2017-06-10T20:58:17.070561+00:00\",\n    \"price_range\": \"Barato\",\n    \"hours\": \"Lun-Dom: 6:00 am-4:30 pm\",\n    \"url\": \"/api/places/593cb1c9bf5d2e0454ae3a99\",\n    \"email\": \"cascadadefuegoparqueacuatico@gmail.com\",\n    \"category\": \"Balneario\",\n    \"contact\": \"\",\n    \"phone_number\": \"2276-6080\",\n    \"latitude\": 9.8757875656828,\n    \"longitude\": -84.03733452782035,\n    \"region\": \"Valle Central\",\n    \"location\": \"San Jos\u00e9, Desamparados, Patarra\u0301\",\n    \"google_maps\": \"http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035\"\n}",
+            "title": "Retrieve"
+        },
+        {
+            "location": "/places/#update",
+            "text": "Note :  You can pass only the fields to update in the request body  For the url  /api/places/593cb1c9bf5d2e0454ae3a99  and the request body:  {\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego al Rojo vivo\"\n}  The response would look like this:  {\n    \"id\": \"593cb1c9bf5d2e0454ae3a99\",\n    \"name\": \"Parque Acu\u00e1tico Cascada de Fuego al Rojo vivo\",\n    \"area\": \"Monta\u00f1a\",\n    \"address\": \"2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra\",\n    \"created_at\": \"2017-06-10T20:58:17.070561+00:00\",\n    \"price_range\": \"Barato\",\n    \"hours\": \"Lun-Dom: 6:00 am-4:30 pm\",\n    \"url\": \"/api/places/593cb1c9bf5d2e0454ae3a99\",\n    \"email\": \"cascadadefuegoparqueacuatico@gmail.com\",\n    \"category\": \"Balneario\",\n    \"contact\": \"\",\n    \"phone_number\": \"2276-6080\",\n    \"latitude\": 9.8757875656828,\n    \"longitude\": -84.03733452782035,\n    \"region\": \"Valle Central\",\n    \"location\": \"San Jos\u00e9, Desamparados, Patarra\u0301\",\n    \"google_maps\": \"http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035\"\n}",
+            "title": "Update"
+        },
+        {
+            "location": "/places/#delete",
+            "text": "For the url  /api/places/593cb1c9bf5d2e0454ae3a99  the response would be a 204 code (No content) but implicitly\nstating that the resource was deleted.",
+            "title": "Delete"
+        }
+    ]
+}

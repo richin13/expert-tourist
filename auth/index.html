@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Authentication - Expert Tourist</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Authentication";
+    var mkdocs_page_input_path = "auth.md";
+    var mkdocs_page_url = "/auth/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Expert Tourist</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Authentication</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#authentication">Authentication</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#user-registration-apisign_up">User registration /api/sign_up</a></li>
+        
+            <li><a class="toctree-l3" href="#user-authentication-apisign_in">User authentication /api/sign_in</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../places/">Places</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Expert Tourist</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Authentication</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="authentication">Authentication</h2>
+<p>Expert tourist's API protects some of the resources from public access in order to allow only registered users to create,
+update and delete such resources. To do so, it exposes two endpoints: one for user registration and another for user
+authentication.</p>
+<p>The protected endpoints require the <code>Authentication</code> header to be set with the value <code>&lt;JWT&gt;</code></p>
+<h3 id="user-registration-apisign_up">User registration <code>/api/sign_up</code></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Methods</td>
+<td>[<code>POST</code>]</td>
+</tr>
+<tr>
+<td>Content-type</td>
+<td><code>application/json</code></td>
+</tr>
+<tr>
+<td>Body fields</td>
+<td><code>email</code>, <code>username</code> &amp; <code>password</code></td>
+</tr>
+<tr>
+<td>Response codes</td>
+<td><code>200</code> &amp; <code>400</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="successful-registration-code-200">Successful registration [Code: 200]</h4>
+<pre><code>Content-Type: application/json
+Access-Control-Allow-Origin: *
+Content-Length: 440
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sat, 10 Jun 2017 23:14:18 GMT
+
+{
+    &quot;email&quot;: &quot;richin14@gmail.com&quot;,
+    &quot;id&quot;: &quot;593c7d4abf5d2e59894478a7&quot;,
+    &quot;token&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0.Pnq9qjS6JzazGNxE&quot;,
+    &quot;username&quot;: &quot;richin13&quot;
+}
+</code></pre>
+
+<h4 id="already-registered-user-code-400">Already registered user [Code: 400]</h4>
+<pre><code>Content-Type: application/json
+Access-Control-Allow-Origin: *
+Content-Length: 121
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sat, 10 Jun 2017 23:31:21 GMT
+
+{
+    &quot;message&quot;: &quot;A user with the email richin14@gmail.com already exists. Forgot your password?&quot;,
+    &quot;status_code&quot;: 400
+}
+</code></pre>
+
+<h4 id="missing-body-fields-code-400">Missing body fields [Code: 400]</h4>
+<pre><code>Content-Type: application/json
+Access-Control-Allow-Origin: *
+Content-Length: 90
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sat, 10 Jun 2017 23:32:33 GMT
+
+{
+    &quot;message&quot;: &quot;Fields &lt;username, email, password&gt; are required&quot;,
+    &quot;status_code&quot;: 400
+}
+</code></pre>
+
+<p><strong>Notes on responses</strong>: Even though the response's JSON body includes a <code>status_code</code> field, the HTTP response also
+includes the correspondent status code</p>
+<h3 id="user-authentication-apisign_in">User authentication <code>/api/sign_in</code></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Methods</td>
+<td>[<code>POST</code>]</td>
+</tr>
+<tr>
+<td>Content-type</td>
+<td><code>application/json</code></td>
+</tr>
+<tr>
+<td>Body fields</td>
+<td><code>username</code> &amp; <code>password</code></td>
+</tr>
+<tr>
+<td>Response codes</td>
+<td><code>200</code>, <code>400</code> &amp; <code>401</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="successful-login-code-200">Successful login [Code: 200]</h4>
+<pre><code>Content-Type: application/json
+Access-Control-Allow-Origin: *
+Content-Length: 440
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sat, 10 Jun 2017 23:43:06 GMT
+
+{
+    &quot;email&quot;: &quot;richin13@gmail.com&quot;,
+    &quot;id&quot;: &quot;593c2cabbf5d2e0ebf38ea0a&quot;,
+    &quot;token&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE0.Pnq9qjS6JzazGNxE&quot;,
+    &quot;username&quot;: &quot;richin13&quot;
+}
+</code></pre>
+
+<h4 id="invalid-request-body-code-400">Invalid request body [Code: 400]</h4>
+<pre><code>Content-Type: application/json
+Access-Control-Allow-Origin: *
+Content-Length: 84
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sat, 10 Jun 2017 23:47:01 GMT
+
+{
+    &quot;message&quot;: &quot;Fields &lt;username, password&gt; are required.&quot;,
+    &quot;status_code&quot;: 400
+}
+</code></pre>
+
+<h4 id="invalid-login-code-401">Invalid login [Code: 401]</h4>
+<pre><code>Content-Type: application/json
+Access-Control-Allow-Origin: *
+Content-Length: 68
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sat, 10 Jun 2017 23:46:03 GMT
+
+{
+    &quot;message&quot;: &quot;Invalid login credentials&quot;,
+    &quot;status_code&quot;: 401
+}
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../places/" class="btn btn-neutral float-right" title="Places">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../places/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>

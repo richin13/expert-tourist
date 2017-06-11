@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Places - Expert Tourist</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Places";
+    var mkdocs_page_input_path = "places.md";
+    var mkdocs_page_url = "/places/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Expert Tourist</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../auth/">Authentication</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Places</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#resource-places">Resource: Places</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#place-collection-apiplaces">Place collection /api/places</a></li>
+        
+            <li><a class="toctree-l3" href="#place-creation-apiplaces-auth">Place creation /api/places [Auth]</a></li>
+        
+            <li><a class="toctree-l3" href="#place-_rud-apiplacesstringid-auth">Place _RUD /api/places/&lt;string:id&gt; [Auth]</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Expert Tourist</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Places</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="resource-places">Resource: Places</h2>
+<ul>
+<li>The endpoints marked with the <code>[Auth]</code> symbol require the <code>Authentication</code> HTTP header to be set.</li>
+</ul>
+<h3 id="place-collection-apiplaces">Place collection <code>/api/places</code></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Methods</td>
+<td>[<code>GET</code>]</td>
+</tr>
+<tr>
+<td>Content-type</td>
+<td><code>application/json</code></td>
+</tr>
+<tr>
+<td>Body fields</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Query arguments</td>
+<td><code>paginate</code>, <code>page</code> (only required if paginated is set to true)</td>
+</tr>
+<tr>
+<td>Response codes</td>
+<td><code>200</code></td>
+</tr>
+</tbody>
+</table>
+<h4 id="full-list-code-200">Full list [Code: 200]</h4>
+<p><em>Shrunk for clarity</em></p>
+<pre><code>Content-Type: application/json
+Content-Length: 284387
+Access-Control-Allow-Origin: *
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sun, 11 Jun 2017 02:08:11 GMT
+
+[
+    {
+        &quot;area&quot;: &quot;Montaña&quot;,
+        &quot;...&quot;: &quot;...&quot;,
+        &quot;hours&quot;: &quot;Lun-Dom: 8:00 am-5:00 pm&quot;
+    },
+    {
+        &quot;area&quot;: &quot;Rural&quot;,
+        &quot;...&quot;: &quot;...&quot;,
+        &quot;hours&quot;: &quot;&quot;
+    },
+    {
+        &quot;area&quot;: &quot;Montaña&quot;,
+        &quot;...&quot;: &quot;...&quot;,
+        &quot;hours&quot;: &quot;Mar-Dom: 8:30 am-3:30 pm&quot;
+    },
+    {
+        &quot;area&quot;: &quot;Rural&quot;,
+        &quot;...&quot;: &quot;...&quot;,
+        &quot;hours&quot;: &quot;Vie-Dom: 9:00 am-5:00 pm&quot;
+    },
+    {
+        &quot;area&quot;: &quot;Rural&quot;,
+        &quot;...&quot;: &quot;...&quot;,
+        &quot;hours&quot;: &quot;Mar-Dom: 8:00 am-5:00 pm&quot;
+    }
+]
+</code></pre>
+
+<h4 id="paginated-list-code-200">Paginated list [Code: 200]</h4>
+<p>Shrunk for clarity</p>
+<pre><code>Content-Type: application/json
+Access-Control-Allow-Origin: *
+Content-Length: 11746
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sun, 11 Jun 2017 01:02:58 GMT
+
+{
+    &quot;page&quot;: 1,
+    &quot;result&quot;: [
+        {
+            &quot;address&quot;: &quot;2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra&quot;,
+            &quot;...&quot;: &quot;...&quot;,
+            &quot;url&quot;: &quot;/api/places/593b67c1bf5d2e3e7895f316&quot;
+        },
+        {
+            &quot;address&quot;: &quot;2 km Sur de Santa Gertrudis Sur ó 2 km Este de Tacares&quot;,
+            &quot;...&quot;: &quot;...&quot;,
+            &quot;url&quot;: &quot;/api/places/593b67c1bf5d2e3e7895f317&quot;
+        }
+    ]
+}
+</code></pre>
+
+<h3 id="place-creation-apiplaces-auth">Place creation <code>/api/places</code> <code>[Auth]</code></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Methods</td>
+<td>[<code>POST</code>]</td>
+</tr>
+<tr>
+<td>Content-type</td>
+<td><code>application/json</code></td>
+</tr>
+<tr>
+<td>Body fields</td>
+<td>Place</td>
+</tr>
+<tr>
+<td>Response codes</td>
+<td><code>201</code>, <code>400</code>, <code>401</code> &amp; <code>422</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong>: <em>Response codes 401 and 422 are for when the Authentication header is missing and when the header does not
+have the expected format <code>&lt;JWT&gt;</code>, respectively</em></p>
+<h4 id="request-body">Request body</h4>
+<pre><code class="json">{
+    &quot;name&quot;: &quot;Parque Acuático Cascada de Fuego&quot;,
+    &quot;area&quot;: &quot;Montaña&quot;,
+    &quot;contact&quot;: &quot;&quot;,
+    &quot;price_range&quot;: &quot;Barato&quot;,
+    &quot;phone_number&quot;: &quot;2276-6080&quot;,
+    &quot;region&quot;: &quot;Valle Central&quot;,
+    &quot;created_at&quot;: &quot;2017-06-10T20:08:10.888086+00:00&quot;,
+    &quot;category&quot;: &quot;Balneario&quot;,
+    &quot;location&quot;: &quot;San José, Desamparados, Patarrá&quot;,
+    &quot;address&quot;: &quot;2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra&quot;,
+    &quot;email&quot;: &quot;cascadadefuegoparqueacuatico@gmail.com&quot;,
+    &quot;latitude&quot;: 9.8757875656828,
+    &quot;longitude&quot;: -84.03733452782035,
+    &quot;hours&quot;: &quot;Lun-Dom: 8:00 am-5:00 pm&quot;
+}
+</code></pre>
+
+<h4 id="successful-creation-code-201">Successful creation [Code: 201]</h4>
+<pre><code>Content-Type: application/json
+Content-Length: 702
+Access-Control-Allow-Origin: *
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sun, 11 Jun 2017 02:58:17 GMT
+
+{
+    &quot;id&quot;: &quot;593cb1c9bf5d2e0454ae3a99&quot;,
+    &quot;name&quot;: &quot;Parque Acuático Cascada de Fuego&quot;,
+    &quot;area&quot;: &quot;Montaña&quot;,
+    &quot;address&quot;: &quot;2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra&quot;,
+    &quot;created_at&quot;: &quot;2017-06-10T20:58:17.070561+00:00&quot;,
+    &quot;price_range&quot;: &quot;Barato&quot;,
+    &quot;hours&quot;: &quot;Lun-Dom: 6:00 am-4:30 pm&quot;,
+    &quot;url&quot;: &quot;/api/places/593cb1c9bf5d2e0454ae3a99&quot;,
+    &quot;email&quot;: &quot;cascadadefuegoparqueacuatico@gmail.com&quot;,
+    &quot;category&quot;: &quot;Balneario&quot;,
+    &quot;contact&quot;: &quot;&quot;,
+    &quot;phone_number&quot;: &quot;2276-6080&quot;,
+    &quot;latitude&quot;: 9.8757875656828,
+    &quot;longitude&quot;: -84.03733452782035,
+    &quot;region&quot;: &quot;Valle Central&quot;,
+    &quot;location&quot;: &quot;San José, Desamparados, Patarrá&quot;,
+    &quot;google_maps&quot;: &quot;http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035&quot;
+}
+</code></pre>
+
+<p><strong>Note</strong>: <em>Fields <code>name</code>, <code>area</code>, <code>price_range</code>, <code>category</code>, <code>latitude</code> and <code>longitude</code> are required</em></p>
+<h4 id="invalid-request-body-code-400">Invalid request body [Code: 400]</h4>
+<pre><code>Content-Type: application/json
+Access-Control-Allow-Origin: *
+Content-Length: 156
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sun, 11 Jun 2017 02:55:50 GMT
+
+{
+    &quot;errors&quot;: {
+        &quot;email&quot;: [
+            &quot;Not a valid email address.&quot;
+        ]
+    },
+    &quot;message&quot;: &quot;Invalid request body for type &lt;Place&gt;&quot;,
+    &quot;status_code&quot;: 400
+}
+</code></pre>
+
+<h3 id="place-_rud-apiplacesstringid-auth">Place _RUD <code>/api/places/&lt;string:id&gt;</code> <code>[Auth]</code></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Values</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Methods</td>
+<td>[<code>GET</code>, <code>PUT</code>, <code>DELETE</code>]</td>
+</tr>
+<tr>
+<td>Content-type</td>
+<td><code>application/json</code></td>
+</tr>
+<tr>
+<td>Body fields</td>
+<td>Place</td>
+</tr>
+<tr>
+<td>Response codes</td>
+<td><code>200</code>, <code>400</code>, <code>401</code>, <code>404</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note</strong>: <em>Response codes 401 and 422 are for when the Authentication header is missing and when the header does not
+have the expected format <code>&lt;JWT&gt;</code>, respectively. 404 for when the place with the given ID does not exist in the
+database</em></p>
+<h4 id="retrieve">Retrieve</h4>
+<p>For the url <code>/api/places/593cb1c9bf5d2e0454ae3a99</code> the result would be:</p>
+<pre><code>Content-Type: application/json
+Content-Length: 702
+Access-Control-Allow-Origin: *
+Server: Werkzeug/0.12.2 Python/3.6.1
+Date: Sun, 11 Jun 2017 02:59:54 GMT
+
+{
+    &quot;id&quot;: &quot;593cb1c9bf5d2e0454ae3a99&quot;,
+    &quot;name&quot;: &quot;Parque Acuático Cascada de Fuego&quot;,
+    &quot;area&quot;: &quot;Montaña&quot;,
+    &quot;address&quot;: &quot;2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra&quot;,
+    &quot;created_at&quot;: &quot;2017-06-10T20:58:17.070561+00:00&quot;,
+    &quot;price_range&quot;: &quot;Barato&quot;,
+    &quot;hours&quot;: &quot;Lun-Dom: 6:00 am-4:30 pm&quot;,
+    &quot;url&quot;: &quot;/api/places/593cb1c9bf5d2e0454ae3a99&quot;,
+    &quot;email&quot;: &quot;cascadadefuegoparqueacuatico@gmail.com&quot;,
+    &quot;category&quot;: &quot;Balneario&quot;,
+    &quot;contact&quot;: &quot;&quot;,
+    &quot;phone_number&quot;: &quot;2276-6080&quot;,
+    &quot;latitude&quot;: 9.8757875656828,
+    &quot;longitude&quot;: -84.03733452782035,
+    &quot;region&quot;: &quot;Valle Central&quot;,
+    &quot;location&quot;: &quot;San José, Desamparados, Patarrá&quot;,
+    &quot;google_maps&quot;: &quot;http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035&quot;
+}
+</code></pre>
+
+<h4 id="update">Update</h4>
+<p><strong>Note</strong>: <em>You can pass only the fields to update in the request body</em></p>
+<p>For the url <code>/api/places/593cb1c9bf5d2e0454ae3a99</code> and the request body:</p>
+<pre><code class="json">{
+    &quot;name&quot;: &quot;Parque Acuático Cascada de Fuego al Rojo vivo&quot;
+}
+</code></pre>
+
+<p>The response would look like this:</p>
+<pre><code>{
+    &quot;id&quot;: &quot;593cb1c9bf5d2e0454ae3a99&quot;,
+    &quot;name&quot;: &quot;Parque Acuático Cascada de Fuego al Rojo vivo&quot;,
+    &quot;area&quot;: &quot;Montaña&quot;,
+    &quot;address&quot;: &quot;2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra&quot;,
+    &quot;created_at&quot;: &quot;2017-06-10T20:58:17.070561+00:00&quot;,
+    &quot;price_range&quot;: &quot;Barato&quot;,
+    &quot;hours&quot;: &quot;Lun-Dom: 6:00 am-4:30 pm&quot;,
+    &quot;url&quot;: &quot;/api/places/593cb1c9bf5d2e0454ae3a99&quot;,
+    &quot;email&quot;: &quot;cascadadefuegoparqueacuatico@gmail.com&quot;,
+    &quot;category&quot;: &quot;Balneario&quot;,
+    &quot;contact&quot;: &quot;&quot;,
+    &quot;phone_number&quot;: &quot;2276-6080&quot;,
+    &quot;latitude&quot;: 9.8757875656828,
+    &quot;longitude&quot;: -84.03733452782035,
+    &quot;region&quot;: &quot;Valle Central&quot;,
+    &quot;location&quot;: &quot;San José, Desamparados, Patarrá&quot;,
+    &quot;google_maps&quot;: &quot;http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035&quot;
+}
+</code></pre>
+
+<h4 id="delete">Delete</h4>
+<p>For the url <code>/api/places/593cb1c9bf5d2e0454ae3a99</code> the response would be a 204 code (No content) but implicitly
+stating that the resource was deleted.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../auth/" class="btn btn-neutral" title="Authentication"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../auth/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>
