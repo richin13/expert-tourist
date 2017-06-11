@@ -1,4 +1,5 @@
 import os
+import datetime
 
 
 class BaseConfig:
@@ -7,6 +8,8 @@ class BaseConfig:
     DEBUG = False
     TESTING = False
     BCRYPT_LOG_ROUNDS = 12
+    JWT_ACCESS_TOKEN_EXPIRES = datetime.timedelta(hours=1)
+    JWT_HEADER_TYPE = ''
     MONGODB_SETTINGS = {
         'db': '',
     }
@@ -14,6 +17,7 @@ class BaseConfig:
 
 class DevConfig(BaseConfig):
     DEBUG = True
+    JWT_ACCESS_TOKEN_EXPIRES = datetime.timedelta(days=30)
     MONGODB_SETTINGS = {
         'db': 'dev-db',
     }

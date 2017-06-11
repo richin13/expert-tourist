@@ -25,7 +25,7 @@ class TestAPI(TestCase):
 
     def _authorize(self):
         user = UserFactory.create()
-        return {'Authorization': 'Bearer {}'.format(user.token)}
+        return {'Authorization': user.token}
 
     def test_get_all_places(self):
         places = self.app.get('/api/places')
