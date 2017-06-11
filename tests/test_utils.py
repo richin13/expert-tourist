@@ -1,12 +1,11 @@
 from unittest import TestCase
 
-from expert_tourist.utils import gmaps_url_to_coords
+from expert_tourist.utils import coords_to_gmaps_url
+
 
 class TestUtils(TestCase):
-
     def test_url_to_coords(self):
-        url = 'http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035'
-        lat, long = gmaps_url_to_coords(url)
+        lat, long = 9.8757875656828, -84.03733452782035
+        url = coords_to_gmaps_url(lat, long)
 
-        self.assertEqual(lat, 9.8757875656828)
-        self.assertEqual(long, -84.03733452782035)
+        self.assertEqual(url, 'http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035')

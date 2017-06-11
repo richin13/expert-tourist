@@ -5,7 +5,7 @@ from flask import current_app
 from datetime import datetime
 
 from . import db
-from ..utils import gmaps_url_to_coords
+from ..utils import coords_to_gmaps_url
 
 
 class Place(db.Document):
@@ -89,10 +89,10 @@ class Place(db.Document):
     region = me.StringField(max_length=128)
     location = me.StringField(max_length=128)
     address = me.StringField(max_length=500)
-    google_maps = me.StringField(max_length=80, required=True)
+    google_maps = me.StringField(max_length=80)
     hours = me.StringField(max_length=128)
-    latitude = me.FloatField()
-    longitude = me.FloatField()
+    latitude = me.FloatField(required=True)
+    longitude = me.FloatField(required=True)
     created_at = me.DateTimeField()
 
     def __init__(self, *args, **kwargs):
@@ -103,10 +103,9 @@ class Place(db.Document):
 
         self.email = emails if len(emails) > 0 else None
 
-        # Calculate latitude and longitude, if none given.
-        google_maps = kwargs.get('google_maps', '')
-        if not all([kwargs.get('latitude', None), kwargs.get('longitude', None)]) and google_maps:
-            self.latitude, self.longitude = gmaps_url_to_coords(google_maps)
+        google_maps = kwargs.get('google_maps', None)
+        if not bool(google_maps):  # Check whether it is null or empty
+            self.google_maps = coords_to_gmaps_url(self.latitude, self.longitude)
 
     def __str__(self):
         return 'Place<%s, %s>' % (self.name, self.category)
@@ -135,7 +134,7 @@ class Place(db.Document):
             return super(Place.Encoder, self).encode(o)
 
 
-class PlaceLoader:
+class PlaceDatasetManager:
     data_source_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../', '../', 'data', 'places.json')
     data_source = None
 
@@ -144,7 +143,7 @@ class PlaceLoader:
             with open(self.data_source_path, 'r') as f:
                 self.data_source = json.loads(f.read())
 
-    def to_db(self):
+    def load_dataset(self):
         print('Loading data in {}'.format(current_app.config.get('MONGODB_SETTINGS', {'db': 'NONE'})['db']))
         saved_places_count = 0
         if self.data_source:
@@ -156,3 +155,14 @@ class PlaceLoader:
 
         print('Saved a total of {} places'.format(saved_places_count))
         return saved_places_count
+
+    def group_by(self, field_name):
+        group = {}
+        if self.data_source:
+            for raw_place in self.data_source:
+                value = raw_place.get(field_name, None)
+                assert value is not None
+                if value not in group:
+                    group[value] = 0
+                group[value] += 1
+        return group

@@ -10,8 +10,9 @@
     "region": "Valle Central",
     "location": "San José, Desamparados, Patarrá",
     "address": "2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035",
-    "hours": "Lun-Dom: 8:00 am-5:00 pm"
+    "hours": "Lun-Dom: 8:00 am-5:00 pm",
+    "latitude": 9.8757875656828,
+    "longitude": -84.03733452782035
   },
   {
     "name": "Parque Recreativo Los Chorros",
@@ -24,8 +25,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Grecia, Tacares",
     "address": "2 km Sur de Santa Gertrudis Sur ó 2 km Este de Tacares",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.054347222222223,-84.27854722222222",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.054347222222223,
+    "longitude": -84.27854722222222
   },
   {
     "name": "Laguna de Fraijanes",
@@ -38,8 +40,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, Sabanilla, Fraijanes",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.1252824,-84.19114890000003",
-    "hours": "Mar-Dom: 8:30 am-3:30 pm"
+    "hours": "Mar-Dom: 8:30 am-3:30 pm",
+    "latitude": 10.1252824,
+    "longitude": -84.19114890000003
   },
   {
     "name": "Bosque de La Hoja",
@@ -52,8 +55,9 @@
     "region": "Valle Central",
     "location": "Heredia, San Rafael, Ángeles",
     "address": "del puesto de la Policía Turística, 2 km oeste, al frente del Restaurante Refranes",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.0624389,-84.09453869999999",
-    "hours": "Vie-Dom: 9:00 am-5:00 pm"
+    "hours": "Vie-Dom: 9:00 am-5:00 pm",
+    "latitude": 10.0624389,
+    "longitude": -84.09453869999999
   },
   {
     "name": "Centro Recreativo EcoTurístico las Musas",
@@ -66,8 +70,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Ramón, Alfaro",
     "address": "de la Sede Regional de Occidente de la UCR, 4 km al oeste y 2 km al sur",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.092611111111111,-84.51475833333333",
-    "hours": "Mar-Dom: 8:00 am-5:00 pm"
+    "hours": "Mar-Dom: 8:00 am-5:00 pm",
+    "latitude": 10.092611111111111,
+    "longitude": -84.51475833333333
   },
   {
     "name": "Parque Acuatico Villas Fantasia",
@@ -80,8 +85,9 @@
     "region": "Pacifico Central",
     "location": "Alajuela, Orotina",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.919883490975918,-84.54296933138721",
-    "hours": "Lun-Dom: 8:00 am-5:00 pm"
+    "hours": "Lun-Dom: 8:00 am-5:00 pm",
+    "latitude": 9.919883490975918,
+    "longitude": -84.54296933138721
   },
   {
     "name": "Freddo Leche Tours",
@@ -94,8 +100,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, Sabanilla",
     "address": "carretera al Volcán Poás, 3 km este de la desviación hacia Poasito y Vara Blanca, de frente al Hotel Villa Calas",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.158467530175157,-84.17351564392447",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.158467530175157,
+    "longitude": -84.17351564392447
   },
   {
     "name": "Balneario las Estufas",
@@ -108,8 +115,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Naranjo, Palmitos",
     "address": "7 km del centro de Palmitos de Naranjo. 150 metros sur y 100 metros oeste de la escuela",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.0942833,-84.42481629999997",
-    "hours": "Lun-Dom: 7:00 am-5:00 pm"
+    "hours": "Lun-Dom: 7:00 am-5:00 pm",
+    "latitude": 10.0942833,
+    "longitude": -84.42481629999997
   },
   {
     "name": "Termales Cangrejal",
@@ -122,8 +130,9 @@
     "region": "Valle Central",
     "location": "San José, Acosta, Cangrejal",
     "address": "300 metros despues de los puentes gemelos",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.7669458,-84.21278",
-    "hours": "Lun-Dom: 6:00 am-4:30 pm"
+    "hours": "Lun-Dom: 6:00 am-4:30 pm",
+    "latitude": 9.7669458,
+    "longitude": -84.21278
   },
   {
     "name": "Sky Jump",
@@ -136,8 +145,9 @@
     "region": "Valle Central",
     "location": "San José, Santa Ana, Santa Ana",
     "address": "400 mts Oeste y 250 Norte de la Panadería Musmanni, dentro del complejo Furati",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.936371081651028,-84.1844778930681",
-    "hours": "Lun-Jue: 10:00 am-9:00 pmVie-Sáb: 10:00 am-11:00 pmDom: 12:00 pm-6:00 pm"
+    "hours": "Lun-Jue: 10:00 am-9:00 pmVie-Sáb: 10:00 am-11:00 pmDom: 12:00 pm-6:00 pm",
+    "latitude": 9.936371081651028,
+    "longitude": -84.1844778930681
   },
   {
     "name": "Balneario los Patios",
@@ -150,8 +160,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "de la plaza de deportes 400 m sur y doblar a mano izq 1 km",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.785476942927431,-83.84557804092765",
-    "hours": "Mar-Dom: 8:00 am-4:00 pm"
+    "hours": "Mar-Dom: 8:00 am-4:00 pm",
+    "latitude": 9.785476942927431,
+    "longitude": -83.84557804092765
   },
   {
     "name": "Paradero Turístico Playa de Doña Ana",
@@ -164,8 +175,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Esparza, Espíritu Santo",
     "address": "a la par de la Boca del Río Barranca, si viene por Caldera:10 km antes de llegar a Puntarenas",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.95653215045799,-84.73871718160808",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 9.95653215045799,
+    "longitude": -84.73871718160808
   },
   {
     "name": "Parque Recreativo los Manantiales",
@@ -178,8 +190,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Poás, Carrillos",
     "address": "800 mts noreste del Templo Católico de Carrillos Alto de Poás",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.0462511,-84.26376490000001",
-    "hours": "Mar-Dom: 8:00 am-5:00 pm"
+    "hours": "Mar-Dom: 8:00 am-5:00 pm",
+    "latitude": 10.0462511,
+    "longitude": -84.26376490000001
   },
   {
     "name": "Kalambu",
@@ -192,8 +205,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "3 km oeste de la Fortuna , Carretera al Volcan Arenal",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.483603972661426,-84.67992159788992",
-    "hours": "Lun-Dom: 8:00 am-10:00 pm"
+    "hours": "Lun-Dom: 8:00 am-10:00 pm",
+    "latitude": 10.483603972661426,
+    "longitude": -84.67992159788992
   },
   {
     "name": "Sanatorio Durán",
@@ -206,8 +220,9 @@
     "region": "Valle Central",
     "location": "Cartago, Oreamuno, Potrero Grande",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.932720500000002,-83.88325450000002",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 9.932720500000002,
+    "longitude": -83.88325450000002
   },
   {
     "name": "Termales Recreo Verde",
@@ -220,8 +235,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Venecia",
     "address": "2.5 km sureste de la Escuela de Marsella",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.321140997308477,-84.24400493502617",
-    "hours": "Lun-Dom: 7:00 am-10:00 pm"
+    "hours": "Lun-Dom: 7:00 am-10:00 pm",
+    "latitude": 10.321140997308477,
+    "longitude": -84.24400493502617
   },
   {
     "name": "Mirador de Orosi",
@@ -234,8 +250,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "De la iglesia de Paraíso, 3 km al sur, carretera a Orosi.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.819109774953,-83.85875573381782",
-    "hours": "Lun-Dom: 8:00 am-4:30 pm"
+    "hours": "Lun-Dom: 8:00 am-4:30 pm",
+    "latitude": 9.819109774953,
+    "longitude": -83.85875573381782
   },
   {
     "name": "Parque del este",
@@ -248,8 +265,9 @@
     "region": "Valle Central",
     "location": "San José, Montes de Oca, San Rafael",
     "address": "1 kilómetro al oeste del Cristo de Sabanilla, frente a la Compañía Textil Centroamericana.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.942622799999999,-84.00947129999997",
-    "hours": "Mar-Dom: 9:00 am-4:00 pm"
+    "hours": "Mar-Dom: 9:00 am-4:00 pm",
+    "latitude": 9.942622799999999,
+    "longitude": -84.00947129999997
   },
   {
     "name": "Reserva Forestal Grecia - Bosque del Niño",
@@ -262,8 +280,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Grecia, San Isidro",
     "address": "Calle Rodríguez, de la escuela 4 Km, San Isidro de Grecia",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.142415,-84.247261",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.142415,
+    "longitude": -84.247261
   },
   {
     "name": "La Ruta del Sol",
@@ -276,8 +295,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, Alajuela",
     "address": "De la Plaza de Deportes en el Roble, 800m Sur",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.980227525092362,-84.23953017219901",
-    "hours": "Mar-Dom: 8:00 am-4:00 pm"
+    "hours": "Mar-Dom: 8:00 am-4:00 pm",
+    "latitude": 9.980227525092362,
+    "longitude": -84.23953017219901
   },
   {
     "name": "Charrarra",
@@ -290,8 +310,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Paraíso",
     "address": "Ujarrás",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.820753665576994,-83.8251449726522",
-    "hours": "Mar-Dom: 8:00 am-5:00 pm"
+    "hours": "Mar-Dom: 8:00 am-5:00 pm",
+    "latitude": 9.820753665576994,
+    "longitude": -83.8251449726522
   },
   {
     "name": "Bosques de Fraijanes",
@@ -304,8 +325,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, San Isidro",
     "address": "Fraijanes. De los Tribunales de Justicia en Alajuela 15 km norte, carretera al volcán Poás (camino rotulado)",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.124455157303798,-84.18933849781752",
-    "hours": "Lun-Dom: 8:00 am-6:00 pm"
+    "hours": "Lun-Dom: 8:00 am-6:00 pm",
+    "latitude": 10.124455157303798,
+    "longitude": -84.18933849781752
   },
   {
     "name": "Balneario el Valle Encantado",
@@ -318,8 +340,9 @@
     "region": "Valle Central",
     "location": "San José, Acosta, San Ignacio",
     "address": "800 mts oeste del cementerio",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.806981198827424,-84.1686887740434",
-    "hours": "Jue-Dom: 9:00 am-4:30 pm"
+    "hours": "Jue-Dom: 9:00 am-4:30 pm",
+    "latitude": 9.806981198827424,
+    "longitude": -84.1686887740434
   },
   {
     "name": "Formula Kart",
@@ -332,8 +355,9 @@
     "region": "Valle Central",
     "location": "San José, Curridabat, Curridabat",
     "address": "Carretera principal de Curridabat. Del Indoor Club 200 metros al Este, a mano izquierda, frente cementerio Montesacro o contiguo a la agencia EURO AUTOS. Centro Comercial Milla de Oro Plaza.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.922318932849803,-84.03628528118134",
-    "hours": "Lun-Vie: 3:00 pm-11:00 pmSáb-Dom: 11:00 am-11:00 pm"
+    "hours": "Lun-Vie: 3:00 pm-11:00 pmSáb-Dom: 11:00 am-11:00 pm",
+    "latitude": 9.922318932849803,
+    "longitude": -84.03628528118134
   },
   {
     "name": "Balneario de Aguas Termales Orosi",
@@ -346,8 +370,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "300 mts sur y 150 mts oeste de la Iglesia Colonial de Orosi.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.795781545026705,-83.85708904279454",
-    "hours": "Lun: 7:30 am-4:00 pmMié-Dom: 7:30 am-4:00 pm"
+    "hours": "Lun: 7:30 am-4:00 pmMié-Dom: 7:30 am-4:00 pm",
+    "latitude": 9.795781545026705,
+    "longitude": -83.85708904279454
   },
   {
     "name": "Catarata del Toro",
@@ -360,8 +385,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Valverde Vega, Toro Amarillo",
     "address": "6km Norte de la Iglesia",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.2542,-84.271505",
-    "hours": "Lun-Sáb: 7:00 am-5:00 pm"
+    "hours": "Lun-Sáb: 7:00 am-5:00 pm",
+    "latitude": 10.2542,
+    "longitude": -84.271505
   },
   {
     "name": "Fossil Land",
@@ -374,8 +400,9 @@
     "region": "Valle Central",
     "location": "San José, Desamparados, Patarrá, Quebrada Onda",
     "address": "del parque de San Antonio de Desamparados, 3.2 KM sureste, hacia Patarra. Y 2.3 KM al este del Balneario de Patarra, seguir Rotulación.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.870955,-84.017773",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.870955,
+    "longitude": -84.017773
   },
   {
     "name": "Termales Los Laureles",
@@ -388,8 +415,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "5 kms del centro de la Fortuna, al oeste camino al volcán Arenal.",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.4886796,-84.67707840000003",
-    "hours": "Lun-Dom: 9:00 am-9:00 pm"
+    "hours": "Lun-Dom: 9:00 am-9:00 pm",
+    "latitude": 10.4886796,
+    "longitude": -84.67707840000003
   },
   {
     "name": "Locos por el Bosque",
@@ -402,8 +430,9 @@
     "region": "Valle Central",
     "location": "San José, Vázquez de Coronado, Cascajal",
     "address": "2km después de la iglesia, frente a la escuela de Montserrat",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.031288685960053,-83.93511554226279",
-    "hours": "Mié-Dom: 8:00 am-4:00 pm"
+    "hours": "Mié-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.031288685960053,
+    "longitude": -83.93511554226279
   },
   {
     "name": "Centro Recreativo y Ecológico El Guayacán",
@@ -416,8 +445,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "Guayabo",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.722981934608258,-85.19700258984813",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.722981934608258,
+    "longitude": -85.19700258984813
   },
   {
     "name": "San Lucas Beach Club",
@@ -430,8 +460,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.976650745393815,-84.8507557513949",
-    "hours": "Mié-Dom: 9:00 am-5:00 pm"
+    "hours": "Mié-Dom: 9:00 am-5:00 pm",
+    "latitude": 9.976650745393815,
+    "longitude": -84.8507557513949
   },
   {
     "name": "Zoo Ave",
@@ -444,8 +475,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, Garita",
     "address": "del aeropuerto Juan Santamaría siguiendo la autopista Bernanrdo Soto aproximándose a RECOPE, se desvía a mano derecha 2.5 km al oeste del puente Manolos. De la Princesa Marina, en Barrio San José de Alajuela, 4 km al sur, aproximándose al Hotel Martino Med-Spa / Resort a mano derecha.",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.0126604,-84.27529429999998",
-    "hours": "Lun-Dom: 9:00 am-5:00 pm"
+    "hours": "Lun-Dom: 9:00 am-5:00 pm",
+    "latitude": 10.0126604,
+    "longitude": -84.27529429999998
   },
   {
     "name": "Buses Coronado - Terminal San José",
@@ -458,8 +490,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.937673190235262,-84.07920649275184",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.937673190235262,
+    "longitude": -84.07920649275184
   },
   {
     "name": "Catarata el Salto",
@@ -472,8 +505,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Bagaces, Bagaces",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.550704282180366,-85.39707612990924",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.550704282180366,
+    "longitude": -85.39707612990924
   },
   {
     "name": "Colinas del Póas",
@@ -486,8 +520,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, Sabanilla, Fraijanes",
     "address": "1 km al norte y 100 al este Escuela de Fraijanes",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.15564739034779,-84.18991255734",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.15564739034779,
+    "longitude": -84.18991255734
   },
   {
     "name": "Bar Monte Verde",
@@ -500,8 +535,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, Alajuela",
     "address": "Turrucares, Siquiares",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9689654350083,-84.29515600204468",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.9689654350083,
+    "longitude": -84.29515600204468
   },
   {
     "name": "Ojo de Agua",
@@ -514,8 +550,9 @@
     "region": "Valle Central",
     "location": "Heredia, Belén, San Antonio",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.984848430044858,-84.1957426071167",
-    "hours": "Lun-Dom: 7:30 am-4:30 pm"
+    "hours": "Lun-Dom: 7:30 am-4:30 pm",
+    "latitude": 9.984848430044858,
+    "longitude": -84.1957426071167
   },
   {
     "name": "Escalada Cachí",
@@ -528,8 +565,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Santiago",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.864745432830244,-83.80004804581404",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 9.864745432830244,
+    "longitude": -83.80004804581404
   },
   {
     "name": "Thermomania",
@@ -542,8 +580,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "26 kilómetros al norte carretera hacia Guayabo",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.7161152,-85.19513369999999",
-    "hours": "Lun-Dom: 8:00 am-10:00 pm"
+    "hours": "Lun-Dom: 8:00 am-10:00 pm",
+    "latitude": 10.7161152,
+    "longitude": -85.19513369999999
   },
   {
     "name": "Laguna Don Manuel",
@@ -556,8 +595,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Santa María",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.690445,-83.978593",
-    "hours": "Mar-Dom: 7:00 am-5:00 pm"
+    "hours": "Mar-Dom: 7:00 am-5:00 pm",
+    "latitude": 9.690445,
+    "longitude": -83.978593
   },
   {
     "name": "Catarata Aquiares",
@@ -570,8 +610,9 @@
     "region": "Valle Central",
     "location": "Cartago, Turrialba, Santa Rosa, Aquiares",
     "address": "5 km al noroeste de Turrialba",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.933182539471455,-83.72090148899588",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.933182539471455,
+    "longitude": -83.72090148899588
   },
   {
     "name": "PN Volcán Irazú Sector Prusia",
@@ -584,8 +625,9 @@
     "region": "Valle Central",
     "location": "Cartago, Oreamuno, Potrero Cerrado",
     "address": "4 km al norte de la entra principal del Sanatorio Durán",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.953611,-83.88152600000001",
-    "hours": "Lun-Dom: 8:00 am-3:30 pm"
+    "hours": "Lun-Dom: 8:00 am-3:30 pm",
+    "latitude": 9.953611,
+    "longitude": -83.88152600000001
   },
   {
     "name": "Turu Ba Ri",
@@ -598,8 +640,9 @@
     "region": "Valle Central",
     "location": "San José, Turrubares, San Juan de Mata",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.886356012297272,-84.50452655553818",
-    "hours": "Lun-Dom: 9:00 am-5:30 pm"
+    "hours": "Lun-Dom: 9:00 am-5:30 pm",
+    "latitude": 9.886356012297272,
+    "longitude": -84.50452655553818
   },
   {
     "name": "Cataratas Nauyaca",
@@ -612,8 +655,9 @@
     "region": "Sur",
     "location": "San José, Pérez Zeledón, Barú",
     "address": "1) Desde San Isidro de Pérez Zeledón, viaje 26 Km por la carretera hacia Playa Dominical.\n2) Desde Playa Dominical, viaje 10 Km por la carretera hacia San Isidro de Pérez Zeledón.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.27301388888889,-83.81909999999999",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.27301388888889,
+    "longitude": -83.81909999999999
   },
   {
     "name": "Mirador Ujarras",
@@ -626,8 +670,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Paraíso",
     "address": "Ujarrás, 2 km al este de la Iglesia de Paraíso",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.835194180097295,-83.84210994467139",
-    "hours": "Lun-Dom: 8:00 am-4:30 pm"
+    "hours": "Lun-Dom: 8:00 am-4:30 pm",
+    "latitude": 9.835194180097295,
+    "longitude": -83.84210994467139
   },
   {
     "name": "La Paz Waterfall Gardens & Peace Lodge",
@@ -640,8 +685,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, Sarapiquí",
     "address": "Vara Blanca",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.2042908,-84.16187609999997",
-    "hours": "Lun-Dom: 8:00 am-5:00 pm"
+    "hours": "Lun-Dom: 8:00 am-5:00 pm",
+    "latitude": 10.2042908,
+    "longitude": -84.16187609999997
   },
   {
     "name": "Laguna Hule",
@@ -654,8 +700,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Grecia, Río Cuarto",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.294630700000019,-84.21009349999994",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.294630700000019,
+    "longitude": -84.21009349999994
   },
   {
     "name": "Monte de la Cruz",
@@ -668,8 +715,9 @@
     "region": "Valle Central",
     "location": "Heredia, San Rafael, Ángeles",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.068085,-84.07744200000002",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.068085,
+    "longitude": -84.07744200000002
   },
   {
     "name": "Refugio de Vida Silvestre La Marta",
@@ -682,8 +730,9 @@
     "region": "Valle Central",
     "location": "Cartago, Jiménez, Pejibaye",
     "address": "5 km  del centro",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.783058419314655,-83.68817796930671",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.783058419314655,
+    "longitude": -83.68817796930671
   },
   {
     "name": "Pepper Disco Club",
@@ -696,8 +745,9 @@
     "region": "Valle Central",
     "location": "San José, San José, Zapote",
     "address": "contiguo al parqueo de Price Smart",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.918035858008272,-84.0491394102628",
-    "hours": "Vie-Sáb: 8:00 pm-2:00 am"
+    "hours": "Vie-Sáb: 8:00 pm-2:00 am",
+    "latitude": 9.918035858008272,
+    "longitude": -84.0491394102628
   },
   {
     "name": "Jardin Zoo La Marina",
@@ -710,8 +760,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Palmera",
     "address": "10 km este de San Carlos, entre Palmera y Aguas Zarcas",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.37742063305752,-84.3756780619151",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.37742063305752,
+    "longitude": -84.3756780619151
   },
   {
     "name": "Refugio de Vida Silvestre Cerro Dantas",
@@ -724,8 +775,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, Varablanca",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.086827,-84.070899",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.086827,
+    "longitude": -84.070899
   },
   {
     "name": "Poza la Paila",
@@ -738,8 +790,9 @@
     "region": "Valle Central",
     "location": "San José, Turrubares, San Pedro",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.869433452527405,-84.47243928909302",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.869433452527405,
+    "longitude": -84.47243928909302
   },
   {
     "name": "MultiCines Plaza Paraiso",
@@ -752,8 +805,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.846944444444444,-83.89111111111112",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.846944444444444,
+    "longitude": -83.89111111111112
   },
   {
     "name": "Centro de Conservación Santa Ana",
@@ -766,8 +820,9 @@
     "region": "Valle Central",
     "location": "San José, Santa Ana, Santa Ana",
     "address": "de la Cruz Roja de Santa Ana, 400 metros oeste y 200 norte, Sobre Calle Ross en Río Oro",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9375011,-84.19296120000001",
-    "hours": "Lun-Vie: 8:00 am-3:30 pmSáb-Dom: 9:00 am-4:30 pm"
+    "hours": "Lun-Vie: 8:00 am-3:30 pmSáb-Dom: 9:00 am-4:30 pm",
+    "latitude": 9.9375011,
+    "longitude": -84.19296120000001
   },
   {
     "name": "Cataratas Santo Cristo",
@@ -780,8 +835,9 @@
     "region": "Sur",
     "location": "San José, Pérez Zeledón, Barú",
     "address": "San Salvador",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.255373,-83.797109",
-    "hours": "Lun-Dom: 7:00 am-4:00 pm"
+    "hours": "Lun-Dom: 7:00 am-4:00 pm",
+    "latitude": 9.255373,
+    "longitude": -83.797109
   },
   {
     "name": "Bar Piratas (Casino Fiesta Alajuela)",
@@ -794,8 +850,9 @@
     "region": "Valle Central",
     "location": "Alajuela",
     "address": "1.5 km al este del Aeropuerto Internacional Juan Santamaría",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.000878923478211,-84.19597864151001",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.000878923478211,
+    "longitude": -84.19597864151001
   },
   {
     "name": "La Rumba Disco Club",
@@ -808,8 +865,9 @@
     "region": "Valle Central",
     "location": "Heredia, Belén, San Antonio",
     "address": "500 metros sur y 200 oeste de la Panasonic, sobre la radial Sta Ana",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.970437855979641,-84.19586598873138",
-    "hours": "Vie-Sáb: 7:00 pm-2:00 am"
+    "hours": "Vie-Sáb: 7:00 pm-2:00 am",
+    "latitude": 9.970437855979641,
+    "longitude": -84.19586598873138
   },
   {
     "name": "Jungle Safari Mini Golf",
@@ -822,8 +880,9 @@
     "region": "Valle Central",
     "location": "San José, Santa Ana",
     "address": "Centro Comercial Via Lindora, Santa Ana (Costa Rica)",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.959356141155677,-84.19634883405456",
-    "hours": "Lun-Jue: 9:00 am-8:00 pmVie-Sáb: 9:00 am-11:45 pmDom: 9:00 am-8:00 pm"
+    "hours": "Lun-Jue: 9:00 am-8:00 pmVie-Sáb: 9:00 am-11:45 pmDom: 9:00 am-8:00 pm",
+    "latitude": 9.959356141155677,
+    "longitude": -84.19634883405456
   },
   {
     "name": "Ruinas Ujarrás",
@@ -836,8 +895,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Cachí",
     "address": "Ujarrás, 5 km al este de la Iglesia de Paraiso, carretera a Cachí",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.828267770449314,-83.8361849449575",
-    "hours": "Lun-Dom: 8:00 am-4:30 pm"
+    "hours": "Lun-Dom: 8:00 am-4:30 pm",
+    "latitude": 9.828267770449314,
+    "longitude": -83.8361849449575
   },
   {
     "name": "Cavernas de Venado",
@@ -850,8 +910,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Venado",
     "address": "del pueblo de Venado, 3 km este",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.553059,-84.768019",
-    "hours": "Lun-Dom: 8:00 am-2:30 pm"
+    "hours": "Lun-Dom: 8:00 am-2:30 pm",
+    "latitude": 10.553059,
+    "longitude": -84.768019
   },
   {
     "name": "La Pipiola",
@@ -864,8 +925,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Paraíso",
     "address": "400 m antes de llegar a las Ruinas de Ujarrás",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.82803742996299,-83.8326889788732",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.82803742996299,
+    "longitude": -83.8326889788732
   },
   {
     "name": "Parque Nacional Tapantí Macizo de la Muerte",
@@ -878,8 +940,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.760526978118497,-83.7843700312078",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 9.760526978118497,
+    "longitude": -83.7843700312078
   },
   {
     "name": "Jardín Botánico Else Kientzler",
@@ -892,8 +955,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Valverde Vega, Sarchí Norte",
     "address": "400 m norte del estadio de Sarchí",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.091247365025431,-84.35043740270885",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.091247365025431,
+    "longitude": -84.35043740270885
   },
   {
     "name": "Hotel Monte Campana",
@@ -906,8 +970,9 @@
     "region": "Valle Central",
     "location": "Heredia, Santa Bárbara, Jesús, Birrí",
     "address": "a 5.5 km de la Iglesia de Barva de Heredia, carretera al Volcan Poás.",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.051752864034095,-84.142673224178",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.051752864034095,
+    "longitude": -84.142673224178
   },
   {
     "name": "Minas del Desmonte",
@@ -920,8 +985,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Mateo, Desmonte",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.967646000000007,-84.4727719",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.967646000000007,
+    "longitude": -84.4727719
   },
   {
     "name": "Paradise Hot Springs",
@@ -934,8 +1000,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.484418190167856,-84.68146061898096",
-    "hours": "Lun-Dom: 11:00 am-9:00 pm"
+    "hours": "Lun-Dom: 11:00 am-9:00 pm",
+    "latitude": 10.484418190167856,
+    "longitude": -84.68146061898096
   },
   {
     "name": "Catarata de Bijagual",
@@ -948,8 +1015,9 @@
     "region": "Pacifico Central",
     "location": "San José, Turrubares, Carara",
     "address": "Bijagual, 5 km antes de llegar al pueblo de Bijagual de Turrubares",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.754101,-84.59302",
-    "hours": "Lun-Dom: 7:00 am-4:00 pm"
+    "hours": "Lun-Dom: 7:00 am-4:00 pm",
+    "latitude": 9.754101,
+    "longitude": -84.59302
   },
   {
     "name": "Teatro Reventón",
@@ -962,8 +1030,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Barrio Luján, de el Bar Adriático 50 metros al este o bien de la Panaderia Barrio Luján 100 metros al norte y 50 metros al este.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.927245819980127,-84.07190823558267",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.927245819980127,
+    "longitude": -84.07190823558267
   },
   {
     "name": "Viejillos Discoteque",
@@ -976,8 +1045,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Valverde Vega, Sarchí Sur",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.077829,-84.344566",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.077829,
+    "longitude": -84.344566
   },
   {
     "name": "MultiCines PZ",
@@ -990,8 +1060,9 @@
     "region": "Sur",
     "location": "San José, Pérez Zeledón",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.341317080749253,-83.67337274525198",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.341317080749253,
+    "longitude": -83.67337274525198
   },
   {
     "name": "Restaurante los Peroles",
@@ -1004,8 +1075,9 @@
     "region": "Valle Central",
     "location": "Heredia, San Rafael, Ángeles",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.060554643061874,-84.0918262861669",
-    "hours": "Sáb-Dom: 11:00 am-5:00 pm"
+    "hours": "Sáb-Dom: 11:00 am-5:00 pm",
+    "latitude": 10.060554643061874,
+    "longitude": -84.0918262861669
   },
   {
     "name": "Albergue Ecológico Las Bromelias",
@@ -1018,8 +1090,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Upala, Aguas Claras",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.884835813908593,-85.32186940312386",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.884835813908593,
+    "longitude": -85.32186940312386
   },
   {
     "name": "Refugio Ecológico Mosqueritos",
@@ -1032,8 +1105,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Santa María",
     "address": "La Chonta",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.70025,-83.943726",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.70025,
+    "longitude": -83.943726
   },
   {
     "name": "Las Hornillas",
@@ -1046,8 +1120,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "400 mts sur, 2 kms este de planta Geotérmica Miravalles",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.7131319,-85.17694829999999",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.7131319,
+    "longitude": -85.17694829999999
   },
   {
     "name": "Del Bosque – Granja Eco Turística",
@@ -1060,8 +1135,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Ramón, Peñas Blancas",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.444745,-84.629461",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.444745,
+    "longitude": -84.629461
   },
   {
     "name": "Restaurante La Finca",
@@ -1074,8 +1150,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Valverde Vega, Sarchí Norte",
     "address": "Contiguo a Coopearsa",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.09099,-84.349458",
-    "hours": "Lun-Dom: 8:00 am-6:00 pm"
+    "hours": "Lun-Dom: 8:00 am-6:00 pm",
+    "latitude": 10.09099,
+    "longitude": -84.349458
   },
   {
     "name": "Laguna Volcán Barva",
@@ -1088,8 +1165,9 @@
     "region": "Valle Central",
     "location": "Heredia, Barva, San José de la Montaña",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.129734085366607,-84.1256887329655",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.129734085366607,
+    "longitude": -84.1256887329655
   },
   {
     "name": "Plaza Monte General",
@@ -1102,8 +1180,9 @@
     "region": "Sur",
     "location": "San José, Pérez Zeledón",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.341317080749253,-83.67337274525198",
-    "hours": "Lun-Dom: 10:00 am-11:30 pm"
+    "hours": "Lun-Dom: 10:00 am-11:30 pm",
+    "latitude": 9.341317080749253,
+    "longitude": -83.67337274525198
   },
   {
     "name": "Parque Ambiental Municipal Río Loro",
@@ -1116,8 +1195,9 @@
     "region": "Valle Central",
     "location": "Cartago, Cartago, San Nicolás",
     "address": "Ochomogo, 1 km al noroeste de Recope, sobre calle Avance",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9091989,-83.94346239999999",
-    "hours": "Mié-Dom: 8:00 am-3:00 pm"
+    "hours": "Mié-Dom: 8:00 am-3:00 pm",
+    "latitude": 9.9091989,
+    "longitude": -83.94346239999999
   },
   {
     "name": "Parque Nacional Volcán Irazú",
@@ -1130,8 +1210,9 @@
     "region": "Valle Central",
     "location": "Cartago, Oreamuno, Santa Rosa",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.978122146502487,-83.84509096853435",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 9.978122146502487,
+    "longitude": -83.84509096853435
   },
   {
     "name": "Típico Latino",
@@ -1144,8 +1225,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.987151353708745,-84.11012649536133",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.987151353708745,
+    "longitude": -84.11012649536133
   },
   {
     "name": "EcoTermales Fortuna",
@@ -1158,8 +1240,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.48442577277329,-84.67536449432373",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.48442577277329,
+    "longitude": -84.67536449432373
   },
   {
     "name": "La Puerta de Alcala",
@@ -1172,8 +1255,9 @@
     "region": "Valle Central",
     "location": "Heredia, San Rafael, Ángeles",
     "address": "300 mts este de la Entrada al residencial El Castillo",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.047544299999998,-84.0859678",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.047544299999998,
+    "longitude": -84.0859678
   },
   {
     "name": "Baldi Hot Springs",
@@ -1186,8 +1270,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "4 km al oeste de la Fortuna",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.483093187383117,-84.68047785732779",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.483093187383117,
+    "longitude": -84.68047785732779
   },
   {
     "name": "Mirador Jaco (Ruinas)",
@@ -1200,8 +1285,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Garabito, Jacó",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.596189,-84.618088",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.596189,
+    "longitude": -84.618088
   },
   {
     "name": "Mojitos Dance Club",
@@ -1214,8 +1300,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Calle Blancos, frente al parqueo del Centro comercial El Pueblo, antiguo Plaza Disco Club",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.941324558467425,-84.0747857093811",
-    "hours": "Mié-Dom: 11:00 pm-2:30 am"
+    "hours": "Mié-Dom: 11:00 pm-2:30 am",
+    "latitude": 9.941324558467425,
+    "longitude": -84.0747857093811
   },
   {
     "name": "Parque Nacional Corcovado",
@@ -1228,8 +1315,9 @@
     "region": "Pacifico Sur",
     "location": "Puntarenas, Golfito, Golfito",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=8.55740402145712,-83.58329772949219",
-    "hours": "Mar-Dom: 7:00 am-4:00 pm"
+    "hours": "Mar-Dom: 7:00 am-4:00 pm",
+    "latitude": 8.55740402145712,
+    "longitude": -83.58329772949219
   },
   {
     "name": "Patines Magic",
@@ -1242,8 +1330,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "del parque central, 125 mts al sur",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.99683800361286,-84.11655950520071",
-    "hours": "Lun-Jue: 2:00 pm-10:00 pmVie-Dom: 1:00 pm-10:00 pm"
+    "hours": "Lun-Jue: 2:00 pm-10:00 pmVie-Dom: 1:00 pm-10:00 pm",
+    "latitude": 9.99683800361286,
+    "longitude": -84.11655950520071
   },
   {
     "name": "Cataratas Llanos de Cortés",
@@ -1256,8 +1345,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Bagaces, Bagaces",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.524461117253031,-85.29817771905068",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.524461117253031,
+    "longitude": -85.29817771905068
   },
   {
     "name": "Parque Nacional Volcán Arenal",
@@ -1270,8 +1360,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "a 150 km de San José - a 15 km de la comunidad de la Fortuna - 40 km de Ciudad Quesada.",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.461454901969313,-84.73941765725613",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.461454901969313,
+    "longitude": -84.73941765725613
   },
   {
     "name": "Mirador Ram Luna",
@@ -1284,8 +1375,9 @@
     "region": "Valle Central",
     "location": "San José, Aserrí",
     "address": "A 15 km San José, De la Iglesia de Aserrí, 5km, carretera a Tarbaca sobre Ruta 209",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.836978602951525,-84.09871155026849",
-    "hours": "Lun-Jue: 5:00 pm-10:00 pmVie: 5:00 pm-11:00 pmSáb: 12:00 pm-11:00 pmDom: 12:00 pm-9:00 pm"
+    "hours": "Lun-Jue: 5:00 pm-10:00 pmVie: 5:00 pm-11:00 pmSáb: 12:00 pm-11:00 pmDom: 12:00 pm-9:00 pm",
+    "latitude": 9.836978602951525,
+    "longitude": -84.09871155026849
   },
   {
     "name": "Paraíso de Manantiales",
@@ -1298,8 +1390,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Grecia, Río Cuarto",
     "address": "Colonia del Toro",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.302111,-84.248389",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.302111,
+    "longitude": -84.248389
   },
   {
     "name": "Cataratas de San Gerardo de Dota",
@@ -1312,8 +1405,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Copey",
     "address": "San Gerardo",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.54434433761745,-83.81532540544868",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.54434433761745,
+    "longitude": -83.81532540544868
   },
   {
     "name": "Mirador Bosque Alegre",
@@ -1326,8 +1420,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Grecia, Río Cuarto",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.296043,-84.203208",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.296043,
+    "longitude": -84.203208
   },
   {
     "name": "La Carretica ( Barva )",
@@ -1340,8 +1435,9 @@
     "region": "Valle Central",
     "location": "Heredia, Barva, Santa Lucía",
     "address": "Sobre calle principal camino a Barva, frente a la Musmanni.",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.01316921817964,-84.12064021826609",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.01316921817964,
+    "longitude": -84.12064021826609
   },
   {
     "name": "Paraíso de Volcanes Adventure Park",
@@ -1354,8 +1450,9 @@
     "region": "Valle Central",
     "location": "Cartago, Alvarado, Capellades",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.943085046298638,-83.77667963504791",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.943085046298638,
+    "longitude": -83.77667963504791
   },
   {
     "name": "Universidad Técnica Nacional - Sede Atenas",
@@ -1368,8 +1465,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Atenas, Concepción",
     "address": "Balsa",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.937338909854141,-84.37649774525198",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.937338909854141,
+    "longitude": -84.37649774525198
   },
   {
     "name": "Río Celeste",
@@ -1382,8 +1480,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Guatuso, Katira",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.70312,-84.97771",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.70312,
+    "longitude": -84.97771
   },
   {
     "name": "Parque de Diversiones",
@@ -1396,8 +1495,9 @@
     "region": "Valle Central",
     "location": "San José, San José, Uruca",
     "address": "2 km oeste del Hospital México",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9600484,-84.129661",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.9600484,
+    "longitude": -84.129661
   },
   {
     "name": "Yökö Termales",
@@ -1410,8 +1510,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "2 kilómetros al norte del proyecto geotérmico Miravalles",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.7203635,-85.19727949999998",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.7203635,
+    "longitude": -85.19727949999998
   },
   {
     "name": "Poza la Pipa",
@@ -1424,8 +1525,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Liberia, Curubandé",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.7197949,-85.4104706",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.7197949,
+    "longitude": -85.4104706
   },
   {
     "name": "Catarata el Salto de la Novia",
@@ -1438,8 +1540,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Paraíso",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.833093238736367,-83.84321769699454",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.833093238736367,
+    "longitude": -83.84321769699454
   },
   {
     "name": "Verde Malakita",
@@ -1452,8 +1555,9 @@
     "region": "Valle Central",
     "location": "San José, Turrubares, San Pablo",
     "address": "Monterrey Bajo la Lumbre",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.910688,-84.475889",
-    "hours": "Lun-Mar: 8:00 am-5:00 pmSáb-Dom: 8:00 am-5:00 pm"
+    "hours": "Lun-Mar: 8:00 am-5:00 pmSáb-Dom: 8:00 am-5:00 pm",
+    "latitude": 9.910688,
+    "longitude": -84.475889
   },
   {
     "name": "Finca La Piedra Encantada",
@@ -1466,8 +1570,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Jardín",
     "address": "San Cristóbal Sur, km 42 de la Interamericana Sur",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.740045155398777,-83.98458330211724",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.740045155398777,
+    "longitude": -83.98458330211724
   },
   {
     "name": "Playa Calzón de Pobre",
@@ -1480,8 +1585,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Carrillo, Sardinal",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.571897590373325,-85.69231653527822",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.571897590373325,
+    "longitude": -85.69231653527822
   },
   {
     "name": "Patines Music",
@@ -1494,8 +1600,9 @@
     "region": "Valle Central",
     "location": "San José, Montes de Oca, San Pedro",
     "address": "25 mts al este de la Fuente de la Hispanidad",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.933073072396555,-84.0553268194526",
-    "hours": "Lun-Vie: 7:00 pm-10:00 pmSáb: 1:00 pm-10:00 pmDom: 10:00 am-10:00 pm"
+    "hours": "Lun-Vie: 7:00 pm-10:00 pmSáb: 1:00 pm-10:00 pmDom: 10:00 am-10:00 pm",
+    "latitude": 9.933073072396555,
+    "longitude": -84.0553268194526
   },
   {
     "name": "Jaco Blu",
@@ -1508,8 +1615,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Garabito, Jacó",
     "address": "Del Parque 100m N y 100m O",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.61743820116485,-84.63345657102764",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.61743820116485,
+    "longitude": -84.63345657102764
   },
   {
     "name": "Teatro Eugene O'Neill",
@@ -1522,8 +1630,9 @@
     "region": "Valle Central",
     "location": "San José, Montes de Oca, San Pedro",
     "address": "los Yoses, 50 m norte Boliche Dent, Calle 37 entre Avenida 1 y 3",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.934091364667513,-84.06130573154314",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.934091364667513,
+    "longitude": -84.06130573154314
   },
   {
     "name": "Aventuras Orosi",
@@ -1536,8 +1645,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "Restaurante Río Palomo, Contiguo al puente colgante",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.78233682361395,-83.83851310238242",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.78233682361395,
+    "longitude": -83.83851310238242
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Curú",
@@ -1550,8 +1660,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Paquera",
     "address": "Península de Nicoya, Siete kilómetros al sur de Paquera carretera a Cóbano",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.793183804475767,-84.92455646395683",
-    "hours": "Lun-Dom: 7:00 am-4:00 pm"
+    "hours": "Lun-Dom: 7:00 am-4:00 pm",
+    "latitude": 9.793183804475767,
+    "longitude": -84.92455646395683
   },
   {
     "name": "Bar Taos (Zapote)",
@@ -1564,8 +1675,9 @@
     "region": "Valle Central",
     "location": "San José, San José, Zapote",
     "address": "250m oeste y 50 norte de Casa Presidencial",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.925404829082288,-84.05593078583479",
-    "hours": "Lun-Mié: 12:00 pm-12:00 amJue-Sáb: 12:00 pm-2:00 am"
+    "hours": "Lun-Mié: 12:00 pm-12:00 amJue-Sáb: 12:00 pm-2:00 am",
+    "latitude": 9.925404829082288,
+    "longitude": -84.05593078583479
   },
   {
     "name": "Parque Nacional Marino Ballena",
@@ -1578,8 +1690,9 @@
     "region": "Pacifico Sur",
     "location": "Puntarenas, Osa, Bahía Ballena",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.155002500809667,-83.74813984148204",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.155002500809667,
+    "longitude": -83.74813984148204
   },
   {
     "name": "Parque Nacional Barra Honda",
@@ -1592,8 +1705,9 @@
     "region": "Golfo Nicoya",
     "location": "Guanacaste, Nicoya, Quebrada Honda",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.175077777777776,-85.37199722222222",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.175077777777776,
+    "longitude": -85.37199722222222
   },
   {
     "name": "Tabacón",
@@ -1606,8 +1720,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.49131041339024,-84.72189059481025",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.49131041339024,
+    "longitude": -84.72189059481025
   },
   {
     "name": "Monte Sky Mirador Ecológico",
@@ -1620,8 +1735,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.744101,-83.833378",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.744101,
+    "longitude": -83.833378
   },
   {
     "name": "Boliche Dent",
@@ -1634,8 +1750,9 @@
     "region": "Valle Central",
     "location": "San José, San José",
     "address": "los Yoses, 50 metros sur del Centro Cultura Costarricense Norteamericano, en Barrio Dent",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9332648,-84.06163749999996",
-    "hours": "Lun-Dom: 11:00 am-12:00 am"
+    "hours": "Lun-Dom: 11:00 am-12:00 am",
+    "latitude": 9.9332648,
+    "longitude": -84.06163749999996
   },
   {
     "name": "Catarata Diamante Verde",
@@ -1648,8 +1765,9 @@
     "region": "Sur",
     "location": "San José, Pérez Zeledón, Barú",
     "address": "después de PZ en dirección hacia Dominical, se pasa el pueblo Tinamastes, se dobla a la izquierda hacia San Salvador de Barú (7 km después de doblar)",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.267010932908256,-83.76926265656948",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.267010932908256,
+    "longitude": -83.76926265656948
   },
   {
     "name": "Posada Nacientes Palmichal",
@@ -1662,8 +1780,9 @@
     "region": "Valle Central",
     "location": "San José, Acosta, Palmichal",
     "address": "75 mts oeste de la Guarda Rural",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.8401,-84.177875",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.8401,
+    "longitude": -84.177875
   },
   {
     "name": "Parque Marino del Pacifico",
@@ -1676,8 +1795,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Puntarenas, Puntarenas",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.976939999999999,-84.82784800000002",
-    "hours": "Mar-Dom: 9:00 am-5:00 pm"
+    "hours": "Mar-Dom: 9:00 am-5:00 pm",
+    "latitude": 9.976939999999999,
+    "longitude": -84.82784800000002
   },
   {
     "name": "Blue River",
@@ -1690,8 +1810,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Upala, Dos Ríos",
     "address": "faldas del Volcán Rincón de la Vieja, 600 mts oeste del Mariposario, Gavilán",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.787702333642782,-85.4152379030711",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.787702333642782,
+    "longitude": -85.4152379030711
   },
   {
     "name": "Parque Nacional Palo Verde",
@@ -1704,8 +1825,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.380755827725373,-85.32737731933594",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.380755827725373,
+    "longitude": -85.32737731933594
   },
   {
     "name": "Balneario Piedra Rajada",
@@ -1718,8 +1840,9 @@
     "region": "Pacifico Central",
     "location": "Alajuela, San Mateo",
     "address": "Labrador",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.912792690590724,-84.64725769080735",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.912792690590724,
+    "longitude": -84.64725769080735
   },
   {
     "name": "Centro de Vida Silvestre Snake Garden",
@@ -1732,8 +1855,9 @@
     "region": "Llanuras del Norte",
     "location": "Heredia, Sarapiquí, La Virgen",
     "address": "2 Km al noreste del Banco Nacional de Costa Rica.",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.408411030554435,-84.12684872877435",
-    "hours": "Lun-Dom: 9:00 am-5:00 pm"
+    "hours": "Lun-Dom: 9:00 am-5:00 pm",
+    "latitude": 10.408411030554435,
+    "longitude": -84.12684872877435
   },
   {
     "name": "Área de Conservación Cordillera Volcánica Central",
@@ -1746,8 +1870,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.936379171633646,-84.10188674926758",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.936379171633646,
+    "longitude": -84.10188674926758
   },
   {
     "name": "Rancho Tabacón Veracruz",
@@ -1760,8 +1885,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Los Chiles, Caño Negro, Veracruz",
     "address": "400 metros oeste de la escuela de Veracruz",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.853,-84.871",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.853,
+    "longitude": -84.871
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Isla San Lucas",
@@ -1774,8 +1900,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Puntarenas",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.941002241815497,-84.90589428227395",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.941002241815497,
+    "longitude": -84.90589428227395
   },
   {
     "name": "Cataratas Namú",
@@ -1788,8 +1915,9 @@
     "region": "Sur",
     "location": "San José, Pérez Zeledón, Pejibaye",
     "address": "San Antonio, 2 km antes de llegar a la comunidad, a 25 km de San Isidro de El General.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.192638,-83.565913",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.192638,
+    "longitude": -83.565913
   },
   {
     "name": "Plaza Multiflores",
@@ -1802,8 +1930,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, San Francisco",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.99114555159164,-84.13385438925616",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.99114555159164,
+    "longitude": -84.13385438925616
   },
   {
     "name": "INBioparque",
@@ -1816,8 +1945,9 @@
     "region": "Valle Central",
     "location": "Heredia, Santo Domingo",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9742,-84.09320000000002",
-    "hours": "Vie-Dom: 9:00 am-4:00 pm"
+    "hours": "Vie-Dom: 9:00 am-4:00 pm",
+    "latitude": 9.9742,
+    "longitude": -84.09320000000002
   },
   {
     "name": "Parque Nacional Los Quetzales",
@@ -1830,8 +1960,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Copey",
     "address": "Cerro de la Muerte, por Chespiritos #2",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.615082264045355,-83.81800979375839",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.615082264045355,
+    "longitude": -83.81800979375839
   },
   {
     "name": "Isla Chira",
@@ -1844,8 +1975,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.1012919,-85.15830640000001",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.1012919,
+    "longitude": -85.15830640000001
   },
   {
     "name": "Bar y Restaurante Linda Vista",
@@ -1858,8 +1990,9 @@
     "region": "Valle Central",
     "location": "Cartago, Oreamuno, Potrero Grande",
     "address": "después de San Juan de Chicoa, subiendo hacia el volcán",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.950383768548525,-83.86060218326747",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.950383768548525,
+    "longitude": -83.86060218326747
   },
   {
     "name": "Parque Nacional Volcán Tenorio",
@@ -1872,8 +2005,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Guatuso, Katira",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.70312,-84.97771",
-    "hours": "Lun-Dom: 8:00 am-2:30 pm"
+    "hours": "Lun-Dom: 8:00 am-2:30 pm",
+    "latitude": 10.70312,
+    "longitude": -84.97771
   },
   {
     "name": "Los Molinos De Viento",
@@ -1886,8 +2020,9 @@
     "region": "Valle Central",
     "location": "Cartago, Alvarado, Cervantes",
     "address": "Carretera a Turrialba",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.8810500067019,-83.81551909453265",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.8810500067019,
+    "longitude": -83.81551909453265
   },
   {
     "name": "Tierras Enamoradas",
@@ -1900,8 +2035,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Ramón, Ángeles",
     "address": "San Lorenzo",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.272085125317451,-84.5240982809446",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.272085125317451,
+    "longitude": -84.5240982809446
   },
   {
     "name": "Restaurante Mirador la luna",
@@ -1914,8 +2050,9 @@
     "region": "Valle Central",
     "location": "Alajuela",
     "address": "4 km norte de los Tribunales de Justicia, carretera al volcán",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.054453,-84.205026",
-    "hours": "Mar-Jue: 4:00 pm-10:30 pmVie-Sáb: 4:00 pm-11:30 pmDom: 12:00 pm-9:30 pm"
+    "hours": "Mar-Jue: 4:00 pm-10:30 pmVie-Sáb: 4:00 pm-11:30 pmDom: 12:00 pm-9:30 pm",
+    "latitude": 10.054453,
+    "longitude": -84.205026
   },
   {
     "name": "Río Perdido",
@@ -1928,8 +2065,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.5954412,-85.2008629",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.5954412,
+    "longitude": -85.2008629
   },
   {
     "name": "Hotel Arenal Paraiso",
@@ -1942,8 +2080,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "de la Iglesia Católica 7km carretera al Volcán",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.502934523668348,-84.69548106193542",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.502934523668348,
+    "longitude": -84.69548106193542
   },
   {
     "name": "Parque Nacional Carara",
@@ -1956,8 +2095,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Garabito, Tárcoles",
     "address": "Parcial: Puntarenas, San José",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.780582,-84.606855",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.780582,
+    "longitude": -84.606855
   },
   {
     "name": "Albergue Heliconias",
@@ -1970,8 +2110,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Upala, Bijagua",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.733583048612948,-85.05564540624619",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.733583048612948,
+    "longitude": -85.05564540624619
   },
   {
     "name": "Esterillos Oeste",
@@ -1984,8 +2125,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Parrita, Parrita, Esterillos Oeste",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.526542879465412,-84.50308084487915",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.526542879465412,
+    "longitude": -84.50308084487915
   },
   {
     "name": "Reno's Mini Golf",
@@ -1998,8 +2140,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.468968246123943,-84.65161185711622",
-    "hours": "Lun-Sáb: 5:00 pm-9:00 pmDom: 1:00 pm-9:00 pm"
+    "hours": "Lun-Sáb: 5:00 pm-9:00 pmDom: 1:00 pm-9:00 pm",
+    "latitude": 10.468968246123943,
+    "longitude": -84.65161185711622
   },
   {
     "name": "Catarata Mapache",
@@ -2012,8 +2155,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Upala",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.884835813908593,-85.32186940312386",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.884835813908593,
+    "longitude": -85.32186940312386
   },
   {
     "name": "Sueños del Bosque",
@@ -2026,8 +2170,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Copey",
     "address": "San Gerardo",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.54873658982288,-83.80828343331814",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.54873658982288,
+    "longitude": -83.80828343331814
   },
   {
     "name": "África Safari Adventure Park",
@@ -2040,8 +2185,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Liberia, Liberia",
     "address": "El Salto de Liberia, entre Bagaces y Liberia",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.564229,-85.3999311",
-    "hours": "Lun-Dom: 9:00 am-5:00 pm"
+    "hours": "Lun-Dom: 9:00 am-5:00 pm",
+    "latitude": 10.564229,
+    "longitude": -85.3999311
   },
   {
     "name": "Taberna Longhorns",
@@ -2054,8 +2200,9 @@
     "region": "Valle Central",
     "location": "Heredia, Flores, San Joaquín",
     "address": "800 mts este de la Cervecería de Costa Rica",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.003206937906372,-84.1644125282437",
-    "hours": "Lun-Jue: 5:00 pm-12:00 amVie: 1:00 pm-1:00 amSáb: 1:00 pm-11:00 pm"
+    "hours": "Lun-Jue: 5:00 pm-12:00 amVie: 1:00 pm-1:00 amSáb: 1:00 pm-11:00 pm",
+    "latitude": 10.003206937906372,
+    "longitude": -84.1644125282437
   },
   {
     "name": "Poza Machuca",
@@ -2068,8 +2215,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Mateo, San Mateo",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.928737429572571,-84.52159559727534",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.928737429572571,
+    "longitude": -84.52159559727534
   },
   {
     "name": "Red de Ecoturismo Indígena de Talamanca",
@@ -2082,8 +2230,9 @@
     "region": "Caribe",
     "location": "Limón, Talamanca, Bratsi",
     "address": "Shiroles",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.58668,-82.95152",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.58668,
+    "longitude": -82.95152
   },
   {
     "name": "Castro's Bar",
@@ -2096,8 +2245,9 @@
     "region": "Valle Central",
     "location": "San José, San José, Merced, Barrio México",
     "address": "200m oeste del Departamento de Bomberos, Avenida 13, Calle 22",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.941392015866999,-84.08792853355408",
-    "hours": "Lun-Jue: 11:00 am-3:00 pmVie-Sáb: 11:00 am-4:30 amDom: 11:00 am-3:00 pm"
+    "hours": "Lun-Jue: 11:00 am-3:00 pmVie-Sáb: 11:00 am-4:30 amDom: 11:00 am-3:00 pm",
+    "latitude": 9.941392015866999,
+    "longitude": -84.08792853355408
   },
   {
     "name": "Parque Nacional Volcán Poás",
@@ -2110,8 +2260,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.185585,-84.236278",
-    "hours": "Mar-Dom: 7:00 am-4:00 pm"
+    "hours": "Mar-Dom: 7:00 am-4:00 pm",
+    "latitude": 10.185585,
+    "longitude": -84.236278
   },
   {
     "name": "Parque Nacional Rincón de la Vieja",
@@ -2124,8 +2275,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Liberia, Liberia",
     "address": "Parcial: Guanacaste, Alajuela",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.772805,-85.349716",
-    "hours": "Mar-Dom: 7:00 am-3:00 pm"
+    "hours": "Mar-Dom: 7:00 am-3:00 pm",
+    "latitude": 10.772805,
+    "longitude": -85.349716
   },
   {
     "name": "Restaurante Jacó Rústico",
@@ -2138,8 +2290,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Garabito",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.61183005546864,-84.62705413810909",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.61183005546864,
+    "longitude": -84.62705413810909
   },
   {
     "name": "CitiCinemas Plaza Grecia",
@@ -2152,8 +2305,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Grecia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.078102552104369,-84.3174859284045",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.078102552104369,
+    "longitude": -84.3174859284045
   },
   {
     "name": "Molino Central",
@@ -2166,8 +2320,9 @@
     "region": "Valle Central",
     "location": "San José, Vázquez de Coronado, San Isidro",
     "address": "de la Iglesia 100 Norte 25 Oeste",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.977519315923683,-84.0075915120542",
-    "hours": "Lun-Dom: 7:30 am-7:30 pm"
+    "hours": "Lun-Dom: 7:30 am-7:30 pm",
+    "latitude": 9.977519315923683,
+    "longitude": -84.0075915120542
   },
   {
     "name": "Parapente Turrialba",
@@ -2180,8 +2335,9 @@
     "region": "Valle Central",
     "location": "Cartago, Turrialba, Santa Cruz",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.960988799999999,-83.7482536",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.960988799999999,
+    "longitude": -83.7482536
   },
   {
     "name": "Catarata los Julianes",
@@ -2194,8 +2350,9 @@
     "region": "Pacifico Central",
     "location": "San José, Dota, Santa María, Naranjo",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.65,-83.96666670000002",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.65,
+    "longitude": -83.96666670000002
   },
   {
     "name": "Doka Estate Coffee Tour",
@@ -2208,8 +2365,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Alajuela, Sabanilla",
     "address": "San Luis",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.098284849179644,-84.21195602430089",
-    "hours": "Lun-Vie: 8:00 am-5:00 pmSáb-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Vie: 8:00 am-5:00 pmSáb-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.098284849179644,
+    "longitude": -84.21195602430089
   },
   {
     "name": "Bar la Palma",
@@ -2222,8 +2380,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, Mercedes",
     "address": "Mercedes Sur",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.99873365762715,-84.1378422640264",
-    "hours": "Lun-Vie: 3:00 pm-11:00 pmSáb: 12:00 pm-12:00 am"
+    "hours": "Lun-Vie: 3:00 pm-11:00 pmSáb: 12:00 pm-12:00 am",
+    "latitude": 9.99873365762715,
+    "longitude": -84.1378422640264
   },
   {
     "name": "Teatro Melico Salazar",
@@ -2236,8 +2395,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.933341764051697,-84.07937335974566",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.933341764051697,
+    "longitude": -84.07937335974566
   },
   {
     "name": "Restaurante El Campesino",
@@ -2250,8 +2410,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, Ulloa, La Aurora",
     "address": "Diagonal este al Parque",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.987970370318536,-84.15084779262543",
-    "hours": "Lun-Sáb: 11:00 am-8:00 pm"
+    "hours": "Lun-Sáb: 11:00 am-8:00 pm",
+    "latitude": 9.987970370318536,
+    "longitude": -84.15084779262543
   },
   {
     "name": "Parque Nacional Manuel Antonio",
@@ -2264,8 +2425,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Aguirre, Quepos, Manuel Antonio",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.391217937369849,-84.14539854973555",
-    "hours": "Mar-Dom: 7:00 am-4:00 pm"
+    "hours": "Mar-Dom: 7:00 am-4:00 pm",
+    "latitude": 9.391217937369849,
+    "longitude": -84.14539854973555
   },
   {
     "name": "Playa Huevo",
@@ -2278,8 +2440,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Liberia, Nacascolo",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.633556996391706,-85.67897541623097",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.633556996391706,
+    "longitude": -85.67897541623097
   },
   {
     "name": "Casa Zeller",
@@ -2292,8 +2455,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "San Sebastián, Paso Ancho,   400 m al norte de la rotonda de la Guacamaya",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.912576303986146,-84.07882073530345",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.912576303986146,
+    "longitude": -84.07882073530345
   },
   {
     "name": "Sensoria",
@@ -2306,8 +2470,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Upala, Aguas Claras",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.872017243066178,-85.32527228817344",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.872017243066178,
+    "longitude": -85.32527228817344
   },
   {
     "name": "Fiesta Latina",
@@ -2320,8 +2485,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.941237903154414,-84.07382011413574",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.941237903154414,
+    "longitude": -84.07382011413574
   },
   {
     "name": "Iglesia de Orosí",
@@ -2334,8 +2500,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.797511187226856,-83.85543680204137",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.797511187226856,
+    "longitude": -83.85543680204137
   },
   {
     "name": "Ruinas de Cartago",
@@ -2348,8 +2515,9 @@
     "region": "Valle Central",
     "location": "Cartago, Cartago",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.86429982116885,-83.91983234885629",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.86429982116885,
+    "longitude": -83.91983234885629
   },
   {
     "name": "Parque Nacional Chirripó",
@@ -2362,8 +2530,9 @@
     "region": "Sur",
     "location": "Limón",
     "address": "Parcial: San José, Cartago, Limón",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.49820982402425,-83.49918365478516",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.49820982402425,
+    "longitude": -83.49918365478516
   },
   {
     "name": "Reserva Ecológica Catarata Río Fortuna",
@@ -2376,8 +2545,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "800 m al sur y 4 km al oeste del Redondel de la Fortuna.",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.442072092285155,-84.66741224750876",
-    "hours": "Lun-Dom: 8:00 am-5:00 pm"
+    "hours": "Lun-Dom: 8:00 am-5:00 pm",
+    "latitude": 10.442072092285155,
+    "longitude": -84.66741224750876
   },
   {
     "name": "Parque Nacional La Cangreja",
@@ -2390,8 +2560,9 @@
     "region": "Pacifico Central",
     "location": "San José, Puriscal, Chires",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.703203,-84.397604",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 9.703203,
+    "longitude": -84.397604
   },
   {
     "name": "Cataratas Arrayanes",
@@ -2404,8 +2575,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, Varablanca",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.208705,-84.128662",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.208705,
+    "longitude": -84.128662
   },
   {
     "name": "El Observatorio",
@@ -2418,8 +2590,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "frente al Cine Magaly, Barrio La California, Calle 23 y Avenida Central 1",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.93322225745763,-84.06837522983551",
-    "hours": "Lun-Vie: 11:00 am-2:00 pm, 6:00 pm-2:00 amSáb: 6:00 pm-2:00 am"
+    "hours": "Lun-Vie: 11:00 am-2:00 pm, 6:00 pm-2:00 amSáb: 6:00 pm-2:00 am",
+    "latitude": 9.93322225745763,
+    "longitude": -84.06837522983551
   },
   {
     "name": "Nova Cinemas",
@@ -2432,8 +2605,9 @@
     "region": "Valle Central",
     "location": "San José, Escazú, San Rafael",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.937248163786863,-84.14365192875266",
-    "hours": "Lun-Dom: 11:00 am-10:00 pm"
+    "hours": "Lun-Dom: 11:00 am-10:00 pm",
+    "latitude": 9.937248163786863,
+    "longitude": -84.14365192875266
   },
   {
     "name": "Parque Nacional Juan Castro Blanco",
@@ -2446,8 +2620,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.293334771589867,-84.32762145996094",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.293334771589867,
+    "longitude": -84.32762145996094
   },
   {
     "name": "Buses Coronado - Terminal Coronado",
@@ -2460,8 +2635,9 @@
     "region": "Valle Central",
     "location": "San José, Vázquez de Coronado, San Isidro",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.978047850428457,-84.00683026760817",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.978047850428457,
+    "longitude": -84.00683026760817
   },
   {
     "name": "Iglesia de la Fortuna de San Carlos",
@@ -2474,8 +2650,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.4708333,-84.64527780000003",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.4708333,
+    "longitude": -84.64527780000003
   },
   {
     "name": "Posada Cerro Escondido",
@@ -2488,8 +2665,9 @@
     "region": "Pacifico Norte",
     "location": "Puntarenas, Puntarenas, Lepanto, Jicaral",
     "address": "San Ramón de Rio Blanco",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.8991865,-85.035553",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.8991865,
+    "longitude": -85.035553
   },
   {
     "name": "Cuban Republik Disco Lounge",
@@ -2502,8 +2680,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Aguirre, Quepos",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.431329107251457,-84.16480600833893",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.431329107251457,
+    "longitude": -84.16480600833893
   },
   {
     "name": "La Deportiva Charlie's Bar",
@@ -2516,8 +2695,9 @@
     "region": "Valle Central",
     "location": "Heredia, Belén, Asunción",
     "address": "Contiguo a la Plaza de Deportes, Costado Oeste",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.979939051717349,-84.16974714025855",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.979939051717349,
+    "longitude": -84.16974714025855
   },
   {
     "name": "Santuario de lapas El Manantial",
@@ -2530,8 +2710,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Puntarenas, Pitahaya, Aranjuez",
     "address": "Carretera a Guanacaste, 13km de Cuatrocruces",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.049422139115887,-84.80582660437449",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.049422139115887,
+    "longitude": -84.80582660437449
   },
   {
     "name": "La Casona del Cafetal",
@@ -2544,8 +2725,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Cachí",
     "address": "De la represa de Cachi 1.5 km al sur",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.828146612529741,-83.81126831285655",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.828146612529741,
+    "longitude": -83.81126831285655
   },
   {
     "name": "Mirador Prendas",
@@ -2558,8 +2740,9 @@
     "region": "Llanuras del Norte",
     "location": "Heredia, Sarapiquí, Horquetas",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.318233642179147,-83.79393157575072",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.318233642179147,
+    "longitude": -83.79393157575072
   },
   {
     "name": "Reserva Biológica Cerro las Vueltas",
@@ -2572,8 +2755,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Copey",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.61138890000001,-83.85777780000005",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.61138890000001,
+    "longitude": -83.85777780000005
   },
   {
     "name": "Basílica de Nuestra Señora de los Ángeles",
@@ -2586,8 +2770,9 @@
     "region": "Valle Central",
     "location": "Cartago, Cartago",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.864025788133139,-83.91330814374669",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.864025788133139,
+    "longitude": -83.91330814374669
   },
   {
     "name": "Centro Cultural Bribripa Kaneblo",
@@ -2600,8 +2785,9 @@
     "region": "Pacifico Sur",
     "location": "Puntarenas, Buenos Aires, Buenos Aires",
     "address": "Salitre",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.190395207677788,-83.30699265003204",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.190395207677788,
+    "longitude": -83.30699265003204
   },
   {
     "name": "EcoTEC",
@@ -2614,8 +2800,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Florencia",
     "address": "Santa Clara",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.362241044941808,-84.50995373699698",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.362241044941808,
+    "longitude": -84.50995373699698
   },
   {
     "name": "Ocean Ranch Park",
@@ -2628,8 +2815,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Garabito, Jacó",
     "address": "Playa Hermosa - Quebrada Amarilla",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.585728099999999,-84.54668279999999",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.585728099999999,
+    "longitude": -84.54668279999999
   },
   {
     "name": "Parque Nacional Braulio Carrillo",
@@ -2642,8 +2830,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Parcial: Limón, Cartago, San José",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.16184752705182,-83.93797563048793",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.16184752705182,
+    "longitude": -83.93797563048793
   },
   {
     "name": "Catarata de la Paz",
@@ -2656,8 +2845,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Alajuela, Sarapiquí",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.206976902661218,-84.16382633149624",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.206976902661218,
+    "longitude": -84.16382633149624
   },
   {
     "name": "Freddo Fresas",
@@ -2670,8 +2860,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela",
     "address": "Poasito, Carreteta al Volcán Poás, 200 m al norte del cementerio en Fraijanes",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.157192,-84.195732",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.157192,
+    "longitude": -84.195732
   },
   {
     "name": "Soda El Jardín San Ramón",
@@ -2684,8 +2875,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Ramón, Santiago",
     "address": "De la entrada de San Ramón, 3km camino hacia Puntarenas (El Alto de Santiago, Calle León).",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.060448385407645,-84.49888532515615",
-    "hours": "Lun-Dom: 5:30 am-9:00 pm"
+    "hours": "Lun-Dom: 5:30 am-9:00 pm",
+    "latitude": 10.060448385407645,
+    "longitude": -84.49888532515615
   },
   {
     "name": "Catarata Chindama",
@@ -2698,8 +2890,9 @@
     "region": "Caribe",
     "location": "Limón, Pococí, Guápiles",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.108159,-83.795",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.108159,
+    "longitude": -83.795
   },
   {
     "name": "La Taberna del Vaquero Pobre",
@@ -2712,8 +2905,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Parrita, Parrita, La Palma",
     "address": "Contiguo a la subasta ganadera",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.532911977271763,-84.37451076402795",
-    "hours": "Lun-Dom: 4:00 pm-2:30 am"
+    "hours": "Lun-Dom: 4:00 pm-2:30 am",
+    "latitude": 9.532911977271763,
+    "longitude": -84.37451076402795
   },
   {
     "name": "Cinco Ceibas",
@@ -2726,8 +2920,9 @@
     "region": "Caribe",
     "location": "Heredia, Sarapiquí, La Virgen",
     "address": "Finca Pangola",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.5663093,-84.14622099999997",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.5663093,
+    "longitude": -84.14622099999997
   },
   {
     "name": "Poza la Vieja",
@@ -2740,8 +2935,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Florencia, La Vieja",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.364233,-84.478882",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.364233,
+    "longitude": -84.478882
   },
   {
     "name": "Arco Iris",
@@ -2754,8 +2950,9 @@
     "region": "Valle Central",
     "location": "Puntarenas, Aguirre, Quepos",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.43391683939446,-84.16431784629822",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.43391683939446,
+    "longitude": -84.16431784629822
   },
   {
     "name": "Hacienda Pozo Azul",
@@ -2768,8 +2965,9 @@
     "region": "Llanuras del Norte",
     "location": "Heredia, Sarapiquí, La Virgen",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.387664920241528,-84.13942049257457",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.387664920241528,
+    "longitude": -84.13942049257457
   },
   {
     "name": "Iglesia Metálica Grecia",
@@ -2782,8 +2980,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Grecia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.072933980354662,-84.3107256890653",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.072933980354662,
+    "longitude": -84.3107256890653
   },
   {
     "name": "Nature Air",
@@ -2796,8 +2995,9 @@
     "region": "Valle Central",
     "location": "Alajuela",
     "address": "Aeropuerto Juan Santa María",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.998237999999999,-84.20407999999998",
-    "hours": "Lun-Vie: 7:00 am-6:00 pmSáb-Dom: 7:00 am-5:00 pm"
+    "hours": "Lun-Vie: 7:00 am-6:00 pmSáb-Dom: 7:00 am-5:00 pm",
+    "latitude": 9.998237999999999,
+    "longitude": -84.20407999999998
   },
   {
     "name": "Parroquia San Rafael Arcángel (Zarcero)",
@@ -2810,8 +3010,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Zarcero, Zarcero",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.184160118644042,-84.39064908034197",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.184160118644042,
+    "longitude": -84.39064908034197
   },
   {
     "name": "Represa de Cachí",
@@ -2824,8 +3025,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Cachí",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.840662891197116,-83.80420337431133",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.840662891197116,
+    "longitude": -83.80420337431133
   },
   {
     "name": "Espíritu Santo Coffee Tour",
@@ -2838,8 +3040,9 @@
     "region": "Pacifico Central",
     "location": "Alajuela, Naranjo, Naranjo",
     "address": "del Banco Nacional , 200 m al sur y 900 m oeste",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.095416818154334,-84.3837708234787",
-    "hours": "Lun-Dom: 8:00 am-5:00 pm"
+    "hours": "Lun-Dom: 8:00 am-5:00 pm",
+    "latitude": 10.095416818154334,
+    "longitude": -84.3837708234787
   },
   {
     "name": "Catarata El Peje",
@@ -2852,8 +3055,9 @@
     "region": "Sur",
     "location": "San José, Pérez Zeledón, Daniel Flores",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.281662,-83.65856300000002",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.281662,
+    "longitude": -83.65856300000002
   },
   {
     "name": "Multiplaza Curridabat",
@@ -2866,8 +3070,9 @@
     "region": "Valle Central",
     "location": "San José, Curridabat, Curridabat",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.917520907606388,-84.0465259552002",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.917520907606388,
+    "longitude": -84.0465259552002
   },
   {
     "name": "Centro Plaza Liberia",
@@ -2880,8 +3085,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Liberia, Liberia",
     "address": "1 km al Sur de la entrada principal a la ciudad de Liberia (cruce de los semáforos).",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.618207195895259,-85.43698310852051",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.618207195895259,
+    "longitude": -85.43698310852051
   },
   {
     "name": "Plaza Bratsi",
@@ -2894,8 +3100,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "Diagonal a la Universidad Latina Heredia",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.987706258510729,-84.11079597499338",
-    "hours": "Lun-Dom: 10:00 am-7:00 pm"
+    "hours": "Lun-Dom: 10:00 am-7:00 pm",
+    "latitude": 9.987706258510729,
+    "longitude": -84.11079597499338
   },
   {
     "name": "Pollos del Monte",
@@ -2908,8 +3115,9 @@
     "region": "Valle Central",
     "location": "Heredia, Belén",
     "address": "800 metros al oeste de la plaza de deportes de\nSan Antonio de Belén. O 300 metros al este de la Panasonic.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.979236161860817,-84.19403994070308",
-    "hours": "Lun-Sáb: 11:00 am-10:00 pmDom: 11:00 am-9:00 pm"
+    "hours": "Lun-Sáb: 11:00 am-10:00 pmDom: 11:00 am-9:00 pm",
+    "latitude": 9.979236161860817,
+    "longitude": -84.19403994070308
   },
   {
     "name": "Zona Protectora Arenal - Monteverde",
@@ -2922,8 +3130,9 @@
     "region": "Monteverde",
     "location": "Alajuela",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.310370558660747,-84.74166870117188",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.310370558660747,
+    "longitude": -84.74166870117188
   },
   {
     "name": "Macaw Lodge",
@@ -2936,8 +3145,9 @@
     "region": "Pacifico Central",
     "location": "San José, Turrubares, Carara",
     "address": "Sur de Turrubares",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.728506958303964,-84.51867084950209",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.728506958303964,
+    "longitude": -84.51867084950209
   },
   {
     "name": "Puerto Puntarenas",
@@ -2950,8 +3160,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.974650350246899,-84.83136177062988",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.974650350246899,
+    "longitude": -84.83136177062988
   },
   {
     "name": "Britt Coffee Tour",
@@ -2964,8 +3175,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "Santa Lucía, del Auto Mercado 500m Norte, 400m Oeste",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.00952,-84.121565",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.00952,
+    "longitude": -84.121565
   },
   {
     "name": "Plaza Real Cariari",
@@ -2978,8 +3190,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "En el cruce de San Antonio de Belén sobre la autopista General Cañas",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.980296421341809,-84.16038036346436",
-    "hours": "Lun-Sáb: 10:30 am-8:00 pmDom: 11:00 am-7:00 pm"
+    "hours": "Lun-Sáb: 10:30 am-8:00 pmDom: 11:00 am-7:00 pm",
+    "latitude": 9.980296421341809,
+    "longitude": -84.16038036346436
   },
   {
     "name": "Posada Rural La Amistad",
@@ -2992,8 +3205,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.107334072921505,-85.17624448053539",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.107334072921505,
+    "longitude": -85.17624448053539
   },
   {
     "name": "El Fortín",
@@ -3006,8 +3220,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.999132654213792,-84.11702835546748",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.999132654213792,
+    "longitude": -84.11702835546748
   },
   {
     "name": "Cataratas Cabro Muco",
@@ -3020,8 +3235,9 @@
     "region": "Llanuras del Norte",
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.71293611111111,-85.15293333333334",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.71293611111111,
+    "longitude": -85.15293333333334
   },
   {
     "name": "Plaza Grecia",
@@ -3034,8 +3250,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Grecia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.078102552104369,-84.3174859284045",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.078102552104369,
+    "longitude": -84.3174859284045
   },
   {
     "name": "Mall Internacional Alajuela",
@@ -3048,8 +3265,9 @@
     "region": "Valle Central",
     "location": "Alajuela",
     "address": "Radial Francisco Orlich",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.006155095147134,-84.21265125274658",
-    "hours": "Lun-Dom: 10:30 am-8:30 pm"
+    "hours": "Lun-Dom: 10:30 am-8:30 pm",
+    "latitude": 10.006155095147134,
+    "longitude": -84.21265125274658
   },
   {
     "name": "Teatro Nacional",
@@ -3062,8 +3280,9 @@
     "region": "Valle Central",
     "location": "San José, San José, Catedral",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.933084433055406,-84.07718574997489",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.933084433055406,
+    "longitude": -84.07718574997489
   },
   {
     "name": "Poza Azul",
@@ -3076,8 +3295,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas",
     "address": "Dominicalito",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.234906,-83.836331",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.234906,
+    "longitude": -83.836331
   },
   {
     "name": "Mercado Central de San José",
@@ -3090,8 +3310,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "entre las avenidas 0 (central) y 1, calles 6 y 8",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.934637882710824,-84.08199441426405",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.934637882710824,
+    "longitude": -84.08199441426405
   },
   {
     "name": "Teatro Carpa",
@@ -3104,8 +3325,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, Heredia",
     "address": "Costado sur Iglesia del Carmen, Frente a Pizza Hut",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.995939919081362,-84.1151861473918",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.995939919081362,
+    "longitude": -84.1151861473918
   },
   {
     "name": "El Portón Rojo",
@@ -3118,8 +3340,9 @@
     "region": "Valle Central",
     "location": "San José, Montes de Oca, San Pedro",
     "address": "De Arenas los Yoses 200 mts Sur 75 Este. Diagonal Parrillada Don Carlos. Avenida 10, Calle 45",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.930404650053203,-84.05887266620994",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.930404650053203,
+    "longitude": -84.05887266620994
   },
   {
     "name": "Casino Fiesta Alajuela",
@@ -3132,8 +3355,9 @@
     "region": "Valle Central",
     "location": "Alajuela",
     "address": "1.5 km al este del Aeropuerto Internacional Juan Santamaría",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.000878923478211,-84.19597864151001",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.000878923478211,
+    "longitude": -84.19597864151001
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Gandoca Manzanillo",
@@ -3146,8 +3370,9 @@
     "region": "Caribe",
     "location": "Limón, Talamanca, Cahuita",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.616016577135664,-82.68928527832031",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.616016577135664,
+    "longitude": -82.68928527832031
   },
   {
     "name": "Parque Internacional la Amistad",
@@ -3160,8 +3385,9 @@
     "region": "Sur",
     "location": "Limón",
     "address": "Parcial: Puntarenas, Limón",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.402774581553638,-82.96765130013227",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.402774581553638,
+    "longitude": -82.96765130013227
   },
   {
     "name": "Refugio de Vida Silvestre Costa Esmeralda",
@@ -3174,8 +3400,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Carrillo, Sardinal",
     "address": "al norte de Playa Potrero",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.530248676178923,-85.78151553869247",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.530248676178923,
+    "longitude": -85.78151553869247
   },
   {
     "name": "Parque Nacional Volcán Turrialba",
@@ -3188,8 +3415,9 @@
     "region": "Valle Central",
     "location": "Cartago, Turrialba, Santa Cruz",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.018079964759483,-83.74671936035156",
-    "hours": "Lun-Dom: 8:00 am-3:30 pm"
+    "hours": "Lun-Dom: 8:00 am-3:30 pm",
+    "latitude": 10.018079964759483,
+    "longitude": -83.74671936035156
   },
   {
     "name": "Restaurante el Avión",
@@ -3202,22 +3430,24 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Aguirre, Quepos",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.402205640478911,-84.15313249839528",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.402205640478911,
+    "longitude": -84.15313249839528
   },
   {
     "name": "Reserva Forestal Río Macho",
-    "area": "Rural",
+    "area": "Montaña",
     "price_range": "Barato",
     "category": "Reserva",
     "contact": "",
     "phone_number": "",
     "email": "",
-    "region": "",
+    "region": "Valle Central",
     "location": "Cartago",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.71482682998034,-83.46382141113281",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.71482682998034,
+    "longitude": -83.46382141113281
   },
   {
     "name": "Isla Tortuga",
@@ -3227,11 +3457,12 @@
     "contact": "",
     "phone_number": "",
     "email": "",
-    "region": "Playa",
+    "region": "Golfo Nicoya",
     "location": "",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.7701083,-84.8919664",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.7701083,
+    "longitude": -84.8919664
   },
   {
     "name": "Poza el Ojoche",
@@ -3244,8 +3475,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Mateo, San Mateo",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.929858708325307,-84.5314521790533",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.929858708325307,
+    "longitude": -84.5314521790533
   },
   {
     "name": "Rancho Típico Zarcereño",
@@ -3258,8 +3490,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Zarcero, Zarcero",
     "address": "2 km sur del parque, contiguo a restaurante Herford, frente al tajo",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.180001598916519,-84.38342428212309",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.180001598916519,
+    "longitude": -84.38342428212309
   },
   {
     "name": "La Reina India: Área para picnic",
@@ -3272,8 +3505,9 @@
     "region": "Pacifico Central",
     "location": "San José, Dota, Santa María",
     "address": "Del Cementerio de Santa María de Dota, 400 metros al este y 2 kilómetros al norte, Camino a Varablanca.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.663907,-83.960544",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.663907,
+    "longitude": -83.960544
   },
   {
     "name": "Reserva Biológica Isla Pájaros",
@@ -3286,8 +3520,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Paquera",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.869719218181348,-84.90957928122953",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.869719218181348,
+    "longitude": -84.90957928122953
   },
   {
     "name": "Coopetransatenas R.L",
@@ -3300,8 +3535,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Atenas, Atenas",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.978765115031393,-84.38181442015775",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.978765115031393,
+    "longitude": -84.38181442015775
   },
   {
     "name": "Villa Luna",
@@ -3314,8 +3550,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Calle Blancos",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.95,-84.06666669999998",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.95,
+    "longitude": -84.06666669999998
   },
   {
     "name": "Centro Costarricense de Ciencia y Cultura",
@@ -3328,8 +3565,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.941112851038344,-84.07989692714182",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.941112851038344,
+    "longitude": -84.07989692714182
   },
   {
     "name": "Cinemark Multiplaza Curridabat",
@@ -3342,8 +3580,9 @@
     "region": "Valle Central",
     "location": "San José, Curridabat, Curridabat",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.91697760862565,-84.04601415619254",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.91697760862565,
+    "longitude": -84.04601415619254
   },
   {
     "name": "Reserva Forestal los Santos",
@@ -3353,11 +3592,12 @@
     "contact": "",
     "phone_number": "",
     "email": "",
-    "region": "",
+    "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.991167035966665,-83.9630126953125",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.991167035966665,
+    "longitude": -83.9630126953125
   },
   {
     "name": "Humedal Estero Puntarenas y Manglares Asociados",
@@ -3367,11 +3607,12 @@
     "contact": "",
     "phone_number": "",
     "email": "",
-    "region": "",
+    "region": "Pacifico Central",
     "location": "Puntarenas",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.021669311458638,-84.89564895629883",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.021669311458638,
+    "longitude": -84.89564895629883
   },
   {
     "name": "Ruta Turística Corralillo - Trapiche Alex Ureña",
@@ -3384,8 +3625,9 @@
     "region": "Valle Central",
     "location": "Cartago",
     "address": "San Joaquín de Corralillo",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.785221,-84.038481",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.785221,
+    "longitude": -84.038481
   },
   {
     "name": "Hotel Catarata Río Celeste",
@@ -3398,8 +3640,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Guatuso, Katira",
     "address": "La Paz",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.70302,-84.97062",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.70302,
+    "longitude": -84.97062
   },
   {
     "name": "Museo Nacional de Costa Rica",
@@ -3412,8 +3655,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "entre avenidas Central y Segunda, al costado este de la Plaza de la Democracia",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.932601600000002,-84.07101490000002",
-    "hours": "Mar-Sáb: 8:30 am-4:30 pmDom: 9:00 am-4:30 pm"
+    "hours": "Mar-Sáb: 8:30 am-4:30 pmDom: 9:00 am-4:30 pm",
+    "latitude": 9.932601600000002,
+    "longitude": -84.07101490000002
   },
   {
     "name": "Iglesia Nicoya",
@@ -3426,8 +3670,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Nicoya, Nicoya",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.1429878,-85.45329629999998",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.1429878,
+    "longitude": -85.45329629999998
   },
   {
     "name": "Museo de Cultura Popular",
@@ -3440,8 +3685,9 @@
     "region": "Valle Central",
     "location": "Heredia, Barva, Santa Lucía",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.0174281,-84.1143644",
-    "hours": "Lun-Vie: 8:00 am-4:00 pmDom: 10:00 am-5:00 pm"
+    "hours": "Lun-Vie: 8:00 am-4:00 pmDom: 10:00 am-5:00 pm",
+    "latitude": 10.0174281,
+    "longitude": -84.1143644
   },
   {
     "name": "Kaffe Las Cerezas",
@@ -3454,8 +3700,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Avenida 8, entre calles 13 y 15",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.930206839409694,-84.07234758138657",
-    "hours": "Lun-Vie: 7:00 am-5:00 pm"
+    "hours": "Lun-Vie: 7:00 am-5:00 pm",
+    "latitude": 9.930206839409694,
+    "longitude": -84.07234758138657
   },
   {
     "name": "Área de Conservación Arenal Huetar Norte",
@@ -3468,8 +3715,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.936379171633646,-84.10188674926758",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.936379171633646,
+    "longitude": -84.10188674926758
   },
   {
     "name": "Estadio Nacional de Costa Rica",
@@ -3482,8 +3730,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.937189374171517,-84.10774898424279",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.937189374171517,
+    "longitude": -84.10774898424279
   },
   {
     "name": "Área de Conservación Tempisque",
@@ -3496,8 +3745,9 @@
     "region": "",
     "location": "",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.936379171633646,-84.10188674926758",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.936379171633646,
+    "longitude": -84.10188674926758
   },
   {
     "name": "Zona Protectora Río Navarro - Río Sombrero",
@@ -3510,8 +3760,9 @@
     "region": "Valle Central",
     "location": "Cartago",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.821650881369294,-83.8912582397461",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.821650881369294,
+    "longitude": -83.8912582397461
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Caño Negro",
@@ -3524,8 +3775,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Upala",
     "address": "en la parte baja de la cuenca del río Frío, a 222 km de San José",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.944967153742036,-84.77462768554688",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.944967153742036,
+    "longitude": -84.77462768554688
   },
   {
     "name": "Mall Multicentro",
@@ -3538,8 +3790,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "de la Rotonda de la Y Griega, 1 Kilómetro Carretera Principal a Desamparados.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.899052,-84.068107",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.899052,
+    "longitude": -84.068107
   },
   {
     "name": "Mi Cafecito Coffee Tour",
@@ -3552,8 +3805,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Alajuela, Sarapiquí",
     "address": "San Miguel",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.29395,-84.18535",
-    "hours": "Lun-Dom: 8:00 am-5:00 pm"
+    "hours": "Lun-Dom: 8:00 am-5:00 pm",
+    "latitude": 10.29395,
+    "longitude": -84.18535
   },
   {
     "name": "Sky Adventures Arenal",
@@ -3566,8 +3820,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.424531585139547,-84.73626002669334",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.424531585139547,
+    "longitude": -84.73626002669334
   },
   {
     "name": "Arenal Observatory Lodge",
@@ -3580,8 +3835,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.437000862256639,-84.70907181501389",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.437000862256639,
+    "longitude": -84.70907181501389
   },
   {
     "name": "Reserva Biológica Alberto Manuel Brenes",
@@ -3594,8 +3850,9 @@
     "region": "",
     "location": "Alajuela",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.233910640259209,-84.61257934570312",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.233910640259209,
+    "longitude": -84.61257934570312
   },
   {
     "name": "Catarata el Socorro",
@@ -3608,8 +3865,9 @@
     "region": "Llanuras del Norte",
     "location": "Heredia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.273289,-84.175937",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.273289,
+    "longitude": -84.175937
   },
   {
     "name": "Aventuras del Bosque Lluvioso, Atlántico",
@@ -3622,8 +3880,9 @@
     "region": "Caribe",
     "location": "Limón, Pococí, Guápiles",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.182167654330753,-83.9201531411527",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.182167654330753,
+    "longitude": -83.9201531411527
   },
   {
     "name": "Área de Conservación Arenal Tempisque",
@@ -3636,8 +3895,9 @@
     "region": "",
     "location": "",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.936379171633646,-84.10188674926758",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.936379171633646,
+    "longitude": -84.10188674926758
   },
   {
     "name": "Poza el Salto de la Fortuna",
@@ -3650,8 +3910,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.457728247419746,-84.64285987618041",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.457728247419746,
+    "longitude": -84.64285987618041
   },
   {
     "name": "Proyecto Asis",
@@ -3664,8 +3925,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Florencia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.378104224811821,-84.54319918158944",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.378104224811821,
+    "longitude": -84.54319918158944
   },
   {
     "name": "Reserva Curi-Cancha Monteverde",
@@ -3678,8 +3940,9 @@
     "region": "Monteverde",
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "300 metros noroeste de la Fabrica de Quesos Monteverde",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.306201749966155,-84.80786296781844",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.306201749966155,
+    "longitude": -84.80786296781844
   },
   {
     "name": "Humedal Nacional Terraba - Sierpe",
@@ -3692,8 +3955,9 @@
     "region": "",
     "location": "",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=8.864538048897021,-83.56475830078125",
-    "hours": ""
+    "hours": "",
+    "latitude": 8.864538048897021,
+    "longitude": -83.56475830078125
   },
   {
     "name": "Jardin Cevichero Mexicano",
@@ -3706,8 +3970,9 @@
     "region": "Valle Central",
     "location": "San José, San José, San Sebastián",
     "address": "200 m antes (norte) de la rotonda de San Sebastián",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.913196901839077,-84.0850708913058",
-    "hours": "Lun-Dom: 11:00 am-1:00 am"
+    "hours": "Lun-Dom: 11:00 am-1:00 am",
+    "latitude": 9.913196901839077,
+    "longitude": -84.0850708913058
   },
   {
     "name": "Terramall",
@@ -3720,8 +3985,9 @@
     "region": "Valle Central",
     "location": "Cartago, La Unión, Tres Ríos",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9018696251751,-83.9950962056173",
-    "hours": "Lun-Jue: 10:00 am-8:00 pmVie-Sáb: 10:00 am-9:00 pmDom: 10:00 am-8:00 pm"
+    "hours": "Lun-Jue: 10:00 am-8:00 pmVie-Sáb: 10:00 am-9:00 pmDom: 10:00 am-8:00 pm",
+    "latitude": 9.9018696251751,
+    "longitude": -83.9950962056173
   },
   {
     "name": "Restaurante Tree House",
@@ -3734,8 +4000,9 @@
     "region": "Monteverde",
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.31742755381435,-84.82448940631002",
-    "hours": "Lun-Dom: 11:00 am-10:00 pm"
+    "hours": "Lun-Dom: 11:00 am-10:00 pm",
+    "latitude": 10.31742755381435,
+    "longitude": -84.82448940631002
   },
   {
     "name": "Paseo Metrópoli",
@@ -3748,8 +4015,9 @@
     "region": "Valle Central",
     "location": "Cartago",
     "address": "La Lima, Entrada Principal a Cartago",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.86683217292148,-83.94253349251812",
-    "hours": "Lun-Sáb: 10:30 am-9:00 pmDom: 11:00 am-8:00 pm"
+    "hours": "Lun-Sáb: 10:30 am-9:00 pmDom: 11:00 am-8:00 pm",
+    "latitude": 9.86683217292148,
+    "longitude": -83.94253349251812
   },
   {
     "name": "Playa Espadilla Sur",
@@ -3759,11 +4027,12 @@
     "contact": "",
     "phone_number": "",
     "email": "",
-    "region": "Playa",
+    "region": "Pacifico Central",
     "location": "",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.3834564,-84.14606939999999",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.3834564,
+    "longitude": -84.14606939999999
   },
   {
     "name": "Cine Magaly",
@@ -3776,8 +4045,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Barrio La California, frente al Observatorio",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.933136920756803,-84.06804263591766",
-    "hours": "Lun-Dom: 1:00 pm-10:00 pm"
+    "hours": "Lun-Dom: 1:00 pm-10:00 pm",
+    "latitude": 9.933136920756803,
+    "longitude": -84.06804263591766
   },
   {
     "name": "Canto de Ballenas",
@@ -3790,8 +4060,9 @@
     "region": "Pacifico Sur",
     "location": "Puntarenas, Osa, Bahía Ballena",
     "address": "Uvita, del puerte 750 m oeste, primera entrada a la playa",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.163784,-83.745853",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.163784,
+    "longitude": -83.745853
   },
   {
     "name": "Los Cebollines",
@@ -3804,8 +4075,9 @@
     "region": "",
     "location": "San José, Santa Ana",
     "address": "Centro Comercial Paseo Real, frente a Pizza Hut, Lindora",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.946721989111099,-84.18984818465105",
-    "hours": "Lun-Jue: 11:00 am-11:00 pmVie-Sáb: 11:00 am-12:00 amDom: 11:00 am-11:00 pm"
+    "hours": "Lun-Jue: 11:00 am-11:00 pmVie-Sáb: 11:00 am-12:00 amDom: 11:00 am-11:00 pm",
+    "latitude": 9.946721989111099,
+    "longitude": -84.18984818465105
   },
   {
     "name": "Cinépolis Paseo Metrópoli",
@@ -3818,8 +4090,9 @@
     "region": "Valle Central",
     "location": "Cartago",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.86683217292148,-83.94253349251812",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.86683217292148,
+    "longitude": -83.94253349251812
   },
   {
     "name": "Iglesia de Santa Cruz de Turrialba",
@@ -3832,8 +4105,9 @@
     "region": "Valle Central",
     "location": "Cartago, Turrialba, Santa Cruz",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.966350258825166,-83.73273914214224",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.966350258825166,
+    "longitude": -83.73273914214224
   },
   {
     "name": "Plaza Occidente",
@@ -3846,8 +4120,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Ramón, San Rafael",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.077796216585453,-84.46942234042581",
-    "hours": "Lun-Jue: 8:00 am-9:00 pmVie-Sáb: 8:00 am-10:00 pmDom: 8:00 am-9:00 pm"
+    "hours": "Lun-Jue: 8:00 am-9:00 pmVie-Sáb: 8:00 am-10:00 pmDom: 8:00 am-9:00 pm",
+    "latitude": 10.077796216585453,
+    "longitude": -84.46942234042581
   },
   {
     "name": "Área de Conservación Osa",
@@ -3860,8 +4135,9 @@
     "region": "",
     "location": "",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.936379171633646,-84.10188674926758",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.936379171633646,
+    "longitude": -84.10188674926758
   },
   {
     "name": "Centro de Rescate Las Pumas",
@@ -3871,11 +4147,12 @@
     "contact": "",
     "phone_number": "2669-6044669-6019",
     "email": "laspumas@racsa.co.cr",
-    "region": "Rural",
+    "region": "Pacifico Norte",
     "location": "4,5 km de la ciudad de Cañas, siguiendo la carretera Interamericana hacia Liberia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.451054029322227,-85.12187290165457",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.451054029322227,
+    "longitude": -85.12187290165457
   },
   {
     "name": "Catarata Los Cachorros",
@@ -3888,8 +4165,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Copey",
     "address": "Jaboncillos",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.592267,-83.781856",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.592267,
+    "longitude": -83.781856
   },
   {
     "name": "Zona Protectora Volcán Miravalles",
@@ -3902,8 +4180,9 @@
     "region": "Llanuras del Norte",
     "location": "Guanacaste",
     "address": "Parcial: Guanacaste, Alajuela",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.79077029888187,-85.15228271484375",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.79077029888187,
+    "longitude": -85.15228271484375
   },
   {
     "name": "Coffea Diversa",
@@ -3916,8 +4195,9 @@
     "region": "Sur",
     "location": "Puntarenas, Buenos Aires, Biolley",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.030297222222224,-83.01680277777778",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.030297222222224,
+    "longitude": -83.01680277777778
   },
   {
     "name": "Área de Conservación La Amistad Caribe",
@@ -3930,8 +4210,9 @@
     "region": "",
     "location": "",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.936379171633646,-84.10188674926758",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.936379171633646,
+    "longitude": -84.10188674926758
   },
   {
     "name": "Catarata Río Agrio",
@@ -3944,8 +4225,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Valverde Vega, Toro Amarillo",
     "address": "Bajos",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.237753,-84.279015",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.237753,
+    "longitude": -84.279015
   },
   {
     "name": "City Place",
@@ -3958,8 +4240,9 @@
     "region": "Valle Central",
     "location": "San José, Santa Ana",
     "address": "Santa Ana, 200 norte de la Cruz Roja de Santa Ana, frente al Más x Menos.",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.933529698361976,-84.18403959221905",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.933529698361976,
+    "longitude": -84.18403959221905
   },
   {
     "name": "Reserva Pacuare",
@@ -3972,8 +4255,9 @@
     "region": "Caribe",
     "location": "Limón, Matina, Batán",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.19502332723155,-83.25981902657077",
-    "hours": "Lun-Dom: 12:00 am-12:00 am"
+    "hours": "Lun-Dom: 12:00 am-12:00 am",
+    "latitude": 10.19502332723155,
+    "longitude": -83.25981902657077
   },
   {
     "name": "Reserva Biológica Isla Guayabo",
@@ -3986,8 +4270,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Paquera",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9116667,-84.87833330000001",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.9116667,
+    "longitude": -84.87833330000001
   },
   {
     "name": "Sala Garbo",
@@ -4000,8 +4285,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "100 mts Sur Pizza Hut Paseo Colón Ave. 2 Calle 28",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.93432537925768,-84.09178876880105",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.93432537925768,
+    "longitude": -84.09178876880105
   },
   {
     "name": "La Carreta de Sarchí",
@@ -4014,8 +4300,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Valverde Vega, Sarchí Norte",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.089621832965502,-84.3454827927053",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.089621832965502,
+    "longitude": -84.3454827927053
   },
   {
     "name": "Teatro Avellana",
@@ -4028,8 +4315,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "del INA de Barrio Corazón de Jesús 25mts al este",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.001039446851406,-84.11469262093306",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.001039446851406,
+    "longitude": -84.11469262093306
   },
   {
     "name": "Plaza Freses",
@@ -4042,8 +4330,9 @@
     "region": "Valle Central",
     "location": "San José, Curridabat",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.926184683027076,-84.03982043266296",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.926184683027076,
+    "longitude": -84.03982043266296
   },
   {
     "name": "Tiquicia Lodge",
@@ -4056,8 +4345,9 @@
     "region": "Llanuras del Norte",
     "location": "Heredia, Heredia, Varablanca",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.177021,-84.158107",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.177021,
+    "longitude": -84.158107
   },
   {
     "name": "Hotel Río Celeste Hideaway",
@@ -4070,8 +4360,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Upala, Bijagua",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.740589859260046,-84.98438246548176",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.740589859260046,
+    "longitude": -84.98438246548176
   },
   {
     "name": "Cafe La Musa Confusa",
@@ -4084,8 +4375,9 @@
     "region": "Valle Central",
     "location": "San José, San José, Zapote",
     "address": "de la U.Veritas 200 m SO y 50 N",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.926402036256366,-84.06620907757315",
-    "hours": "Lun-Vie: 10:00 am-6:30 pm"
+    "hours": "Lun-Vie: 10:00 am-6:30 pm",
+    "latitude": 9.926402036256366,
+    "longitude": -84.06620907757315
   },
   {
     "name": "Restaurante Casa China",
@@ -4098,8 +4390,9 @@
     "region": "Valle Central",
     "location": "San José, San José, Catedral",
     "address": "De la Casa Matute, 200 mts este",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.929182920808966,-84.06712692977635",
-    "hours": "Lun-Dom: 8:00 am-2:00 am"
+    "hours": "Lun-Dom: 8:00 am-2:00 am",
+    "latitude": 9.929182920808966,
+    "longitude": -84.06712692977635
   },
   {
     "name": "Plaza Paraiso",
@@ -4112,8 +4405,9 @@
     "region": "",
     "location": "Cartago, Paraíso",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.846944444444444,-83.89111111111112",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.846944444444444,
+    "longitude": -83.89111111111112
   },
   {
     "name": "Heladería y Cabinas los Hela2",
@@ -4126,8 +4420,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.109299939748539,-85.18024956341833",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.109299939748539,
+    "longitude": -85.18024956341833
   },
   {
     "name": "Go Adventure Arenal Park",
@@ -4140,8 +4435,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.50130025113915,-84.69307009130716",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.50130025113915,
+    "longitude": -84.69307009130716
   },
   {
     "name": "El Gran Parqueo",
@@ -4154,8 +4450,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Montes de Oro, San Isidro",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.059679,-84.758465",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.059679,
+    "longitude": -84.758465
   },
   {
     "name": "Ecoglide",
@@ -4168,8 +4465,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.4753143,-84.67659700000002",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.4753143,
+    "longitude": -84.67659700000002
   },
   {
     "name": "Hotel WaltParaiso",
@@ -4182,8 +4480,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Parrita, Parrita, Esterillos Oeste",
     "address": "Segunda Entrada (lado este)",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.53125997715246,-84.4983472822787",
-    "hours": "Lun-Dom: 8:00 am-6:00 pm"
+    "hours": "Lun-Dom: 8:00 am-6:00 pm",
+    "latitude": 9.53125997715246,
+    "longitude": -84.4983472822787
   },
   {
     "name": "Mall San Pedro",
@@ -4196,8 +4495,9 @@
     "region": "Valle Central",
     "location": "San José, Montes de Oca, San Pedro",
     "address": "Avenida 2, Frente a la Fuente de la Hispanidad",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.93369913809905,-84.05652523040771",
-    "hours": "Lun-Dom: 10:00 am-8:00 pm"
+    "hours": "Lun-Dom: 10:00 am-8:00 pm",
+    "latitude": 9.93369913809905,
+    "longitude": -84.05652523040771
   },
   {
     "name": "Bar Malibú",
@@ -4210,8 +4510,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, Mercedes",
     "address": "Mercedes Norte, 300mts Este del Colegio Claretiano",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.012469013963887,-84.13006922230124",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.012469013963887,
+    "longitude": -84.13006922230124
   },
   {
     "name": "Restaurante Sudy",
@@ -4224,8 +4525,9 @@
     "region": "Pacifico Central",
     "location": "San José, Turrubares, Carara",
     "address": "Bijagual",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.726234496260293,-84.56783574074507",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.726234496260293,
+    "longitude": -84.56783574074507
   },
   {
     "name": "Museo Historico Cultural Juan Santamaria",
@@ -4238,8 +4540,9 @@
     "region": "Valle Central",
     "location": "Alajuela",
     "address": "avenida tercera, calle central y segunda (una cuadra al norte del parque central)",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.0170213,-84.21434099999999",
-    "hours": "Mar-Dom: 10:00 am-5:30 pm"
+    "hours": "Mar-Dom: 10:00 am-5:30 pm",
+    "latitude": 10.0170213,
+    "longitude": -84.21434099999999
   },
   {
     "name": "Restaurante Coto",
@@ -4252,8 +4555,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.797610677666883,-83.85416219942272",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.797610677666883,
+    "longitude": -83.85416219942272
   },
   {
     "name": "Museo de Arte Religioso Colonial",
@@ -4266,8 +4570,9 @@
     "region": "Valle Central",
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.797439455014416,-83.8554753921926",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.797439455014416,
+    "longitude": -83.8554753921926
   },
   {
     "name": "Plaza San Carlos",
@@ -4280,8 +4585,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos",
     "address": "a 1 km del Ciudad Quesada, 500 m norte del Liceo de San Carlos y a corta distancia de la futura radial Florencia-San José, contiguo a Maxibodegas.",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.3236111,-84.42694440000002",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.3236111,
+    "longitude": -84.42694440000002
   },
   {
     "name": "Cabañas Mangla Mar",
@@ -4294,8 +4600,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.089776934463835,-85.1215036958456",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.089776934463835,
+    "longitude": -85.1215036958456
   },
   {
     "name": "Cabinas las Vegas",
@@ -4308,8 +4615,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.095536804071337,-85.18687139265239",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.095536804071337,
+    "longitude": -85.18687139265239
   },
   {
     "name": "Playa Ventanas (Uvita)",
@@ -4322,8 +4630,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Osa, Bahía Ballena",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.095229882949468,-83.6830009247933",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.095229882949468,
+    "longitude": -83.6830009247933
   },
   {
     "name": "La Esquina de Buenos Aires",
@@ -4336,8 +4645,9 @@
     "region": "Valle Central",
     "location": "San José, San José",
     "address": "Calle 11 esquina Av. 4, detrás de la Iglesia de la Soledad",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.931763561301395,-84.07406312220701",
-    "hours": "Lun-Dom: 11:00 am-3:00 pm, 6:00 pm-11:00 pm"
+    "hours": "Lun-Dom: 11:00 am-3:00 pm, 6:00 pm-11:00 pm",
+    "latitude": 9.931763561301395,
+    "longitude": -84.07406312220701
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Cipancí",
@@ -4350,8 +4660,9 @@
     "region": "",
     "location": "Guanacaste",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.270656512093803,-85.22012328263372",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.270656512093803,
+    "longitude": -85.22012328263372
   },
   {
     "name": "Albinos",
@@ -4364,8 +4675,9 @@
     "region": "",
     "location": "Heredia, Heredia, Ulloa, Santa Cecilia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.991637888705778,-84.14122268557549",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.991637888705778,
+    "longitude": -84.14122268557549
   },
   {
     "name": "Playa La Penca",
@@ -4378,8 +4690,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Carrillo, Sardinal",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.572766638623955,-85.69725179724628",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.572766638623955,
+    "longitude": -85.69725179724628
   },
   {
     "name": "Super Mariscos",
@@ -4392,8 +4705,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Valverde Vega, Sarchí Sur",
     "address": "a 1 km del parque de Sarchí Norte",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.087768036249964,-84.34154799208045",
-    "hours": "Mar-Dom: 11:00 am-10:00 pm"
+    "hours": "Mar-Dom: 11:00 am-10:00 pm",
+    "latitude": 10.087768036249964,
+    "longitude": -84.34154799208045
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Iguanita",
@@ -4406,8 +4720,9 @@
     "region": "",
     "location": "Guanacaste",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.634708816112575,-85.61684989981586",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.634708816112575,
+    "longitude": -85.61684989981586
   },
   {
     "name": "Sky Adventures Monteverde",
@@ -4420,8 +4735,9 @@
     "region": "Monteverde",
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "Santa Elena",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.337428,-84.809977",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.337428,
+    "longitude": -84.809977
   },
   {
     "name": "Zona Protectora Cuenta del Río Tuis",
@@ -4434,8 +4750,9 @@
     "region": "",
     "location": "Cartago",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.835275260028618,-83.61351013183594",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.835275260028618,
+    "longitude": -83.61351013183594
   },
   {
     "name": "Reserva Biológica Isla Negritos",
@@ -4448,8 +4765,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Paquera",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.820376648854118,-84.85781478462741",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.820376648854118,
+    "longitude": -84.85781478462741
   },
   {
     "name": "El Silencio Lodge & Spa",
@@ -4462,8 +4780,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Valverde Vega, Toro Amarillo",
     "address": "Bajos del Toro",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.202787,-84.30543",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.202787,
+    "longitude": -84.30543
   },
   {
     "name": "Reserva Natural Absoluta Cabo Blanco",
@@ -4476,8 +4795,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Cóbano",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.587282447117408,-85.1165771484375",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.587282447117408,
+    "longitude": -85.1165771484375
   },
   {
     "name": "Albergue el Socorro",
@@ -4490,8 +4810,9 @@
     "region": "Llanuras del Norte",
     "location": "Heredia, Sarapiquí, La Virgen",
     "address": "San Miguel",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.26976,-84.16233599999998",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.26976,
+    "longitude": -84.16233599999998
   },
   {
     "name": "Momentum Lindora",
@@ -4504,8 +4825,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.953202838529318,-84.19544219970703",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.953202838529318,
+    "longitude": -84.19544219970703
   },
   {
     "name": "Hotel & Villas La Condesa",
@@ -4518,8 +4840,9 @@
     "region": "Valle Central",
     "location": "Heredia, San Rafael, Ángeles",
     "address": "Monte La Cruz",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.060125,-84.08294",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.060125,
+    "longitude": -84.08294
   },
   {
     "name": "Refugio Nacional de Fauna Silvestre Golfito",
@@ -4532,8 +4855,9 @@
     "region": "",
     "location": "",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=8.665202780808533,-83.21971893310547",
-    "hours": ""
+    "hours": "",
+    "latitude": 8.665202780808533,
+    "longitude": -83.21971893310547
   },
   {
     "name": "Arenal Mundo Aventura",
@@ -4546,8 +4870,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "1.5 km sur de la Iglesia Católica",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.45640875765869,-84.64404031634331",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.45640875765869,
+    "longitude": -84.64404031634331
   },
   {
     "name": "Plaza del Café",
@@ -4560,8 +4885,9 @@
     "region": "Llanuras del Norte",
     "location": "Guanacaste, Tilarán, Tierras Morenas",
     "address": "13 Kilómetros de Tilarán centro frente al cruce que lleva a Tierras Morenas",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.545880468669388,-84.98122315853834",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.545880468669388,
+    "longitude": -84.98122315853834
   },
   {
     "name": "Villas Río Mar",
@@ -4574,8 +4900,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Osa, Bahía Ballena, Dominical",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.263602654228626,-83.85928000508102",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.263602654228626,
+    "longitude": -83.85928000508102
   },
   {
     "name": "Momentum Pinares",
@@ -4588,8 +4915,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.911192069515348,-84.01772975921631",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.911192069515348,
+    "longitude": -84.01772975921631
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Mata Redonda",
@@ -4602,8 +4930,9 @@
     "region": "",
     "location": "Guanacaste",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.31525143156834,-85.41434096870944",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.31525143156834,
+    "longitude": -85.41434096870944
   },
   {
     "name": "Paraíso Quetzal Lodge",
@@ -4616,8 +4945,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Copey",
     "address": "Cerro de la Muerte, KM 70 de la ruta 2 Sur, a 2.650 metros de altitud",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.6441,-83.8503",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.6441,
+    "longitude": -83.8503
   },
   {
     "name": "Parque Central de Heredia",
@@ -4630,8 +4960,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, Heredia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.99838064966334,-84.11711733788252",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.99838064966334,
+    "longitude": -84.11711733788252
   },
   {
     "name": "Jungla de Murciélagos",
@@ -4644,8 +4975,9 @@
     "region": "Monteverde",
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.3079764,-84.8121276",
-    "hours": "Lun-Dom: 9:00 am-7:30 pm"
+    "hours": "Lun-Dom: 9:00 am-7:30 pm",
+    "latitude": 10.3079764,
+    "longitude": -84.8121276
   },
   {
     "name": "Refugio de Vida Silvestre Laguna Las Camelias",
@@ -4658,8 +4990,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, Upala, Upala",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.963241,-85.100055",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.963241,
+    "longitude": -85.100055
   },
   {
     "name": "La Trattoria",
@@ -4672,8 +5005,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Detrás del Auto Mercado de Los Yoses",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.932794165005776,-84.06073093414307",
-    "hours": "Lun-Jue: 12:00 pm-10:00 pmVie-Sáb: 12:00 pm-11:00 pmDom: 12:00 pm-4:00 pm"
+    "hours": "Lun-Jue: 12:00 pm-10:00 pmVie-Sáb: 12:00 pm-11:00 pmDom: 12:00 pm-4:00 pm",
+    "latitude": 9.932794165005776,
+    "longitude": -84.06073093414307
   },
   {
     "name": "Restaurante la Campesina",
@@ -4686,8 +5020,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.101214,-84.119399",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.101214,
+    "longitude": -84.119399
   },
   {
     "name": "Cordero's Bar",
@@ -4700,8 +5035,9 @@
     "region": "Valle Central",
     "location": "San José, Tibás, Colima",
     "address": "275 mts este del Palí",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.958177777777777,-84.08309444444444",
-    "hours": "Lun-Dom: 11:00 am-12:00 am"
+    "hours": "Lun-Dom: 11:00 am-12:00 am",
+    "latitude": 9.958177777777777,
+    "longitude": -84.08309444444444
   },
   {
     "name": "CCM San Ramón",
@@ -4714,8 +5050,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Ramón, San Rafael",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.077796216585453,-84.46942234042581",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.077796216585453,
+    "longitude": -84.46942234042581
   },
   {
     "name": "Plaza del Sol",
@@ -4728,8 +5065,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Curridabat, Frente a McDonald's",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.928722986472968,-84.04227519038614",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.928722986472968,
+    "longitude": -84.04227519038614
   },
   {
     "name": "Soda Nidia",
@@ -4742,8 +5080,9 @@
     "region": "Pacifico Central",
     "location": "Alajuela, Orotina, Coyolar",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.85104268822628,-84.58065351471305",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.85104268822628,
+    "longitude": -84.58065351471305
   },
   {
     "name": "Kaima Rent a Car",
@@ -4756,8 +5095,9 @@
     "region": "Sur",
     "location": "San José, Pérez Zeledón",
     "address": "150 metros Norte del Hospital Escalante Pradilla, Centro Comercial Los Reyes, Local #9",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.36950275912243,-83.70351745465088",
-    "hours": "Lun-Dom: 7:00 am-6:00 pm"
+    "hours": "Lun-Dom: 7:00 am-6:00 pm",
+    "latitude": 9.36950275912243,
+    "longitude": -83.70351745465088
   },
   {
     "name": "Cinépolis Multicentro Desamparados",
@@ -4770,8 +5110,9 @@
     "region": "Valle Central",
     "location": "San José, Desamparados",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.899052,-84.068107",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.899052,
+    "longitude": -84.068107
   },
   {
     "name": "La Ribera",
@@ -4784,8 +5125,9 @@
     "region": "Valle Central",
     "location": "Heredia, Belén",
     "address": "2 kilómetros del Hotel Marriot",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.984093288467625,-84.19089317321777",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.984093288467625,
+    "longitude": -84.19089317321777
   },
   {
     "name": "Museo Penitenciario",
@@ -4798,8 +5140,9 @@
     "region": "",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.941028309671296,-84.07972526576486",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.941028309671296,
+    "longitude": -84.07972526576486
   },
   {
     "name": "Iglesia de Coronado",
@@ -4812,8 +5155,9 @@
     "region": "Valle Central",
     "location": "San José, Vázquez de Coronado, San Isidro",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.976030870645069,-84.00703512132168",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.976030870645069,
+    "longitude": -84.00703512132168
   },
   {
     "name": "Teatro Jholy",
@@ -4826,8 +5170,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "del correo de Heredia 100 mts oeste y 75 mts norte",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.999502861188745,-84.11836406216025",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.999502861188745,
+    "longitude": -84.11836406216025
   },
   {
     "name": "La Cañada",
@@ -4840,8 +5185,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Parrita, Parrita, La Julieta",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.520316682870009,-84.32918035970943",
-    "hours": "Lun-Dom: 11:00 am-11:30 pm"
+    "hours": "Lun-Dom: 11:00 am-11:30 pm",
+    "latitude": 9.520316682870009,
+    "longitude": -84.32918035970943
   },
   {
     "name": "Hotel Pelícano",
@@ -4854,8 +5200,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Parrita, Parrita, Esterillos Este",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.52384857001203,-84.45029014350212",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.52384857001203,
+    "longitude": -84.45029014350212
   },
   {
     "name": "Refugio de Vida Silvestre Barra del Colorado",
@@ -4868,8 +5215,9 @@
     "region": "Caribe",
     "location": "Limón",
     "address": "Parcial: Limón, Heredia",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.651081938508291,-83.77899169921875",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.651081938508291,
+    "longitude": -83.77899169921875
   },
   {
     "name": "CCM San Carlos",
@@ -4882,8 +5230,9 @@
     "region": "Llanuras del Norte",
     "location": "Alajuela, San Carlos",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.3236111,-84.42694440000002",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.3236111,
+    "longitude": -84.42694440000002
   },
   {
     "name": "El Mirador Osa",
@@ -4896,8 +5245,9 @@
     "region": "Pacifico Sur",
     "location": "Puntarenas, Osa, Sierpe",
     "address": "Alto los mogos, 18 km de la gasolinera Chacarita carretera a Puerto Jiménez. Ruta 246",
-    "google_maps": "http://maps.google.co.cr/maps?q=8.75561881809079,-83.36822748184204",
-    "hours": ""
+    "hours": "",
+    "latitude": 8.75561881809079,
+    "longitude": -83.36822748184204
   },
   {
     "name": "Bulevar Relax",
@@ -4910,8 +5260,9 @@
     "region": "Valle Central",
     "location": "Heredia, Heredia, Heredia",
     "address": "110 metros al oeste de la entrada principal de la Universidad Nacional",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.998441093998158,-84.11346609704196",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.998441093998158,
+    "longitude": -84.11346609704196
   },
   {
     "name": "Las delicias del Puerto",
@@ -4924,8 +5275,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Puntarenas, Puntarenas",
     "address": "El Carmen, Costado Oeste Del Hotel Tioga Paseo de Los Turistas",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.974758787524232,-84.84052469953895",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.974758787524232,
+    "longitude": -84.84052469953895
   },
   {
     "name": "Cinépolis Terramall",
@@ -4938,8 +5290,9 @@
     "region": "Valle Central",
     "location": "Cartago, La Unión, Tres Ríos",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9018696251751,-83.9950962056173",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.9018696251751,
+    "longitude": -83.9950962056173
   },
   {
     "name": "Atrapasueños",
@@ -4952,8 +5305,9 @@
     "region": "Golfo Nicoya",
     "location": "Puntarenas, Puntarenas, Cóbano",
     "address": "Santa Teresa",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.63270499134021,-85.1565452478826",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.63270499134021,
+    "longitude": -85.1565452478826
   },
   {
     "name": "Hotel South Beach",
@@ -4966,8 +5320,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Garabito, Jacó",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.60451195535742,-84.6223533153534",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.60451195535742,
+    "longitude": -84.6223533153534
   },
   {
     "name": "Shakti",
@@ -4980,8 +5335,9 @@
     "region": "",
     "location": "San José",
     "address": "AV. 8 Calle 13",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.930068700012855,-84.07330026850104",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.930068700012855,
+    "longitude": -84.07330026850104
   },
   {
     "name": "Chicharronera Don Yayo",
@@ -4994,8 +5350,9 @@
     "region": "Valle Central",
     "location": "Alajuela, Atenas, Atenas",
     "address": "Barrio Los Ángeles",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.984865,-84.370853",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.984865,
+    "longitude": -84.370853
   },
   {
     "name": "Parque de Aventuras San Luis",
@@ -5008,8 +5365,9 @@
     "region": "Valle Central",
     "location": "Alajuela, San Ramón, Ángeles",
     "address": "21 km de San Ramón camino a La Fortuna",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.204803,-84.533769",
-    "hours": "Lun-Dom: 8:00 am-4:00 pm"
+    "hours": "Lun-Dom: 8:00 am-4:00 pm",
+    "latitude": 10.204803,
+    "longitude": -84.533769
   },
   {
     "name": "Soda El Trapiche",
@@ -5022,8 +5380,9 @@
     "region": "Valle Central",
     "location": "San José, Aserrí, Tarbaca",
     "address": "Cedral",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.8309069703942,-84.13440149277449",
-    "hours": "Sáb-Dom: 10:00 am-9:00 pm"
+    "hours": "Sáb-Dom: 10:00 am-9:00 pm",
+    "latitude": 9.8309069703942,
+    "longitude": -84.13440149277449
   },
   {
     "name": "Teatro Auditorio Nacional",
@@ -5036,8 +5395,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.94115512203617,-84.07985401179758",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.94115512203617,
+    "longitude": -84.07985401179758
   },
   {
     "name": "Playa Negra",
@@ -5050,8 +5410,9 @@
     "region": "Pacifico Norte",
     "location": "Guanacaste, Santa Cruz, Veintisiete de Abril",
     "address": "5 km al sur de playa Avellanas",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.195688179297447,-85.82849493250251",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.195688179297447,
+    "longitude": -85.82849493250251
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Caletas Arío",
@@ -5064,8 +5425,9 @@
     "region": "Golfo Nicoya",
     "location": "Guanacaste",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.724617708531701,-85.21830367622897",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.724617708531701,
+    "longitude": -85.21830367622897
   },
   {
     "name": "CCM San Pedro",
@@ -5078,8 +5440,9 @@
     "region": "Valle Central",
     "location": "San José, Montes de Oca",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.93369913809905,-84.05652523040771",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.93369913809905,
+    "longitude": -84.05652523040771
   },
   {
     "name": "Aquí Es !",
@@ -5092,8 +5455,9 @@
     "region": "Valle Central",
     "location": "San José, San José, Hospital",
     "address": "Calle 38, Av 2da, 100 m Sur Edificio Colón, Frente al Parque María Auxiliadora",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.934704763594926,-84.0962229296565",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.934704763594926,
+    "longitude": -84.0962229296565
   },
   {
     "name": "Teatro Skené",
@@ -5106,8 +5470,9 @@
     "region": "Valle Central",
     "location": "San José, Montes de Oca, San Pedro",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.932275803193406,-84.05165916678015",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.932275803193406,
+    "longitude": -84.05165916678015
   },
   {
     "name": "Maxi's Restaurante (Manzanillo)",
@@ -5120,8 +5485,9 @@
     "region": "Caribe",
     "location": "Limón, Talamanca",
     "address": "Manzanillo",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.632757,-82.658074",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.632757,
+    "longitude": -82.658074
   },
   {
     "name": "Restaurante El Barco de los Mariscos",
@@ -5134,8 +5500,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Garabito, Jacó",
     "address": "Av Pastor Diaz, 25 m Norte Banco Nacional",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.613973873752094,-84.62742964737117",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.613973873752094,
+    "longitude": -84.62742964737117
   },
   {
     "name": "Restaurante Cyranos",
@@ -5148,8 +5515,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "Calle 35 Los Yoses entre avenida 8 y central, San Jose 1107",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.931026923200935,-84.06263422959455",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.931026923200935,
+    "longitude": -84.06263422959455
   },
   {
     "name": "CCM Cariari",
@@ -5162,8 +5530,9 @@
     "region": "Valle Central",
     "location": "Heredia",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.980296421341809,-84.16038036346436",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.980296421341809,
+    "longitude": -84.16038036346436
   },
   {
     "name": "Maxi's Restaurante (Santa Ana)",
@@ -5176,8 +5545,9 @@
     "region": "Valle Central",
     "location": "San José, Santa Ana, Santa Ana",
     "address": "sobre Calle Vieja a Escazú, 500 m Sur de Plaza Antigua",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.926399,-84.176638",
-    "hours": "Lun-Dom: 11:00 am-11:30 pm"
+    "hours": "Lun-Dom: 11:00 am-11:30 pm",
+    "latitude": 9.926399,
+    "longitude": -84.176638
   },
   {
     "name": "Teatro Universitario",
@@ -5190,8 +5560,9 @@
     "region": "Valle Central",
     "location": "San José, Montes de Oca, San Pedro",
     "address": "100 metros este de la Librería Universitaria",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.934283,-84.0503988",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.934283,
+    "longitude": -84.0503988
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Playa Hermosa",
@@ -5204,8 +5575,9 @@
     "region": "Pacifico Central",
     "location": "Puntarenas, Garabito",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.565588095313691,-84.5901034399867",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.565588095313691,
+    "longitude": -84.5901034399867
   },
   {
     "name": "Galería Nacional",
@@ -5218,8 +5590,9 @@
     "region": "",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.94098603801208,-84.0797681811091",
-    "hours": "Lun-Vie: 8:30 am-4:30 pmSáb-Dom: 9:30 am-5:00 pm"
+    "hours": "Lun-Vie: 8:30 am-4:30 pmSáb-Dom: 9:30 am-5:00 pm",
+    "latitude": 9.94098603801208,
+    "longitude": -84.0797681811091
   },
   {
     "name": "Soda San Gerardo",
@@ -5232,8 +5605,9 @@
     "region": "Valle Central",
     "location": "San José, Dota, Copey",
     "address": "Jaboncillos",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.603443,-83.790687",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.603443,
+    "longitude": -83.790687
   },
   {
     "name": "Bar y Restaurante La Catarata",
@@ -5246,8 +5620,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.656487,-83.951766",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.656487,
+    "longitude": -83.951766
   },
   {
     "name": "Refugio de Vida Silvestre Corredor Fronterizo",
@@ -5260,8 +5635,9 @@
     "region": "",
     "location": "",
     "address": "Parcial: Guanacaste, Alajuela,  Heredia, Limón",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.757830197549684,-83.69247436523438",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.757830197549684,
+    "longitude": -83.69247436523438
   },
   {
     "name": "Restaurante El Higueron",
@@ -5274,8 +5650,9 @@
     "region": "Valle Central",
     "location": "San José, Puriscal, Grifo Alto",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.890646,-84.404853",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.890646,
+    "longitude": -84.404853
   },
   {
     "name": "Cataratas Lodge",
@@ -5288,8 +5665,9 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "en el Cerro de la Muerte km 80, 3 km hacia San Gerardo de Dota",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.589567,-83.800249",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.589567,
+    "longitude": -83.800249
   },
   {
     "name": "El Coco Suizo",
@@ -5302,8 +5680,9 @@
     "region": "Pacifico Sur",
     "location": "Puntarenas, Osa, Bahía Ballena",
     "address": "Playa Dominical, 25 Sur de la Guardia Rural",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.251914295601868,-83.86427680961788",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.251914295601868,
+    "longitude": -83.86427680961788
   },
   {
     "name": "Iglesia Coyolar",
@@ -5316,8 +5695,9 @@
     "region": "Pacifico Central",
     "location": "Alajuela, Orotina, Coyolar",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.8962862523037,-84.56066141836345",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.8962862523037,
+    "longitude": -84.56066141836345
   },
   {
     "name": "La Casona del Cerdo, San Joaquín",
@@ -5330,8 +5710,9 @@
     "region": "Valle Central",
     "location": "Heredia, Flores, San Joaquín",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.002747,-84.164478",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.002747,
+    "longitude": -84.164478
   },
   {
     "name": "Soda y Kiosco La Unión",
@@ -5344,8 +5725,9 @@
     "region": "Valle Central",
     "location": "Cartago, El Guarco, San Isidro",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.723204,-83.949556",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.723204,
+    "longitude": -83.949556
   },
   {
     "name": "Sabor Tico",
@@ -5358,8 +5740,9 @@
     "region": "Monteverde",
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "Centro Comercial Monteverde",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.315514940462162,-84.8224816547463",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.315514940462162,
+    "longitude": -84.8224816547463
   },
   {
     "name": "Catarata Río Blanco",
@@ -5372,8 +5755,9 @@
     "region": "Caribe",
     "location": "Limón, Pococí, Guápiles",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=10.148396,-83.81347",
-    "hours": ""
+    "hours": "",
+    "latitude": 10.148396,
+    "longitude": -83.81347
   },
   {
     "name": "Iglesia de Santiago de Puriscal",
@@ -5386,8 +5770,9 @@
     "region": "Valle Central",
     "location": "San José, Puriscal, Santiago",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.846524,-84.315219",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.846524,
+    "longitude": -84.315219
   },
   {
     "name": "Soda y Kiosco KM 61",
@@ -5400,8 +5785,9 @@
     "region": "Valle Central",
     "location": "Cartago, El Guarco, San Isidro",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.683872,-83.896156",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.683872,
+    "longitude": -83.896156
   },
   {
     "name": "Iglesia de la Merced",
@@ -5414,7 +5800,8 @@
     "region": "Valle Central",
     "location": "San José",
     "address": "",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.9333498,-84.08372100000003",
-    "hours": ""
+    "hours": "",
+    "latitude": 9.9333498,
+    "longitude": -84.08372100000003
   }
 ]

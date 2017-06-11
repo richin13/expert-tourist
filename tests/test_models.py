@@ -2,7 +2,7 @@ import json
 
 from faker import Faker
 from expert_tourist import create_app
-from expert_tourist.models import Place, PlaceLoader, User
+from expert_tourist.models import Place, PlaceDatasetManager, User
 from flask_testing import TestCase
 from .factories import UserFactory, PlaceFactory
 
@@ -18,7 +18,8 @@ json_str = """
     "region": "Valle Central",
     "location": "San José, Desamparados, Patarrá",
     "address": "2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra",
-    "google_maps": "http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035",
+    "latitude": 9.8757875656828,
+    "longitude": -84.03733452782035,
     "hours": "Lun-Dom: 8:00 am-5:00 pm"
   }
 """
@@ -57,10 +58,16 @@ class TestModels(TestCase):
         self.assertEqual(place.category, 'Balneario')
 
     def test_place_loader(self):
-        loader = PlaceLoader()
-        saved = loader.to_db()
+        loader = PlaceDatasetManager()
+        saved = loader.load_dataset()
 
         self.assertTrue(saved >= Place.objects.count())
+
+    def test_data_group_by(self):
+        loader = PlaceDatasetManager()
+        grouped = loader.group_by('region')
+
+        self.assertTrue(bool(grouped))
 
     def test_user_encrypted_password(self):
         user = UserFactory.build(password='abc123')
