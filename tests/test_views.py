@@ -32,6 +32,11 @@ class TestAPI(TestCase):
 
         self.assertEqual(places.status_code, 200)
 
+    def test_get_paginated_places(self):
+        places = self.app.get('/api/places?paginate=1&page=1')
+
+        self.assertEqual(places.status_code, 200)
+
     def test_get_one_place(self):
         place = PlaceFactory.create()
 
@@ -229,3 +234,22 @@ class TestAPI(TestCase):
             headers=self._authorize())
 
         self.assertEqual(res.status_code, 200)
+
+    def test_non_existent_route(self):
+        fake = Faker()
+        url = '/api/{}'.format(fake.md5())
+
+        res = self.app.get(
+            url,
+            content_type='application/json'
+        )
+
+        self.assertEqual(res.status_code, 404)
+
+    def test_json_decode_error(self):
+        res = self.app.post(
+            '/api/places',
+            content_type='application/json',
+            headers=self._authorize())
+
+        self.assertEqual(res.status_code, 400)

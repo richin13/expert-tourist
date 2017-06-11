@@ -31,13 +31,7 @@ def create_app(config_object=None):
     from .views import api as api_bp
     app.register_blueprint(api_bp, url_prefix='/api')
 
-    from .errors import APIException
-
-    @app.errorhandler(APIException)
-    def handle_api_exception(error: APIException):
-        response = jsonify(error.to_dict())
-        response.status_code = error.status_code
-        return response
+    register_error_handlers(app)
 
     return app
 
@@ -48,3 +42,24 @@ def register_api_resources(api):
     api.add_resource(Place, '/places/<string:id>', endpoint='api.place')
     api.add_resource(PlaceList, '/places')
 
+
+def register_error_handlers(app):
+    from .errors import APIException
+    import json.decoder as jd
+
+    @app.errorhandler(APIException)
+    def handle_api_exception(error: APIException):
+        response = jsonify(error.to_dict())
+        response.status_code = error.status_code
+        return response
+
+    @app.errorhandler(404)
+    def handle_not_found(error):
+        return handle_api_exception(APIException(
+            'The requested URL was not found on the server.  '
+            'If you entered the URL manually please check your spelling and try again.', status_code=404))
+
+    @app.errorhandler(jd.JSONDecodeError)
+    def handle_json_parse_error(error):
+        return handle_api_exception(APIException(
+            'The browser (or proxy) sent a request that this server could not understand.'))
