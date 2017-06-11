@@ -9,8 +9,8 @@ from .factories import UserFactory, PlaceFactory
 json_str = """
   {
     "name": "Parque Acuático Cascada de Fuego",
-    "area": "Montaña",
-    "price_range": "Barato",
+    "area": 0,
+    "price_range": 1,
     "category": "Balneario",
     "contact": "",
     "phone_number": "2276-6080",
@@ -44,11 +44,11 @@ class TestModels(TestCase):
 
         self.assertEqual(place.name, 'Parque Acuático Cascada de Fuego')
         self.assertEqual(place.contact, '')
-        self.assertEqual(place.price_range, 'Barato')
+        self.assertEqual(place.price_range, 1)
         self.assertEqual(place.phone_number, '2276-6080')
         self.assertEqual('cascadadefuegoparqueacuatico@gmail.com', place.email)
         self.assertEqual(place.region, 'Valle Central')
-        self.assertEqual(place.area, 'Montaña')
+        self.assertEqual(place.area, 0)
         self.assertEqual(place.location, 'San José, Desamparados, Patarrá')
         self.assertEqual(place.address, '2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra')
         self.assertEqual(place.google_maps, 'http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035')

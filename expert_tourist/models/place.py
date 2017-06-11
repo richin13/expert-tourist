@@ -5,7 +5,7 @@ from flask import current_app
 from datetime import datetime
 
 from . import db
-from ..utils import coords_to_gmaps_url
+from ..utils import coords_to_gmaps_url, AREA_ENCODING, PRICE_ENCODING
 
 
 class Place(db.Document):
@@ -80,8 +80,8 @@ class Place(db.Document):
 
     # Fields
     name = me.StringField(max_length=128, required=True)
-    area = me.StringField(max_length=128, required=True)
-    price_range = me.StringField(max_length=32, required=True)
+    area = me.IntField(required=True, choices=AREA_ENCODING)
+    price_range = me.IntField(required=True, choices=PRICE_ENCODING)
     category = me.StringField(max_length=64, required=True)
     contact = me.StringField(max_length=128)
     phone_number = me.StringField(max_length=128)

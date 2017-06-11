@@ -8,8 +8,8 @@ class PlaceFactory(factory.mongoengine.MongoEngineFactory):
         model = Place
 
     name = factory.Faker('company')
-    area = factory.Faker('name')
-    price_range = 'Cheap'
+    area = 0
+    price_range = 0
     category = factory.Faker('first_name')
     contact = factory.Faker('first_name')
     phone_number = factory.Faker('phone_number')
