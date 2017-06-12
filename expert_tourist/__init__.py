@@ -38,9 +38,12 @@ def create_app(config_object=None):
 
 def register_api_resources(api):
     from .resources.places import Place, PlaceList
+    from .resources.routes import Route, RouteList
 
     api.add_resource(Place, '/places/<string:id>', endpoint='api.place')
     api.add_resource(PlaceList, '/places')
+    api.add_resource(Route, '/routes/<string:id>', endpoint='api.route')
+    api.add_resource(RouteList, '/routes', '/recommend')
 
 
 def register_error_handlers(app):

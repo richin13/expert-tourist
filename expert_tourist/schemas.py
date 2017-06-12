@@ -2,7 +2,7 @@ from marshmallow import pre_load, post_dump, ValidationError
 from marshmallow_mongoengine import ModelSchema  # To take advantage of ModelSchema with MongoEngine
 from . import ma  # To take advantage of routing features of Flask-Marshmallow
 
-from .models import Place, User
+from .models import Place, User, Route
 
 __all__ = [
     'PlaceSchema'
@@ -36,3 +36,8 @@ class UserSchema(ModelSchema):
         data['token'] = user.token  # Include the user's token
 
         return data
+
+
+class RouteSchema(ModelSchema):
+    class Meta:
+        model = Route
