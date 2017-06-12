@@ -1,11 +1,11 @@
 from marshmallow import pre_load, post_dump, ValidationError
 from marshmallow_mongoengine import ModelSchema  # To take advantage of ModelSchema with MongoEngine
-from . import ma  # To take advantage of routing features of Flask-Marshmallow
 
-from .models import Place, User, Route
+from . import ma  # To take advantage of routing features of Flask-Marshmallow
+from .models import Place, User, Route, Tourist
 
 __all__ = [
-    'PlaceSchema'
+    'PlaceSchema', 'UserSchema', 'RouteSchema', 'TouristSchema'
 ]
 
 
@@ -41,3 +41,8 @@ class UserSchema(ModelSchema):
 class RouteSchema(ModelSchema):
     class Meta:
         model = Route
+
+
+class TouristSchema(ModelSchema):
+    class Meta:
+        model = Tourist

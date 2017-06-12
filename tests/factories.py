@@ -1,6 +1,7 @@
 import factory
+import random
 
-from expert_tourist.models import Place, User, Route
+from expert_tourist.models import Place, User, Route, Tourist
 
 
 class PlaceFactory(factory.mongoengine.MongoEngineFactory):
@@ -41,10 +42,21 @@ class RouteFactory(factory.mongoengine.MongoEngineFactory):
     @factory.post_generation
     def places(self, create, extracted, **kwargs):
         if not create:
-            # Simple build, do nothing.
             return
 
         if extracted:
-            # A list of groups were passed in, use them
             for place in extracted:
                 self.places.append(place)
+
+
+class TouristFactory(factory.mongoengine.MongoEngineFactory):
+    class Meta:
+        model = Tourist
+
+    vehicle = random.randint(0, 3)
+    budget = random.randint(0, 3)
+    travel_dist = random.randint(0, 3)
+    activity = random.randint(0, 3)
+    tourist_type = 'Unlabeled'
+    latitude = 9.933567
+    longitude = -84.077023
