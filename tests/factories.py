@@ -1,6 +1,6 @@
 import factory
 
-from expert_tourist.models import Place, User
+from expert_tourist.models import Place, User, Route
 
 
 class PlaceFactory(factory.mongoengine.MongoEngineFactory):
@@ -32,3 +32,19 @@ class UserFactory(factory.mongoengine.MongoEngineFactory):
     email = factory.Faker('email')
     username = factory.Faker('user_name')
     password = factory.Faker('password')
+
+
+class RouteFactory(factory.mongoengine.MongoEngineFactory):
+    class Meta:
+        model = Route
+
+    @factory.post_generation
+    def places(self, create, extracted, **kwargs):
+        if not create:
+            # Simple build, do nothing.
+            return
+
+        if extracted:
+            # A list of groups were passed in, use them
+            for place in extracted:
+                self.places.append(place)
