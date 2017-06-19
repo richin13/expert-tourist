@@ -1,0 +1,142 @@
+[
+  {
+    "vehicle": 1,
+    "budget": 0,
+    "travel_dist": 1,
+    "activity": 1,
+    "tourist_type": "c3"
+  },
+  {
+    "vehicle": 1,
+    "budget": 2,
+    "travel_dist": 2,
+    "activity": 0,
+    "tourist_type": "c1"
+  },
+  {
+    "vehicle": 0,
+    "budget": 2,
+    "travel_dist": 1,
+    "activity": 2,
+    "tourist_type": "c4"
+  },
+  {
+    "vehicle": 1,
+    "budget": 0,
+    "travel_dist": 0,
+    "activity": 0,
+    "tourist_type": "c2"
+  },
+  {
+    "vehicle": 2,
+    "budget": 0,
+    "travel_dist": 0,
+    "activity": 0,
+    "tourist_type": "c2"
+  },
+  {
+    "vehicle": 1,
+    "budget": 0,
+    "travel_dist": 2,
+    "activity": 1,
+    "tourist_type": "c3"
+  },
+  {
+    "vehicle": 1,
+    "budget": 0,
+    "travel_dist": 0,
+    "activity": 1,
+    "tourist_type": "c3"
+  },
+  {
+    "vehicle": 0,
+    "budget": 0,
+    "travel_dist": 2,
+    "activity": 0,
+    "tourist_type": "c1"
+  },
+  {
+    "vehicle": 1,
+    "budget": 1,
+    "travel_dist": 0,
+    "activity": 0,
+    "tourist_type": "c2"
+  },
+  {
+    "vehicle": 1,
+    "budget": 2,
+    "travel_dist": 0,
+    "activity": 0,
+    "tourist_type": "c2"
+  },
+  {
+    "vehicle": 2,
+    "budget": 0,
+    "travel_dist": 0,
+    "activity": 0,
+    "tourist_type": "c2"
+  },
+  {
+    "vehicle": 1,
+    "budget": 0,
+    "travel_dist": 1,
+    "activity": 1,
+    "tourist_type": "c3"
+  },
+  {
+    "vehicle": 1,
+    "budget": 2,
+    "travel_dist": 2,
+    "activity": 0,
+    "tourist_type": "c1"
+  },
+  {
+    "vehicle": 2,
+    "budget": 2,
+    "travel_dist": 2,
+    "activity": 0,
+    "tourist_type": "c1"
+  },
+  {
+    "vehicle": 1,
+    "budget": 2,
+    "travel_dist": 0,
+    "activity": 0,
+    "tourist_type": "c2"
+  },
+  {
+    "vehicle": 1,
+    "budget": 1,
+    "travel_dist": 2,
+    "activity": 0,
+    "tourist_type": "c1"
+  },
+  {
+    "vehicle": 1,
+    "budget": 2,
+    "travel_dist": 2,
+    "activity": 1,
+    "tourist_type": "c3"
+  },
+  {
+    "vehicle": 0,
+    "budget": 2,
+    "travel_dist": 2,
+    "activity": 0,
+    "tourist_type": "c1"
+  },
+  {
+    "vehicle": 2,
+    "budget": 1,
+    "travel_dist": 0,
+    "activity": 0,
+    "tourist_type": "c2"
+  },
+  {
+    "vehicle": 2,
+    "budget": 1,
+    "travel_dist": 2,
+    "activity": 0,
+    "tourist_type": "c1"
+  }
+]

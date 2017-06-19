@@ -1,5 +1,5 @@
 import factory
-import random
+from factory.fuzzy import FuzzyInteger, FuzzyChoice
 
 from expert_tourist.models import Place, User, Route, Tourist
 
@@ -39,24 +39,17 @@ class RouteFactory(factory.mongoengine.MongoEngineFactory):
     class Meta:
         model = Route
 
-    @factory.post_generation
-    def places(self, create, extracted, **kwargs):
-        if not create:
-            return
-
-        if extracted:
-            for place in extracted:
-                self.places.append(place)
+    places = factory.List([])
 
 
 class TouristFactory(factory.mongoengine.MongoEngineFactory):
     class Meta:
         model = Tourist
 
-    vehicle = random.randint(0, 3)
-    budget = random.randint(0, 3)
-    travel_dist = random.randint(0, 3)
-    activity = random.randint(0, 3)
-    tourist_type = 'Unlabeled'
+    vehicle = FuzzyInteger(0, 2)
+    budget = FuzzyInteger(0, 2)
+    travel_dist = FuzzyInteger(0, 2)
+    activity = FuzzyInteger(0, 2)
+    tourist_type = FuzzyChoice(['c1', 'c2', 'c3'])
     latitude = 9.933567
     longitude = -84.077023

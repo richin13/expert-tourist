@@ -10,10 +10,30 @@ data_manager = Manager(usage='Performs data operations')
 
 
 @data_manager.command
-def load():
-    from expert_tourist.models import PlaceDatasetManager
-    loader = PlaceDatasetManager()
-    loader.load_dataset()
+def fit():
+    from expert_tourist.models import TouristClassifier
+    clfs = [TouristClassifier]
+
+    for clf in clfs:
+        clf().build(rebuild=True)
+
+    print('Done')
+
+
+@data_manager.command
+def load(source):
+    from expert_tourist.models import PlaceDatasetManager, Place
+    from expert_tourist.models import TouristDatasetManager, Tourist
+
+    if source == 'places':
+        loader = PlaceDatasetManager()
+        cls = Place
+    elif source == 'tourists':
+        loader = TouristDatasetManager()
+        cls = Tourist
+    else:
+        raise AttributeError('%s is not recognize as a valid parameter' % source)
+    loader.load_dataset(cls)
 
 
 @data_manager.command

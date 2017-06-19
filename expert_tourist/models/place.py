@@ -1,10 +1,8 @@
-import os
 import json
 import mongoengine as me
-from flask import current_app
 from datetime import datetime
 
-from . import db
+from . import db, DatasetManager
 from ..utils import coords_to_gmaps_url, AREA_ENCODING, PRICE_ENCODING
 
 
@@ -134,35 +132,6 @@ class Place(db.Document):
             return super(Place.Encoder, self).encode(o)
 
 
-class PlaceDatasetManager:
-    data_source_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../', '../', 'data', 'places.json')
-    data_source = None
+class PlaceDatasetManager(DatasetManager):
+    filename = 'places.json'
 
-    def __init__(self):
-        if os.path.isfile(self.data_source_path):
-            with open(self.data_source_path, 'r') as f:
-                self.data_source = json.loads(f.read())
-
-    def load_dataset(self):
-        print('Loading data in {}'.format(current_app.config.get('MONGODB_SETTINGS', {'db': 'NONE'})['db']))
-        saved_places_count = 0
-        if self.data_source:
-            for raw_place in self.data_source:
-                place = Place(**raw_place)
-                place.save()
-            saved_places_count = len(self.data_source)
-            print('[Done]', end=' ')
-
-        print('Saved a total of {} places'.format(saved_places_count))
-        return saved_places_count
-
-    def group_by(self, field_name):
-        group = {}
-        if self.data_source:
-            for raw_place in self.data_source:
-                value = raw_place.get(field_name, None)
-                assert value is not None
-                if value not in group:
-                    group[value] = 0
-                group[value] += 1
-        return group

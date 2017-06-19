@@ -1,6 +1,6 @@
 import mongoengine as me
 
-from . import db
+from . import db, DatasetManager, Classifier
 from ..utils import VEHICLE_ENCODINGS, BUDGET_ENCODING, TRAVEL_DIST_ENCODING, ACTIVITIES_ENCODING
 
 
@@ -23,5 +23,16 @@ class Tourist(db.Document):
     travel_dist = me.IntField(required=True, choices=TRAVEL_DIST_ENCODING)
     activity = me.IntField(required=True, choices=ACTIVITIES_ENCODING)
     tourist_type = me.StringField(required=True, max_length=32)
-    latitude = me.FloatField(required=True)
-    longitude = me.FloatField(required=True)
+    latitude = me.FloatField()
+    longitude = me.FloatField()
+
+
+class TouristClassifier(Classifier):
+    class Meta:
+        model = Tourist
+        attributes = ['vehicle', 'budget', 'travel_dist', 'activity']
+        class_attribute = 'tourist_type'
+
+
+class TouristDatasetManager(DatasetManager):
+    filename = 'tourists.json'

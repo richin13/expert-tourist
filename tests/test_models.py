@@ -2,9 +2,9 @@ import json
 
 from faker import Faker
 from expert_tourist import create_app
-from expert_tourist.models import Place, PlaceDatasetManager, User
+from expert_tourist.models import Place, PlaceDatasetManager, Tourist, TouristDatasetManager, User, TouristClassifier
 from flask_testing import TestCase
-from .factories import UserFactory, PlaceFactory
+from .factories import UserFactory, TouristFactory
 
 json_str = """
   {
@@ -36,6 +36,7 @@ class TestModels(TestCase):
     def tearDown(self):
         Place.drop_collection()
         User.drop_collection()
+        Tourist.drop_collection()
 
     def test_place_from_json(self):
         parsed_json = json.loads(json_str)
@@ -59,7 +60,7 @@ class TestModels(TestCase):
 
     def test_place_loader(self):
         loader = PlaceDatasetManager()
-        saved = loader.load_dataset()
+        saved = loader.load_dataset(Place)
 
         self.assertTrue(saved >= Place.objects.count())
 
@@ -68,6 +69,12 @@ class TestModels(TestCase):
         grouped = loader.group_by('region')
 
         self.assertTrue(bool(grouped))
+
+    def test_tourist_loader(self):
+        loader = TouristDatasetManager()
+        saved = loader.load_dataset(Tourist)
+
+        self.assertTrue(saved >= Tourist.objects.count())
 
     def test_user_encrypted_password(self):
         user = UserFactory.build(password='abc123')
@@ -93,4 +100,3 @@ class TestModels(TestCase):
         user = User(email=fake.email(), username=fake.user_name(), _password=password)
 
         self.assertNotEqual(password, user.password)
-

@@ -1,9 +1,10 @@
 import json
+from flask import request, jsonify
 
 from . import AdministrativeResource
 from ..models import Route as RouteModel
 from ..errors import APIException
-from ..schemas import RouteSchema
+from ..schemas import RouteSchema, TouristSchema
 
 __all__ = ['Route', 'RouteList']
 
@@ -35,8 +36,17 @@ class Route(AdministrativeResource):
 
 
 class RouteList(AdministrativeResource):
+    schema = TouristSchema()
+
     def get(self):
-        pass
+        paginate = bool(request.args.get('paginate', False))
+        routes = RouteModel.objects
+        if paginate:
+            page = int(request.args.get('page', 1))
+            routes = routes.paginate(page=page, per_page=15).items
+            return jsonify(page=page, result=self.schema.dump(routes, many=True).data)
+
+        return self.schema.dump(routes, many=True).data
 
     def post(self):
-        pass
+        data = self.schema.loads(request.data)
