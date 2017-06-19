@@ -28,6 +28,7 @@ MarkupSafe==1.0
 marshmallow==2.13.5
 marshmallow-mongoengine==0.7.8
 mongoengine==0.13.0
+numpy==1.13.0
 packaging==16.8
 py==1.4.34
 pycparser==2.17
@@ -40,6 +41,8 @@ python-dateutil==2.6.0
 python-editor==1.0.3
 pytz==2017.2
 requests==2.17.3
+scikit-learn==0.18.1
+scipy==0.19.0
 simplekv==0.10.0
 six==1.10.0
 urllib3==1.21.1
