@@ -1,10 +1,11 @@
 import json
 
-from faker import Faker
-from expert_tourist import create_app
-from expert_tourist.models import Place, PlaceDatasetManager, Tourist, TouristDatasetManager, User, TouristClassifier
 from flask_testing import TestCase
-from .factories import UserFactory, TouristFactory
+
+from expert_tourist import create_app
+from expert_tourist.models import Place, Classifier, PlaceDatasetManager
+
+from ..factories import PlaceFactory
 
 json_str = """
   {
@@ -25,7 +26,7 @@ json_str = """
 """
 
 
-class TestModels(TestCase):
+class TestPlaceModel(TestCase):
     def create_app(self):
         app = create_app('config.TestConfig')
         return app
@@ -35,8 +36,6 @@ class TestModels(TestCase):
 
     def tearDown(self):
         Place.drop_collection()
-        User.drop_collection()
-        Tourist.drop_collection()
 
     def test_place_from_json(self):
         parsed_json = json.loads(json_str)
@@ -69,34 +68,3 @@ class TestModels(TestCase):
         grouped = loader.group_by('region')
 
         self.assertTrue(bool(grouped))
-
-    def test_tourist_loader(self):
-        loader = TouristDatasetManager()
-        saved = loader.load_dataset(Tourist)
-
-        self.assertTrue(saved >= Tourist.objects.count())
-
-    def test_user_encrypted_password(self):
-        user = UserFactory.build(password='abc123')
-        json.dumps(user, cls=User.Encoder)
-
-        self.assertNotEqual(user.password, 'abc123')
-
-    def test_user_validate_valid_password(self):
-        user = UserFactory.create(password='abc123')
-
-        self.assertTrue(user.validate_password('abc123'))
-
-        pass
-
-    def test_user_validate_invalid_password(self):
-        user = UserFactory.create(password='abc123')
-
-        self.assertFalse(user.validate_password('123abc'))
-
-    def test_user_with_encrypted_password_without_using_property(self):
-        fake = Faker()
-        password = fake.password()
-        user = User(email=fake.email(), username=fake.user_name(), _password=password)
-
-        self.assertNotEqual(password, user.password)
