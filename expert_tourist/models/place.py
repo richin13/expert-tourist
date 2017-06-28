@@ -109,6 +109,20 @@ class Place(db.Document):
     def __str__(self):
         return 'Place<%s, %s>' % (self.name, self.category)
 
+    @staticmethod
+    def find_for(tourist):
+        filters = {'place_type': tourist.tourist_type}
+
+        if tourist.travel_dist != 2:
+            filters['coordinates__near'] = tourist.coordinates
+            if tourist.travel_dist == 0:
+                max_distance = 20000
+            else:
+                max_distance = 75000
+            filters['coordinates__max_distance'] = max_distance
+
+        return Place.objects(**filters)
+
     class Encoder(json.encoder.JSONEncoder):
         def encode(self, o):
             if type(o) == Place:
