@@ -1,5 +1,6 @@
-from expert_tourist.models import Route
-from expert_tourist.schemas import TouristSchema
+import json
+
+from expert_tourist.models import Route, Tourist, Place
 
 from . import TestViewCase
 from ..factories import RouteFactory, PlaceFactory, TouristFactory
@@ -8,7 +9,8 @@ from ..factories import RouteFactory, PlaceFactory, TouristFactory
 class TestRouteResource(TestViewCase):
     def tearDown(self):
         Route.drop_collection()
-        # pass
+        Tourist.drop_collection()
+        Place.drop_collection()
 
     def test_get_all_routes(self):
         RouteFactory.create_batch(10, places=PlaceFactory.create_batch(3))
@@ -55,7 +57,7 @@ class TestRouteResource(TestViewCase):
 
     def test_create_new_recommendation(self):
         tourist = TouristFactory.create()
-        data = TouristSchema().dumps(tourist).data
+        data = json.dumps(tourist, cls=Tourist.Encoder)
 
         res = self.app.post(
             '/api/recommend',
@@ -63,4 +65,37 @@ class TestRouteResource(TestViewCase):
             data=data
         )
 
+        res_data = json.loads(res.data.decode('utf-8'))
+        print(res_data)
         self.assertEqual(res.status_code, 200)
+
+    def test_create_new_recommendation_without_valid_coords(self):
+        tourist = TouristFactory.stub()
+        tourist = {
+            'vehicle': tourist.area,
+            'budget': tourist.budget,
+            'travel_dist': tourist.travel_dist,
+            'activity': tourist.activity
+        }
+
+        data = json.dumps(tourist)
+        res = self.app.post(
+            '/api/recommend',
+            content_type='application/json',
+            data=data
+        )
+
+        self.assertEqual(res.status_code, 400)
+
+    def test_create_new_recommendation_with_invalid_coords(self):
+        tourist = TouristFactory.create()
+        tourist.coordinates = []
+        data = json.dumps(tourist, cls=Tourist.Encoder)
+        print(data)
+        res = self.app.post(
+            '/api/recommend',
+            content_type='application/json',
+            data=data
+        )
+
+        self.assertEqual(res.status_code, 400)
