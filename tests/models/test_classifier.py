@@ -56,7 +56,7 @@ class TestTouristClassifier(TestCase):
 
     def test_tourist_classify_correct_class(self):
         import random
-        tourist_type = random.choice([1,2,3])
+        tourist_type = random.choice([0, 1, 2])
         t = Tourist.objects(tourist_type=tourist_type).first()
 
         class_ = self.classifier.classify(t)
