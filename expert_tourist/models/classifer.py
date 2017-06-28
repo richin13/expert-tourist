@@ -43,7 +43,7 @@ class Classifier(db.Document):
         vector = self.vector(instance)
         classifier = self.build()
 
-        return classifier.predict([vector])
+        return int(classifier.predict([vector])[0])
 
     def vector(self, instance):
         vector = list()
