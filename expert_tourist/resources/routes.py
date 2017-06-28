@@ -37,6 +37,7 @@ class Route(AdministrativeResource):
 
 class RouteList(AdministrativeResource):
     schema = TouristSchema()
+    route_schema = RouteSchema()
 
     def get(self):
         paginate = bool(request.args.get('paginate', False))
@@ -44,9 +45,11 @@ class RouteList(AdministrativeResource):
         if paginate:
             page = int(request.args.get('page', 1))
             routes = routes.paginate(page=page, per_page=15).items
-            return jsonify(page=page, result=self.schema.dump(routes, many=True).data)
+            return jsonify(page=page, result=self.route_schema.dump(routes, many=True).data)
 
-        return self.schema.dump(routes, many=True).data
+        return self.route_schema.dump(routes, many=True).data
 
     def post(self):
-        data = self.schema.loads(request.data)
+        result = self.schema.loads(request.data)
+        if result.errors:
+            raise APIException('Invalid request body for type <Tourist>', errors=result.errors)
