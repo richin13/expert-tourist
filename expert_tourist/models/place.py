@@ -3,7 +3,7 @@ import mongoengine as me
 from datetime import datetime
 
 from . import db, DatasetManager
-from ..utils import coords_to_gmaps_url, AREA_ENCODING, PRICE_ENCODING
+from ..utils import coords_to_gmaps_url, AREA_ENCODING, PRICE_ENCODING, ACTIVITIES_ENCODING, CLASSES_ENCODING
 
 
 class Place(db.Document):
@@ -80,6 +80,7 @@ class Place(db.Document):
     name = me.StringField(max_length=128, required=True)
     area = me.IntField(required=True, choices=AREA_ENCODING)
     price_range = me.IntField(required=True, choices=PRICE_ENCODING)
+    activities = me.IntField(required=True, choices=ACTIVITIES_ENCODING)
     category = me.StringField(max_length=64, required=True)
     contact = me.StringField(max_length=128)
     phone_number = me.StringField(max_length=128)
@@ -89,8 +90,8 @@ class Place(db.Document):
     address = me.StringField(max_length=500)
     google_maps = me.StringField(max_length=80)
     hours = me.StringField(max_length=128)
-    latitude = me.FloatField(required=True)
-    longitude = me.FloatField(required=True)
+    coordinates = me.PointField(required=True)
+    place_type = me.IntField(required=True, choices=CLASSES_ENCODING)
     created_at = me.DateTimeField()
 
     def __init__(self, *args, **kwargs):
@@ -103,7 +104,7 @@ class Place(db.Document):
 
         google_maps = kwargs.get('google_maps', None)
         if not bool(google_maps):  # Check whether it is null or empty
-            self.google_maps = coords_to_gmaps_url(self.latitude, self.longitude)
+            self.google_maps = coords_to_gmaps_url(self.coordinates[0], self.coordinates[1])
 
     def __str__(self):
         return 'Place<%s, %s>' % (self.name, self.category)
@@ -115,6 +116,7 @@ class Place(db.Document):
                     'name': o.name,
                     'area': o.area,
                     'price_range': o.price_range,
+                    'activities': o.activities,
                     'category': o.category,
                     'contact': o.contact,
                     'phone_number': o.phone_number,
@@ -124,8 +126,8 @@ class Place(db.Document):
                     'address': o.address,
                     'google_maps': o.google_maps,
                     'hours': o.hours,
-                    'latitude': o.latitude,
-                    'longitude': o.longitude,
+                    'coordinates': o.coordinates,
+                    'place_type': o.place_type,
                     'created_at': o.created_at.isoformat(),
                 }
 

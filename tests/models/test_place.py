@@ -12,6 +12,7 @@ json_str = """
     "name": "Parque Acuático Cascada de Fuego",
     "area": 0,
     "price_range": 1,
+    "activities": 0,
     "category": "Balneario",
     "contact": "",
     "phone_number": "2276-6080",
@@ -19,8 +20,8 @@ json_str = """
     "region": "Valle Central",
     "location": "San José, Desamparados, Patarrá",
     "address": "2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra",
-    "latitude": 9.8757875656828,
-    "longitude": -84.03733452782035,
+    "coordinates": [9.8757875656828, -84.03733452782035],
+    "place_type": 1,
     "hours": "Lun-Dom: 8:00 am-5:00 pm"
   }
 """
@@ -45,6 +46,7 @@ class TestPlaceModel(TestCase):
         self.assertEqual(place.name, 'Parque Acuático Cascada de Fuego')
         self.assertEqual(place.contact, '')
         self.assertEqual(place.price_range, 1)
+        self.assertEqual(place.activities, 0)
         self.assertEqual(place.phone_number, '2276-6080')
         self.assertEqual('cascadadefuegoparqueacuatico@gmail.com', place.email)
         self.assertEqual(place.region, 'Valle Central')
@@ -52,8 +54,8 @@ class TestPlaceModel(TestCase):
         self.assertEqual(place.location, 'San José, Desamparados, Patarrá')
         self.assertEqual(place.address, '2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra')
         self.assertEqual(place.google_maps, 'http://maps.google.co.cr/maps?q=9.8757875656828,-84.03733452782035')
-        self.assertEqual(place.latitude, 9.8757875656828)
-        self.assertEqual(place.longitude, -84.03733452782035)
+        # self.assertEqual(place.latitude, 9.8757875656828)
+        # self.assertEqual(place.longitude, -84.03733452782035)
         self.assertEqual(place.hours, 'Lun-Dom: 8:00 am-5:00 pm')
         self.assertEqual(place.category, 'Balneario')
 

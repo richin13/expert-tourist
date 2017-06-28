@@ -1,142 +1,142 @@
 [
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 0,
     "travel_dist": 1,
     "activity": 1,
-    "tourist_type": "c3"
+    "tourist_type": 2
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 2,
     "travel_dist": 2,
     "activity": 0,
-    "tourist_type": "c1"
+    "tourist_type": 0
   },
   {
-    "vehicle": 0,
+    "area": 0,
     "budget": 2,
     "travel_dist": 1,
     "activity": 2,
-    "tourist_type": "c4"
+    "tourist_type": 0
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 0,
     "travel_dist": 0,
     "activity": 0,
-    "tourist_type": "c2"
+    "tourist_type": 1
   },
   {
-    "vehicle": 2,
+    "area": 2,
     "budget": 0,
     "travel_dist": 0,
     "activity": 0,
-    "tourist_type": "c2"
+    "tourist_type": 1
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 0,
     "travel_dist": 2,
     "activity": 1,
-    "tourist_type": "c3"
+    "tourist_type": 2
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 0,
     "travel_dist": 0,
     "activity": 1,
-    "tourist_type": "c3"
+    "tourist_type": 2
   },
   {
-    "vehicle": 0,
+    "area": 0,
     "budget": 0,
     "travel_dist": 2,
     "activity": 0,
-    "tourist_type": "c1"
+    "tourist_type": 0
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 1,
     "travel_dist": 0,
     "activity": 0,
-    "tourist_type": "c2"
+    "tourist_type": 1
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 2,
     "travel_dist": 0,
     "activity": 0,
-    "tourist_type": "c2"
+    "tourist_type": 1
   },
   {
-    "vehicle": 2,
+    "area": 2,
     "budget": 0,
     "travel_dist": 0,
     "activity": 0,
-    "tourist_type": "c2"
+    "tourist_type": 1
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 0,
     "travel_dist": 1,
     "activity": 1,
-    "tourist_type": "c3"
+    "tourist_type": 2
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 2,
     "travel_dist": 2,
     "activity": 0,
-    "tourist_type": "c1"
+    "tourist_type": 0
   },
   {
-    "vehicle": 2,
+    "area": 2,
     "budget": 2,
     "travel_dist": 2,
     "activity": 0,
-    "tourist_type": "c1"
+    "tourist_type": 0
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 2,
     "travel_dist": 0,
     "activity": 0,
-    "tourist_type": "c2"
+    "tourist_type": 1
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 1,
     "travel_dist": 2,
     "activity": 0,
-    "tourist_type": "c1"
+    "tourist_type": 0
   },
   {
-    "vehicle": 1,
+    "area": 1,
     "budget": 2,
     "travel_dist": 2,
     "activity": 1,
-    "tourist_type": "c3"
+    "tourist_type": 2
   },
   {
-    "vehicle": 0,
+    "area": 0,
     "budget": 2,
     "travel_dist": 2,
     "activity": 0,
-    "tourist_type": "c1"
+    "tourist_type": 0
   },
   {
-    "vehicle": 2,
+    "area": 2,
     "budget": 1,
     "travel_dist": 0,
     "activity": 0,
-    "tourist_type": "c2"
+    "tourist_type": 1
   },
   {
-    "vehicle": 2,
+    "area": 2,
     "budget": 1,
     "travel_dist": 2,
     "activity": 0,
-    "tourist_type": "c1"
+    "tourist_type": 0
   }
 ]

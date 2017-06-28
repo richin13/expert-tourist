@@ -11,8 +11,12 @@
     "location": "San José, Desamparados, Patarrá",
     "address": "2km sur de la iglesia de San Antonio de Desamparados, carretera a Patarra",
     "hours": "Lun-Dom: 8:00 am-5:00 pm",
-    "latitude": 9.8757875656828,
-    "longitude": -84.03733452782035
+    "activities": 0,
+    "coordinates": [
+      9.8757875656828,
+      -84.03733452782035
+    ],
+    "place_type": 1
   },
   {
     "name": "Parque Recreativo Los Chorros",
@@ -26,14 +30,18 @@
     "location": "Alajuela, Grecia, Tacares",
     "address": "2 km Sur de Santa Gertrudis Sur ó 2 km Este de Tacares",
     "hours": "",
-    "latitude": 10.054347222222223,
-    "longitude": -84.27854722222222
+    "activities": 2,
+    "coordinates": [
+      10.054347222222223,
+      -84.27854722222222
+    ],
+    "place_type": 0
   },
   {
     "name": "Laguna de Fraijanes",
     "area": 0,
     "price_range": 1,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "2482-2166",
     "email": "",
@@ -41,8 +49,12 @@
     "location": "Alajuela, Alajuela, Sabanilla, Fraijanes",
     "address": "",
     "hours": "Mar-Dom: 8:30 am-3:30 pm",
-    "latitude": 10.1252824,
-    "longitude": -84.19114890000003
+    "activities": 1,
+    "coordinates": [
+      10.1252824,
+      -84.19114890000003
+    ],
+    "place_type": 0
   },
   {
     "name": "Bosque de La Hoja",
@@ -56,8 +68,12 @@
     "location": "Heredia, San Rafael, Ángeles",
     "address": "del puesto de la Policía Turística, 2 km oeste, al frente del Restaurante Refranes",
     "hours": "Vie-Dom: 9:00 am-5:00 pm",
-    "latitude": 10.0624389,
-    "longitude": -84.09453869999999
+    "activities": 1,
+    "coordinates": [
+      10.0624389,
+      -84.09453869999999
+    ],
+    "place_type": 2
   },
   {
     "name": "Centro Recreativo EcoTurístico las Musas",
@@ -71,8 +87,12 @@
     "location": "Alajuela, San Ramón, Alfaro",
     "address": "de la Sede Regional de Occidente de la UCR, 4 km al oeste y 2 km al sur",
     "hours": "Mar-Dom: 8:00 am-5:00 pm",
-    "latitude": 10.092611111111111,
-    "longitude": -84.51475833333333
+    "activities": 0,
+    "coordinates": [
+      10.092611111111111,
+      -84.51475833333333
+    ],
+    "place_type": 1
   },
   {
     "name": "Parque Acuatico Villas Fantasia",
@@ -86,8 +106,12 @@
     "location": "Alajuela, Orotina",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-5:00 pm",
-    "latitude": 9.919883490975918,
-    "longitude": -84.54296933138721
+    "activities": 0,
+    "coordinates": [
+      9.919883490975918,
+      -84.54296933138721
+    ],
+    "place_type": 1
   },
   {
     "name": "Freddo Leche Tours",
@@ -101,8 +125,12 @@
     "location": "Alajuela, Alajuela, Sabanilla",
     "address": "carretera al Volcán Poás, 3 km este de la desviación hacia Poasito y Vara Blanca, de frente al Hotel Villa Calas",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.158467530175157,
-    "longitude": -84.17351564392447
+    "activities": 0,
+    "coordinates": [
+      10.158467530175157,
+      -84.17351564392447
+    ],
+    "place_type": 1
   },
   {
     "name": "Balneario las Estufas",
@@ -116,8 +144,12 @@
     "location": "Alajuela, Naranjo, Palmitos",
     "address": "7 km del centro de Palmitos de Naranjo. 150 metros sur y 100 metros oeste de la escuela",
     "hours": "Lun-Dom: 7:00 am-5:00 pm",
-    "latitude": 10.0942833,
-    "longitude": -84.42481629999997
+    "activities": 0,
+    "coordinates": [
+      10.0942833,
+      -84.42481629999997
+    ],
+    "place_type": 1
   },
   {
     "name": "Termales Cangrejal",
@@ -131,8 +163,12 @@
     "location": "San José, Acosta, Cangrejal",
     "address": "300 metros despues de los puentes gemelos",
     "hours": "Lun-Dom: 6:00 am-4:30 pm",
-    "latitude": 9.7669458,
-    "longitude": -84.21278
+    "activities": 1,
+    "coordinates": [
+      9.7669458,
+      -84.21278
+    ],
+    "place_type": 2
   },
   {
     "name": "Sky Jump",
@@ -146,8 +182,12 @@
     "location": "San José, Santa Ana, Santa Ana",
     "address": "400 mts Oeste y 250 Norte de la Panadería Musmanni, dentro del complejo Furati",
     "hours": "Lun-Jue: 10:00 am-9:00 pmVie-Sáb: 10:00 am-11:00 pmDom: 12:00 pm-6:00 pm",
-    "latitude": 9.936371081651028,
-    "longitude": -84.1844778930681
+    "activities": 0,
+    "coordinates": [
+      9.936371081651028,
+      -84.1844778930681
+    ],
+    "place_type": 1
   },
   {
     "name": "Balneario los Patios",
@@ -161,8 +201,12 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "de la plaza de deportes 400 m sur y doblar a mano izq 1 km",
     "hours": "Mar-Dom: 8:00 am-4:00 pm",
-    "latitude": 9.785476942927431,
-    "longitude": -83.84557804092765
+    "activities": 0,
+    "coordinates": [
+      9.785476942927431,
+      -83.84557804092765
+    ],
+    "place_type": 1
   },
   {
     "name": "Paradero Turístico Playa de Doña Ana",
@@ -176,8 +220,12 @@
     "location": "Puntarenas, Esparza, Espíritu Santo",
     "address": "a la par de la Boca del Río Barranca, si viene por Caldera:10 km antes de llegar a Puntarenas",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 9.95653215045799,
-    "longitude": -84.73871718160808
+    "activities": 2,
+    "coordinates": [
+      9.95653215045799,
+      -84.73871718160808
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Recreativo los Manantiales",
@@ -191,8 +239,12 @@
     "location": "Alajuela, Poás, Carrillos",
     "address": "800 mts noreste del Templo Católico de Carrillos Alto de Poás",
     "hours": "Mar-Dom: 8:00 am-5:00 pm",
-    "latitude": 10.0462511,
-    "longitude": -84.26376490000001
+    "activities": 0,
+    "coordinates": [
+      10.0462511,
+      -84.26376490000001
+    ],
+    "place_type": 1
   },
   {
     "name": "Kalambu",
@@ -206,8 +258,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "3 km oeste de la Fortuna , Carretera al Volcan Arenal",
     "hours": "Lun-Dom: 8:00 am-10:00 pm",
-    "latitude": 10.483603972661426,
-    "longitude": -84.67992159788992
+    "activities": 1,
+    "coordinates": [
+      10.483603972661426,
+      -84.67992159788992
+    ],
+    "place_type": 2
   },
   {
     "name": "Sanatorio Durán",
@@ -221,8 +277,12 @@
     "location": "Cartago, Oreamuno, Potrero Grande",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 9.932720500000002,
-    "longitude": -83.88325450000002
+    "activities": 2,
+    "coordinates": [
+      9.932720500000002,
+      -83.88325450000002
+    ],
+    "place_type": 0
   },
   {
     "name": "Termales Recreo Verde",
@@ -236,8 +296,12 @@
     "location": "Alajuela, San Carlos, Venecia",
     "address": "2.5 km sureste de la Escuela de Marsella",
     "hours": "Lun-Dom: 7:00 am-10:00 pm",
-    "latitude": 10.321140997308477,
-    "longitude": -84.24400493502617
+    "activities": 1,
+    "coordinates": [
+      10.321140997308477,
+      -84.24400493502617
+    ],
+    "place_type": 0
   },
   {
     "name": "Mirador de Orosi",
@@ -251,8 +315,12 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "De la iglesia de Paraíso, 3 km al sur, carretera a Orosi.",
     "hours": "Lun-Dom: 8:00 am-4:30 pm",
-    "latitude": 9.819109774953,
-    "longitude": -83.85875573381782
+    "activities": 2,
+    "coordinates": [
+      9.819109774953,
+      -83.85875573381782
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque del este",
@@ -266,8 +334,12 @@
     "location": "San José, Montes de Oca, San Rafael",
     "address": "1 kilómetro al oeste del Cristo de Sabanilla, frente a la Compañía Textil Centroamericana.",
     "hours": "Mar-Dom: 9:00 am-4:00 pm",
-    "latitude": 9.942622799999999,
-    "longitude": -84.00947129999997
+    "activities": 2,
+    "coordinates": [
+      9.942622799999999,
+      -84.00947129999997
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Forestal Grecia - Bosque del Niño",
@@ -281,8 +353,12 @@
     "location": "Alajuela, Grecia, San Isidro",
     "address": "Calle Rodríguez, de la escuela 4 Km, San Isidro de Grecia",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.142415,
-    "longitude": -84.247261
+    "activities": 1,
+    "coordinates": [
+      10.142415,
+      -84.247261
+    ],
+    "place_type": 0
   },
   {
     "name": "La Ruta del Sol",
@@ -296,8 +372,12 @@
     "location": "Alajuela, Alajuela, Alajuela",
     "address": "De la Plaza de Deportes en el Roble, 800m Sur",
     "hours": "Mar-Dom: 8:00 am-4:00 pm",
-    "latitude": 9.980227525092362,
-    "longitude": -84.23953017219901
+    "activities": 0,
+    "coordinates": [
+      9.980227525092362,
+      -84.23953017219901
+    ],
+    "place_type": 1
   },
   {
     "name": "Charrarra",
@@ -311,8 +391,12 @@
     "location": "Cartago, Paraíso, Paraíso",
     "address": "Ujarrás",
     "hours": "Mar-Dom: 8:00 am-5:00 pm",
-    "latitude": 9.820753665576994,
-    "longitude": -83.8251449726522
+    "activities": 2,
+    "coordinates": [
+      9.820753665576994,
+      -83.8251449726522
+    ],
+    "place_type": 0
   },
   {
     "name": "Bosques de Fraijanes",
@@ -326,8 +410,12 @@
     "location": "Alajuela, Alajuela, San Isidro",
     "address": "Fraijanes. De los Tribunales de Justicia en Alajuela 15 km norte, carretera al volcán Poás (camino rotulado)",
     "hours": "Lun-Dom: 8:00 am-6:00 pm",
-    "latitude": 10.124455157303798,
-    "longitude": -84.18933849781752
+    "activities": 1,
+    "coordinates": [
+      10.124455157303798,
+      -84.18933849781752
+    ],
+    "place_type": 0
   },
   {
     "name": "Balneario el Valle Encantado",
@@ -341,8 +429,12 @@
     "location": "San José, Acosta, San Ignacio",
     "address": "800 mts oeste del cementerio",
     "hours": "Jue-Dom: 9:00 am-4:30 pm",
-    "latitude": 9.806981198827424,
-    "longitude": -84.1686887740434
+    "activities": 0,
+    "coordinates": [
+      9.806981198827424,
+      -84.1686887740434
+    ],
+    "place_type": 1
   },
   {
     "name": "Formula Kart",
@@ -356,8 +448,12 @@
     "location": "San José, Curridabat, Curridabat",
     "address": "Carretera principal de Curridabat. Del Indoor Club 200 metros al Este, a mano izquierda, frente cementerio Montesacro o contiguo a la agencia EURO AUTOS. Centro Comercial Milla de Oro Plaza.",
     "hours": "Lun-Vie: 3:00 pm-11:00 pmSáb-Dom: 11:00 am-11:00 pm",
-    "latitude": 9.922318932849803,
-    "longitude": -84.03628528118134
+    "activities": 2,
+    "coordinates": [
+      9.922318932849803,
+      -84.03628528118134
+    ],
+    "place_type": 0
   },
   {
     "name": "Balneario de Aguas Termales Orosi",
@@ -371,14 +467,18 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "300 mts sur y 150 mts oeste de la Iglesia Colonial de Orosi.",
     "hours": "Lun: 7:30 am-4:00 pmMié-Dom: 7:30 am-4:00 pm",
-    "latitude": 9.795781545026705,
-    "longitude": -83.85708904279454
+    "activities": 0,
+    "coordinates": [
+      9.795781545026705,
+      -83.85708904279454
+    ],
+    "place_type": 1
   },
   {
     "name": "Catarata del Toro",
     "area": 1,
     "price_range": 2,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "2476-08008399-7476",
     "email": "info@catarata-del-toro.com",
@@ -386,8 +486,12 @@
     "location": "Alajuela, Valverde Vega, Toro Amarillo",
     "address": "6km Norte de la Iglesia",
     "hours": "Lun-Sáb: 7:00 am-5:00 pm",
-    "latitude": 10.2542,
-    "longitude": -84.271505
+    "activities": 1,
+    "coordinates": [
+      10.2542,
+      -84.271505
+    ],
+    "place_type": 2
   },
   {
     "name": "Fossil Land",
@@ -401,8 +505,12 @@
     "location": "San José, Desamparados, Patarrá, Quebrada Onda",
     "address": "del parque de San Antonio de Desamparados, 3.2 KM sureste, hacia Patarra. Y 2.3 KM al este del Balneario de Patarra, seguir Rotulación.",
     "hours": "",
-    "latitude": 9.870955,
-    "longitude": -84.017773
+    "activities": 0,
+    "coordinates": [
+      9.870955,
+      -84.017773
+    ],
+    "place_type": 1
   },
   {
     "name": "Termales Los Laureles",
@@ -416,14 +524,18 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "5 kms del centro de la Fortuna, al oeste camino al volcán Arenal.",
     "hours": "Lun-Dom: 9:00 am-9:00 pm",
-    "latitude": 10.4886796,
-    "longitude": -84.67707840000003
+    "activities": 1,
+    "coordinates": [
+      10.4886796,
+      -84.67707840000003
+    ],
+    "place_type": 0
   },
   {
     "name": "Locos por el Bosque",
     "area": 0,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "Randal Gutierrez",
     "phone_number": "8361-62926093-48616184-9032",
     "email": "locosporelbosque1@gmail.com",
@@ -431,8 +543,12 @@
     "location": "San José, Vázquez de Coronado, Cascajal",
     "address": "2km después de la iglesia, frente a la escuela de Montserrat",
     "hours": "Mié-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.031288685960053,
-    "longitude": -83.93511554226279
+    "activities": 1,
+    "coordinates": [
+      10.031288685960053,
+      -83.93511554226279
+    ],
+    "place_type": 0
   },
   {
     "name": "Centro Recreativo y Ecológico El Guayacán",
@@ -446,8 +562,12 @@
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "Guayabo",
     "hours": "",
-    "latitude": 10.722981934608258,
-    "longitude": -85.19700258984813
+    "activities": 1,
+    "coordinates": [
+      10.722981934608258,
+      -85.19700258984813
+    ],
+    "place_type": 0
   },
   {
     "name": "San Lucas Beach Club",
@@ -461,8 +581,12 @@
     "location": "Puntarenas",
     "address": "",
     "hours": "Mié-Dom: 9:00 am-5:00 pm",
-    "latitude": 9.976650745393815,
-    "longitude": -84.8507557513949
+    "activities": 0,
+    "coordinates": [
+      9.976650745393815,
+      -84.8507557513949
+    ],
+    "place_type": 1
   },
   {
     "name": "Zoo Ave",
@@ -476,8 +600,12 @@
     "location": "Alajuela, Alajuela, Garita",
     "address": "del aeropuerto Juan Santamaría siguiendo la autopista Bernanrdo Soto aproximándose a RECOPE, se desvía a mano derecha 2.5 km al oeste del puente Manolos. De la Princesa Marina, en Barrio San José de Alajuela, 4 km al sur, aproximándose al Hotel Martino Med-Spa / Resort a mano derecha.",
     "hours": "Lun-Dom: 9:00 am-5:00 pm",
-    "latitude": 10.0126604,
-    "longitude": -84.27529429999998
+    "activities": 0,
+    "coordinates": [
+      10.0126604,
+      -84.27529429999998
+    ],
+    "place_type": 1
   },
   {
     "name": "Buses Coronado - Terminal San José",
@@ -491,14 +619,18 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.937673190235262,
-    "longitude": -84.07920649275184
+    "activities": 1,
+    "coordinates": [
+      9.937673190235262,
+      -84.07920649275184
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata el Salto",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -506,8 +638,12 @@
     "location": "Guanacaste, Bagaces, Bagaces",
     "address": "",
     "hours": "",
-    "latitude": 10.550704282180366,
-    "longitude": -85.39707612990924
+    "activities": 1,
+    "coordinates": [
+      10.550704282180366,
+      -85.39707612990924
+    ],
+    "place_type": 2
   },
   {
     "name": "Colinas del Póas",
@@ -521,8 +657,12 @@
     "location": "Alajuela, Alajuela, Sabanilla, Fraijanes",
     "address": "1 km al norte y 100 al este Escuela de Fraijanes",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.15564739034779,
-    "longitude": -84.18991255734
+    "activities": 0,
+    "coordinates": [
+      10.15564739034779,
+      -84.18991255734
+    ],
+    "place_type": 1
   },
   {
     "name": "Bar Monte Verde",
@@ -536,8 +676,12 @@
     "location": "Alajuela, Alajuela, Alajuela",
     "address": "Turrucares, Siquiares",
     "hours": "",
-    "latitude": 9.9689654350083,
-    "longitude": -84.29515600204468
+    "activities": 2,
+    "coordinates": [
+      9.9689654350083,
+      -84.29515600204468
+    ],
+    "place_type": 0
   },
   {
     "name": "Ojo de Agua",
@@ -551,8 +695,12 @@
     "location": "Heredia, Belén, San Antonio",
     "address": "",
     "hours": "Lun-Dom: 7:30 am-4:30 pm",
-    "latitude": 9.984848430044858,
-    "longitude": -84.1957426071167
+    "activities": 0,
+    "coordinates": [
+      9.984848430044858,
+      -84.1957426071167
+    ],
+    "place_type": 1
   },
   {
     "name": "Escalada Cachí",
@@ -566,8 +714,12 @@
     "location": "Cartago, Paraíso, Santiago",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 9.864745432830244,
-    "longitude": -83.80004804581404
+    "activities": 1,
+    "coordinates": [
+      9.864745432830244,
+      -83.80004804581404
+    ],
+    "place_type": 0
   },
   {
     "name": "Thermomania",
@@ -581,14 +733,18 @@
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "26 kilómetros al norte carretera hacia Guayabo",
     "hours": "Lun-Dom: 8:00 am-10:00 pm",
-    "latitude": 10.7161152,
-    "longitude": -85.19513369999999
+    "activities": 1,
+    "coordinates": [
+      10.7161152,
+      -85.19513369999999
+    ],
+    "place_type": 2
   },
   {
     "name": "Laguna Don Manuel",
     "area": 1,
     "price_range": 1,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "Alberto (cuida el lugar)",
     "phone_number": "6165-19328347-9001",
     "email": "",
@@ -596,14 +752,18 @@
     "location": "San José, Dota, Santa María",
     "address": "",
     "hours": "Mar-Dom: 7:00 am-5:00 pm",
-    "latitude": 9.690445,
-    "longitude": -83.978593
+    "activities": 1,
+    "coordinates": [
+      9.690445,
+      -83.978593
+    ],
+    "place_type": 2
   },
   {
     "name": "Catarata Aquiares",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -611,8 +771,12 @@
     "location": "Cartago, Turrialba, Santa Rosa, Aquiares",
     "address": "5 km al noroeste de Turrialba",
     "hours": "",
-    "latitude": 9.933182539471455,
-    "longitude": -83.72090148899588
+    "activities": 1,
+    "coordinates": [
+      9.933182539471455,
+      -83.72090148899588
+    ],
+    "place_type": 2
   },
   {
     "name": "PN Volcán Irazú Sector Prusia",
@@ -626,8 +790,12 @@
     "location": "Cartago, Oreamuno, Potrero Cerrado",
     "address": "4 km al norte de la entra principal del Sanatorio Durán",
     "hours": "Lun-Dom: 8:00 am-3:30 pm",
-    "latitude": 9.953611,
-    "longitude": -83.88152600000001
+    "activities": 1,
+    "coordinates": [
+      9.953611,
+      -83.88152600000001
+    ],
+    "place_type": 0
   },
   {
     "name": "Turu Ba Ri",
@@ -641,14 +809,18 @@
     "location": "San José, Turrubares, San Juan de Mata",
     "address": "",
     "hours": "Lun-Dom: 9:00 am-5:30 pm",
-    "latitude": 9.886356012297272,
-    "longitude": -84.50452655553818
+    "activities": 0,
+    "coordinates": [
+      9.886356012297272,
+      -84.50452655553818
+    ],
+    "place_type": 1
   },
   {
     "name": "Cataratas Nauyaca",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "2787-05412787-0542",
     "email": "info@cataratasnauyaca.com",
@@ -656,8 +828,12 @@
     "location": "San José, Pérez Zeledón, Barú",
     "address": "1) Desde San Isidro de Pérez Zeledón, viaje 26 Km por la carretera hacia Playa Dominical.\n2) Desde Playa Dominical, viaje 10 Km por la carretera hacia San Isidro de Pérez Zeledón.",
     "hours": "",
-    "latitude": 9.27301388888889,
-    "longitude": -83.81909999999999
+    "activities": 1,
+    "coordinates": [
+      9.27301388888889,
+      -83.81909999999999
+    ],
+    "place_type": 2
   },
   {
     "name": "Mirador Ujarras",
@@ -671,8 +847,12 @@
     "location": "Cartago, Paraíso, Paraíso",
     "address": "Ujarrás, 2 km al este de la Iglesia de Paraíso",
     "hours": "Lun-Dom: 8:00 am-4:30 pm",
-    "latitude": 9.835194180097295,
-    "longitude": -83.84210994467139
+    "activities": 2,
+    "coordinates": [
+      9.835194180097295,
+      -83.84210994467139
+    ],
+    "place_type": 0
   },
   {
     "name": "La Paz Waterfall Gardens & Peace Lodge",
@@ -686,14 +866,18 @@
     "location": "Alajuela, Alajuela, Sarapiquí",
     "address": "Vara Blanca",
     "hours": "Lun-Dom: 8:00 am-5:00 pm",
-    "latitude": 10.2042908,
-    "longitude": -84.16187609999997
+    "activities": 2,
+    "coordinates": [
+      10.2042908,
+      -84.16187609999997
+    ],
+    "place_type": 0
   },
   {
     "name": "Laguna Hule",
     "area": 0,
     "price_range": 1,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -701,8 +885,12 @@
     "location": "Alajuela, Grecia, Río Cuarto",
     "address": "",
     "hours": "",
-    "latitude": 10.294630700000019,
-    "longitude": -84.21009349999994
+    "activities": 1,
+    "coordinates": [
+      10.294630700000019,
+      -84.21009349999994
+    ],
+    "place_type": 0
   },
   {
     "name": "Monte de la Cruz",
@@ -716,14 +904,18 @@
     "location": "Heredia, San Rafael, Ángeles",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.068085,
-    "longitude": -84.07744200000002
+    "activities": 1,
+    "coordinates": [
+      10.068085,
+      -84.07744200000002
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio de Vida Silvestre La Marta",
     "area": 0,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "",
     "phone_number": "2542-03502257-4730 ext. 115",
     "email": "info@lamarta.org",
@@ -731,8 +923,12 @@
     "location": "Cartago, Jiménez, Pejibaye",
     "address": "5 km  del centro",
     "hours": "",
-    "latitude": 9.783058419314655,
-    "longitude": -83.68817796930671
+    "activities": 1,
+    "coordinates": [
+      9.783058419314655,
+      -83.68817796930671
+    ],
+    "place_type": 0
   },
   {
     "name": "Pepper Disco Club",
@@ -746,8 +942,12 @@
     "location": "San José, San José, Zapote",
     "address": "contiguo al parqueo de Price Smart",
     "hours": "Vie-Sáb: 8:00 pm-2:00 am",
-    "latitude": 9.918035858008272,
-    "longitude": -84.0491394102628
+    "activities": 2,
+    "coordinates": [
+      9.918035858008272,
+      -84.0491394102628
+    ],
+    "place_type": 0
   },
   {
     "name": "Jardin Zoo La Marina",
@@ -761,14 +961,18 @@
     "location": "Alajuela, San Carlos, Palmera",
     "address": "10 km este de San Carlos, entre Palmera y Aguas Zarcas",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.37742063305752,
-    "longitude": -84.3756780619151
+    "activities": 0,
+    "coordinates": [
+      10.37742063305752,
+      -84.3756780619151
+    ],
+    "place_type": 1
   },
   {
     "name": "Refugio de Vida Silvestre Cerro Dantas",
     "area": 0,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "Warren Calvo Siles (Director), Ingrid Brown",
     "phone_number": "2274-19978866-7380 Ingrid8354-9271 Warren",
     "email": "warrencalvosiles@hotmail.com, ingridbrown@hotmail.com",
@@ -776,14 +980,18 @@
     "location": "Heredia, Heredia, Varablanca",
     "address": "",
     "hours": "",
-    "latitude": 10.086827,
-    "longitude": -84.070899
+    "activities": 1,
+    "coordinates": [
+      10.086827,
+      -84.070899
+    ],
+    "place_type": 0
   },
   {
     "name": "Poza la Paila",
     "area": 1,
     "price_range": 0,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -791,8 +999,12 @@
     "location": "San José, Turrubares, San Pedro",
     "address": "",
     "hours": "",
-    "latitude": 9.869433452527405,
-    "longitude": -84.47243928909302
+    "activities": 1,
+    "coordinates": [
+      9.869433452527405,
+      -84.47243928909302
+    ],
+    "place_type": 2
   },
   {
     "name": "MultiCines Plaza Paraiso",
@@ -806,14 +1018,18 @@
     "location": "Cartago, Paraíso",
     "address": "",
     "hours": "",
-    "latitude": 9.846944444444444,
-    "longitude": -83.89111111111112
+    "activities": 2,
+    "coordinates": [
+      9.846944444444444,
+      -83.89111111111112
+    ],
+    "place_type": 0
   },
   {
     "name": "Centro de Conservación Santa Ana",
-    "area": 0,
+    "area": 2,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "",
     "phone_number": "2282-8434",
     "email": "botanica@fundazoo.org, info@fundazoo.org",
@@ -821,14 +1037,18 @@
     "location": "San José, Santa Ana, Santa Ana",
     "address": "de la Cruz Roja de Santa Ana, 400 metros oeste y 200 norte, Sobre Calle Ross en Río Oro",
     "hours": "Lun-Vie: 8:00 am-3:30 pmSáb-Dom: 9:00 am-4:30 pm",
-    "latitude": 9.9375011,
-    "longitude": -84.19296120000001
+    "activities": 1,
+    "coordinates": [
+      9.9375011,
+      -84.19296120000001
+    ],
+    "place_type": 0
   },
   {
     "name": "Cataratas Santo Cristo",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "Betzaida Navarro",
     "phone_number": "8767-20908548-0680",
     "email": "waterfallssantocristo@hotmail.com",
@@ -836,8 +1056,12 @@
     "location": "San José, Pérez Zeledón, Barú",
     "address": "San Salvador",
     "hours": "Lun-Dom: 7:00 am-4:00 pm",
-    "latitude": 9.255373,
-    "longitude": -83.797109
+    "activities": 1,
+    "coordinates": [
+      9.255373,
+      -83.797109
+    ],
+    "place_type": 2
   },
   {
     "name": "Bar Piratas (Casino Fiesta Alajuela)",
@@ -851,8 +1075,12 @@
     "location": "Alajuela",
     "address": "1.5 km al este del Aeropuerto Internacional Juan Santamaría",
     "hours": "",
-    "latitude": 10.000878923478211,
-    "longitude": -84.19597864151001
+    "activities": 2,
+    "coordinates": [
+      10.000878923478211,
+      -84.19597864151001
+    ],
+    "place_type": 0
   },
   {
     "name": "La Rumba Disco Club",
@@ -866,8 +1094,12 @@
     "location": "Heredia, Belén, San Antonio",
     "address": "500 metros sur y 200 oeste de la Panasonic, sobre la radial Sta Ana",
     "hours": "Vie-Sáb: 7:00 pm-2:00 am",
-    "latitude": 9.970437855979641,
-    "longitude": -84.19586598873138
+    "activities": 2,
+    "coordinates": [
+      9.970437855979641,
+      -84.19586598873138
+    ],
+    "place_type": 0
   },
   {
     "name": "Jungle Safari Mini Golf",
@@ -881,8 +1113,12 @@
     "location": "San José, Santa Ana",
     "address": "Centro Comercial Via Lindora, Santa Ana (Costa Rica)",
     "hours": "Lun-Jue: 9:00 am-8:00 pmVie-Sáb: 9:00 am-11:45 pmDom: 9:00 am-8:00 pm",
-    "latitude": 9.959356141155677,
-    "longitude": -84.19634883405456
+    "activities": 2,
+    "coordinates": [
+      9.959356141155677,
+      -84.19634883405456
+    ],
+    "place_type": 0
   },
   {
     "name": "Ruinas Ujarrás",
@@ -896,8 +1132,12 @@
     "location": "Cartago, Paraíso, Cachí",
     "address": "Ujarrás, 5 km al este de la Iglesia de Paraiso, carretera a Cachí",
     "hours": "Lun-Dom: 8:00 am-4:30 pm",
-    "latitude": 9.828267770449314,
-    "longitude": -83.8361849449575
+    "activities": 2,
+    "coordinates": [
+      9.828267770449314,
+      -83.8361849449575
+    ],
+    "place_type": 0
   },
   {
     "name": "Cavernas de Venado",
@@ -911,8 +1151,12 @@
     "location": "Alajuela, San Carlos, Venado",
     "address": "del pueblo de Venado, 3 km este",
     "hours": "Lun-Dom: 8:00 am-2:30 pm",
-    "latitude": 10.553059,
-    "longitude": -84.768019
+    "activities": 1,
+    "coordinates": [
+      10.553059,
+      -84.768019
+    ],
+    "place_type": 0
   },
   {
     "name": "La Pipiola",
@@ -926,8 +1170,12 @@
     "location": "Cartago, Paraíso, Paraíso",
     "address": "400 m antes de llegar a las Ruinas de Ujarrás",
     "hours": "",
-    "latitude": 9.82803742996299,
-    "longitude": -83.8326889788732
+    "activities": 0,
+    "coordinates": [
+      9.82803742996299,
+      -83.8326889788732
+    ],
+    "place_type": 1
   },
   {
     "name": "Parque Nacional Tapantí Macizo de la Muerte",
@@ -941,8 +1189,12 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 9.760526978118497,
-    "longitude": -83.7843700312078
+    "activities": 1,
+    "coordinates": [
+      9.760526978118497,
+      -83.7843700312078
+    ],
+    "place_type": 0
   },
   {
     "name": "Jardín Botánico Else Kientzler",
@@ -956,8 +1208,12 @@
     "location": "Alajuela, Valverde Vega, Sarchí Norte",
     "address": "400 m norte del estadio de Sarchí",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.091247365025431,
-    "longitude": -84.35043740270885
+    "activities": 0,
+    "coordinates": [
+      10.091247365025431,
+      -84.35043740270885
+    ],
+    "place_type": 1
   },
   {
     "name": "Hotel Monte Campana",
@@ -971,8 +1227,12 @@
     "location": "Heredia, Santa Bárbara, Jesús, Birrí",
     "address": "a 5.5 km de la Iglesia de Barva de Heredia, carretera al Volcan Poás.",
     "hours": "",
-    "latitude": 10.051752864034095,
-    "longitude": -84.142673224178
+    "activities": 2,
+    "coordinates": [
+      10.051752864034095,
+      -84.142673224178
+    ],
+    "place_type": 0
   },
   {
     "name": "Minas del Desmonte",
@@ -986,8 +1246,12 @@
     "location": "Alajuela, San Mateo, Desmonte",
     "address": "",
     "hours": "",
-    "latitude": 9.967646000000007,
-    "longitude": -84.4727719
+    "activities": 1,
+    "coordinates": [
+      9.967646000000007,
+      -84.4727719
+    ],
+    "place_type": 2
   },
   {
     "name": "Paradise Hot Springs",
@@ -1001,14 +1265,18 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "Lun-Dom: 11:00 am-9:00 pm",
-    "latitude": 10.484418190167856,
-    "longitude": -84.68146061898096
+    "activities": 1,
+    "coordinates": [
+      10.484418190167856,
+      -84.68146061898096
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata de Bijagual",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "8932-0068 Martín8831-2980 José Mora Arias",
     "email": "",
@@ -1016,8 +1284,12 @@
     "location": "San José, Turrubares, Carara",
     "address": "Bijagual, 5 km antes de llegar al pueblo de Bijagual de Turrubares",
     "hours": "Lun-Dom: 7:00 am-4:00 pm",
-    "latitude": 9.754101,
-    "longitude": -84.59302
+    "activities": 1,
+    "coordinates": [
+      9.754101,
+      -84.59302
+    ],
+    "place_type": 2
   },
   {
     "name": "Teatro Reventón",
@@ -1031,8 +1303,12 @@
     "location": "San José",
     "address": "Barrio Luján, de el Bar Adriático 50 metros al este o bien de la Panaderia Barrio Luján 100 metros al norte y 50 metros al este.",
     "hours": "",
-    "latitude": 9.927245819980127,
-    "longitude": -84.07190823558267
+    "activities": 2,
+    "coordinates": [
+      9.927245819980127,
+      -84.07190823558267
+    ],
+    "place_type": 0
   },
   {
     "name": "Viejillos Discoteque",
@@ -1046,8 +1322,12 @@
     "location": "Alajuela, Valverde Vega, Sarchí Sur",
     "address": "",
     "hours": "",
-    "latitude": 10.077829,
-    "longitude": -84.344566
+    "activities": 2,
+    "coordinates": [
+      10.077829,
+      -84.344566
+    ],
+    "place_type": 0
   },
   {
     "name": "MultiCines PZ",
@@ -1061,8 +1341,12 @@
     "location": "San José, Pérez Zeledón",
     "address": "",
     "hours": "",
-    "latitude": 9.341317080749253,
-    "longitude": -83.67337274525198
+    "activities": 2,
+    "coordinates": [
+      9.341317080749253,
+      -83.67337274525198
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante los Peroles",
@@ -1076,14 +1360,18 @@
     "location": "Heredia, San Rafael, Ángeles",
     "address": "",
     "hours": "Sáb-Dom: 11:00 am-5:00 pm",
-    "latitude": 10.060554643061874,
-    "longitude": -84.0918262861669
+    "activities": 2,
+    "coordinates": [
+      10.060554643061874,
+      -84.0918262861669
+    ],
+    "place_type": 0
   },
   {
     "name": "Albergue Ecológico Las Bromelias",
     "area": 0,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "Oscar Alvarado ( Mapache )",
     "phone_number": "2200-08228398-9689",
     "email": "alberguelasbromelias@hotmail.com",
@@ -1091,14 +1379,18 @@
     "location": "Alajuela, Upala, Aguas Claras",
     "address": "",
     "hours": "",
-    "latitude": 10.884835813908593,
-    "longitude": -85.32186940312386
+    "activities": 1,
+    "coordinates": [
+      10.884835813908593,
+      -85.32186940312386
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Ecológico Mosqueritos",
     "area": 0,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "Auris Mata Ureña",
     "phone_number": "8834-5482",
     "email": "aurismata@yahoo.es",
@@ -1106,8 +1398,12 @@
     "location": "San José, Dota, Santa María",
     "address": "La Chonta",
     "hours": "",
-    "latitude": 9.70025,
-    "longitude": -83.943726
+    "activities": 1,
+    "coordinates": [
+      9.70025,
+      -83.943726
+    ],
+    "place_type": 0
   },
   {
     "name": "Las Hornillas",
@@ -1121,8 +1417,12 @@
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "400 mts sur, 2 kms este de planta Geotérmica Miravalles",
     "hours": "",
-    "latitude": 10.7131319,
-    "longitude": -85.17694829999999
+    "activities": 1,
+    "coordinates": [
+      10.7131319,
+      -85.17694829999999
+    ],
+    "place_type": 0
   },
   {
     "name": "Del Bosque – Granja Eco Turística",
@@ -1136,8 +1436,12 @@
     "location": "Alajuela, San Ramón, Peñas Blancas",
     "address": "",
     "hours": "",
-    "latitude": 10.444745,
-    "longitude": -84.629461
+    "activities": 0,
+    "coordinates": [
+      10.444745,
+      -84.629461
+    ],
+    "place_type": 1
   },
   {
     "name": "Restaurante La Finca",
@@ -1151,8 +1455,12 @@
     "location": "Alajuela, Valverde Vega, Sarchí Norte",
     "address": "Contiguo a Coopearsa",
     "hours": "Lun-Dom: 8:00 am-6:00 pm",
-    "latitude": 10.09099,
-    "longitude": -84.349458
+    "activities": 2,
+    "coordinates": [
+      10.09099,
+      -84.349458
+    ],
+    "place_type": 0
   },
   {
     "name": "Laguna Volcán Barva",
@@ -1166,8 +1474,12 @@
     "location": "Heredia, Barva, San José de la Montaña",
     "address": "",
     "hours": "",
-    "latitude": 10.129734085366607,
-    "longitude": -84.1256887329655
+    "activities": 0,
+    "coordinates": [
+      10.129734085366607,
+      -84.1256887329655
+    ],
+    "place_type": 1
   },
   {
     "name": "Plaza Monte General",
@@ -1181,8 +1493,12 @@
     "location": "San José, Pérez Zeledón",
     "address": "",
     "hours": "Lun-Dom: 10:00 am-11:30 pm",
-    "latitude": 9.341317080749253,
-    "longitude": -83.67337274525198
+    "activities": 2,
+    "coordinates": [
+      9.341317080749253,
+      -83.67337274525198
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Ambiental Municipal Río Loro",
@@ -1196,8 +1512,12 @@
     "location": "Cartago, Cartago, San Nicolás",
     "address": "Ochomogo, 1 km al noroeste de Recope, sobre calle Avance",
     "hours": "Mié-Dom: 8:00 am-3:00 pm",
-    "latitude": 9.9091989,
-    "longitude": -83.94346239999999
+    "activities": 2,
+    "coordinates": [
+      9.9091989,
+      -83.94346239999999
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Volcán Irazú",
@@ -1211,8 +1531,12 @@
     "location": "Cartago, Oreamuno, Santa Rosa",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 9.978122146502487,
-    "longitude": -83.84509096853435
+    "activities": 0,
+    "coordinates": [
+      9.978122146502487,
+      -83.84509096853435
+    ],
+    "place_type": 1
   },
   {
     "name": "Típico Latino",
@@ -1226,8 +1550,12 @@
     "location": "Heredia",
     "address": "",
     "hours": "",
-    "latitude": 9.987151353708745,
-    "longitude": -84.11012649536133
+    "activities": 2,
+    "coordinates": [
+      9.987151353708745,
+      -84.11012649536133
+    ],
+    "place_type": 0
   },
   {
     "name": "EcoTermales Fortuna",
@@ -1241,8 +1569,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.48442577277329,
-    "longitude": -84.67536449432373
+    "activities": 1,
+    "coordinates": [
+      10.48442577277329,
+      -84.67536449432373
+    ],
+    "place_type": 0
   },
   {
     "name": "La Puerta de Alcala",
@@ -1256,8 +1588,12 @@
     "location": "Heredia, San Rafael, Ángeles",
     "address": "300 mts este de la Entrada al residencial El Castillo",
     "hours": "",
-    "latitude": 10.047544299999998,
-    "longitude": -84.0859678
+    "activities": 2,
+    "coordinates": [
+      10.047544299999998,
+      -84.0859678
+    ],
+    "place_type": 0
   },
   {
     "name": "Baldi Hot Springs",
@@ -1271,8 +1607,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "4 km al oeste de la Fortuna",
     "hours": "",
-    "latitude": 10.483093187383117,
-    "longitude": -84.68047785732779
+    "activities": 1,
+    "coordinates": [
+      10.483093187383117,
+      -84.68047785732779
+    ],
+    "place_type": 0
   },
   {
     "name": "Mirador Jaco (Ruinas)",
@@ -1286,8 +1626,12 @@
     "location": "Puntarenas, Garabito, Jacó",
     "address": "",
     "hours": "",
-    "latitude": 9.596189,
-    "longitude": -84.618088
+    "activities": 2,
+    "coordinates": [
+      9.596189,
+      -84.618088
+    ],
+    "place_type": 0
   },
   {
     "name": "Mojitos Dance Club",
@@ -1301,8 +1645,12 @@
     "location": "San José",
     "address": "Calle Blancos, frente al parqueo del Centro comercial El Pueblo, antiguo Plaza Disco Club",
     "hours": "Mié-Dom: 11:00 pm-2:30 am",
-    "latitude": 9.941324558467425,
-    "longitude": -84.0747857093811
+    "activities": 2,
+    "coordinates": [
+      9.941324558467425,
+      -84.0747857093811
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Corcovado",
@@ -1316,8 +1664,12 @@
     "location": "Puntarenas, Golfito, Golfito",
     "address": "",
     "hours": "Mar-Dom: 7:00 am-4:00 pm",
-    "latitude": 8.55740402145712,
-    "longitude": -83.58329772949219
+    "activities": 1,
+    "coordinates": [
+      8.55740402145712,
+      -83.58329772949219
+    ],
+    "place_type": 2
   },
   {
     "name": "Patines Magic",
@@ -1331,14 +1683,18 @@
     "location": "Heredia",
     "address": "del parque central, 125 mts al sur",
     "hours": "Lun-Jue: 2:00 pm-10:00 pmVie-Dom: 1:00 pm-10:00 pm",
-    "latitude": 9.99683800361286,
-    "longitude": -84.11655950520071
+    "activities": 2,
+    "coordinates": [
+      9.99683800361286,
+      -84.11655950520071
+    ],
+    "place_type": 0
   },
   {
     "name": "Cataratas Llanos de Cortés",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -1346,8 +1702,12 @@
     "location": "Guanacaste, Bagaces, Bagaces",
     "address": "",
     "hours": "",
-    "latitude": 10.524461117253031,
-    "longitude": -85.29817771905068
+    "activities": 1,
+    "coordinates": [
+      10.524461117253031,
+      -85.29817771905068
+    ],
+    "place_type": 2
   },
   {
     "name": "Parque Nacional Volcán Arenal",
@@ -1361,8 +1721,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "a 150 km de San José - a 15 km de la comunidad de la Fortuna - 40 km de Ciudad Quesada.",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.461454901969313,
-    "longitude": -84.73941765725613
+    "activities": 0,
+    "coordinates": [
+      10.461454901969313,
+      -84.73941765725613
+    ],
+    "place_type": 1
   },
   {
     "name": "Mirador Ram Luna",
@@ -1376,14 +1740,18 @@
     "location": "San José, Aserrí",
     "address": "A 15 km San José, De la Iglesia de Aserrí, 5km, carretera a Tarbaca sobre Ruta 209",
     "hours": "Lun-Jue: 5:00 pm-10:00 pmVie: 5:00 pm-11:00 pmSáb: 12:00 pm-11:00 pmDom: 12:00 pm-9:00 pm",
-    "latitude": 9.836978602951525,
-    "longitude": -84.09871155026849
+    "activities": 2,
+    "coordinates": [
+      9.836978602951525,
+      -84.09871155026849
+    ],
+    "place_type": 0
   },
   {
     "name": "Paraíso de Manantiales",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "Carlos Mario Chacón",
     "phone_number": "8651-3422",
     "email": "marcelarojas2424@gmail.com",
@@ -1391,14 +1759,18 @@
     "location": "Alajuela, Grecia, Río Cuarto",
     "address": "Colonia del Toro",
     "hours": "",
-    "latitude": 10.302111,
-    "longitude": -84.248389
+    "activities": 1,
+    "coordinates": [
+      10.302111,
+      -84.248389
+    ],
+    "place_type": 2
   },
   {
     "name": "Cataratas de San Gerardo de Dota",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -1406,8 +1778,12 @@
     "location": "San José, Dota, Copey",
     "address": "San Gerardo",
     "hours": "",
-    "latitude": 9.54434433761745,
-    "longitude": -83.81532540544868
+    "activities": 1,
+    "coordinates": [
+      9.54434433761745,
+      -83.81532540544868
+    ],
+    "place_type": 2
   },
   {
     "name": "Mirador Bosque Alegre",
@@ -1421,8 +1797,12 @@
     "location": "Alajuela, Grecia, Río Cuarto",
     "address": "",
     "hours": "",
-    "latitude": 10.296043,
-    "longitude": -84.203208
+    "activities": 2,
+    "coordinates": [
+      10.296043,
+      -84.203208
+    ],
+    "place_type": 0
   },
   {
     "name": "La Carretica ( Barva )",
@@ -1436,8 +1816,12 @@
     "location": "Heredia, Barva, Santa Lucía",
     "address": "Sobre calle principal camino a Barva, frente a la Musmanni.",
     "hours": "",
-    "latitude": 10.01316921817964,
-    "longitude": -84.12064021826609
+    "activities": 2,
+    "coordinates": [
+      10.01316921817964,
+      -84.12064021826609
+    ],
+    "place_type": 0
   },
   {
     "name": "Paraíso de Volcanes Adventure Park",
@@ -1451,8 +1835,12 @@
     "location": "Cartago, Alvarado, Capellades",
     "address": "",
     "hours": "",
-    "latitude": 9.943085046298638,
-    "longitude": -83.77667963504791
+    "activities": 0,
+    "coordinates": [
+      9.943085046298638,
+      -83.77667963504791
+    ],
+    "place_type": 1
   },
   {
     "name": "Universidad Técnica Nacional - Sede Atenas",
@@ -1466,14 +1854,18 @@
     "location": "Alajuela, Atenas, Concepción",
     "address": "Balsa",
     "hours": "",
-    "latitude": 9.937338909854141,
-    "longitude": -84.37649774525198
+    "activities": 0,
+    "coordinates": [
+      9.937338909854141,
+      -84.37649774525198
+    ],
+    "place_type": 1
   },
   {
     "name": "Río Celeste",
     "area": 0,
     "price_range": 3,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -1481,8 +1873,12 @@
     "location": "Alajuela, Guatuso, Katira",
     "address": "",
     "hours": "",
-    "latitude": 10.70312,
-    "longitude": -84.97771
+    "activities": 1,
+    "coordinates": [
+      10.70312,
+      -84.97771
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque de Diversiones",
@@ -1496,8 +1892,12 @@
     "location": "San José, San José, Uruca",
     "address": "2 km oeste del Hospital México",
     "hours": "",
-    "latitude": 9.9600484,
-    "longitude": -84.129661
+    "activities": 0,
+    "coordinates": [
+      9.9600484,
+      -84.129661
+    ],
+    "place_type": 1
   },
   {
     "name": "Yökö Termales",
@@ -1511,14 +1911,18 @@
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "2 kilómetros al norte del proyecto geotérmico Miravalles",
     "hours": "",
-    "latitude": 10.7203635,
-    "longitude": -85.19727949999998
+    "activities": 1,
+    "coordinates": [
+      10.7203635,
+      -85.19727949999998
+    ],
+    "place_type": 2
   },
   {
     "name": "Poza la Pipa",
     "area": 1,
     "price_range": 0,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -1526,14 +1930,18 @@
     "location": "Guanacaste, Liberia, Curubandé",
     "address": "",
     "hours": "",
-    "latitude": 10.7197949,
-    "longitude": -85.4104706
+    "activities": 1,
+    "coordinates": [
+      10.7197949,
+      -85.4104706
+    ],
+    "place_type": 2
   },
   {
     "name": "Catarata el Salto de la Novia",
     "area": 0,
     "price_range": 0,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -1541,14 +1949,18 @@
     "location": "Cartago, Paraíso, Paraíso",
     "address": "",
     "hours": "",
-    "latitude": 9.833093238736367,
-    "longitude": -83.84321769699454
+    "activities": 1,
+    "coordinates": [
+      9.833093238736367,
+      -83.84321769699454
+    ],
+    "place_type": 0
   },
   {
     "name": "Verde Malakita",
     "area": 1,
     "price_range": 0,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "Charlie Brown Pinnock",
     "phone_number": "8391-7918",
     "email": "",
@@ -1556,8 +1968,12 @@
     "location": "San José, Turrubares, San Pablo",
     "address": "Monterrey Bajo la Lumbre",
     "hours": "Lun-Mar: 8:00 am-5:00 pmSáb-Dom: 8:00 am-5:00 pm",
-    "latitude": 9.910688,
-    "longitude": -84.475889
+    "activities": 1,
+    "coordinates": [
+      9.910688,
+      -84.475889
+    ],
+    "place_type": 2
   },
   {
     "name": "Finca La Piedra Encantada",
@@ -1571,8 +1987,12 @@
     "location": "San José, Dota, Jardín",
     "address": "San Cristóbal Sur, km 42 de la Interamericana Sur",
     "hours": "",
-    "latitude": 9.740045155398777,
-    "longitude": -83.98458330211724
+    "activities": 0,
+    "coordinates": [
+      9.740045155398777,
+      -83.98458330211724
+    ],
+    "place_type": 1
   },
   {
     "name": "Playa Calzón de Pobre",
@@ -1586,8 +2006,12 @@
     "location": "Guanacaste, Carrillo, Sardinal",
     "address": "",
     "hours": "",
-    "latitude": 10.571897590373325,
-    "longitude": -85.69231653527822
+    "activities": 2,
+    "coordinates": [
+      10.571897590373325,
+      -85.69231653527822
+    ],
+    "place_type": 0
   },
   {
     "name": "Patines Music",
@@ -1601,8 +2025,12 @@
     "location": "San José, Montes de Oca, San Pedro",
     "address": "25 mts al este de la Fuente de la Hispanidad",
     "hours": "Lun-Vie: 7:00 pm-10:00 pmSáb: 1:00 pm-10:00 pmDom: 10:00 am-10:00 pm",
-    "latitude": 9.933073072396555,
-    "longitude": -84.0553268194526
+    "activities": 2,
+    "coordinates": [
+      9.933073072396555,
+      -84.0553268194526
+    ],
+    "place_type": 0
   },
   {
     "name": "Jaco Blu",
@@ -1616,8 +2044,12 @@
     "location": "Puntarenas, Garabito, Jacó",
     "address": "Del Parque 100m N y 100m O",
     "hours": "",
-    "latitude": 9.61743820116485,
-    "longitude": -84.63345657102764
+    "activities": 2,
+    "coordinates": [
+      9.61743820116485,
+      -84.63345657102764
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Eugene O'Neill",
@@ -1631,8 +2063,12 @@
     "location": "San José, Montes de Oca, San Pedro",
     "address": "los Yoses, 50 m norte Boliche Dent, Calle 37 entre Avenida 1 y 3",
     "hours": "",
-    "latitude": 9.934091364667513,
-    "longitude": -84.06130573154314
+    "activities": 2,
+    "coordinates": [
+      9.934091364667513,
+      -84.06130573154314
+    ],
+    "place_type": 0
   },
   {
     "name": "Aventuras Orosi",
@@ -1646,8 +2082,12 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "Restaurante Río Palomo, Contiguo al puente colgante",
     "hours": "",
-    "latitude": 9.78233682361395,
-    "longitude": -83.83851310238242
+    "activities": 2,
+    "coordinates": [
+      9.78233682361395,
+      -83.83851310238242
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Curú",
@@ -1661,8 +2101,12 @@
     "location": "Puntarenas, Puntarenas, Paquera",
     "address": "Península de Nicoya, Siete kilómetros al sur de Paquera carretera a Cóbano",
     "hours": "Lun-Dom: 7:00 am-4:00 pm",
-    "latitude": 9.793183804475767,
-    "longitude": -84.92455646395683
+    "activities": 1,
+    "coordinates": [
+      9.793183804475767,
+      -84.92455646395683
+    ],
+    "place_type": 0
   },
   {
     "name": "Bar Taos (Zapote)",
@@ -1676,8 +2120,12 @@
     "location": "San José, San José, Zapote",
     "address": "250m oeste y 50 norte de Casa Presidencial",
     "hours": "Lun-Mié: 12:00 pm-12:00 amJue-Sáb: 12:00 pm-2:00 am",
-    "latitude": 9.925404829082288,
-    "longitude": -84.05593078583479
+    "activities": 2,
+    "coordinates": [
+      9.925404829082288,
+      -84.05593078583479
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Marino Ballena",
@@ -1691,8 +2139,12 @@
     "location": "Puntarenas, Osa, Bahía Ballena",
     "address": "",
     "hours": "",
-    "latitude": 9.155002500809667,
-    "longitude": -83.74813984148204
+    "activities": 1,
+    "coordinates": [
+      9.155002500809667,
+      -83.74813984148204
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Barra Honda",
@@ -1706,8 +2158,12 @@
     "location": "Guanacaste, Nicoya, Quebrada Honda",
     "address": "",
     "hours": "",
-    "latitude": 10.175077777777776,
-    "longitude": -85.37199722222222
+    "activities": 1,
+    "coordinates": [
+      10.175077777777776,
+      -85.37199722222222
+    ],
+    "place_type": 2
   },
   {
     "name": "Tabacón",
@@ -1721,14 +2177,18 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.49131041339024,
-    "longitude": -84.72189059481025
+    "activities": 1,
+    "coordinates": [
+      10.49131041339024,
+      -84.72189059481025
+    ],
+    "place_type": 0
   },
   {
     "name": "Monte Sky Mirador Ecológico",
     "area": 0,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "2228-00108382-7502",
     "email": "Montesky@intnet.co.cr",
@@ -1736,8 +2196,12 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
     "hours": "",
-    "latitude": 9.744101,
-    "longitude": -83.833378
+    "activities": 1,
+    "coordinates": [
+      9.744101,
+      -83.833378
+    ],
+    "place_type": 0
   },
   {
     "name": "Boliche Dent",
@@ -1751,14 +2215,18 @@
     "location": "San José, San José",
     "address": "los Yoses, 50 metros sur del Centro Cultura Costarricense Norteamericano, en Barrio Dent",
     "hours": "Lun-Dom: 11:00 am-12:00 am",
-    "latitude": 9.9332648,
-    "longitude": -84.06163749999996
+    "activities": 2,
+    "coordinates": [
+      9.9332648,
+      -84.06163749999996
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata Diamante Verde",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "Wilson",
     "phone_number": "2200-54888507-1944",
     "email": "wilsonvallediamante@hotmail.com",
@@ -1766,8 +2234,12 @@
     "location": "San José, Pérez Zeledón, Barú",
     "address": "después de PZ en dirección hacia Dominical, se pasa el pueblo Tinamastes, se dobla a la izquierda hacia San Salvador de Barú (7 km después de doblar)",
     "hours": "",
-    "latitude": 9.267010932908256,
-    "longitude": -83.76926265656948
+    "activities": 1,
+    "coordinates": [
+      9.267010932908256,
+      -83.76926265656948
+    ],
+    "place_type": 2
   },
   {
     "name": "Posada Nacientes Palmichal",
@@ -1781,8 +2253,12 @@
     "location": "San José, Acosta, Palmichal",
     "address": "75 mts oeste de la Guarda Rural",
     "hours": "",
-    "latitude": 9.8401,
-    "longitude": -84.177875
+    "activities": 1,
+    "coordinates": [
+      9.8401,
+      -84.177875
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Marino del Pacifico",
@@ -1796,8 +2272,12 @@
     "location": "Puntarenas, Puntarenas, Puntarenas",
     "address": "",
     "hours": "Mar-Dom: 9:00 am-5:00 pm",
-    "latitude": 9.976939999999999,
-    "longitude": -84.82784800000002
+    "activities": 0,
+    "coordinates": [
+      9.976939999999999,
+      -84.82784800000002
+    ],
+    "place_type": 1
   },
   {
     "name": "Blue River",
@@ -1811,8 +2291,12 @@
     "location": "Alajuela, Upala, Dos Ríos",
     "address": "faldas del Volcán Rincón de la Vieja, 600 mts oeste del Mariposario, Gavilán",
     "hours": "",
-    "latitude": 10.787702333642782,
-    "longitude": -85.4152379030711
+    "activities": 2,
+    "coordinates": [
+      10.787702333642782,
+      -85.4152379030711
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Palo Verde",
@@ -1826,8 +2310,12 @@
     "location": "Guanacaste",
     "address": "",
     "hours": "",
-    "latitude": 10.380755827725373,
-    "longitude": -85.32737731933594
+    "activities": 1,
+    "coordinates": [
+      10.380755827725373,
+      -85.32737731933594
+    ],
+    "place_type": 2
   },
   {
     "name": "Balneario Piedra Rajada",
@@ -1841,8 +2329,12 @@
     "location": "Alajuela, San Mateo",
     "address": "Labrador",
     "hours": "",
-    "latitude": 9.912792690590724,
-    "longitude": -84.64725769080735
+    "activities": 0,
+    "coordinates": [
+      9.912792690590724,
+      -84.64725769080735
+    ],
+    "place_type": 1
   },
   {
     "name": "Centro de Vida Silvestre Snake Garden",
@@ -1856,8 +2348,12 @@
     "location": "Heredia, Sarapiquí, La Virgen",
     "address": "2 Km al noreste del Banco Nacional de Costa Rica.",
     "hours": "Lun-Dom: 9:00 am-5:00 pm",
-    "latitude": 10.408411030554435,
-    "longitude": -84.12684872877435
+    "activities": 0,
+    "coordinates": [
+      10.408411030554435,
+      -84.12684872877435
+    ],
+    "place_type": 1
   },
   {
     "name": "Área de Conservación Cordillera Volcánica Central",
@@ -1871,8 +2367,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.936379171633646,
-    "longitude": -84.10188674926758
+    "activities": 1,
+    "coordinates": [
+      9.936379171633646,
+      -84.10188674926758
+    ],
+    "place_type": 0
   },
   {
     "name": "Rancho Tabacón Veracruz",
@@ -1886,8 +2386,12 @@
     "location": "Alajuela, Los Chiles, Caño Negro, Veracruz",
     "address": "400 metros oeste de la escuela de Veracruz",
     "hours": "",
-    "latitude": 10.853,
-    "longitude": -84.871
+    "activities": 2,
+    "coordinates": [
+      10.853,
+      -84.871
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Isla San Lucas",
@@ -1901,14 +2405,18 @@
     "location": "Puntarenas, Puntarenas, Puntarenas",
     "address": "",
     "hours": "",
-    "latitude": 9.941002241815497,
-    "longitude": -84.90589428227395
+    "activities": 1,
+    "coordinates": [
+      9.941002241815497,
+      -84.90589428227395
+    ],
+    "place_type": 0
   },
   {
     "name": "Cataratas Namú",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "Oscar Naranjo (Encargado)",
     "phone_number": "8345- 29528354- 15522771-4582",
     "email": "info@cataratasnamu.com, ventas@cataratasnamu.com",
@@ -1916,8 +2424,12 @@
     "location": "San José, Pérez Zeledón, Pejibaye",
     "address": "San Antonio, 2 km antes de llegar a la comunidad, a 25 km de San Isidro de El General.",
     "hours": "",
-    "latitude": 9.192638,
-    "longitude": -83.565913
+    "activities": 1,
+    "coordinates": [
+      9.192638,
+      -83.565913
+    ],
+    "place_type": 2
   },
   {
     "name": "Plaza Multiflores",
@@ -1931,8 +2443,12 @@
     "location": "Heredia, Heredia, San Francisco",
     "address": "",
     "hours": "",
-    "latitude": 9.99114555159164,
-    "longitude": -84.13385438925616
+    "activities": 2,
+    "coordinates": [
+      9.99114555159164,
+      -84.13385438925616
+    ],
+    "place_type": 0
   },
   {
     "name": "INBioparque",
@@ -1946,8 +2462,12 @@
     "location": "Heredia, Santo Domingo",
     "address": "",
     "hours": "Vie-Dom: 9:00 am-4:00 pm",
-    "latitude": 9.9742,
-    "longitude": -84.09320000000002
+    "activities": 0,
+    "coordinates": [
+      9.9742,
+      -84.09320000000002
+    ],
+    "place_type": 1
   },
   {
     "name": "Parque Nacional Los Quetzales",
@@ -1961,8 +2481,12 @@
     "location": "San José, Dota, Copey",
     "address": "Cerro de la Muerte, por Chespiritos #2",
     "hours": "",
-    "latitude": 9.615082264045355,
-    "longitude": -83.81800979375839
+    "activities": 1,
+    "coordinates": [
+      9.615082264045355,
+      -83.81800979375839
+    ],
+    "place_type": 2
   },
   {
     "name": "Isla Chira",
@@ -1976,8 +2500,12 @@
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
     "hours": "",
-    "latitude": 10.1012919,
-    "longitude": -85.15830640000001
+    "activities": 1,
+    "coordinates": [
+      10.1012919,
+      -85.15830640000001
+    ],
+    "place_type": 0
   },
   {
     "name": "Bar y Restaurante Linda Vista",
@@ -1991,8 +2519,12 @@
     "location": "Cartago, Oreamuno, Potrero Grande",
     "address": "después de San Juan de Chicoa, subiendo hacia el volcán",
     "hours": "",
-    "latitude": 9.950383768548525,
-    "longitude": -83.86060218326747
+    "activities": 2,
+    "coordinates": [
+      9.950383768548525,
+      -83.86060218326747
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Volcán Tenorio",
@@ -2006,8 +2538,12 @@
     "location": "Alajuela, Guatuso, Katira",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-2:30 pm",
-    "latitude": 10.70312,
-    "longitude": -84.97771
+    "activities": 0,
+    "coordinates": [
+      10.70312,
+      -84.97771
+    ],
+    "place_type": 1
   },
   {
     "name": "Los Molinos De Viento",
@@ -2021,8 +2557,12 @@
     "location": "Cartago, Alvarado, Cervantes",
     "address": "Carretera a Turrialba",
     "hours": "",
-    "latitude": 9.8810500067019,
-    "longitude": -83.81551909453265
+    "activities": 2,
+    "coordinates": [
+      9.8810500067019,
+      -83.81551909453265
+    ],
+    "place_type": 0
   },
   {
     "name": "Tierras Enamoradas",
@@ -2036,8 +2576,12 @@
     "location": "Alajuela, San Ramón, Ángeles",
     "address": "San Lorenzo",
     "hours": "",
-    "latitude": 10.272085125317451,
-    "longitude": -84.5240982809446
+    "activities": 2,
+    "coordinates": [
+      10.272085125317451,
+      -84.5240982809446
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante Mirador la luna",
@@ -2051,8 +2595,12 @@
     "location": "Alajuela",
     "address": "4 km norte de los Tribunales de Justicia, carretera al volcán",
     "hours": "Mar-Jue: 4:00 pm-10:30 pmVie-Sáb: 4:00 pm-11:30 pmDom: 12:00 pm-9:30 pm",
-    "latitude": 10.054453,
-    "longitude": -84.205026
+    "activities": 2,
+    "coordinates": [
+      10.054453,
+      -84.205026
+    ],
+    "place_type": 0
   },
   {
     "name": "Río Perdido",
@@ -2066,8 +2614,12 @@
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.5954412,
-    "longitude": -85.2008629
+    "activities": 1,
+    "coordinates": [
+      10.5954412,
+      -85.2008629
+    ],
+    "place_type": 2
   },
   {
     "name": "Hotel Arenal Paraiso",
@@ -2081,8 +2633,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "de la Iglesia Católica 7km carretera al Volcán",
     "hours": "",
-    "latitude": 10.502934523668348,
-    "longitude": -84.69548106193542
+    "activities": 2,
+    "coordinates": [
+      10.502934523668348,
+      -84.69548106193542
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Carara",
@@ -2096,14 +2652,18 @@
     "location": "Puntarenas, Garabito, Tárcoles",
     "address": "Parcial: Puntarenas, San José",
     "hours": "",
-    "latitude": 9.780582,
-    "longitude": -84.606855
+    "activities": 1,
+    "coordinates": [
+      9.780582,
+      -84.606855
+    ],
+    "place_type": 2
   },
   {
     "name": "Albergue Heliconias",
     "area": 0,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "",
     "phone_number": "2466-8483",
     "email": "heliconiaslodge@gmail.com",
@@ -2111,8 +2671,12 @@
     "location": "Alajuela, Upala, Bijagua",
     "address": "",
     "hours": "",
-    "latitude": 10.733583048612948,
-    "longitude": -85.05564540624619
+    "activities": 1,
+    "coordinates": [
+      10.733583048612948,
+      -85.05564540624619
+    ],
+    "place_type": 0
   },
   {
     "name": "Esterillos Oeste",
@@ -2126,8 +2690,12 @@
     "location": "Puntarenas, Parrita, Parrita, Esterillos Oeste",
     "address": "",
     "hours": "",
-    "latitude": 9.526542879465412,
-    "longitude": -84.50308084487915
+    "activities": 2,
+    "coordinates": [
+      9.526542879465412,
+      -84.50308084487915
+    ],
+    "place_type": 0
   },
   {
     "name": "Reno's Mini Golf",
@@ -2141,14 +2709,18 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "Lun-Sáb: 5:00 pm-9:00 pmDom: 1:00 pm-9:00 pm",
-    "latitude": 10.468968246123943,
-    "longitude": -84.65161185711622
+    "activities": 2,
+    "coordinates": [
+      10.468968246123943,
+      -84.65161185711622
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata Mapache",
     "area": 0,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -2156,8 +2728,12 @@
     "location": "Alajuela, Upala",
     "address": "",
     "hours": "",
-    "latitude": 10.884835813908593,
-    "longitude": -85.32186940312386
+    "activities": 1,
+    "coordinates": [
+      10.884835813908593,
+      -85.32186940312386
+    ],
+    "place_type": 0
   },
   {
     "name": "Sueños del Bosque",
@@ -2171,8 +2747,12 @@
     "location": "San José, Dota, Copey",
     "address": "San Gerardo",
     "hours": "",
-    "latitude": 9.54873658982288,
-    "longitude": -83.80828343331814
+    "activities": 1,
+    "coordinates": [
+      9.54873658982288,
+      -83.80828343331814
+    ],
+    "place_type": 2
   },
   {
     "name": "África Safari Adventure Park",
@@ -2186,8 +2766,12 @@
     "location": "Guanacaste, Liberia, Liberia",
     "address": "El Salto de Liberia, entre Bagaces y Liberia",
     "hours": "Lun-Dom: 9:00 am-5:00 pm",
-    "latitude": 10.564229,
-    "longitude": -85.3999311
+    "activities": 0,
+    "coordinates": [
+      10.564229,
+      -85.3999311
+    ],
+    "place_type": 1
   },
   {
     "name": "Taberna Longhorns",
@@ -2201,14 +2785,18 @@
     "location": "Heredia, Flores, San Joaquín",
     "address": "800 mts este de la Cervecería de Costa Rica",
     "hours": "Lun-Jue: 5:00 pm-12:00 amVie: 1:00 pm-1:00 amSáb: 1:00 pm-11:00 pm",
-    "latitude": 10.003206937906372,
-    "longitude": -84.1644125282437
+    "activities": 2,
+    "coordinates": [
+      10.003206937906372,
+      -84.1644125282437
+    ],
+    "place_type": 0
   },
   {
     "name": "Poza Machuca",
     "area": 1,
     "price_range": 0,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -2216,8 +2804,12 @@
     "location": "Alajuela, San Mateo, San Mateo",
     "address": "",
     "hours": "",
-    "latitude": 9.928737429572571,
-    "longitude": -84.52159559727534
+    "activities": 1,
+    "coordinates": [
+      9.928737429572571,
+      -84.52159559727534
+    ],
+    "place_type": 2
   },
   {
     "name": "Red de Ecoturismo Indígena de Talamanca",
@@ -2231,8 +2823,12 @@
     "location": "Limón, Talamanca, Bratsi",
     "address": "Shiroles",
     "hours": "",
-    "latitude": 9.58668,
-    "longitude": -82.95152
+    "activities": 1,
+    "coordinates": [
+      9.58668,
+      -82.95152
+    ],
+    "place_type": 2
   },
   {
     "name": "Castro's Bar",
@@ -2246,8 +2842,12 @@
     "location": "San José, San José, Merced, Barrio México",
     "address": "200m oeste del Departamento de Bomberos, Avenida 13, Calle 22",
     "hours": "Lun-Jue: 11:00 am-3:00 pmVie-Sáb: 11:00 am-4:30 amDom: 11:00 am-3:00 pm",
-    "latitude": 9.941392015866999,
-    "longitude": -84.08792853355408
+    "activities": 2,
+    "coordinates": [
+      9.941392015866999,
+      -84.08792853355408
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Volcán Poás",
@@ -2261,8 +2861,12 @@
     "location": "Alajuela",
     "address": "",
     "hours": "Mar-Dom: 7:00 am-4:00 pm",
-    "latitude": 10.185585,
-    "longitude": -84.236278
+    "activities": 0,
+    "coordinates": [
+      10.185585,
+      -84.236278
+    ],
+    "place_type": 1
   },
   {
     "name": "Parque Nacional Rincón de la Vieja",
@@ -2276,8 +2880,12 @@
     "location": "Guanacaste, Liberia, Liberia",
     "address": "Parcial: Guanacaste, Alajuela",
     "hours": "Mar-Dom: 7:00 am-3:00 pm",
-    "latitude": 10.772805,
-    "longitude": -85.349716
+    "activities": 1,
+    "coordinates": [
+      10.772805,
+      -85.349716
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante Jacó Rústico",
@@ -2291,8 +2899,12 @@
     "location": "Puntarenas, Garabito",
     "address": "",
     "hours": "",
-    "latitude": 9.61183005546864,
-    "longitude": -84.62705413810909
+    "activities": 2,
+    "coordinates": [
+      9.61183005546864,
+      -84.62705413810909
+    ],
+    "place_type": 0
   },
   {
     "name": "CitiCinemas Plaza Grecia",
@@ -2306,8 +2918,12 @@
     "location": "Alajuela, Grecia",
     "address": "",
     "hours": "",
-    "latitude": 10.078102552104369,
-    "longitude": -84.3174859284045
+    "activities": 2,
+    "coordinates": [
+      10.078102552104369,
+      -84.3174859284045
+    ],
+    "place_type": 0
   },
   {
     "name": "Molino Central",
@@ -2321,8 +2937,12 @@
     "location": "San José, Vázquez de Coronado, San Isidro",
     "address": "de la Iglesia 100 Norte 25 Oeste",
     "hours": "Lun-Dom: 7:30 am-7:30 pm",
-    "latitude": 9.977519315923683,
-    "longitude": -84.0075915120542
+    "activities": 2,
+    "coordinates": [
+      9.977519315923683,
+      -84.0075915120542
+    ],
+    "place_type": 0
   },
   {
     "name": "Parapente Turrialba",
@@ -2336,14 +2956,18 @@
     "location": "Cartago, Turrialba, Santa Cruz",
     "address": "",
     "hours": "",
-    "latitude": 9.960988799999999,
-    "longitude": -83.7482536
+    "activities": 2,
+    "coordinates": [
+      9.960988799999999,
+      -83.7482536
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata los Julianes",
     "area": 0,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "info: 2541-1513",
     "email": "",
@@ -2351,8 +2975,12 @@
     "location": "San José, Dota, Santa María, Naranjo",
     "address": "",
     "hours": "",
-    "latitude": 9.65,
-    "longitude": -83.96666670000002
+    "activities": 1,
+    "coordinates": [
+      9.65,
+      -83.96666670000002
+    ],
+    "place_type": 0
   },
   {
     "name": "Doka Estate Coffee Tour",
@@ -2366,8 +2994,12 @@
     "location": "Alajuela, Alajuela, Sabanilla",
     "address": "San Luis",
     "hours": "Lun-Vie: 8:00 am-5:00 pmSáb-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.098284849179644,
-    "longitude": -84.21195602430089
+    "activities": 2,
+    "coordinates": [
+      10.098284849179644,
+      -84.21195602430089
+    ],
+    "place_type": 0
   },
   {
     "name": "Bar la Palma",
@@ -2381,8 +3013,12 @@
     "location": "Heredia, Heredia, Mercedes",
     "address": "Mercedes Sur",
     "hours": "Lun-Vie: 3:00 pm-11:00 pmSáb: 12:00 pm-12:00 am",
-    "latitude": 9.99873365762715,
-    "longitude": -84.1378422640264
+    "activities": 2,
+    "coordinates": [
+      9.99873365762715,
+      -84.1378422640264
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Melico Salazar",
@@ -2396,8 +3032,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.933341764051697,
-    "longitude": -84.07937335974566
+    "activities": 2,
+    "coordinates": [
+      9.933341764051697,
+      -84.07937335974566
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante El Campesino",
@@ -2411,8 +3051,12 @@
     "location": "Heredia, Heredia, Ulloa, La Aurora",
     "address": "Diagonal este al Parque",
     "hours": "Lun-Sáb: 11:00 am-8:00 pm",
-    "latitude": 9.987970370318536,
-    "longitude": -84.15084779262543
+    "activities": 2,
+    "coordinates": [
+      9.987970370318536,
+      -84.15084779262543
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Manuel Antonio",
@@ -2426,8 +3070,12 @@
     "location": "Puntarenas, Aguirre, Quepos, Manuel Antonio",
     "address": "",
     "hours": "Mar-Dom: 7:00 am-4:00 pm",
-    "latitude": 9.391217937369849,
-    "longitude": -84.14539854973555
+    "activities": 1,
+    "coordinates": [
+      9.391217937369849,
+      -84.14539854973555
+    ],
+    "place_type": 0
   },
   {
     "name": "Playa Huevo",
@@ -2441,8 +3089,12 @@
     "location": "Guanacaste, Liberia, Nacascolo",
     "address": "",
     "hours": "",
-    "latitude": 10.633556996391706,
-    "longitude": -85.67897541623097
+    "activities": 2,
+    "coordinates": [
+      10.633556996391706,
+      -85.67897541623097
+    ],
+    "place_type": 0
   },
   {
     "name": "Casa Zeller",
@@ -2456,8 +3108,12 @@
     "location": "San José",
     "address": "San Sebastián, Paso Ancho,   400 m al norte de la rotonda de la Guacamaya",
     "hours": "",
-    "latitude": 9.912576303986146,
-    "longitude": -84.07882073530345
+    "activities": 2,
+    "coordinates": [
+      9.912576303986146,
+      -84.07882073530345
+    ],
+    "place_type": 0
   },
   {
     "name": "Sensoria",
@@ -2471,8 +3127,12 @@
     "location": "Alajuela, Upala, Aguas Claras",
     "address": "",
     "hours": "",
-    "latitude": 10.872017243066178,
-    "longitude": -85.32527228817344
+    "activities": 2,
+    "coordinates": [
+      10.872017243066178,
+      -85.32527228817344
+    ],
+    "place_type": 0
   },
   {
     "name": "Fiesta Latina",
@@ -2486,8 +3146,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.941237903154414,
-    "longitude": -84.07382011413574
+    "activities": 2,
+    "coordinates": [
+      9.941237903154414,
+      -84.07382011413574
+    ],
+    "place_type": 0
   },
   {
     "name": "Iglesia de Orosí",
@@ -2501,8 +3165,12 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
     "hours": "",
-    "latitude": 9.797511187226856,
-    "longitude": -83.85543680204137
+    "activities": 2,
+    "coordinates": [
+      9.797511187226856,
+      -83.85543680204137
+    ],
+    "place_type": 0
   },
   {
     "name": "Ruinas de Cartago",
@@ -2516,8 +3184,12 @@
     "location": "Cartago, Cartago",
     "address": "",
     "hours": "",
-    "latitude": 9.86429982116885,
-    "longitude": -83.91983234885629
+    "activities": 2,
+    "coordinates": [
+      9.86429982116885,
+      -83.91983234885629
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Chirripó",
@@ -2531,14 +3203,18 @@
     "location": "Limón",
     "address": "Parcial: San José, Cartago, Limón",
     "hours": "",
-    "latitude": 9.49820982402425,
-    "longitude": -83.49918365478516
+    "activities": 1,
+    "coordinates": [
+      9.49820982402425,
+      -83.49918365478516
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Ecológica Catarata Río Fortuna",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "2479-95152479-8338",
     "email": "info@arenaladifort.com",
@@ -2546,8 +3222,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "800 m al sur y 4 km al oeste del Redondel de la Fortuna.",
     "hours": "Lun-Dom: 8:00 am-5:00 pm",
-    "latitude": 10.442072092285155,
-    "longitude": -84.66741224750876
+    "activities": 1,
+    "coordinates": [
+      10.442072092285155,
+      -84.66741224750876
+    ],
+    "place_type": 2
   },
   {
     "name": "Parque Nacional La Cangreja",
@@ -2561,14 +3241,18 @@
     "location": "San José, Puriscal, Chires",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 9.703203,
-    "longitude": -84.397604
+    "activities": 1,
+    "coordinates": [
+      9.703203,
+      -84.397604
+    ],
+    "place_type": 0
   },
   {
     "name": "Cataratas Arrayanes",
     "area": 0,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -2576,8 +3260,12 @@
     "location": "Heredia, Heredia, Varablanca",
     "address": "",
     "hours": "",
-    "latitude": 10.208705,
-    "longitude": -84.128662
+    "activities": 1,
+    "coordinates": [
+      10.208705,
+      -84.128662
+    ],
+    "place_type": 0
   },
   {
     "name": "El Observatorio",
@@ -2591,8 +3279,12 @@
     "location": "San José",
     "address": "frente al Cine Magaly, Barrio La California, Calle 23 y Avenida Central 1",
     "hours": "Lun-Vie: 11:00 am-2:00 pm, 6:00 pm-2:00 amSáb: 6:00 pm-2:00 am",
-    "latitude": 9.93322225745763,
-    "longitude": -84.06837522983551
+    "activities": 2,
+    "coordinates": [
+      9.93322225745763,
+      -84.06837522983551
+    ],
+    "place_type": 0
   },
   {
     "name": "Nova Cinemas",
@@ -2606,8 +3298,12 @@
     "location": "San José, Escazú, San Rafael",
     "address": "",
     "hours": "Lun-Dom: 11:00 am-10:00 pm",
-    "latitude": 9.937248163786863,
-    "longitude": -84.14365192875266
+    "activities": 2,
+    "coordinates": [
+      9.937248163786863,
+      -84.14365192875266
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Juan Castro Blanco",
@@ -2621,8 +3317,12 @@
     "location": "Alajuela",
     "address": "",
     "hours": "",
-    "latitude": 10.293334771589867,
-    "longitude": -84.32762145996094
+    "activities": 1,
+    "coordinates": [
+      10.293334771589867,
+      -84.32762145996094
+    ],
+    "place_type": 0
   },
   {
     "name": "Buses Coronado - Terminal Coronado",
@@ -2636,8 +3336,12 @@
     "location": "San José, Vázquez de Coronado, San Isidro",
     "address": "",
     "hours": "",
-    "latitude": 9.978047850428457,
-    "longitude": -84.00683026760817
+    "activities": 1,
+    "coordinates": [
+      9.978047850428457,
+      -84.00683026760817
+    ],
+    "place_type": 0
   },
   {
     "name": "Iglesia de la Fortuna de San Carlos",
@@ -2651,8 +3355,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.4708333,
-    "longitude": -84.64527780000003
+    "activities": 2,
+    "coordinates": [
+      10.4708333,
+      -84.64527780000003
+    ],
+    "place_type": 0
   },
   {
     "name": "Posada Cerro Escondido",
@@ -2666,8 +3374,12 @@
     "location": "Puntarenas, Puntarenas, Lepanto, Jicaral",
     "address": "San Ramón de Rio Blanco",
     "hours": "",
-    "latitude": 9.8991865,
-    "longitude": -85.035553
+    "activities": 1,
+    "coordinates": [
+      9.8991865,
+      -85.035553
+    ],
+    "place_type": 2
   },
   {
     "name": "Cuban Republik Disco Lounge",
@@ -2681,8 +3393,12 @@
     "location": "Puntarenas, Aguirre, Quepos",
     "address": "",
     "hours": "",
-    "latitude": 9.431329107251457,
-    "longitude": -84.16480600833893
+    "activities": 2,
+    "coordinates": [
+      9.431329107251457,
+      -84.16480600833893
+    ],
+    "place_type": 0
   },
   {
     "name": "La Deportiva Charlie's Bar",
@@ -2696,14 +3412,18 @@
     "location": "Heredia, Belén, Asunción",
     "address": "Contiguo a la Plaza de Deportes, Costado Oeste",
     "hours": "",
-    "latitude": 9.979939051717349,
-    "longitude": -84.16974714025855
+    "activities": 2,
+    "coordinates": [
+      9.979939051717349,
+      -84.16974714025855
+    ],
+    "place_type": 0
   },
   {
     "name": "Santuario de lapas El Manantial",
     "area": 1,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "",
     "phone_number": "8823-24602661-5419",
     "email": "info@santuariolapas.com, aramacao@costarricense.cr",
@@ -2711,8 +3431,12 @@
     "location": "Puntarenas, Puntarenas, Pitahaya, Aranjuez",
     "address": "Carretera a Guanacaste, 13km de Cuatrocruces",
     "hours": "",
-    "latitude": 10.049422139115887,
-    "longitude": -84.80582660437449
+    "activities": 1,
+    "coordinates": [
+      10.049422139115887,
+      -84.80582660437449
+    ],
+    "place_type": 2
   },
   {
     "name": "La Casona del Cafetal",
@@ -2726,8 +3450,12 @@
     "location": "Cartago, Paraíso, Cachí",
     "address": "De la represa de Cachi 1.5 km al sur",
     "hours": "",
-    "latitude": 9.828146612529741,
-    "longitude": -83.81126831285655
+    "activities": 2,
+    "coordinates": [
+      9.828146612529741,
+      -83.81126831285655
+    ],
+    "place_type": 0
   },
   {
     "name": "Mirador Prendas",
@@ -2741,8 +3469,12 @@
     "location": "Heredia, Sarapiquí, Horquetas",
     "address": "",
     "hours": "",
-    "latitude": 10.318233642179147,
-    "longitude": -83.79393157575072
+    "activities": 2,
+    "coordinates": [
+      10.318233642179147,
+      -83.79393157575072
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Biológica Cerro las Vueltas",
@@ -2756,8 +3488,12 @@
     "location": "San José, Dota, Copey",
     "address": "",
     "hours": "",
-    "latitude": 9.61138890000001,
-    "longitude": -83.85777780000005
+    "activities": 1,
+    "coordinates": [
+      9.61138890000001,
+      -83.85777780000005
+    ],
+    "place_type": 0
   },
   {
     "name": "Basílica de Nuestra Señora de los Ángeles",
@@ -2771,8 +3507,12 @@
     "location": "Cartago, Cartago",
     "address": "",
     "hours": "",
-    "latitude": 9.864025788133139,
-    "longitude": -83.91330814374669
+    "activities": 2,
+    "coordinates": [
+      9.864025788133139,
+      -83.91330814374669
+    ],
+    "place_type": 0
   },
   {
     "name": "Centro Cultural Bribripa Kaneblo",
@@ -2786,14 +3526,18 @@
     "location": "Puntarenas, Buenos Aires, Buenos Aires",
     "address": "Salitre",
     "hours": "",
-    "latitude": 9.190395207677788,
-    "longitude": -83.30699265003204
+    "activities": 1,
+    "coordinates": [
+      9.190395207677788,
+      -83.30699265003204
+    ],
+    "place_type": 2
   },
   {
     "name": "EcoTEC",
     "area": 1,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "TEC - Sede San Carlos",
     "phone_number": "2401-30712401-3133",
     "email": "ocastro@itcr.ac.cr",
@@ -2801,8 +3545,12 @@
     "location": "Alajuela, San Carlos, Florencia",
     "address": "Santa Clara",
     "hours": "",
-    "latitude": 10.362241044941808,
-    "longitude": -84.50995373699698
+    "activities": 1,
+    "coordinates": [
+      10.362241044941808,
+      -84.50995373699698
+    ],
+    "place_type": 2
   },
   {
     "name": "Ocean Ranch Park",
@@ -2816,8 +3564,12 @@
     "location": "Puntarenas, Garabito, Jacó",
     "address": "Playa Hermosa - Quebrada Amarilla",
     "hours": "",
-    "latitude": 9.585728099999999,
-    "longitude": -84.54668279999999
+    "activities": 2,
+    "coordinates": [
+      9.585728099999999,
+      -84.54668279999999
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Braulio Carrillo",
@@ -2831,14 +3583,18 @@
     "location": "San José",
     "address": "Parcial: Limón, Cartago, San José",
     "hours": "",
-    "latitude": 10.16184752705182,
-    "longitude": -83.93797563048793
+    "activities": 1,
+    "coordinates": [
+      10.16184752705182,
+      -83.93797563048793
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata de la Paz",
     "area": 1,
     "price_range": 0,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -2846,8 +3602,12 @@
     "location": "Alajuela, Alajuela, Sarapiquí",
     "address": "",
     "hours": "",
-    "latitude": 10.206976902661218,
-    "longitude": -84.16382633149624
+    "activities": 1,
+    "coordinates": [
+      10.206976902661218,
+      -84.16382633149624
+    ],
+    "place_type": 2
   },
   {
     "name": "Freddo Fresas",
@@ -2861,8 +3621,12 @@
     "location": "Alajuela",
     "address": "Poasito, Carreteta al Volcán Poás, 200 m al norte del cementerio en Fraijanes",
     "hours": "",
-    "latitude": 10.157192,
-    "longitude": -84.195732
+    "activities": 2,
+    "coordinates": [
+      10.157192,
+      -84.195732
+    ],
+    "place_type": 0
   },
   {
     "name": "Soda El Jardín San Ramón",
@@ -2876,14 +3640,18 @@
     "location": "Alajuela, San Ramón, Santiago",
     "address": "De la entrada de San Ramón, 3km camino hacia Puntarenas (El Alto de Santiago, Calle León).",
     "hours": "Lun-Dom: 5:30 am-9:00 pm",
-    "latitude": 10.060448385407645,
-    "longitude": -84.49888532515615
+    "activities": 2,
+    "coordinates": [
+      10.060448385407645,
+      -84.49888532515615
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata Chindama",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -2891,8 +3659,12 @@
     "location": "Limón, Pococí, Guápiles",
     "address": "",
     "hours": "",
-    "latitude": 10.108159,
-    "longitude": -83.795
+    "activities": 1,
+    "coordinates": [
+      10.108159,
+      -83.795
+    ],
+    "place_type": 2
   },
   {
     "name": "La Taberna del Vaquero Pobre",
@@ -2906,8 +3678,12 @@
     "location": "Puntarenas, Parrita, Parrita, La Palma",
     "address": "Contiguo a la subasta ganadera",
     "hours": "Lun-Dom: 4:00 pm-2:30 am",
-    "latitude": 9.532911977271763,
-    "longitude": -84.37451076402795
+    "activities": 2,
+    "coordinates": [
+      9.532911977271763,
+      -84.37451076402795
+    ],
+    "place_type": 0
   },
   {
     "name": "Cinco Ceibas",
@@ -2921,14 +3697,18 @@
     "location": "Heredia, Sarapiquí, La Virgen",
     "address": "Finca Pangola",
     "hours": "",
-    "latitude": 10.5663093,
-    "longitude": -84.14622099999997
+    "activities": 0,
+    "coordinates": [
+      10.5663093,
+      -84.14622099999997
+    ],
+    "place_type": 1
   },
   {
     "name": "Poza la Vieja",
     "area": 1,
     "price_range": 0,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -2936,8 +3716,12 @@
     "location": "Alajuela, San Carlos, Florencia, La Vieja",
     "address": "",
     "hours": "",
-    "latitude": 10.364233,
-    "longitude": -84.478882
+    "activities": 1,
+    "coordinates": [
+      10.364233,
+      -84.478882
+    ],
+    "place_type": 2
   },
   {
     "name": "Arco Iris",
@@ -2951,8 +3735,12 @@
     "location": "Puntarenas, Aguirre, Quepos",
     "address": "",
     "hours": "",
-    "latitude": 9.43391683939446,
-    "longitude": -84.16431784629822
+    "activities": 2,
+    "coordinates": [
+      9.43391683939446,
+      -84.16431784629822
+    ],
+    "place_type": 0
   },
   {
     "name": "Hacienda Pozo Azul",
@@ -2966,8 +3754,12 @@
     "location": "Heredia, Sarapiquí, La Virgen",
     "address": "",
     "hours": "",
-    "latitude": 10.387664920241528,
-    "longitude": -84.13942049257457
+    "activities": 2,
+    "coordinates": [
+      10.387664920241528,
+      -84.13942049257457
+    ],
+    "place_type": 0
   },
   {
     "name": "Iglesia Metálica Grecia",
@@ -2981,8 +3773,12 @@
     "location": "Alajuela, Grecia",
     "address": "",
     "hours": "",
-    "latitude": 10.072933980354662,
-    "longitude": -84.3107256890653
+    "activities": 2,
+    "coordinates": [
+      10.072933980354662,
+      -84.3107256890653
+    ],
+    "place_type": 0
   },
   {
     "name": "Nature Air",
@@ -2996,8 +3792,12 @@
     "location": "Alajuela",
     "address": "Aeropuerto Juan Santa María",
     "hours": "Lun-Vie: 7:00 am-6:00 pmSáb-Dom: 7:00 am-5:00 pm",
-    "latitude": 9.998237999999999,
-    "longitude": -84.20407999999998
+    "activities": 1,
+    "coordinates": [
+      9.998237999999999,
+      -84.20407999999998
+    ],
+    "place_type": 0
   },
   {
     "name": "Parroquia San Rafael Arcángel (Zarcero)",
@@ -3011,8 +3811,12 @@
     "location": "Alajuela, Zarcero, Zarcero",
     "address": "",
     "hours": "",
-    "latitude": 10.184160118644042,
-    "longitude": -84.39064908034197
+    "activities": 2,
+    "coordinates": [
+      10.184160118644042,
+      -84.39064908034197
+    ],
+    "place_type": 0
   },
   {
     "name": "Represa de Cachí",
@@ -3026,8 +3830,12 @@
     "location": "Cartago, Paraíso, Cachí",
     "address": "",
     "hours": "",
-    "latitude": 9.840662891197116,
-    "longitude": -83.80420337431133
+    "activities": 2,
+    "coordinates": [
+      9.840662891197116,
+      -83.80420337431133
+    ],
+    "place_type": 0
   },
   {
     "name": "Espíritu Santo Coffee Tour",
@@ -3041,14 +3849,18 @@
     "location": "Alajuela, Naranjo, Naranjo",
     "address": "del Banco Nacional , 200 m al sur y 900 m oeste",
     "hours": "Lun-Dom: 8:00 am-5:00 pm",
-    "latitude": 10.095416818154334,
-    "longitude": -84.3837708234787
+    "activities": 2,
+    "coordinates": [
+      10.095416818154334,
+      -84.3837708234787
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata El Peje",
     "area": 1,
     "price_range": 0,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -3056,8 +3868,12 @@
     "location": "San José, Pérez Zeledón, Daniel Flores",
     "address": "",
     "hours": "",
-    "latitude": 9.281662,
-    "longitude": -83.65856300000002
+    "activities": 1,
+    "coordinates": [
+      9.281662,
+      -83.65856300000002
+    ],
+    "place_type": 2
   },
   {
     "name": "Multiplaza Curridabat",
@@ -3071,8 +3887,12 @@
     "location": "San José, Curridabat, Curridabat",
     "address": "",
     "hours": "",
-    "latitude": 9.917520907606388,
-    "longitude": -84.0465259552002
+    "activities": 2,
+    "coordinates": [
+      9.917520907606388,
+      -84.0465259552002
+    ],
+    "place_type": 0
   },
   {
     "name": "Centro Plaza Liberia",
@@ -3086,8 +3906,12 @@
     "location": "Guanacaste, Liberia, Liberia",
     "address": "1 km al Sur de la entrada principal a la ciudad de Liberia (cruce de los semáforos).",
     "hours": "",
-    "latitude": 10.618207195895259,
-    "longitude": -85.43698310852051
+    "activities": 2,
+    "coordinates": [
+      10.618207195895259,
+      -85.43698310852051
+    ],
+    "place_type": 0
   },
   {
     "name": "Plaza Bratsi",
@@ -3101,8 +3925,12 @@
     "location": "Heredia",
     "address": "Diagonal a la Universidad Latina Heredia",
     "hours": "Lun-Dom: 10:00 am-7:00 pm",
-    "latitude": 9.987706258510729,
-    "longitude": -84.11079597499338
+    "activities": 2,
+    "coordinates": [
+      9.987706258510729,
+      -84.11079597499338
+    ],
+    "place_type": 0
   },
   {
     "name": "Pollos del Monte",
@@ -3116,8 +3944,12 @@
     "location": "Heredia, Belén",
     "address": "800 metros al oeste de la plaza de deportes de\nSan Antonio de Belén. O 300 metros al este de la Panasonic.",
     "hours": "Lun-Sáb: 11:00 am-10:00 pmDom: 11:00 am-9:00 pm",
-    "latitude": 9.979236161860817,
-    "longitude": -84.19403994070308
+    "activities": 2,
+    "coordinates": [
+      9.979236161860817,
+      -84.19403994070308
+    ],
+    "place_type": 0
   },
   {
     "name": "Zona Protectora Arenal - Monteverde",
@@ -3131,8 +3963,12 @@
     "location": "Alajuela",
     "address": "",
     "hours": "",
-    "latitude": 10.310370558660747,
-    "longitude": -84.74166870117188
+    "activities": 1,
+    "coordinates": [
+      10.310370558660747,
+      -84.74166870117188
+    ],
+    "place_type": 0
   },
   {
     "name": "Macaw Lodge",
@@ -3146,8 +3982,12 @@
     "location": "San José, Turrubares, Carara",
     "address": "Sur de Turrubares",
     "hours": "",
-    "latitude": 9.728506958303964,
-    "longitude": -84.51867084950209
+    "activities": 1,
+    "coordinates": [
+      9.728506958303964,
+      -84.51867084950209
+    ],
+    "place_type": 0
   },
   {
     "name": "Puerto Puntarenas",
@@ -3161,8 +4001,12 @@
     "location": "Puntarenas",
     "address": "",
     "hours": "",
-    "latitude": 9.974650350246899,
-    "longitude": -84.83136177062988
+    "activities": 2,
+    "coordinates": [
+      9.974650350246899,
+      -84.83136177062988
+    ],
+    "place_type": 0
   },
   {
     "name": "Britt Coffee Tour",
@@ -3176,8 +4020,12 @@
     "location": "Heredia",
     "address": "Santa Lucía, del Auto Mercado 500m Norte, 400m Oeste",
     "hours": "",
-    "latitude": 10.00952,
-    "longitude": -84.121565
+    "activities": 2,
+    "coordinates": [
+      10.00952,
+      -84.121565
+    ],
+    "place_type": 0
   },
   {
     "name": "Plaza Real Cariari",
@@ -3191,8 +4039,12 @@
     "location": "Heredia",
     "address": "En el cruce de San Antonio de Belén sobre la autopista General Cañas",
     "hours": "Lun-Sáb: 10:30 am-8:00 pmDom: 11:00 am-7:00 pm",
-    "latitude": 9.980296421341809,
-    "longitude": -84.16038036346436
+    "activities": 2,
+    "coordinates": [
+      9.980296421341809,
+      -84.16038036346436
+    ],
+    "place_type": 0
   },
   {
     "name": "Posada Rural La Amistad",
@@ -3206,8 +4058,12 @@
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
     "hours": "",
-    "latitude": 10.107334072921505,
-    "longitude": -85.17624448053539
+    "activities": 1,
+    "coordinates": [
+      10.107334072921505,
+      -85.17624448053539
+    ],
+    "place_type": 0
   },
   {
     "name": "El Fortín",
@@ -3221,14 +4077,18 @@
     "location": "Heredia",
     "address": "",
     "hours": "",
-    "latitude": 9.999132654213792,
-    "longitude": -84.11702835546748
+    "activities": 2,
+    "coordinates": [
+      9.999132654213792,
+      -84.11702835546748
+    ],
+    "place_type": 0
   },
   {
     "name": "Cataratas Cabro Muco",
     "area": 1,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -3236,8 +4096,12 @@
     "location": "Guanacaste, Bagaces, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.71293611111111,
-    "longitude": -85.15293333333334
+    "activities": 1,
+    "coordinates": [
+      10.71293611111111,
+      -85.15293333333334
+    ],
+    "place_type": 2
   },
   {
     "name": "Plaza Grecia",
@@ -3251,8 +4115,12 @@
     "location": "Alajuela, Grecia",
     "address": "",
     "hours": "",
-    "latitude": 10.078102552104369,
-    "longitude": -84.3174859284045
+    "activities": 2,
+    "coordinates": [
+      10.078102552104369,
+      -84.3174859284045
+    ],
+    "place_type": 0
   },
   {
     "name": "Mall Internacional Alajuela",
@@ -3266,8 +4134,12 @@
     "location": "Alajuela",
     "address": "Radial Francisco Orlich",
     "hours": "Lun-Dom: 10:30 am-8:30 pm",
-    "latitude": 10.006155095147134,
-    "longitude": -84.21265125274658
+    "activities": 2,
+    "coordinates": [
+      10.006155095147134,
+      -84.21265125274658
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Nacional",
@@ -3281,14 +4153,18 @@
     "location": "San José, San José, Catedral",
     "address": "",
     "hours": "",
-    "latitude": 9.933084433055406,
-    "longitude": -84.07718574997489
+    "activities": 2,
+    "coordinates": [
+      9.933084433055406,
+      -84.07718574997489
+    ],
+    "place_type": 0
   },
   {
     "name": "Poza Azul",
     "area": 3,
     "price_range": 1,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -3296,8 +4172,12 @@
     "location": "Puntarenas",
     "address": "Dominicalito",
     "hours": "",
-    "latitude": 9.234906,
-    "longitude": -83.836331
+    "activities": 1,
+    "coordinates": [
+      9.234906,
+      -83.836331
+    ],
+    "place_type": 0
   },
   {
     "name": "Mercado Central de San José",
@@ -3311,8 +4191,12 @@
     "location": "San José",
     "address": "entre las avenidas 0 (central) y 1, calles 6 y 8",
     "hours": "",
-    "latitude": 9.934637882710824,
-    "longitude": -84.08199441426405
+    "activities": 2,
+    "coordinates": [
+      9.934637882710824,
+      -84.08199441426405
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Carpa",
@@ -3326,8 +4210,12 @@
     "location": "Heredia, Heredia, Heredia",
     "address": "Costado sur Iglesia del Carmen, Frente a Pizza Hut",
     "hours": "",
-    "latitude": 9.995939919081362,
-    "longitude": -84.1151861473918
+    "activities": 2,
+    "coordinates": [
+      9.995939919081362,
+      -84.1151861473918
+    ],
+    "place_type": 0
   },
   {
     "name": "El Portón Rojo",
@@ -3341,8 +4229,12 @@
     "location": "San José, Montes de Oca, San Pedro",
     "address": "De Arenas los Yoses 200 mts Sur 75 Este. Diagonal Parrillada Don Carlos. Avenida 10, Calle 45",
     "hours": "",
-    "latitude": 9.930404650053203,
-    "longitude": -84.05887266620994
+    "activities": 2,
+    "coordinates": [
+      9.930404650053203,
+      -84.05887266620994
+    ],
+    "place_type": 0
   },
   {
     "name": "Casino Fiesta Alajuela",
@@ -3356,8 +4248,12 @@
     "location": "Alajuela",
     "address": "1.5 km al este del Aeropuerto Internacional Juan Santamaría",
     "hours": "",
-    "latitude": 10.000878923478211,
-    "longitude": -84.19597864151001
+    "activities": 2,
+    "coordinates": [
+      10.000878923478211,
+      -84.19597864151001
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Gandoca Manzanillo",
@@ -3371,8 +4267,12 @@
     "location": "Limón, Talamanca, Cahuita",
     "address": "",
     "hours": "",
-    "latitude": 9.616016577135664,
-    "longitude": -82.68928527832031
+    "activities": 1,
+    "coordinates": [
+      9.616016577135664,
+      -82.68928527832031
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Internacional la Amistad",
@@ -3386,8 +4286,12 @@
     "location": "Limón",
     "address": "Parcial: Puntarenas, Limón",
     "hours": "",
-    "latitude": 9.402774581553638,
-    "longitude": -82.96765130013227
+    "activities": 1,
+    "coordinates": [
+      9.402774581553638,
+      -82.96765130013227
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio de Vida Silvestre Costa Esmeralda",
@@ -3401,8 +4305,12 @@
     "location": "Guanacaste, Carrillo, Sardinal",
     "address": "al norte de Playa Potrero",
     "hours": "",
-    "latitude": 10.530248676178923,
-    "longitude": -85.78151553869247
+    "activities": 1,
+    "coordinates": [
+      10.530248676178923,
+      -85.78151553869247
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Nacional Volcán Turrialba",
@@ -3416,8 +4324,12 @@
     "location": "Cartago, Turrialba, Santa Cruz",
     "address": "",
     "hours": "Lun-Dom: 8:00 am-3:30 pm",
-    "latitude": 10.018079964759483,
-    "longitude": -83.74671936035156
+    "activities": 0,
+    "coordinates": [
+      10.018079964759483,
+      -83.74671936035156
+    ],
+    "place_type": 1
   },
   {
     "name": "Restaurante el Avión",
@@ -3431,8 +4343,12 @@
     "location": "Puntarenas, Aguirre, Quepos",
     "address": "",
     "hours": "",
-    "latitude": 9.402205640478911,
-    "longitude": -84.15313249839528
+    "activities": 2,
+    "coordinates": [
+      9.402205640478911,
+      -84.15313249839528
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Forestal Río Macho",
@@ -3446,8 +4362,12 @@
     "location": "Cartago",
     "address": "",
     "hours": "",
-    "latitude": 9.71482682998034,
-    "longitude": -83.46382141113281
+    "activities": 1,
+    "coordinates": [
+      9.71482682998034,
+      -83.46382141113281
+    ],
+    "place_type": 0
   },
   {
     "name": "Isla Tortuga",
@@ -3461,14 +4381,18 @@
     "location": "",
     "address": "",
     "hours": "",
-    "latitude": 9.7701083,
-    "longitude": -84.8919664
+    "activities": 1,
+    "coordinates": [
+      9.7701083,
+      -84.8919664
+    ],
+    "place_type": 0
   },
   {
     "name": "Poza el Ojoche",
     "area": 1,
     "price_range": 0,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -3476,8 +4400,12 @@
     "location": "Alajuela, San Mateo, San Mateo",
     "address": "",
     "hours": "",
-    "latitude": 9.929858708325307,
-    "longitude": -84.5314521790533
+    "activities": 1,
+    "coordinates": [
+      9.929858708325307,
+      -84.5314521790533
+    ],
+    "place_type": 2
   },
   {
     "name": "Rancho Típico Zarcereño",
@@ -3491,8 +4419,12 @@
     "location": "Alajuela, Zarcero, Zarcero",
     "address": "2 km sur del parque, contiguo a restaurante Herford, frente al tajo",
     "hours": "",
-    "latitude": 10.180001598916519,
-    "longitude": -84.38342428212309
+    "activities": 2,
+    "coordinates": [
+      10.180001598916519,
+      -84.38342428212309
+    ],
+    "place_type": 0
   },
   {
     "name": "La Reina India: Área para picnic",
@@ -3506,8 +4438,12 @@
     "location": "San José, Dota, Santa María",
     "address": "Del Cementerio de Santa María de Dota, 400 metros al este y 2 kilómetros al norte, Camino a Varablanca.",
     "hours": "",
-    "latitude": 9.663907,
-    "longitude": -83.960544
+    "activities": 2,
+    "coordinates": [
+      9.663907,
+      -83.960544
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Biológica Isla Pájaros",
@@ -3521,8 +4457,12 @@
     "location": "Puntarenas, Puntarenas, Paquera",
     "address": "",
     "hours": "",
-    "latitude": 9.869719218181348,
-    "longitude": -84.90957928122953
+    "activities": 1,
+    "coordinates": [
+      9.869719218181348,
+      -84.90957928122953
+    ],
+    "place_type": 0
   },
   {
     "name": "Coopetransatenas R.L",
@@ -3536,8 +4476,12 @@
     "location": "Alajuela, Atenas, Atenas",
     "address": "",
     "hours": "",
-    "latitude": 9.978765115031393,
-    "longitude": -84.38181442015775
+    "activities": 1,
+    "coordinates": [
+      9.978765115031393,
+      -84.38181442015775
+    ],
+    "place_type": 2
   },
   {
     "name": "Villa Luna",
@@ -3551,8 +4495,12 @@
     "location": "San José",
     "address": "Calle Blancos",
     "hours": "",
-    "latitude": 9.95,
-    "longitude": -84.06666669999998
+    "activities": 2,
+    "coordinates": [
+      9.95,
+      -84.06666669999998
+    ],
+    "place_type": 0
   },
   {
     "name": "Centro Costarricense de Ciencia y Cultura",
@@ -3566,8 +4514,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.941112851038344,
-    "longitude": -84.07989692714182
+    "activities": 2,
+    "coordinates": [
+      9.941112851038344,
+      -84.07989692714182
+    ],
+    "place_type": 0
   },
   {
     "name": "Cinemark Multiplaza Curridabat",
@@ -3581,8 +4533,12 @@
     "location": "San José, Curridabat, Curridabat",
     "address": "",
     "hours": "",
-    "latitude": 9.91697760862565,
-    "longitude": -84.04601415619254
+    "activities": 2,
+    "coordinates": [
+      9.91697760862565,
+      -84.04601415619254
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Forestal los Santos",
@@ -3596,8 +4552,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.991167035966665,
-    "longitude": -83.9630126953125
+    "activities": 1,
+    "coordinates": [
+      9.991167035966665,
+      -83.9630126953125
+    ],
+    "place_type": 2
   },
   {
     "name": "Humedal Estero Puntarenas y Manglares Asociados",
@@ -3611,8 +4571,12 @@
     "location": "Puntarenas",
     "address": "",
     "hours": "",
-    "latitude": 10.021669311458638,
-    "longitude": -84.89564895629883
+    "activities": 1,
+    "coordinates": [
+      10.021669311458638,
+      -84.89564895629883
+    ],
+    "place_type": 0
   },
   {
     "name": "Ruta Turística Corralillo - Trapiche Alex Ureña",
@@ -3626,8 +4590,12 @@
     "location": "Cartago",
     "address": "San Joaquín de Corralillo",
     "hours": "",
-    "latitude": 9.785221,
-    "longitude": -84.038481
+    "activities": 0,
+    "coordinates": [
+      9.785221,
+      -84.038481
+    ],
+    "place_type": 1
   },
   {
     "name": "Hotel Catarata Río Celeste",
@@ -3641,8 +4609,12 @@
     "location": "Alajuela, Guatuso, Katira",
     "address": "La Paz",
     "hours": "",
-    "latitude": 10.70302,
-    "longitude": -84.97062
+    "activities": 2,
+    "coordinates": [
+      10.70302,
+      -84.97062
+    ],
+    "place_type": 0
   },
   {
     "name": "Museo Nacional de Costa Rica",
@@ -3656,8 +4628,12 @@
     "location": "San José",
     "address": "entre avenidas Central y Segunda, al costado este de la Plaza de la Democracia",
     "hours": "Mar-Sáb: 8:30 am-4:30 pmDom: 9:00 am-4:30 pm",
-    "latitude": 9.932601600000002,
-    "longitude": -84.07101490000002
+    "activities": 1,
+    "coordinates": [
+      9.932601600000002,
+      -84.07101490000002
+    ],
+    "place_type": 0
   },
   {
     "name": "Iglesia Nicoya",
@@ -3671,8 +4647,12 @@
     "location": "Guanacaste, Nicoya, Nicoya",
     "address": "",
     "hours": "",
-    "latitude": 10.1429878,
-    "longitude": -85.45329629999998
+    "activities": 2,
+    "coordinates": [
+      10.1429878,
+      -85.45329629999998
+    ],
+    "place_type": 0
   },
   {
     "name": "Museo de Cultura Popular",
@@ -3686,8 +4666,12 @@
     "location": "Heredia, Barva, Santa Lucía",
     "address": "",
     "hours": "Lun-Vie: 8:00 am-4:00 pmDom: 10:00 am-5:00 pm",
-    "latitude": 10.0174281,
-    "longitude": -84.1143644
+    "activities": 1,
+    "coordinates": [
+      10.0174281,
+      -84.1143644
+    ],
+    "place_type": 2
   },
   {
     "name": "Kaffe Las Cerezas",
@@ -3701,8 +4685,12 @@
     "location": "San José",
     "address": "Avenida 8, entre calles 13 y 15",
     "hours": "Lun-Vie: 7:00 am-5:00 pm",
-    "latitude": 9.930206839409694,
-    "longitude": -84.07234758138657
+    "activities": 2,
+    "coordinates": [
+      9.930206839409694,
+      -84.07234758138657
+    ],
+    "place_type": 0
   },
   {
     "name": "Área de Conservación Arenal Huetar Norte",
@@ -3716,8 +4704,12 @@
     "location": "Alajuela",
     "address": "",
     "hours": "",
-    "latitude": 9.936379171633646,
-    "longitude": -84.10188674926758
+    "activities": 1,
+    "coordinates": [
+      9.936379171633646,
+      -84.10188674926758
+    ],
+    "place_type": 0
   },
   {
     "name": "Estadio Nacional de Costa Rica",
@@ -3731,8 +4723,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.937189374171517,
-    "longitude": -84.10774898424279
+    "activities": 2,
+    "coordinates": [
+      9.937189374171517,
+      -84.10774898424279
+    ],
+    "place_type": 0
   },
   {
     "name": "Área de Conservación Tempisque",
@@ -3746,8 +4742,12 @@
     "location": "",
     "address": "",
     "hours": "",
-    "latitude": 9.936379171633646,
-    "longitude": -84.10188674926758
+    "activities": 1,
+    "coordinates": [
+      9.936379171633646,
+      -84.10188674926758
+    ],
+    "place_type": 0
   },
   {
     "name": "Zona Protectora Río Navarro - Río Sombrero",
@@ -3761,8 +4761,12 @@
     "location": "Cartago",
     "address": "",
     "hours": "",
-    "latitude": 9.821650881369294,
-    "longitude": -83.8912582397461
+    "activities": 1,
+    "coordinates": [
+      9.821650881369294,
+      -83.8912582397461
+    ],
+    "place_type": 2
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Caño Negro",
@@ -3776,8 +4780,12 @@
     "location": "Alajuela, Upala",
     "address": "en la parte baja de la cuenca del río Frío, a 222 km de San José",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.944967153742036,
-    "longitude": -84.77462768554688
+    "activities": 1,
+    "coordinates": [
+      10.944967153742036,
+      -84.77462768554688
+    ],
+    "place_type": 2
   },
   {
     "name": "Mall Multicentro",
@@ -3791,8 +4799,12 @@
     "location": "San José",
     "address": "de la Rotonda de la Y Griega, 1 Kilómetro Carretera Principal a Desamparados.",
     "hours": "",
-    "latitude": 9.899052,
-    "longitude": -84.068107
+    "activities": 2,
+    "coordinates": [
+      9.899052,
+      -84.068107
+    ],
+    "place_type": 0
   },
   {
     "name": "Mi Cafecito Coffee Tour",
@@ -3806,8 +4818,12 @@
     "location": "Alajuela, Alajuela, Sarapiquí",
     "address": "San Miguel",
     "hours": "Lun-Dom: 8:00 am-5:00 pm",
-    "latitude": 10.29395,
-    "longitude": -84.18535
+    "activities": 2,
+    "coordinates": [
+      10.29395,
+      -84.18535
+    ],
+    "place_type": 0
   },
   {
     "name": "Sky Adventures Arenal",
@@ -3821,8 +4837,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.424531585139547,
-    "longitude": -84.73626002669334
+    "activities": 0,
+    "coordinates": [
+      10.424531585139547,
+      -84.73626002669334
+    ],
+    "place_type": 1
   },
   {
     "name": "Arenal Observatory Lodge",
@@ -3836,8 +4856,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.437000862256639,
-    "longitude": -84.70907181501389
+    "activities": 2,
+    "coordinates": [
+      10.437000862256639,
+      -84.70907181501389
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Biológica Alberto Manuel Brenes",
@@ -3851,14 +4875,18 @@
     "location": "Alajuela",
     "address": "",
     "hours": "",
-    "latitude": 10.233910640259209,
-    "longitude": -84.61257934570312
+    "activities": 1,
+    "coordinates": [
+      10.233910640259209,
+      -84.61257934570312
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata el Socorro",
     "area": 0,
     "price_range": 0,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -3866,8 +4894,12 @@
     "location": "Heredia",
     "address": "",
     "hours": "",
-    "latitude": 10.273289,
-    "longitude": -84.175937
+    "activities": 1,
+    "coordinates": [
+      10.273289,
+      -84.175937
+    ],
+    "place_type": 0
   },
   {
     "name": "Aventuras del Bosque Lluvioso, Atlántico",
@@ -3881,8 +4913,12 @@
     "location": "Limón, Pococí, Guápiles",
     "address": "",
     "hours": "",
-    "latitude": 10.182167654330753,
-    "longitude": -83.9201531411527
+    "activities": 1,
+    "coordinates": [
+      10.182167654330753,
+      -83.9201531411527
+    ],
+    "place_type": 0
   },
   {
     "name": "Área de Conservación Arenal Tempisque",
@@ -3896,14 +4932,18 @@
     "location": "",
     "address": "",
     "hours": "",
-    "latitude": 9.936379171633646,
-    "longitude": -84.10188674926758
+    "activities": 1,
+    "coordinates": [
+      9.936379171633646,
+      -84.10188674926758
+    ],
+    "place_type": 2
   },
   {
     "name": "Poza el Salto de la Fortuna",
     "area": 2,
     "price_range": 0,
-    "category": "Lago / Rio",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -3911,14 +4951,18 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.457728247419746,
-    "longitude": -84.64285987618041
+    "activities": 1,
+    "coordinates": [
+      10.457728247419746,
+      -84.64285987618041
+    ],
+    "place_type": 0
   },
   {
     "name": "Proyecto Asis",
     "area": 1,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "",
     "phone_number": "2475-91212475-66968379-3005",
     "email": "info@institutoasis.com, halfdaytour@institutoasis.com",
@@ -3926,8 +4970,12 @@
     "location": "Alajuela, San Carlos, Florencia",
     "address": "",
     "hours": "",
-    "latitude": 10.378104224811821,
-    "longitude": -84.54319918158944
+    "activities": 1,
+    "coordinates": [
+      10.378104224811821,
+      -84.54319918158944
+    ],
+    "place_type": 2
   },
   {
     "name": "Reserva Curi-Cancha Monteverde",
@@ -3941,8 +4989,12 @@
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "300 metros noroeste de la Fabrica de Quesos Monteverde",
     "hours": "",
-    "latitude": 10.306201749966155,
-    "longitude": -84.80786296781844
+    "activities": 1,
+    "coordinates": [
+      10.306201749966155,
+      -84.80786296781844
+    ],
+    "place_type": 0
   },
   {
     "name": "Humedal Nacional Terraba - Sierpe",
@@ -3956,8 +5008,12 @@
     "location": "",
     "address": "",
     "hours": "",
-    "latitude": 8.864538048897021,
-    "longitude": -83.56475830078125
+    "activities": 1,
+    "coordinates": [
+      8.864538048897021,
+      -83.56475830078125
+    ],
+    "place_type": 0
   },
   {
     "name": "Jardin Cevichero Mexicano",
@@ -3971,8 +5027,12 @@
     "location": "San José, San José, San Sebastián",
     "address": "200 m antes (norte) de la rotonda de San Sebastián",
     "hours": "Lun-Dom: 11:00 am-1:00 am",
-    "latitude": 9.913196901839077,
-    "longitude": -84.0850708913058
+    "activities": 2,
+    "coordinates": [
+      9.913196901839077,
+      -84.0850708913058
+    ],
+    "place_type": 0
   },
   {
     "name": "Terramall",
@@ -3986,8 +5046,12 @@
     "location": "Cartago, La Unión, Tres Ríos",
     "address": "",
     "hours": "Lun-Jue: 10:00 am-8:00 pmVie-Sáb: 10:00 am-9:00 pmDom: 10:00 am-8:00 pm",
-    "latitude": 9.9018696251751,
-    "longitude": -83.9950962056173
+    "activities": 2,
+    "coordinates": [
+      9.9018696251751,
+      -83.9950962056173
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante Tree House",
@@ -4001,8 +5065,12 @@
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "",
     "hours": "Lun-Dom: 11:00 am-10:00 pm",
-    "latitude": 10.31742755381435,
-    "longitude": -84.82448940631002
+    "activities": 2,
+    "coordinates": [
+      10.31742755381435,
+      -84.82448940631002
+    ],
+    "place_type": 0
   },
   {
     "name": "Paseo Metrópoli",
@@ -4016,8 +5084,12 @@
     "location": "Cartago",
     "address": "La Lima, Entrada Principal a Cartago",
     "hours": "Lun-Sáb: 10:30 am-9:00 pmDom: 11:00 am-8:00 pm",
-    "latitude": 9.86683217292148,
-    "longitude": -83.94253349251812
+    "activities": 2,
+    "coordinates": [
+      9.86683217292148,
+      -83.94253349251812
+    ],
+    "place_type": 0
   },
   {
     "name": "Playa Espadilla Sur",
@@ -4031,8 +5103,12 @@
     "location": "",
     "address": "",
     "hours": "",
-    "latitude": 9.3834564,
-    "longitude": -84.14606939999999
+    "activities": 2,
+    "coordinates": [
+      9.3834564,
+      -84.14606939999999
+    ],
+    "place_type": 0
   },
   {
     "name": "Cine Magaly",
@@ -4046,8 +5122,12 @@
     "location": "San José",
     "address": "Barrio La California, frente al Observatorio",
     "hours": "Lun-Dom: 1:00 pm-10:00 pm",
-    "latitude": 9.933136920756803,
-    "longitude": -84.06804263591766
+    "activities": 2,
+    "coordinates": [
+      9.933136920756803,
+      -84.06804263591766
+    ],
+    "place_type": 0
   },
   {
     "name": "Canto de Ballenas",
@@ -4061,8 +5141,12 @@
     "location": "Puntarenas, Osa, Bahía Ballena",
     "address": "Uvita, del puerte 750 m oeste, primera entrada a la playa",
     "hours": "",
-    "latitude": 9.163784,
-    "longitude": -83.745853
+    "activities": 2,
+    "coordinates": [
+      9.163784,
+      -83.745853
+    ],
+    "place_type": 0
   },
   {
     "name": "Los Cebollines",
@@ -4076,8 +5160,12 @@
     "location": "San José, Santa Ana",
     "address": "Centro Comercial Paseo Real, frente a Pizza Hut, Lindora",
     "hours": "Lun-Jue: 11:00 am-11:00 pmVie-Sáb: 11:00 am-12:00 amDom: 11:00 am-11:00 pm",
-    "latitude": 9.946721989111099,
-    "longitude": -84.18984818465105
+    "activities": 2,
+    "coordinates": [
+      9.946721989111099,
+      -84.18984818465105
+    ],
+    "place_type": 0
   },
   {
     "name": "Cinépolis Paseo Metrópoli",
@@ -4091,8 +5179,12 @@
     "location": "Cartago",
     "address": "",
     "hours": "",
-    "latitude": 9.86683217292148,
-    "longitude": -83.94253349251812
+    "activities": 2,
+    "coordinates": [
+      9.86683217292148,
+      -83.94253349251812
+    ],
+    "place_type": 0
   },
   {
     "name": "Iglesia de Santa Cruz de Turrialba",
@@ -4106,8 +5198,12 @@
     "location": "Cartago, Turrialba, Santa Cruz",
     "address": "",
     "hours": "",
-    "latitude": 9.966350258825166,
-    "longitude": -83.73273914214224
+    "activities": 2,
+    "coordinates": [
+      9.966350258825166,
+      -83.73273914214224
+    ],
+    "place_type": 0
   },
   {
     "name": "Plaza Occidente",
@@ -4121,8 +5217,12 @@
     "location": "Alajuela, San Ramón, San Rafael",
     "address": "",
     "hours": "Lun-Jue: 8:00 am-9:00 pmVie-Sáb: 8:00 am-10:00 pmDom: 8:00 am-9:00 pm",
-    "latitude": 10.077796216585453,
-    "longitude": -84.46942234042581
+    "activities": 2,
+    "coordinates": [
+      10.077796216585453,
+      -84.46942234042581
+    ],
+    "place_type": 0
   },
   {
     "name": "Área de Conservación Osa",
@@ -4136,14 +5236,18 @@
     "location": "",
     "address": "",
     "hours": "",
-    "latitude": 9.936379171633646,
-    "longitude": -84.10188674926758
+    "activities": 1,
+    "coordinates": [
+      9.936379171633646,
+      -84.10188674926758
+    ],
+    "place_type": 0
   },
   {
     "name": "Centro de Rescate Las Pumas",
     "area": 1,
     "price_range": 1,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "",
     "phone_number": "2669-6044669-6019",
     "email": "laspumas@racsa.co.cr",
@@ -4151,14 +5255,18 @@
     "location": "4,5 km de la ciudad de Cañas, siguiendo la carretera Interamericana hacia Liberia",
     "address": "",
     "hours": "",
-    "latitude": 10.451054029322227,
-    "longitude": -85.12187290165457
+    "activities": 1,
+    "coordinates": [
+      10.451054029322227,
+      -85.12187290165457
+    ],
+    "place_type": 2
   },
   {
     "name": "Catarata Los Cachorros",
     "area": 0,
     "price_range": 0,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -4166,8 +5274,12 @@
     "location": "San José, Dota, Copey",
     "address": "Jaboncillos",
     "hours": "",
-    "latitude": 9.592267,
-    "longitude": -83.781856
+    "activities": 1,
+    "coordinates": [
+      9.592267,
+      -83.781856
+    ],
+    "place_type": 0
   },
   {
     "name": "Zona Protectora Volcán Miravalles",
@@ -4181,8 +5293,12 @@
     "location": "Guanacaste",
     "address": "Parcial: Guanacaste, Alajuela",
     "hours": "",
-    "latitude": 10.79077029888187,
-    "longitude": -85.15228271484375
+    "activities": 0,
+    "coordinates": [
+      10.79077029888187,
+      -85.15228271484375
+    ],
+    "place_type": 1
   },
   {
     "name": "Coffea Diversa",
@@ -4196,8 +5312,12 @@
     "location": "Puntarenas, Buenos Aires, Biolley",
     "address": "",
     "hours": "",
-    "latitude": 9.030297222222224,
-    "longitude": -83.01680277777778
+    "activities": 0,
+    "coordinates": [
+      9.030297222222224,
+      -83.01680277777778
+    ],
+    "place_type": 1
   },
   {
     "name": "Área de Conservación La Amistad Caribe",
@@ -4211,14 +5331,18 @@
     "location": "",
     "address": "",
     "hours": "",
-    "latitude": 9.936379171633646,
-    "longitude": -84.10188674926758
+    "activities": 1,
+    "coordinates": [
+      9.936379171633646,
+      -84.10188674926758
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata Río Agrio",
     "area": 0,
     "price_range": 0,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -4226,8 +5350,12 @@
     "location": "Alajuela, Valverde Vega, Toro Amarillo",
     "address": "Bajos",
     "hours": "",
-    "latitude": 10.237753,
-    "longitude": -84.279015
+    "activities": 1,
+    "coordinates": [
+      10.237753,
+      -84.279015
+    ],
+    "place_type": 0
   },
   {
     "name": "City Place",
@@ -4241,8 +5369,12 @@
     "location": "San José, Santa Ana",
     "address": "Santa Ana, 200 norte de la Cruz Roja de Santa Ana, frente al Más x Menos.",
     "hours": "",
-    "latitude": 9.933529698361976,
-    "longitude": -84.18403959221905
+    "activities": 2,
+    "coordinates": [
+      9.933529698361976,
+      -84.18403959221905
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Pacuare",
@@ -4256,8 +5388,12 @@
     "location": "Limón, Matina, Batán",
     "address": "",
     "hours": "Lun-Dom: 12:00 am-12:00 am",
-    "latitude": 10.19502332723155,
-    "longitude": -83.25981902657077
+    "activities": 1,
+    "coordinates": [
+      10.19502332723155,
+      -83.25981902657077
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Biológica Isla Guayabo",
@@ -4271,8 +5407,12 @@
     "location": "Puntarenas, Puntarenas, Paquera",
     "address": "",
     "hours": "",
-    "latitude": 9.9116667,
-    "longitude": -84.87833330000001
+    "activities": 1,
+    "coordinates": [
+      9.9116667,
+      -84.87833330000001
+    ],
+    "place_type": 0
   },
   {
     "name": "Sala Garbo",
@@ -4286,8 +5426,12 @@
     "location": "San José",
     "address": "100 mts Sur Pizza Hut Paseo Colón Ave. 2 Calle 28",
     "hours": "",
-    "latitude": 9.93432537925768,
-    "longitude": -84.09178876880105
+    "activities": 2,
+    "coordinates": [
+      9.93432537925768,
+      -84.09178876880105
+    ],
+    "place_type": 0
   },
   {
     "name": "La Carreta de Sarchí",
@@ -4301,8 +5445,12 @@
     "location": "Alajuela, Valverde Vega, Sarchí Norte",
     "address": "",
     "hours": "",
-    "latitude": 10.089621832965502,
-    "longitude": -84.3454827927053
+    "activities": 2,
+    "coordinates": [
+      10.089621832965502,
+      -84.3454827927053
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Avellana",
@@ -4316,8 +5464,12 @@
     "location": "Heredia",
     "address": "del INA de Barrio Corazón de Jesús 25mts al este",
     "hours": "",
-    "latitude": 10.001039446851406,
-    "longitude": -84.11469262093306
+    "activities": 2,
+    "coordinates": [
+      10.001039446851406,
+      -84.11469262093306
+    ],
+    "place_type": 0
   },
   {
     "name": "Plaza Freses",
@@ -4331,8 +5483,12 @@
     "location": "San José, Curridabat",
     "address": "",
     "hours": "",
-    "latitude": 9.926184683027076,
-    "longitude": -84.03982043266296
+    "activities": 2,
+    "coordinates": [
+      9.926184683027076,
+      -84.03982043266296
+    ],
+    "place_type": 0
   },
   {
     "name": "Tiquicia Lodge",
@@ -4346,8 +5502,12 @@
     "location": "Heredia, Heredia, Varablanca",
     "address": "",
     "hours": "",
-    "latitude": 10.177021,
-    "longitude": -84.158107
+    "activities": 1,
+    "coordinates": [
+      10.177021,
+      -84.158107
+    ],
+    "place_type": 2
   },
   {
     "name": "Hotel Río Celeste Hideaway",
@@ -4361,8 +5521,12 @@
     "location": "Alajuela, Upala, Bijagua",
     "address": "",
     "hours": "",
-    "latitude": 10.740589859260046,
-    "longitude": -84.98438246548176
+    "activities": 2,
+    "coordinates": [
+      10.740589859260046,
+      -84.98438246548176
+    ],
+    "place_type": 0
   },
   {
     "name": "Cafe La Musa Confusa",
@@ -4376,8 +5540,12 @@
     "location": "San José, San José, Zapote",
     "address": "de la U.Veritas 200 m SO y 50 N",
     "hours": "Lun-Vie: 10:00 am-6:30 pm",
-    "latitude": 9.926402036256366,
-    "longitude": -84.06620907757315
+    "activities": 2,
+    "coordinates": [
+      9.926402036256366,
+      -84.06620907757315
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante Casa China",
@@ -4391,8 +5559,12 @@
     "location": "San José, San José, Catedral",
     "address": "De la Casa Matute, 200 mts este",
     "hours": "Lun-Dom: 8:00 am-2:00 am",
-    "latitude": 9.929182920808966,
-    "longitude": -84.06712692977635
+    "activities": 2,
+    "coordinates": [
+      9.929182920808966,
+      -84.06712692977635
+    ],
+    "place_type": 0
   },
   {
     "name": "Plaza Paraiso",
@@ -4406,8 +5578,12 @@
     "location": "Cartago, Paraíso",
     "address": "",
     "hours": "",
-    "latitude": 9.846944444444444,
-    "longitude": -83.89111111111112
+    "activities": 2,
+    "coordinates": [
+      9.846944444444444,
+      -83.89111111111112
+    ],
+    "place_type": 0
   },
   {
     "name": "Heladería y Cabinas los Hela2",
@@ -4421,8 +5597,12 @@
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
     "hours": "",
-    "latitude": 10.109299939748539,
-    "longitude": -85.18024956341833
+    "activities": 2,
+    "coordinates": [
+      10.109299939748539,
+      -85.18024956341833
+    ],
+    "place_type": 0
   },
   {
     "name": "Go Adventure Arenal Park",
@@ -4436,8 +5616,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.50130025113915,
-    "longitude": -84.69307009130716
+    "activities": 0,
+    "coordinates": [
+      10.50130025113915,
+      -84.69307009130716
+    ],
+    "place_type": 1
   },
   {
     "name": "El Gran Parqueo",
@@ -4451,8 +5635,12 @@
     "location": "Puntarenas, Montes de Oro, San Isidro",
     "address": "",
     "hours": "",
-    "latitude": 10.059679,
-    "longitude": -84.758465
+    "activities": 2,
+    "coordinates": [
+      10.059679,
+      -84.758465
+    ],
+    "place_type": 0
   },
   {
     "name": "Ecoglide",
@@ -4466,8 +5654,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "",
     "hours": "",
-    "latitude": 10.4753143,
-    "longitude": -84.67659700000002
+    "activities": 0,
+    "coordinates": [
+      10.4753143,
+      -84.67659700000002
+    ],
+    "place_type": 1
   },
   {
     "name": "Hotel WaltParaiso",
@@ -4481,8 +5673,12 @@
     "location": "Puntarenas, Parrita, Parrita, Esterillos Oeste",
     "address": "Segunda Entrada (lado este)",
     "hours": "Lun-Dom: 8:00 am-6:00 pm",
-    "latitude": 9.53125997715246,
-    "longitude": -84.4983472822787
+    "activities": 2,
+    "coordinates": [
+      9.53125997715246,
+      -84.4983472822787
+    ],
+    "place_type": 0
   },
   {
     "name": "Mall San Pedro",
@@ -4496,8 +5692,12 @@
     "location": "San José, Montes de Oca, San Pedro",
     "address": "Avenida 2, Frente a la Fuente de la Hispanidad",
     "hours": "Lun-Dom: 10:00 am-8:00 pm",
-    "latitude": 9.93369913809905,
-    "longitude": -84.05652523040771
+    "activities": 2,
+    "coordinates": [
+      9.93369913809905,
+      -84.05652523040771
+    ],
+    "place_type": 0
   },
   {
     "name": "Bar Malibú",
@@ -4511,8 +5711,12 @@
     "location": "Heredia, Heredia, Mercedes",
     "address": "Mercedes Norte, 300mts Este del Colegio Claretiano",
     "hours": "",
-    "latitude": 10.012469013963887,
-    "longitude": -84.13006922230124
+    "activities": 2,
+    "coordinates": [
+      10.012469013963887,
+      -84.13006922230124
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante Sudy",
@@ -4526,8 +5730,12 @@
     "location": "San José, Turrubares, Carara",
     "address": "Bijagual",
     "hours": "",
-    "latitude": 9.726234496260293,
-    "longitude": -84.56783574074507
+    "activities": 2,
+    "coordinates": [
+      9.726234496260293,
+      -84.56783574074507
+    ],
+    "place_type": 0
   },
   {
     "name": "Museo Historico Cultural Juan Santamaria",
@@ -4541,8 +5749,12 @@
     "location": "Alajuela",
     "address": "avenida tercera, calle central y segunda (una cuadra al norte del parque central)",
     "hours": "Mar-Dom: 10:00 am-5:30 pm",
-    "latitude": 10.0170213,
-    "longitude": -84.21434099999999
+    "activities": 1,
+    "coordinates": [
+      10.0170213,
+      -84.21434099999999
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante Coto",
@@ -4556,8 +5768,12 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
     "hours": "",
-    "latitude": 9.797610677666883,
-    "longitude": -83.85416219942272
+    "activities": 2,
+    "coordinates": [
+      9.797610677666883,
+      -83.85416219942272
+    ],
+    "place_type": 0
   },
   {
     "name": "Museo de Arte Religioso Colonial",
@@ -4571,8 +5787,12 @@
     "location": "Cartago, Paraíso, Orosi",
     "address": "",
     "hours": "",
-    "latitude": 9.797439455014416,
-    "longitude": -83.8554753921926
+    "activities": 1,
+    "coordinates": [
+      9.797439455014416,
+      -83.8554753921926
+    ],
+    "place_type": 2
   },
   {
     "name": "Plaza San Carlos",
@@ -4586,8 +5806,12 @@
     "location": "Alajuela, San Carlos",
     "address": "a 1 km del Ciudad Quesada, 500 m norte del Liceo de San Carlos y a corta distancia de la futura radial Florencia-San José, contiguo a Maxibodegas.",
     "hours": "",
-    "latitude": 10.3236111,
-    "longitude": -84.42694440000002
+    "activities": 2,
+    "coordinates": [
+      10.3236111,
+      -84.42694440000002
+    ],
+    "place_type": 0
   },
   {
     "name": "Cabañas Mangla Mar",
@@ -4601,8 +5825,12 @@
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
     "hours": "",
-    "latitude": 10.089776934463835,
-    "longitude": -85.1215036958456
+    "activities": 1,
+    "coordinates": [
+      10.089776934463835,
+      -85.1215036958456
+    ],
+    "place_type": 0
   },
   {
     "name": "Cabinas las Vegas",
@@ -4616,8 +5844,12 @@
     "location": "Puntarenas, Puntarenas, Chira",
     "address": "",
     "hours": "",
-    "latitude": 10.095536804071337,
-    "longitude": -85.18687139265239
+    "activities": 2,
+    "coordinates": [
+      10.095536804071337,
+      -85.18687139265239
+    ],
+    "place_type": 0
   },
   {
     "name": "Playa Ventanas (Uvita)",
@@ -4631,8 +5863,12 @@
     "location": "Puntarenas, Osa, Bahía Ballena",
     "address": "",
     "hours": "",
-    "latitude": 9.095229882949468,
-    "longitude": -83.6830009247933
+    "activities": 2,
+    "coordinates": [
+      9.095229882949468,
+      -83.6830009247933
+    ],
+    "place_type": 0
   },
   {
     "name": "La Esquina de Buenos Aires",
@@ -4646,8 +5882,12 @@
     "location": "San José, San José",
     "address": "Calle 11 esquina Av. 4, detrás de la Iglesia de la Soledad",
     "hours": "Lun-Dom: 11:00 am-3:00 pm, 6:00 pm-11:00 pm",
-    "latitude": 9.931763561301395,
-    "longitude": -84.07406312220701
+    "activities": 2,
+    "coordinates": [
+      9.931763561301395,
+      -84.07406312220701
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Cipancí",
@@ -4661,8 +5901,12 @@
     "location": "Guanacaste",
     "address": "",
     "hours": "",
-    "latitude": 10.270656512093803,
-    "longitude": -85.22012328263372
+    "activities": 1,
+    "coordinates": [
+      10.270656512093803,
+      -85.22012328263372
+    ],
+    "place_type": 0
   },
   {
     "name": "Albinos",
@@ -4676,8 +5920,12 @@
     "location": "Heredia, Heredia, Ulloa, Santa Cecilia",
     "address": "",
     "hours": "",
-    "latitude": 9.991637888705778,
-    "longitude": -84.14122268557549
+    "activities": 2,
+    "coordinates": [
+      9.991637888705778,
+      -84.14122268557549
+    ],
+    "place_type": 0
   },
   {
     "name": "Playa La Penca",
@@ -4691,8 +5939,12 @@
     "location": "Guanacaste, Carrillo, Sardinal",
     "address": "",
     "hours": "",
-    "latitude": 10.572766638623955,
-    "longitude": -85.69725179724628
+    "activities": 2,
+    "coordinates": [
+      10.572766638623955,
+      -85.69725179724628
+    ],
+    "place_type": 0
   },
   {
     "name": "Super Mariscos",
@@ -4706,8 +5958,12 @@
     "location": "Alajuela, Valverde Vega, Sarchí Sur",
     "address": "a 1 km del parque de Sarchí Norte",
     "hours": "Mar-Dom: 11:00 am-10:00 pm",
-    "latitude": 10.087768036249964,
-    "longitude": -84.34154799208045
+    "activities": 2,
+    "coordinates": [
+      10.087768036249964,
+      -84.34154799208045
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Iguanita",
@@ -4721,8 +5977,12 @@
     "location": "Guanacaste",
     "address": "",
     "hours": "",
-    "latitude": 10.634708816112575,
-    "longitude": -85.61684989981586
+    "activities": 1,
+    "coordinates": [
+      10.634708816112575,
+      -85.61684989981586
+    ],
+    "place_type": 0
   },
   {
     "name": "Sky Adventures Monteverde",
@@ -4736,8 +5996,12 @@
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "Santa Elena",
     "hours": "",
-    "latitude": 10.337428,
-    "longitude": -84.809977
+    "activities": 0,
+    "coordinates": [
+      10.337428,
+      -84.809977
+    ],
+    "place_type": 1
   },
   {
     "name": "Zona Protectora Cuenta del Río Tuis",
@@ -4751,8 +6015,12 @@
     "location": "Cartago",
     "address": "",
     "hours": "",
-    "latitude": 9.835275260028618,
-    "longitude": -83.61351013183594
+    "activities": 1,
+    "coordinates": [
+      9.835275260028618,
+      -83.61351013183594
+    ],
+    "place_type": 2
   },
   {
     "name": "Reserva Biológica Isla Negritos",
@@ -4766,8 +6034,12 @@
     "location": "Puntarenas, Puntarenas, Paquera",
     "address": "",
     "hours": "",
-    "latitude": 9.820376648854118,
-    "longitude": -84.85781478462741
+    "activities": 1,
+    "coordinates": [
+      9.820376648854118,
+      -84.85781478462741
+    ],
+    "place_type": 0
   },
   {
     "name": "El Silencio Lodge & Spa",
@@ -4781,8 +6053,12 @@
     "location": "Alajuela, Valverde Vega, Toro Amarillo",
     "address": "Bajos del Toro",
     "hours": "",
-    "latitude": 10.202787,
-    "longitude": -84.30543
+    "activities": 2,
+    "coordinates": [
+      10.202787,
+      -84.30543
+    ],
+    "place_type": 0
   },
   {
     "name": "Reserva Natural Absoluta Cabo Blanco",
@@ -4796,14 +6072,18 @@
     "location": "Puntarenas, Puntarenas, Cóbano",
     "address": "",
     "hours": "",
-    "latitude": 9.587282447117408,
-    "longitude": -85.1165771484375
+    "activities": 1,
+    "coordinates": [
+      9.587282447117408,
+      -85.1165771484375
+    ],
+    "place_type": 0
   },
   {
     "name": "Albergue el Socorro",
     "area": 0,
     "price_range": 0,
-    "category": "Albergue",
+    "category": "Refugio de Vida Silvestre",
     "contact": "José Miranda, Propietario",
     "phone_number": "8820-21608507-9430",
     "email": "posadaalbergueelsocorro@gmail.com",
@@ -4811,8 +6091,12 @@
     "location": "Heredia, Sarapiquí, La Virgen",
     "address": "San Miguel",
     "hours": "",
-    "latitude": 10.26976,
-    "longitude": -84.16233599999998
+    "activities": 1,
+    "coordinates": [
+      10.26976,
+      -84.16233599999998
+    ],
+    "place_type": 0
   },
   {
     "name": "Momentum Lindora",
@@ -4826,8 +6110,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.953202838529318,
-    "longitude": -84.19544219970703
+    "activities": 2,
+    "coordinates": [
+      9.953202838529318,
+      -84.19544219970703
+    ],
+    "place_type": 0
   },
   {
     "name": "Hotel & Villas La Condesa",
@@ -4841,8 +6129,12 @@
     "location": "Heredia, San Rafael, Ángeles",
     "address": "Monte La Cruz",
     "hours": "",
-    "latitude": 10.060125,
-    "longitude": -84.08294
+    "activities": 2,
+    "coordinates": [
+      10.060125,
+      -84.08294
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Fauna Silvestre Golfito",
@@ -4856,8 +6148,12 @@
     "location": "",
     "address": "",
     "hours": "",
-    "latitude": 8.665202780808533,
-    "longitude": -83.21971893310547
+    "activities": 1,
+    "coordinates": [
+      8.665202780808533,
+      -83.21971893310547
+    ],
+    "place_type": 0
   },
   {
     "name": "Arenal Mundo Aventura",
@@ -4871,8 +6167,12 @@
     "location": "Alajuela, San Carlos, Fortuna",
     "address": "1.5 km sur de la Iglesia Católica",
     "hours": "",
-    "latitude": 10.45640875765869,
-    "longitude": -84.64404031634331
+    "activities": 1,
+    "coordinates": [
+      10.45640875765869,
+      -84.64404031634331
+    ],
+    "place_type": 2
   },
   {
     "name": "Plaza del Café",
@@ -4886,8 +6186,12 @@
     "location": "Guanacaste, Tilarán, Tierras Morenas",
     "address": "13 Kilómetros de Tilarán centro frente al cruce que lleva a Tierras Morenas",
     "hours": "",
-    "latitude": 10.545880468669388,
-    "longitude": -84.98122315853834
+    "activities": 2,
+    "coordinates": [
+      10.545880468669388,
+      -84.98122315853834
+    ],
+    "place_type": 0
   },
   {
     "name": "Villas Río Mar",
@@ -4901,8 +6205,12 @@
     "location": "Puntarenas, Osa, Bahía Ballena, Dominical",
     "address": "",
     "hours": "",
-    "latitude": 9.263602654228626,
-    "longitude": -83.85928000508102
+    "activities": 2,
+    "coordinates": [
+      9.263602654228626,
+      -83.85928000508102
+    ],
+    "place_type": 0
   },
   {
     "name": "Momentum Pinares",
@@ -4916,8 +6224,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.911192069515348,
-    "longitude": -84.01772975921631
+    "activities": 2,
+    "coordinates": [
+      9.911192069515348,
+      -84.01772975921631
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Mata Redonda",
@@ -4931,8 +6243,12 @@
     "location": "Guanacaste",
     "address": "",
     "hours": "",
-    "latitude": 10.31525143156834,
-    "longitude": -85.41434096870944
+    "activities": 1,
+    "coordinates": [
+      10.31525143156834,
+      -85.41434096870944
+    ],
+    "place_type": 0
   },
   {
     "name": "Paraíso Quetzal Lodge",
@@ -4946,8 +6262,12 @@
     "location": "San José, Dota, Copey",
     "address": "Cerro de la Muerte, KM 70 de la ruta 2 Sur, a 2.650 metros de altitud",
     "hours": "",
-    "latitude": 9.6441,
-    "longitude": -83.8503
+    "activities": 2,
+    "coordinates": [
+      9.6441,
+      -83.8503
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque Central de Heredia",
@@ -4961,8 +6281,12 @@
     "location": "Heredia, Heredia, Heredia",
     "address": "",
     "hours": "",
-    "latitude": 9.99838064966334,
-    "longitude": -84.11711733788252
+    "activities": 2,
+    "coordinates": [
+      9.99838064966334,
+      -84.11711733788252
+    ],
+    "place_type": 0
   },
   {
     "name": "Jungla de Murciélagos",
@@ -4976,8 +6300,12 @@
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "",
     "hours": "Lun-Dom: 9:00 am-7:30 pm",
-    "latitude": 10.3079764,
-    "longitude": -84.8121276
+    "activities": 0,
+    "coordinates": [
+      10.3079764,
+      -84.8121276
+    ],
+    "place_type": 1
   },
   {
     "name": "Refugio de Vida Silvestre Laguna Las Camelias",
@@ -4991,8 +6319,12 @@
     "location": "Alajuela, Upala, Upala",
     "address": "",
     "hours": "",
-    "latitude": 10.963241,
-    "longitude": -85.100055
+    "activities": 1,
+    "coordinates": [
+      10.963241,
+      -85.100055
+    ],
+    "place_type": 2
   },
   {
     "name": "La Trattoria",
@@ -5006,8 +6338,12 @@
     "location": "San José",
     "address": "Detrás del Auto Mercado de Los Yoses",
     "hours": "Lun-Jue: 12:00 pm-10:00 pmVie-Sáb: 12:00 pm-11:00 pmDom: 12:00 pm-4:00 pm",
-    "latitude": 9.932794165005776,
-    "longitude": -84.06073093414307
+    "activities": 2,
+    "coordinates": [
+      9.932794165005776,
+      -84.06073093414307
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante la Campesina",
@@ -5021,8 +6357,12 @@
     "location": "Heredia",
     "address": "",
     "hours": "",
-    "latitude": 10.101214,
-    "longitude": -84.119399
+    "activities": 2,
+    "coordinates": [
+      10.101214,
+      -84.119399
+    ],
+    "place_type": 0
   },
   {
     "name": "Cordero's Bar",
@@ -5036,8 +6376,12 @@
     "location": "San José, Tibás, Colima",
     "address": "275 mts este del Palí",
     "hours": "Lun-Dom: 11:00 am-12:00 am",
-    "latitude": 9.958177777777777,
-    "longitude": -84.08309444444444
+    "activities": 2,
+    "coordinates": [
+      9.958177777777777,
+      -84.08309444444444
+    ],
+    "place_type": 0
   },
   {
     "name": "CCM San Ramón",
@@ -5051,8 +6395,12 @@
     "location": "Alajuela, San Ramón, San Rafael",
     "address": "",
     "hours": "",
-    "latitude": 10.077796216585453,
-    "longitude": -84.46942234042581
+    "activities": 2,
+    "coordinates": [
+      10.077796216585453,
+      -84.46942234042581
+    ],
+    "place_type": 0
   },
   {
     "name": "Plaza del Sol",
@@ -5066,8 +6414,12 @@
     "location": "San José",
     "address": "Curridabat, Frente a McDonald's",
     "hours": "",
-    "latitude": 9.928722986472968,
-    "longitude": -84.04227519038614
+    "activities": 2,
+    "coordinates": [
+      9.928722986472968,
+      -84.04227519038614
+    ],
+    "place_type": 0
   },
   {
     "name": "Soda Nidia",
@@ -5081,8 +6433,12 @@
     "location": "Alajuela, Orotina, Coyolar",
     "address": "",
     "hours": "",
-    "latitude": 9.85104268822628,
-    "longitude": -84.58065351471305
+    "activities": 2,
+    "coordinates": [
+      9.85104268822628,
+      -84.58065351471305
+    ],
+    "place_type": 0
   },
   {
     "name": "Kaima Rent a Car",
@@ -5096,8 +6452,12 @@
     "location": "San José, Pérez Zeledón",
     "address": "150 metros Norte del Hospital Escalante Pradilla, Centro Comercial Los Reyes, Local #9",
     "hours": "Lun-Dom: 7:00 am-6:00 pm",
-    "latitude": 9.36950275912243,
-    "longitude": -83.70351745465088
+    "activities": 1,
+    "coordinates": [
+      9.36950275912243,
+      -83.70351745465088
+    ],
+    "place_type": 0
   },
   {
     "name": "Cinépolis Multicentro Desamparados",
@@ -5111,8 +6471,12 @@
     "location": "San José, Desamparados",
     "address": "",
     "hours": "",
-    "latitude": 9.899052,
-    "longitude": -84.068107
+    "activities": 2,
+    "coordinates": [
+      9.899052,
+      -84.068107
+    ],
+    "place_type": 0
   },
   {
     "name": "La Ribera",
@@ -5126,8 +6490,12 @@
     "location": "Heredia, Belén",
     "address": "2 kilómetros del Hotel Marriot",
     "hours": "",
-    "latitude": 9.984093288467625,
-    "longitude": -84.19089317321777
+    "activities": 2,
+    "coordinates": [
+      9.984093288467625,
+      -84.19089317321777
+    ],
+    "place_type": 0
   },
   {
     "name": "Museo Penitenciario",
@@ -5141,8 +6509,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.941028309671296,
-    "longitude": -84.07972526576486
+    "activities": 1,
+    "coordinates": [
+      9.941028309671296,
+      -84.07972526576486
+    ],
+    "place_type": 0
   },
   {
     "name": "Iglesia de Coronado",
@@ -5156,8 +6528,12 @@
     "location": "San José, Vázquez de Coronado, San Isidro",
     "address": "",
     "hours": "",
-    "latitude": 9.976030870645069,
-    "longitude": -84.00703512132168
+    "activities": 2,
+    "coordinates": [
+      9.976030870645069,
+      -84.00703512132168
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Jholy",
@@ -5171,8 +6547,12 @@
     "location": "Heredia",
     "address": "del correo de Heredia 100 mts oeste y 75 mts norte",
     "hours": "",
-    "latitude": 9.999502861188745,
-    "longitude": -84.11836406216025
+    "activities": 2,
+    "coordinates": [
+      9.999502861188745,
+      -84.11836406216025
+    ],
+    "place_type": 0
   },
   {
     "name": "La Cañada",
@@ -5186,8 +6566,12 @@
     "location": "Puntarenas, Parrita, Parrita, La Julieta",
     "address": "",
     "hours": "Lun-Dom: 11:00 am-11:30 pm",
-    "latitude": 9.520316682870009,
-    "longitude": -84.32918035970943
+    "activities": 2,
+    "coordinates": [
+      9.520316682870009,
+      -84.32918035970943
+    ],
+    "place_type": 0
   },
   {
     "name": "Hotel Pelícano",
@@ -5201,8 +6585,12 @@
     "location": "Puntarenas, Parrita, Parrita, Esterillos Este",
     "address": "",
     "hours": "",
-    "latitude": 9.52384857001203,
-    "longitude": -84.45029014350212
+    "activities": 2,
+    "coordinates": [
+      9.52384857001203,
+      -84.45029014350212
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio de Vida Silvestre Barra del Colorado",
@@ -5216,8 +6604,12 @@
     "location": "Limón",
     "address": "Parcial: Limón, Heredia",
     "hours": "",
-    "latitude": 10.651081938508291,
-    "longitude": -83.77899169921875
+    "activities": 1,
+    "coordinates": [
+      10.651081938508291,
+      -83.77899169921875
+    ],
+    "place_type": 0
   },
   {
     "name": "CCM San Carlos",
@@ -5231,8 +6623,12 @@
     "location": "Alajuela, San Carlos",
     "address": "",
     "hours": "",
-    "latitude": 10.3236111,
-    "longitude": -84.42694440000002
+    "activities": 2,
+    "coordinates": [
+      10.3236111,
+      -84.42694440000002
+    ],
+    "place_type": 0
   },
   {
     "name": "El Mirador Osa",
@@ -5246,8 +6642,12 @@
     "location": "Puntarenas, Osa, Sierpe",
     "address": "Alto los mogos, 18 km de la gasolinera Chacarita carretera a Puerto Jiménez. Ruta 246",
     "hours": "",
-    "latitude": 8.75561881809079,
-    "longitude": -83.36822748184204
+    "activities": 2,
+    "coordinates": [
+      8.75561881809079,
+      -83.36822748184204
+    ],
+    "place_type": 0
   },
   {
     "name": "Bulevar Relax",
@@ -5261,8 +6661,12 @@
     "location": "Heredia, Heredia, Heredia",
     "address": "110 metros al oeste de la entrada principal de la Universidad Nacional",
     "hours": "",
-    "latitude": 9.998441093998158,
-    "longitude": -84.11346609704196
+    "activities": 2,
+    "coordinates": [
+      9.998441093998158,
+      -84.11346609704196
+    ],
+    "place_type": 0
   },
   {
     "name": "Las delicias del Puerto",
@@ -5276,8 +6680,12 @@
     "location": "Puntarenas, Puntarenas, Puntarenas",
     "address": "El Carmen, Costado Oeste Del Hotel Tioga Paseo de Los Turistas",
     "hours": "",
-    "latitude": 9.974758787524232,
-    "longitude": -84.84052469953895
+    "activities": 2,
+    "coordinates": [
+      9.974758787524232,
+      -84.84052469953895
+    ],
+    "place_type": 0
   },
   {
     "name": "Cinépolis Terramall",
@@ -5291,8 +6699,12 @@
     "location": "Cartago, La Unión, Tres Ríos",
     "address": "",
     "hours": "",
-    "latitude": 9.9018696251751,
-    "longitude": -83.9950962056173
+    "activities": 2,
+    "coordinates": [
+      9.9018696251751,
+      -83.9950962056173
+    ],
+    "place_type": 0
   },
   {
     "name": "Atrapasueños",
@@ -5306,8 +6718,12 @@
     "location": "Puntarenas, Puntarenas, Cóbano",
     "address": "Santa Teresa",
     "hours": "",
-    "latitude": 9.63270499134021,
-    "longitude": -85.1565452478826
+    "activities": 2,
+    "coordinates": [
+      9.63270499134021,
+      -85.1565452478826
+    ],
+    "place_type": 0
   },
   {
     "name": "Hotel South Beach",
@@ -5321,8 +6737,12 @@
     "location": "Puntarenas, Garabito, Jacó",
     "address": "",
     "hours": "",
-    "latitude": 9.60451195535742,
-    "longitude": -84.6223533153534
+    "activities": 2,
+    "coordinates": [
+      9.60451195535742,
+      -84.6223533153534
+    ],
+    "place_type": 0
   },
   {
     "name": "Shakti",
@@ -5336,8 +6756,12 @@
     "location": "San José",
     "address": "AV. 8 Calle 13",
     "hours": "",
-    "latitude": 9.930068700012855,
-    "longitude": -84.07330026850104
+    "activities": 2,
+    "coordinates": [
+      9.930068700012855,
+      -84.07330026850104
+    ],
+    "place_type": 0
   },
   {
     "name": "Chicharronera Don Yayo",
@@ -5351,8 +6775,12 @@
     "location": "Alajuela, Atenas, Atenas",
     "address": "Barrio Los Ángeles",
     "hours": "",
-    "latitude": 9.984865,
-    "longitude": -84.370853
+    "activities": 2,
+    "coordinates": [
+      9.984865,
+      -84.370853
+    ],
+    "place_type": 0
   },
   {
     "name": "Parque de Aventuras San Luis",
@@ -5366,8 +6794,12 @@
     "location": "Alajuela, San Ramón, Ángeles",
     "address": "21 km de San Ramón camino a La Fortuna",
     "hours": "Lun-Dom: 8:00 am-4:00 pm",
-    "latitude": 10.204803,
-    "longitude": -84.533769
+    "activities": 0,
+    "coordinates": [
+      10.204803,
+      -84.533769
+    ],
+    "place_type": 1
   },
   {
     "name": "Soda El Trapiche",
@@ -5381,8 +6813,12 @@
     "location": "San José, Aserrí, Tarbaca",
     "address": "Cedral",
     "hours": "Sáb-Dom: 10:00 am-9:00 pm",
-    "latitude": 9.8309069703942,
-    "longitude": -84.13440149277449
+    "activities": 2,
+    "coordinates": [
+      9.8309069703942,
+      -84.13440149277449
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Auditorio Nacional",
@@ -5396,8 +6832,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.94115512203617,
-    "longitude": -84.07985401179758
+    "activities": 2,
+    "coordinates": [
+      9.94115512203617,
+      -84.07985401179758
+    ],
+    "place_type": 0
   },
   {
     "name": "Playa Negra",
@@ -5411,8 +6851,12 @@
     "location": "Guanacaste, Santa Cruz, Veintisiete de Abril",
     "address": "5 km al sur de playa Avellanas",
     "hours": "",
-    "latitude": 10.195688179297447,
-    "longitude": -85.82849493250251
+    "activities": 2,
+    "coordinates": [
+      10.195688179297447,
+      -85.82849493250251
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Caletas Arío",
@@ -5426,8 +6870,12 @@
     "location": "Guanacaste",
     "address": "",
     "hours": "",
-    "latitude": 9.724617708531701,
-    "longitude": -85.21830367622897
+    "activities": 1,
+    "coordinates": [
+      9.724617708531701,
+      -85.21830367622897
+    ],
+    "place_type": 0
   },
   {
     "name": "CCM San Pedro",
@@ -5441,8 +6889,12 @@
     "location": "San José, Montes de Oca",
     "address": "",
     "hours": "",
-    "latitude": 9.93369913809905,
-    "longitude": -84.05652523040771
+    "activities": 2,
+    "coordinates": [
+      9.93369913809905,
+      -84.05652523040771
+    ],
+    "place_type": 0
   },
   {
     "name": "Aquí Es !",
@@ -5456,8 +6908,12 @@
     "location": "San José, San José, Hospital",
     "address": "Calle 38, Av 2da, 100 m Sur Edificio Colón, Frente al Parque María Auxiliadora",
     "hours": "",
-    "latitude": 9.934704763594926,
-    "longitude": -84.0962229296565
+    "activities": 2,
+    "coordinates": [
+      9.934704763594926,
+      -84.0962229296565
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Skené",
@@ -5471,8 +6927,12 @@
     "location": "San José, Montes de Oca, San Pedro",
     "address": "",
     "hours": "",
-    "latitude": 9.932275803193406,
-    "longitude": -84.05165916678015
+    "activities": 2,
+    "coordinates": [
+      9.932275803193406,
+      -84.05165916678015
+    ],
+    "place_type": 0
   },
   {
     "name": "Maxi's Restaurante (Manzanillo)",
@@ -5486,8 +6946,12 @@
     "location": "Limón, Talamanca",
     "address": "Manzanillo",
     "hours": "",
-    "latitude": 9.632757,
-    "longitude": -82.658074
+    "activities": 2,
+    "coordinates": [
+      9.632757,
+      -82.658074
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante El Barco de los Mariscos",
@@ -5501,8 +6965,12 @@
     "location": "Puntarenas, Garabito, Jacó",
     "address": "Av Pastor Diaz, 25 m Norte Banco Nacional",
     "hours": "",
-    "latitude": 9.613973873752094,
-    "longitude": -84.62742964737117
+    "activities": 2,
+    "coordinates": [
+      9.613973873752094,
+      -84.62742964737117
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante Cyranos",
@@ -5516,8 +6984,12 @@
     "location": "San José",
     "address": "Calle 35 Los Yoses entre avenida 8 y central, San Jose 1107",
     "hours": "",
-    "latitude": 9.931026923200935,
-    "longitude": -84.06263422959455
+    "activities": 2,
+    "coordinates": [
+      9.931026923200935,
+      -84.06263422959455
+    ],
+    "place_type": 0
   },
   {
     "name": "CCM Cariari",
@@ -5531,8 +7003,12 @@
     "location": "Heredia",
     "address": "",
     "hours": "",
-    "latitude": 9.980296421341809,
-    "longitude": -84.16038036346436
+    "activities": 2,
+    "coordinates": [
+      9.980296421341809,
+      -84.16038036346436
+    ],
+    "place_type": 0
   },
   {
     "name": "Maxi's Restaurante (Santa Ana)",
@@ -5546,8 +7022,12 @@
     "location": "San José, Santa Ana, Santa Ana",
     "address": "sobre Calle Vieja a Escazú, 500 m Sur de Plaza Antigua",
     "hours": "Lun-Dom: 11:00 am-11:30 pm",
-    "latitude": 9.926399,
-    "longitude": -84.176638
+    "activities": 2,
+    "coordinates": [
+      9.926399,
+      -84.176638
+    ],
+    "place_type": 0
   },
   {
     "name": "Teatro Universitario",
@@ -5561,8 +7041,12 @@
     "location": "San José, Montes de Oca, San Pedro",
     "address": "100 metros este de la Librería Universitaria",
     "hours": "",
-    "latitude": 9.934283,
-    "longitude": -84.0503988
+    "activities": 2,
+    "coordinates": [
+      9.934283,
+      -84.0503988
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio Nacional de Vida Silvestre Playa Hermosa",
@@ -5576,8 +7060,12 @@
     "location": "Puntarenas, Garabito",
     "address": "",
     "hours": "",
-    "latitude": 9.565588095313691,
-    "longitude": -84.5901034399867
+    "activities": 1,
+    "coordinates": [
+      9.565588095313691,
+      -84.5901034399867
+    ],
+    "place_type": 0
   },
   {
     "name": "Galería Nacional",
@@ -5591,8 +7079,12 @@
     "location": "San José",
     "address": "",
     "hours": "Lun-Vie: 8:30 am-4:30 pmSáb-Dom: 9:30 am-5:00 pm",
-    "latitude": 9.94098603801208,
-    "longitude": -84.0797681811091
+    "activities": 1,
+    "coordinates": [
+      9.94098603801208,
+      -84.0797681811091
+    ],
+    "place_type": 0
   },
   {
     "name": "Soda San Gerardo",
@@ -5606,8 +7098,12 @@
     "location": "San José, Dota, Copey",
     "address": "Jaboncillos",
     "hours": "",
-    "latitude": 9.603443,
-    "longitude": -83.790687
+    "activities": 2,
+    "coordinates": [
+      9.603443,
+      -83.790687
+    ],
+    "place_type": 0
   },
   {
     "name": "Bar y Restaurante La Catarata",
@@ -5621,8 +7117,12 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.656487,
-    "longitude": -83.951766
+    "activities": 2,
+    "coordinates": [
+      9.656487,
+      -83.951766
+    ],
+    "place_type": 0
   },
   {
     "name": "Refugio de Vida Silvestre Corredor Fronterizo",
@@ -5636,8 +7136,12 @@
     "location": "",
     "address": "Parcial: Guanacaste, Alajuela,  Heredia, Limón",
     "hours": "",
-    "latitude": 10.757830197549684,
-    "longitude": -83.69247436523438
+    "activities": 1,
+    "coordinates": [
+      10.757830197549684,
+      -83.69247436523438
+    ],
+    "place_type": 0
   },
   {
     "name": "Restaurante El Higueron",
@@ -5651,14 +7155,18 @@
     "location": "San José, Puriscal, Grifo Alto",
     "address": "",
     "hours": "",
-    "latitude": 9.890646,
-    "longitude": -84.404853
+    "activities": 2,
+    "coordinates": [
+      9.890646,
+      -84.404853
+    ],
+    "place_type": 0
   },
   {
     "name": "Cataratas Lodge",
     "area": 0,
     "price_range": 2,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "Bernardo Serrano Chavez, David Serrano",
     "phone_number": "2740-10648849-0849",
     "email": "davidserrau@yahoo.com",
@@ -5666,8 +7174,12 @@
     "location": "San José",
     "address": "en el Cerro de la Muerte km 80, 3 km hacia San Gerardo de Dota",
     "hours": "",
-    "latitude": 9.589567,
-    "longitude": -83.800249
+    "activities": 1,
+    "coordinates": [
+      9.589567,
+      -83.800249
+    ],
+    "place_type": 0
   },
   {
     "name": "El Coco Suizo",
@@ -5681,8 +7193,12 @@
     "location": "Puntarenas, Osa, Bahía Ballena",
     "address": "Playa Dominical, 25 Sur de la Guardia Rural",
     "hours": "",
-    "latitude": 9.251914295601868,
-    "longitude": -83.86427680961788
+    "activities": 2,
+    "coordinates": [
+      9.251914295601868,
+      -83.86427680961788
+    ],
+    "place_type": 0
   },
   {
     "name": "Iglesia Coyolar",
@@ -5696,8 +7212,12 @@
     "location": "Alajuela, Orotina, Coyolar",
     "address": "",
     "hours": "",
-    "latitude": 9.8962862523037,
-    "longitude": -84.56066141836345
+    "activities": 2,
+    "coordinates": [
+      9.8962862523037,
+      -84.56066141836345
+    ],
+    "place_type": 0
   },
   {
     "name": "La Casona del Cerdo, San Joaquín",
@@ -5711,8 +7231,12 @@
     "location": "Heredia, Flores, San Joaquín",
     "address": "",
     "hours": "",
-    "latitude": 10.002747,
-    "longitude": -84.164478
+    "activities": 2,
+    "coordinates": [
+      10.002747,
+      -84.164478
+    ],
+    "place_type": 0
   },
   {
     "name": "Soda y Kiosco La Unión",
@@ -5726,8 +7250,12 @@
     "location": "Cartago, El Guarco, San Isidro",
     "address": "",
     "hours": "",
-    "latitude": 9.723204,
-    "longitude": -83.949556
+    "activities": 2,
+    "coordinates": [
+      9.723204,
+      -83.949556
+    ],
+    "place_type": 0
   },
   {
     "name": "Sabor Tico",
@@ -5741,14 +7269,18 @@
     "location": "Puntarenas, Puntarenas, Monte Verde",
     "address": "Centro Comercial Monteverde",
     "hours": "",
-    "latitude": 10.315514940462162,
-    "longitude": -84.8224816547463
+    "activities": 2,
+    "coordinates": [
+      10.315514940462162,
+      -84.8224816547463
+    ],
+    "place_type": 0
   },
   {
     "name": "Catarata Río Blanco",
     "area": 1,
     "price_range": 0,
-    "category": "Catarata / Cascada",
+    "category": "Río / Catarata / Lago",
     "contact": "",
     "phone_number": "",
     "email": "",
@@ -5756,8 +7288,12 @@
     "location": "Limón, Pococí, Guápiles",
     "address": "",
     "hours": "",
-    "latitude": 10.148396,
-    "longitude": -83.81347
+    "activities": 1,
+    "coordinates": [
+      10.148396,
+      -83.81347
+    ],
+    "place_type": 2
   },
   {
     "name": "Iglesia de Santiago de Puriscal",
@@ -5771,8 +7307,12 @@
     "location": "San José, Puriscal, Santiago",
     "address": "",
     "hours": "",
-    "latitude": 9.846524,
-    "longitude": -84.315219
+    "activities": 2,
+    "coordinates": [
+      9.846524,
+      -84.315219
+    ],
+    "place_type": 0
   },
   {
     "name": "Soda y Kiosco KM 61",
@@ -5786,8 +7326,12 @@
     "location": "Cartago, El Guarco, San Isidro",
     "address": "",
     "hours": "",
-    "latitude": 9.683872,
-    "longitude": -83.896156
+    "activities": 2,
+    "coordinates": [
+      9.683872,
+      -83.896156
+    ],
+    "place_type": 0
   },
   {
     "name": "Iglesia de la Merced",
@@ -5801,7 +7345,11 @@
     "location": "San José",
     "address": "",
     "hours": "",
-    "latitude": 9.9333498,
-    "longitude": -84.08372100000003
+    "activities": 2,
+    "coordinates": [
+      9.9333498,
+      -84.08372100000003
+    ],
+    "place_type": 0
   }
 ]

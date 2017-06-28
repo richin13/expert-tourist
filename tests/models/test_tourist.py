@@ -2,6 +2,9 @@ from flask_testing import TestCase
 
 from expert_tourist import create_app
 from expert_tourist.models import Tourist, TouristDatasetManager
+from expert_tourist.schemas import TouristSchema
+
+from ..factories import TouristFactory
 
 
 class TestModels(TestCase):

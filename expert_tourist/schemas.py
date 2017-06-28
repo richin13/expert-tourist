@@ -1,15 +1,35 @@
-from marshmallow import pre_load, post_dump, ValidationError
+from marshmallow import pre_load, pre_dump, post_dump, ValidationError
 from marshmallow_mongoengine import ModelSchema  # To take advantage of ModelSchema with MongoEngine
 
 from . import ma  # To take advantage of routing features of Flask-Marshmallow
 from .models import Place, User, Route, Tourist
+from .utils import convert_coordinates_to_point, convert_point_to_coordinates
 
 __all__ = [
     'PlaceSchema', 'UserSchema', 'RouteSchema', 'TouristSchema'
 ]
 
 
-class PlaceSchema(ModelSchema):
+class LocalizableMixin:
+    @pre_load
+    def deserialize_coordinates(self, data):
+        if 'coordinates' not in data:
+            raise ValidationError('Field <coordinates> is required')
+
+        try:
+            iter(data['coordinates'])
+            data['coordinates'] = convert_coordinates_to_point(data['coordinates'])
+            return data
+        except:
+            raise ValidationError('Field <coordinates> must be an iterable with two values')
+
+    @post_dump
+    def serialize_coordinates(self, data):
+        data['coordinates'] = convert_point_to_coordinates(data['coordinates'])
+        return data
+
+
+class PlaceSchema(ModelSchema, LocalizableMixin):
     class Meta:
         model = Place
 
@@ -43,6 +63,6 @@ class RouteSchema(ModelSchema):
         model = Route
 
 
-class TouristSchema(ModelSchema):
+class TouristSchema(ModelSchema, LocalizableMixin):
     class Meta:
         model = Tourist

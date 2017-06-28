@@ -37,8 +37,25 @@ TRAVEL_DIST_ENCODING = (
 ACTIVITIES_ENCODING = (
     (0, 'Familiares'),
     (1, 'Aventuras'),
-    (2, 'Culturales'),
+    (2, 'Casuales'),
+)
+
+# Classes encoding
+# For the purpose of the homework, there are 3 classes. It will change in the future!
+CLASSES_ENCODING = (
+    (0, 'c1'),
+    (1, 'c2'),
+    (2, 'c3'),
 )
 
 def coords_to_gmaps_url(lat, long):
     return 'http://maps.google.co.cr/maps?q={},{}'.format(lat, long)
+
+def convert_coordinates_to_point(coords):
+    return {
+        'x': coords[0],
+        'y': coords[1]
+    }
+
+def convert_point_to_coordinates(point):
+    return [point['x'], point['y']]
