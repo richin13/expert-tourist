@@ -48,14 +48,20 @@ CLASSES_ENCODING = (
     (2, 'c3'),
 )
 
+travel_distances = [20, 75, 300]
+budget_limits = [4, 12, 20]
+
+
 def coords_to_gmaps_url(lat, long):
     return 'http://maps.google.co.cr/maps?q={},{}'.format(lat, long)
+
 
 def convert_coordinates_to_point(coords):
     return {
         'x': coords[0],
         'y': coords[1]
     }
+
 
 def convert_point_to_coordinates(point):
     return [point['x'], point['y']]

@@ -2,9 +2,10 @@ import json
 from flask import request, jsonify
 
 from . import AdministrativeResource
-from ..models import Route as RouteModel
+from ..models import Route as RouteModel, Place, TouristClassifier
 from ..errors import APIException
 from ..schemas import RouteSchema, TouristSchema
+from ..builder import RouteBuilder
 
 __all__ = ['Route', 'RouteList']
 
@@ -53,3 +54,19 @@ class RouteList(AdministrativeResource):
         result = self.schema.loads(request.data)
         if result.errors:
             raise APIException('Invalid request body for type <Tourist>', errors=result.errors)
+
+        # Step 1: Classify the tourists
+        tourist = result.data
+        classifier = TouristClassifier()
+        tourist.tourist_type = classifier.classify(tourist)
+        tourist.save()
+        print(tourist.tourist_type)
+
+        # Step 2: Fetch all the places suitable for that tourist
+        places = Place.find_for(tourist)
+        print(len(places), Place.objects.count())
+
+        # Step 3: Pass the tourist and the places to the routes builder.
+        routes = RouteBuilder(tourist).build_routes(places)
+
+        return self.route_schema.dump(routes, many=True).data

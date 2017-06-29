@@ -62,6 +62,41 @@ class RouteSchema(ModelSchema):
     class Meta:
         model = Route
 
+    payload = None
+
+    @pre_dump
+    def add_payload(self, route):
+        # Helper method to change the Routes' response structure
+        # as requested by our frontend dev
+        new_structure = {}
+        route_coordinates = route.coordinates['coordinates']
+        new_structure['origin'] = {
+            'lat': route_coordinates[0],
+            'lng': route_coordinates[1],
+        }
+        destination_coordinates = route.places[-1].coordinates['coordinates']
+        new_structure['destination'] = {
+            'lat': destination_coordinates[0],
+            'lng': destination_coordinates[1]
+        }
+
+        new_structure['stops'] = []
+        for p in route.places[:-1]:
+            place_coordinates = p.coordinates['coordinates']
+            new_structure['stops'].append({
+                'location': {
+                    'lat': place_coordinates[0],
+                    'lng': place_coordinates[1],
+                }
+            })
+
+        self.payload = new_structure
+        return route
+
+    @post_dump
+    def change_structure(self, data):
+        return self.payload
+
 
 class TouristSchema(ModelSchema, LocalizableMixin):
     class Meta:

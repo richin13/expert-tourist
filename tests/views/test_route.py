@@ -1,6 +1,6 @@
 import json
 
-from expert_tourist.models import Route, Tourist, Place
+from expert_tourist.models import Route, Tourist, Place, PlaceDatasetManager, TouristDatasetManager
 
 from . import TestViewCase
 from ..factories import RouteFactory, PlaceFactory, TouristFactory
@@ -55,7 +55,7 @@ class TestRouteResource(TestViewCase):
 
         self.assertEqual(res.status_code, 501)
 
-    def test_create_new_recommendation(self):
+    def test_create_new_recommendation_without_places(self):
         tourist = TouristFactory.create()
         data = json.dumps(tourist, cls=Tourist.Encoder)
 
@@ -65,11 +65,33 @@ class TestRouteResource(TestViewCase):
             data=data
         )
 
-        res_data = json.loads(res.data.decode('utf-8'))
-        print(res_data)
         self.assertEqual(res.status_code, 200)
 
-    def test_create_new_recommendation_without_valid_coords(self):
+    def test_create_recommendation_with_places(self):
+        PlaceDatasetManager().load_dataset(Place)
+        TouristDatasetManager().load_dataset(Tourist)
+
+        for i in range(3):
+            attrs = {
+                "area": 0,
+                "activity": 1,
+                "budget": 1,
+                "travel_dist": 2,
+                "coordinates": [9.8408317, -83.8737972],
+                "tourist_type": i
+            }
+            tourist = TouristFactory.create(**attrs)
+            data = json.dumps(tourist, cls=Tourist.Encoder)
+
+            res = self.app.post(
+                '/api/recommend',
+                content_type='application/json',
+                data=data
+            )
+
+            self.assertEqual(res.status_code, 200)
+
+    def test_create_new_recommendation_without_coords(self):
         tourist = TouristFactory.stub()
         tourist = {
             'vehicle': tourist.area,
@@ -91,7 +113,6 @@ class TestRouteResource(TestViewCase):
         tourist = TouristFactory.create()
         tourist.coordinates = []
         data = json.dumps(tourist, cls=Tourist.Encoder)
-        print(data)
         res = self.app.post(
             '/api/recommend',
             content_type='application/json',

@@ -1,5 +1,5 @@
 import factory
-from factory.fuzzy import FuzzyInteger, FuzzyChoice
+from factory.fuzzy import FuzzyInteger, FuzzyChoice, FuzzyFloat
 
 from expert_tourist.models import Place, User, Route, Tourist
 
@@ -20,9 +20,7 @@ class PlaceFactory(factory.mongoengine.MongoEngineFactory):
     location = factory.Faker('city')
     address = factory.Faker('address')
     hours = 'Lun-Dom 8:00-17:00'
-    # latitude = factory.Faker('latitude')
-    # longitude = factory.Faker('longitude')
-    coordinates = [9.933567, -84.077023]#factory.LazyAttribute(lambda o: [float(o.latitude), float(o.longitude)])
+    coordinates = factory.List([FuzzyFloat(8.408724, 11.085719), FuzzyFloat(-83.635949, -85.713642)])
     google_maps = factory.LazyAttribute(
         lambda obj: 'http://maps.google.co.cr/maps?q=%f,%f' % (obj.coordinates[0], obj.coordinates[1]))
     place_type = FuzzyChoice([0,1,2])
@@ -43,6 +41,7 @@ class RouteFactory(factory.mongoengine.MongoEngineFactory):
         model = Route
 
     places = factory.List([])
+    coordinates = [9.933567, -84.077023]
     tourist_type = FuzzyChoice([0, 1, 2])
 
 

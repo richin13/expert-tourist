@@ -1,9 +1,11 @@
 import json
 import mongoengine as me
 from datetime import datetime
+from geopy.distance import EARTH_RADIUS
 
 from . import db, DatasetManager
 from ..utils import coords_to_gmaps_url, AREA_ENCODING, PRICE_ENCODING, ACTIVITIES_ENCODING, CLASSES_ENCODING
+from ..utils import travel_distances, budget_limits
 
 
 class Place(db.Document):
@@ -111,17 +113,41 @@ class Place(db.Document):
 
     @staticmethod
     def find_for(tourist):
-        filters = {'place_type': tourist.tourist_type}
+        pipeline = Place._build_pipeline(tourist)
+        places_raw = Place.objects.aggregate(*pipeline)
+        places = list()
 
-        if tourist.travel_dist != 2:
-            filters['coordinates__near'] = tourist.coordinates
-            if tourist.travel_dist == 0:
-                max_distance = 20000
-            else:
-                max_distance = 75000
-            filters['coordinates__max_distance'] = max_distance
+        for place_raw in places_raw:
+            place_raw['id'] = place_raw.pop('_id')
+            dist_to_tourist = place_raw.pop('dist_to_tourist')
+            places.append((Place(**place_raw), dist_to_tourist))
 
-        return Place.objects(**filters)
+        return places
+
+    @staticmethod
+    def _build_filters(tourist):
+        max_distance = travel_distances[tourist.travel_dist]
+        budget = tourist.budget
+        limit = budget_limits[budget]
+
+        return max_distance, limit
+
+    @staticmethod
+    def _build_pipeline(tourist):
+        max_distance, limit = Place._build_filters(tourist)
+        pipeline = list()
+        geo_near = {'$geoNear': {'near': tourist.coordinates, 'limit': limit, 'distanceField': 'dist_to_tourist',
+                                 'distanceMultiplier': EARTH_RADIUS * 10 ** -6, 'spherical': True}}
+        pipeline.append(geo_near)
+
+        match = {'$match': {'place_type': tourist.tourist_type, 'dist_to_tourist': {'$lte': max_distance}}}
+        pipeline.append(match)
+
+        sort = {'$sort': {'dist_to_tourist': 1}}
+        pipeline.append(sort)
+
+        print(pipeline)
+        return pipeline
 
     class Encoder(json.encoder.JSONEncoder):
         def encode(self, o):
@@ -150,4 +176,3 @@ class Place(db.Document):
 
 class PlaceDatasetManager(DatasetManager):
     filename = 'places.json'
-

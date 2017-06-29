@@ -24,7 +24,7 @@ class Tourist(db.Document):
     budget = me.IntField(required=True, choices=BUDGET_ENCODING)
     travel_dist = me.IntField(required=True, choices=TRAVEL_DIST_ENCODING)
     activity = me.IntField(required=True, choices=ACTIVITIES_ENCODING)
-    tourist_type = me.IntField(required=True, choices=CLASSES_ENCODING)
+    tourist_type = me.IntField(choices=CLASSES_ENCODING)
     coordinates = me.PointField()
     created_at = me.DateTimeField(default=datetime.now())
 
