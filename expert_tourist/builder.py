@@ -37,10 +37,10 @@ class RouteBuilder:
         return groups
 
     def _build_path(self, places):
-        print('=' * 20)
-        print(places)
-        print('=' * 20)
+        if len(places) == 0: return None
+
         graph = nx.Graph()
+        graph.add_node(places[0][0])
         for place in places[1:]:
             graph.add_edge(places[0][0], place[0], distance=place[1])
 
@@ -55,11 +55,12 @@ class RouteBuilder:
                     graph.add_edge(origin, destination, distance=dist)
 
         mst = nx.minimum_spanning_tree(graph, weight='distance')
-        try:
-            path = list(nx.all_simple_paths(mst, places[0][0], places[-1][0]))
-            return path[0]
-        except nx.exception.NetworkXError:
-            return None
+
+        if len(mst) == 1:
+            return list(mst.nodes())
+
+        path = list(nx.all_simple_paths(mst, places[0][0], places[-1][0]))
+        return path[0]
 
     def _distance_between(self, origin, dest):
         origin_coords = origin.coordinates['coordinates']
