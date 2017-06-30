@@ -51,7 +51,7 @@ class RouteList(AdministrativeResource):
         return self.route_schema.dump(routes, many=True).data
 
     def post(self):
-        result = self.schema.loads(request.data)
+        result = self.schema.loads(request.data.decode('utf-8'))
         if result.errors:
             raise APIException('Invalid request body for type <Tourist>', errors=result.errors)
 
