@@ -74,8 +74,10 @@ class RouteSchema(ModelSchema):
             'lat': route_coordinates[0],
             'lng': route_coordinates[1],
         }
-        destination_coordinates = route.places[-1].coordinates['coordinates']
+        destination = route.places[-1]
+        destination_coordinates = destination.coordinates['coordinates']
         new_structure['destination'] = {
+            'id': str(destination.id),
             'lat': destination_coordinates[0],
             'lng': destination_coordinates[1]
         }
@@ -84,6 +86,7 @@ class RouteSchema(ModelSchema):
         for p in route.places[:-1]:
             place_coordinates = p.coordinates['coordinates']
             new_structure['stops'].append({
+                'id': str(p.id),
                 'location': {
                     'lat': place_coordinates[0],
                     'lng': place_coordinates[1],

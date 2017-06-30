@@ -78,14 +78,13 @@ class TestPlaceModel(TestCase):
         self.assertTrue(bool(grouped))
 
     def test_find_places_for_tourist_within_different_distances(self):
+        PlaceDatasetManager().load_dataset(Place)
         for i in range(3):
             t = TouristFactory.create(coordinates=[9.9282144, -84.0893816], travel_dist=i)
-            PlaceDatasetManager().load_dataset(Place)
-            places = Place.find_for(t)
-            print('Places', places)
+            Place.find_for(t)
 
-        # The tourist attrs randomness is causing the tests to fail sometimes as the length of the places
-        # found for that tourist cannot be guaranteed to be zero.
-        # I am commenting these asserts and let the case only assert possible exceptions that may arise at coding
-        # refactor
-        # self.assertNotEqual(len(places), 0)
+            # The tourist attrs randomness is causing the tests to fail sometimes as the length of the places
+            # found for that tourist cannot be guaranteed to be zero.
+            # I am commenting these asserts and let the case only assert possible exceptions that may arise at coding
+            # refactor
+            # self.assertNotEqual(len(places), 0)

@@ -60,11 +60,9 @@ class RouteList(AdministrativeResource):
         classifier = TouristClassifier()
         tourist.tourist_type = classifier.classify(tourist)
         tourist.save()
-        print(tourist.tourist_type)
 
         # Step 2: Fetch all the places suitable for that tourist
         places = Place.find_for(tourist)
-        print(len(places), Place.objects.count())
 
         # Step 3: Pass the tourist and the places to the routes builder.
         routes = RouteBuilder(tourist).build_routes(places)
