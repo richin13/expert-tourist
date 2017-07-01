@@ -136,7 +136,7 @@ class Place(db.Document):
     def _build_pipeline(tourist):
         max_distance, limit = Place._build_filters(tourist)
         pipeline = list()
-        geo_near = {'$geoNear': {'near': tourist.coordinates, 'limit': limit, 'distanceField': 'dist_to_tourist',
+        geo_near = {'$geoNear': {'near': tourist.coordinates, 'distanceField': 'dist_to_tourist',
                                  'distanceMultiplier': EARTH_RADIUS * 10 ** -6, 'spherical': True}}
         pipeline.append(geo_near)
 
