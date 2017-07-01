@@ -32,8 +32,5 @@ class TestConfig(BaseConfig):
 
 class ProductionConfig(BaseConfig):
     MONGODB_SETTINGS = {
-        'host': os.environ.get('MONGODB_HOST_PROD', ''),
-        'username': os.environ.get('MONGODB_USER_PROD', ''),
-        'password': os.environ.get('MONGODB_PASSWORD_PROD', ''),
-        'db': 'prod-db',
+        'host': os.environ.get('MONGODB_URI', ''),
     }
