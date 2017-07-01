@@ -1,6 +1,6 @@
 import json
 
-from expert_tourist.models import Route, Tourist, Place, PlaceDatasetManager, TouristDatasetManager
+from expert_tourist.models import Route, Tourist, Place, PlaceDatasetManager, TouristDatasetManager, TouristClassifier
 
 from . import TestViewCase
 from ..factories import RouteFactory, PlaceFactory, TouristFactory
@@ -11,6 +11,7 @@ class TestRouteResource(TestViewCase):
         Route.drop_collection()
         Tourist.drop_collection()
         Place.drop_collection()
+        TouristClassifier.drop_collection()
 
     def test_get_all_routes(self):
         RouteFactory.create_batch(10, places=PlaceFactory.create_batch(3))

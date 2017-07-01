@@ -146,7 +146,6 @@ class Place(db.Document):
         sort = {'$sort': {'dist_to_tourist': 1}}
         pipeline.append(sort)
 
-        print(pipeline)
         return pipeline
 
     class Encoder(json.encoder.JSONEncoder):
