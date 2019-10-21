@@ -42,6 +42,6 @@ pytz==2017.2
 requests==2.17.3
 simplekv==0.10.0
 six==1.10.0
-urllib3==1.21.1
+urllib3==1.24.2
 Werkzeug==0.15.3
 WTForms==2.1
